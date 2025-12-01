@@ -6,57 +6,57 @@
 
 ---
 
-# 完全な移行ガイド：Gnostice（Document Studio .NET、PDFOne）→ IronPDF
+# GnosticeからIronPDFへの移行方法は？
 
 ## 目次
-1. [GnosticeからIronPDFへの移行理由](#gnosticeからironpdfへの移行理由)
+1. [GnosticeからIronPDFへ移行する理由](#gnosticeからironpdfへ移行する理由)
 2. [移行の複雑さ評価](#移行の複雑さ評価)
 3. [開始前に](#開始前に)
 4. [クイックスタート移行](#クイックスタート移行)
 5. [完全なAPIリファレンス](#完全なapiリファレンス)
 6. [コード移行例](#コード移行例)
 7. [高度なシナリオ](#高度なシナリオ)
-8. [パフォーマンスに関する考慮事項](#パフォーマンスに関する考慮事項)
+8. [パフォーマンスの考慮事項](#パフォーマンスの考慮事項)
 9. [トラブルシューティング](#トラブルシューティング)
 10. [移行チェックリスト](#移行チェックリスト)
 
 ---
 
-## GnosticeからIronPDFへの移行理由
+## GnosticeからIronPDFへ移行する理由
 
 ### Gnosticeの問題点
 
-Gnostice Document Studio .NETとPDFOneは、生産アプリケーションに影響を与えるよく知られた制限があります：
+Gnostice Document Studio .NETとPDFOneは、本番アプリケーションに影響を与えるよく知られた制限があります：
 
-1. **外部CSSのサポートなし**：Gnosticeのドキュメントは、外部CSSスタイルシートをサポートしていないことを明示的に述べています。これは、現代のWebからPDFへの変換にとって基本的な要件です。
+1. **外部CSSサポートなし**：Gnosticeのドキュメントは、外部CSSスタイルシートをサポートしていないことを明示的に述べています。これは、現代のWebからPDFへの変換にとって基本的な要件です。
 
-2. **JavaScriptの実行なし**：JavaScriptを必要とする動的コンテンツはレンダリングできず、現代のWebアプリケーションを正確に変換することが不可能です。
+2. **JavaScript実行なし**：JavaScriptが必要な動的コンテンツはレンダリングできず、現代のWebアプリケーションを正確に変換することが不可能です。
 
-3. **プラットフォームの断片化**：WinForms、WPF、ASP.NET、Xamarin用の別々の製品があり、それぞれに異なる機能セットとAPIがあります。複数のライセンスとコードベースが必要になるかもしれません。
+3. **プラットフォームの断片化**：WinForms、WPF、ASP.NET、Xamarin用の別々の製品があり、それぞれに異なる機能セットとAPIがあります。複数のライセンスとコードベースが必要になる場合があります。
 
 4. **メモリリークと安定性**：ユーザーフォーラムとStack Overflowは、画像処理時に永続的なメモリリーク、JPEGエラー＃53、StackOverflow例外を報告しています。
 
-5. **右から左へのUnicodeのサポートなし**：アラビア語、ヘブライ語、その他のRTL言語は明示的にサポートされていません。これは国際的なアプリケーションにとって致命的です。
+5. **右から左へのユニコードなし**：アラビア語、ヘブライ語、およびその他のRTL言語は明示的にサポートされていません。これは国際的なアプリケーションにとって致命的です。
 
-6. **デジタル署名のサポートが限定的/欠如**：新しいバージョンではサポートが主張されていますが、歴史的には欠如しているか信頼性がありませんでした。
+6. **限定的なデジタル署名サポート**：新しいバージョンではサポートが主張されていますが、歴史的には欠落しているか信頼性がありませんでした。
 
-7. **複雑な製品ライン**：Document Studio .NETとPDFOneと別のビューアコントロールの間で、どの製品がどの機能を提供しているかについての混乱が生じます。
+7. **複雑な製品ライン**：Document Studio .NET vs PDFOne vs 別のビューアーコントロールは、どの製品がどの機能を提供するかについて混乱を招きます。
 
-8. **座標ベースのAPI**：多くの操作には、現代のレイアウトアプローチではなく、手動のX/Y位置決めが必要です。
+8. **座標ベースのAPI**：多くの操作には、現代のレイアウトアプローチではなく、手動のX/Y位置指定が必要です。
 
 ### IronPDFの利点
 
 | 項目 | Gnostice | IronPDF |
 |------|----------|---------|
-| 外部CSS | サポートされていない | 完全サポート |
-| JavaScriptの実行 | サポートされていない | 完全なChromiumエンジン |
-| RTL言語 | サポートされていない | 完全なUnicodeサポート |
-| デジタル署名 | 限定的/欠如 | 完全なX509サポート |
-| プラットフォーム | 断片化された製品 | 単一の統合ライブラリ |
-| メモリの安定性 | 問題が報告されている | 安定し、よく管理されている |
+| 外部CSS | サポートなし | 完全サポート |
+| JavaScript実行 | サポートなし | 完全なChromiumエンジン |
+| RTL言語 | サポートなし | 完全なユニコードサポート |
+| デジタル署名 | 限定/欠落 | 完全なX509サポート |
+| プラットフォーム | 断片化した製品 | 単一の統合ライブラリ |
+| メモリ安定性 | 問題が報告されている | 安定し、よく管理されている |
 | HTMLからPDFへ | 基本的な内部エンジン | Chrome品質のレンダリング |
 | 学習曲線 | 複雑なAPI | シンプルで直感的なAPI |
-| 現代のCSS（Flexbox、Grid） | サポートされていない | 完全なCSS3サポート |
+| 現代のCSS (Flexbox, Grid) | サポートなし | 完全なCSS3サポート |
 
 ---
 
@@ -65,22 +65,22 @@ Gnostice Document Studio .NETとPDFOneは、生産アプリケーションに影
 ### 機能別の推定労力
 
 | 機能 | 移行の複雑さ | 備考 |
-|------|-------------|------|
-| PDFの読み込み/保存 | 非常に低い | 直接マッピング |
-| PDFのマージ | 非常に低い | 直接マッピング |
-| PDFの分割 | 低い | 類似したアプローチ |
-| テキスト抽出 | 低い | メソッド名の変更 |
-| ウォーターマーク | 低い | IronPDFで簡単 |
-| ヘッダー/フッター | 低い | HTMLベースのアプローチ |
-| HTMLからPDFへ | 低い | IronPDFでより良い |
-| 暗号化 | 中程度 | 異なるAPI構造 |
-| フォームフィールド | 中程度 | プロパティアクセスの違い |
-| ビューアコントロール | 高い | IronPDFは生成に焦点 |
-| デジタル署名 | 低い | サポートされている（Gnosticeではなかった） |
+|------|--------------|------|
+| PDFの読み込み/保存 | 非常に低 | 直接マッピング |
+| PDFのマージ | 非常に低 | 直接マッピング |
+| PDFの分割 | 低 | 類似したアプローチ |
+| テキスト抽出 | 低 | メソッド名の変更 |
+| ウォーターマーク | 低 | IronPDFで簡単 |
+| ヘッダー/フッター | 低 | HTMLベースのアプローチ |
+| HTMLからPDFへ | 低 | IronPDFでより良い |
+| 暗号化 | 中 | 異なるAPI構造 |
+| フォームフィールド | 中 | プロパティアクセスの違い |
+| ビューアーコントロール | 高 | IronPDFは生成に焦点を当てている |
+| デジタル署名 | 低 | サポートされている（Gnosticeではなかった） |
 
-### 得られる機能
+### 利用可能になる機能
 
-IronPDFに移行すると、以前は不可能だった以下の機能が利用可能になります：
+IronPDFに移行すると、以前は不可能だったこれらの機能が利用可能になります：
 - 外部CSSスタイルシート
 - JavaScriptの実行
 - RTL言語のサポート
@@ -96,13 +96,13 @@ IronPDFに移行すると、以前は不可能だった以下の機能が利用�
 ### 前提条件
 
 1. **.NETバージョン**：IronPDFは.NET Framework 4.6.2+および.NET Core 2.0+ / .NET 5+をサポートしています
-2. **ライセンスキー**：[ironpdf.com](https://ironpdf.com)からIronPDFのライセンスキーを取得してください
+2. **ライセンスキー**：[ironpdf.com](https://ironpdf.com)からIronPDFライセンスキーを取得してください
 3. **バックアップ**：移行作業のためのブランチを作成してください
 
 ### Gnosticeの使用箇所をすべて特定する
 
 ```bash
-# Gnosticeの参照をすべて見つける
+# Gnostice参照をすべて見つける
 grep -r "Gnostice\|PDFOne\|PDFDocument\|PDFPage\|DocExporter" --include="*.cs" .
 
 # パッケージ参照を見つける
@@ -124,13 +124,13 @@ dotnet add package IronPdf
 
 ### ライセンスキーの設定
 
-**Gnostice：**
+**Gnostice:**
 ```csharp
-// Gnosticeのライセンスは、通常、設定またはプロパティ経由で設定されます
+// Gnosticeライセンスは通常、設定またはプロパティ経由で設定されます
 PDFOne.License.LicenseKey = "YOUR-GNOSTICE-LICENSE";
 ```
 
-**IronPDF：**
+**IronPDF:**
 ```csharp
 // アプリケーションの起動時に一度設定
 IronPdf.License.LicenseKey = "YOUR-IRONPDF-LICENSE-KEY";
@@ -145,7 +145,7 @@ IronPdf.License.LicenseKey = "YOUR-IRONPDF-LICENSE-KEY";
 
 ### 最小限の移行例
 
-**移行前（Gnostice PDFOne）：**
+**Gnostice PDFOne前：**
 ```csharp
 using Gnostice.PDFOne;
 
@@ -169,7 +169,7 @@ doc.Save("output.pdf");
 doc.Close();
 ```
 
-**移行後（IronPDF）：**
+**IronPDF後：**
 ```csharp
 using IronPdf;
 using IronPdf.Editing;
@@ -194,99 +194,7 @@ pdf.SaveAs("output.pdf");
 **主な違い：**
 - 座標計算が不要
 - スタイリングにHTML/CSSを使用
-- 自動ページ適用
+- ページへの自動適用
 - よりシンプルでクリーンなコード
 
 ---
-
-## 完全なAPIリファレンス
-
-### 名前空間のマッピング
-
-| Gnostice | IronPDF |
-|----------|---------|
-| `Gnostice.PDFOne` | `IronPdf` |
-| `Gnostice.PDFOne.Document` | `IronPdf` |
-| `Gnostice.PDFOne.Graphics` | `IronPdf.Editing` |
-| `Gnostice.Documents` | `IronPdf` |
-| `Gnostice.Documents.PDF` | `IronPdf` |
-| `Gnostice.Documents.Controls` | N/A（サードパーティのビューアを使用） |
-
-### コアクラスのマッピング
-
-| Gnostice | IronPDF | 説明 |
-|----------|---------|------|
-| `PDFDocument` | `PdfDocument` | 主要なPDFドキュメントクラス |
-| `PDFPage` | `PdfDocument.Pages[i]` | ページ表現 |
-| `PDFFont` | CSSスタイリング | フォント指定 |
-| `PDFTextElement` | HTMLコンテンツ | テキストコンテンツ |
-| `PDFImageElement` | HTMLの`<img>`タグ | 画像コンテンツ |
-| `DocExporter` | `ChromePdfRenderer` | HTML/URLからPDFへの変換 |
-| `DocumentManager` | `PdfDocument`の静的メソッド | ドキュメントの読み込み |
-
-### ドキュメント操作
-
-| Gnostice | IronPDF | 備考 |
-|----------|---------|------|
-| `new PDFDocument()` | `new PdfDocument()` | 新しいドキュメントを作成 |
-| `doc.Load(path)` | `PdfDocument.FromFile(path)` | ファイルから読み込み |
-| `doc.Load(path, password)` | `PdfDocument.FromFile(path, password)` | パスワード保護付き |
-| `doc.Save(path)` | `pdf.SaveAs(path)` | ファイルに保存 |
-| `doc.SaveToStream(stream)` | `pdf.Stream`または`pdf.BinaryData` | ストリーム/バイトとして取得 |
-| `doc.Close()` | `pdf.Dispose()` | リソースを解放 |
-
-### ページ操作
-
-| Gnostice | IronPDF | 備考 |
-|----------|---------|------|
-| `doc.Pages.Count` | `pdf.PageCount` | ページ数 |
-| `doc.Pages[index]` | `pdf.Pages[index]` | ページにアクセス |
-| `doc.Pages.Add()` | HTMLをレンダリングまたはマージ | ページを追加 |
-| `doc.Pages.Insert(index)` | `pdf.Pages.Insert(index, page)` | ページを挿入 |
-| `doc.Pages.RemoveAt(index)` | `pdf.Pages.RemoveAt(index)` | ページを削除 |
-| `page.Width` | `pdf.Pages[i].Width` | ページ幅 |
-| `page.Height` | `pdf.Pages[i].Height` | ページ高さ |
-| `page.Rotate` | `pdf.Pages[i].Rotation` | ページの回転 |
-
-### マージと分割操作
-
-| Gnostice | IronPDF | 備考 |
-|----------|---------|------|
-| `doc1.Append(doc2)` | `PdfDocument.Merge(pdf1, pdf2)` | ドキュメントをマージ |
-| `doc.AppendDocument(path)` | ロード + マージ | ファイルから追加 |
-| `doc.DeletePages(start, count)` | `pdf.RemovePages(indices)` | ページを削除 |
-| `doc.ExtractPages(start, count)` | `pdf.CopyPages(indices)` | ページを抽出 |
-
-### テキスト操作
-
-| Gnostice | IronPDF | 備考 |
-|----------|---------|------|
-| `doc.WriteText(text, x, y)` | HTMLスタンピングを使用 | 位置にテキストを追加 |
-| `page.Draw(textElement, x, y)` | HTMLスタンピングを使用 | テキスト要素を描画 |
-| `doc.GetPageText(pageIndex)` | `pdf.ExtractTextFromPage(index)` | テキストを抽出 |
-| `doc.Search(text)` | `pdf.ExtractAllText().Contains(text)` | テキストを検索 |
-
-### ウォーターマーク操作
-
-| Gnostice | IronPDF | 備考 |
-|----------|---------|------|
-| `page.WriteWatermarkText(...)` | `pdf.ApplyWatermark(html)` | テキストウォーターマーク |
-| `page.Draw(imageElement, ...)` | `pdf.ApplyStamp(stamper)` | 画像ウォーターマーク |
-
-### ヘッダー/フッター操作
-
-| Gnostice | IronPDF | 備考 |
-|----------|---------|------|
-| `doc.AddHeaderText(...)` | `renderer.RenderingOptions.HtmlHeader` | ヘッダーテキスト |
-| `doc.AddFooterText(...)` | `renderer.RenderingOptions.HtmlFooter` | フッターテキスト |
-| `doc.AddHeaderImage(...)` | HTMLヘッダーに含める | ヘッダー画像 |
-| `doc.AddFooterImage(...)` | HTMLフッターに含める | フッター画像 |
-| ページ番号のプレースホルダー | `{page}`および`{total-pages}` | ページ番号 |
-
-### 暗号化とセキュリティ
-
-| Gnostice | IronPDF | 備考 |
-|----------|---------|------|
-| `doc.SetEncryption(...)` | `pdf.SecuritySettings` | セキュリティ設定 |
-| `doc.SetUserPassword(pwd)` | `pdf.SecuritySettings.UserPassword` | 開くパスワード |
-| `doc.SetOwnerPassword(pwd)` |

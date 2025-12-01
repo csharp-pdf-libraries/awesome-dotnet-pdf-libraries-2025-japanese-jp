@@ -6,34 +6,34 @@
 
 ---
 
-# 移行ガイド: Haukcode.DinkToPdf → IronPDF
+# Haukcode.DinkToPdfからIronPDFへの移行方法は？
 
 ## 目次
 
-1. [Haukcode.DinkToPdfからIronPDFへの移行理由](#haukcodedinktopdfからironpdfへの移行理由)
-2. [開始前に](#開始前に)
+1. [Haukcode.DinkToPdfからIronPDFへ移行する理由](#haukcodedinktopdfからironpdfへ移行する理由)
+2. [開始する前に](#開始する前に)
 3. [クイックスタート移行](#クイックスタート移行)
 4. [完全なAPIリファレンス](#完全なapiリファレンス)
 5. [コード移行例](#コード移行例)
 6. [高度なシナリオ](#高度なシナリオ)
-7. [セキュリティ改善](#セキュリティ改善)
+7. [セキュリティの改善](#セキュリティの改善)
 8. [トラブルシューティング](#トラブルシューティング)
 9. [移行チェックリスト](#移行チェックリスト)
 
 ---
 
-## Haukcode.DinkToPdfからIronPDFへの移行理由
+## Haukcode.DinkToPdfからIronPDFへ移行する理由
 
 ### 重大なセキュリティ問題
 
-Haukcode.DinkToPdfは、放棄されたDinkToPdfプロジェクトのフォークであり、wkhtmltopdfバイナリをラップしています。**wkhtmltopdfには、プロジェクトが放棄されたために修正されることのない重大なセキュリティ脆弱性が存在します。**
+Haukcode.DinkToPdfは、放棄されたDinkToPdfプロジェクトのフォークであり、wkhtmltopdfバイナリをラップしています。**wkhtmltopdfには、プロジェクトが放棄されたために修正されることのない重大なセキュリティ脆弱性があります。**
 
 #### CVE-2022-35583 - 重大なSSRF脆弱性 (CVSS 9.8)
 
 wkhtmltopdfライブラリ（およびHaukcode.DinkToPdfを含むすべてのラッパー）は、**サーバーサイドリクエストフォージェリ（SSRF）**に対して脆弱です：
 
-- **攻撃ベクトル**：悪意のあるHTMLコンテンツにより、サーバーが内部リソースをフェッチする
-- **AWSメタデータ攻撃**：`http://169.254.169.254`へのアクセスによりAWSクレデンシャルを盗む
+- **攻撃ベクトル**：悪意のあるHTMLコンテンツがサーバーに内部リソースをフェッチさせる
+- **AWSメタデータ攻撃**：`http://169.254.169.254`にアクセスしてAWSクレデンシャルを盗む
 - **内部ネットワークアクセス**：内部サービスをスキャンしてアクセスする
 - **ローカルファイルインクルージョン**：`file://`プロトコルを介してローカルファイルを読み取る
 - **影響**：インフラストラクチャの完全な乗っ取りが可能
@@ -42,58 +42,58 @@ wkhtmltopdfライブラリ（およびHaukcode.DinkToPdfを含むすべてのラ
 
 ### wkhtmltopdfの追加問題
 
-1. **放棄されたプロジェクト**：最後のリリースは2020年の0.12.6；プロジェクトは2023年にアーカイブされた
-2. **古いWebKitエンジン**：Qt WebKit（約2015年）を使用しており、数年分のセキュリティパッチが欠けている
+1. **放棄されたプロジェクト**：最後のリリースは2020年の0.12.6；プロジェクトは2023年にアーカイブされました
+2. **古いWebKitエンジン**：~2015年のQt WebKitを使用しており、数年分のセキュリティパッチが欠けています
 3. **HTML5/CSS3のサポートなし**：現代のウェブ標準の限定的なレンダリング
-4. **ネイティブバイナリ依存**：プラットフォーム固有のバイナリ（Windows/Linux/macOS）を配布する必要がある
-5. **スレッドセーフ問題**：`SynchronizedConverter`シングルトンパターンが必要
-6. **JavaScriptの制限**：限定的で安全でないJavaScriptの実行
+4. **ネイティブバイナリの依存**：プラットフォーム固有のバイナリ（Windows/Linux/macOS）を配布する必要があります
+5. **スレッドセーフティの問題**：`SynchronizedConverter`シングルトンパターンが必要
+6. **JavaScriptの制限**：限定的かつ安全でないJavaScriptの実行
 
 ### 代わりにIronPDFが提供するもの
 
 | 項目 | Haukcode.DinkToPdf | IronPDF |
-|--------|-------------------|---------|
-| 基礎エンジン | wkhtmltopdf (Qt WebKit ~2015) | Chromium (定期的に更新) |
-| セキュリティ状況 | CVE-2022-35583 (重大、修正不可) | 積極的にパッチ適用 |
-| プロジェクト状況 | 放棄されたプロジェクトのフォーク | 積極的に開発中 |
+|------|-------------------|---------|
+| 基盤エンジン | wkhtmltopdf (Qt WebKit ~2015) | Chromium (定期的に更新) |
+| セキュリティ状況 | CVE-2022-35583 (重大、修正不可) | アクティブにパッチ適用 |
+| プロジェクト状況 | 放棄されたプロジェクトのフォーク | アクティブに開発中 |
 | HTML5/CSS3 | 限定的 | 完全サポート |
 | JavaScript | 限定的、安全でない | 完全なV8エンジン |
-| ネイティブバイナリ | 必要（プラットフォーム固有） | 自己完結 |
-| スレッドセーフ | シングルトンパターンが必要 | 設計によりスレッドセーフ |
+| ネイティブバイナリ | 必要（プラットフォーム固有） | 自己完結型 |
+| スレッドセーフティ | シングルトンパターンが必要 | 設計によるスレッドセーフ |
 | サポート | コミュニティのみ | プロフェッショナルサポート |
-| 更新 | 予定なし | 定期的なリリース |
+| アップデート | 予定なし | 定期的なリリース |
 
 ---
 
-## 開始前に
+## 開始する前に
 
 ### 前提条件
 
-1. **.NETバージョン**：IronPDFは.NET Framework 4.6.2+および.NET Core 3.1+ / .NET 5+をサポート
+1. **.NETバージョン**：IronPDFは.NET Framework 4.6.2+および.NET Core 3.1+ / .NET 5+をサポートします
 2. **ライセンスキー**：[IronPDFウェブサイト](https://ironpdf.com/licensing/)から取得
 3. **ネイティブバイナリの削除**：wkhtmltopdf DLL/バイナリを削除する計画を立てる
 
 ### Haukcode.DinkToPdfの使用箇所の特定
 
-コードベース内のすべてのDinkToPdfの使用箇所を見つける：
+コードベース内のすべてのDinkToPdfの使用箇所を見つけます：
 
 ```bash
-# DinkToPdf名前空間の使用を検索
+# DinkToPdf名前空間の使用箇所を検索
 grep -r "using DinkToPdf\|using Haukcode" --include="*.cs" .
 
-# コンバーターの使用を検索
+# コンバーターの使用箇所を検索
 grep -r "SynchronizedConverter\|BasicConverter\|HtmlToPdfDocument" --include="*.cs" .
 
 # ネイティブライブラリの読み込みを検索
 grep -r "wkhtmltopdf\|libwkhtmltox" --include="*.cs" --include="*.csproj" .
 
-# GlobalSettings/ObjectSettingsの使用を検索
+# GlobalSettings/ObjectSettingsの使用箇所を検索
 grep -r "GlobalSettings\|ObjectSettings\|MarginSettings" --include="*.cs" .
 ```
 
 ### 依存関係の監査
 
-プロジェクトファイル内のDinkToPdfパッケージをチェックする：
+プロジェクトファイルでDinkToPdfパッケージをチェックします：
 
 ```bash
 grep -r "DinkToPdf\|Haukcode" --include="*.csproj" .
@@ -108,7 +108,7 @@ grep -r "DinkToPdf\|Haukcode" --include="*.csproj" .
 
 ## クイックスタート移行
 
-### ステップ1: DinkToPdfとネイティブバイナリの削除
+### ステップ1：DinkToPdfとネイティブバイナリを削除
 
 ```bash
 # NuGetパッケージを削除
@@ -120,12 +120,12 @@ dotnet remove package Haukcode.WkHtmlToPdf-DotNet
 dotnet add package IronPdf
 ```
 
-**ネイティブバイナリを削除する：**
+**ネイティブバイナリを削除：**
 - `libwkhtmltox.dll` (Windows)
 - `libwkhtmltox.so` (Linux)
 - `libwkhtmltox.dylib` (macOS)
 
-### ステップ2: コードの更新
+### ステップ2：コードを更新
 
 **更新前 (Haukcode.DinkToPdf):**
 ```csharp
@@ -191,11 +191,11 @@ public class PdfService
 // シングルトンは不要 - IronPDFはスレッドセーフです！
 ```
 
-### ステップ3: 依存性注入の更新
+### ステップ3：依存性注入を更新
 
 **更新前 (Haukcode.DinkToPdf):**
 ```csharp
-// Startup.cs - スレッドセーフの問題のためシングルトンでなければならない
+// Startup.cs - スレッドセーフティの問題のためシングルトンが必須
 public void ConfigureServices(IServiceCollection services)
 {
     services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
@@ -204,12 +204,12 @@ public void ConfigureServices(IServiceCollection services)
 
 **更新後 (IronPDF):**
 ```csharp
-// Startup.cs - シングルトンでもトランジェントでもどちらでも動作する（どちらも安全）
+// Startup.cs - シングルトンでもトランジェントでもどちらでも動作（どちらも安全）
 public void ConfigureServices(IServiceCollection services)
 {
     IronPdf.License.LicenseKey = Configuration["IronPdf:LicenseKey"];
     services.AddSingleton<IPdfService, IronPdfService>();
-    // または services.AddTransient<IPdfService, IronPdfService>() - どちらも安全！
+    // または services.AddTransient<IPdfService, IronPdfService>() - どちらも安全です！
 }
 ```
 

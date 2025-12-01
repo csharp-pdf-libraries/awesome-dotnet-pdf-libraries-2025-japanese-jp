@@ -6,11 +6,11 @@
 
 ---
 
-# 移行ガイド: BitMiracle Docotic.Pdf → IronPDF
+# BitMiracle Docotic.PdfからIronPDFへの移行方法は？
 
 ## 目次
 1. [IronPDFへの移行理由](#ironpdfへの移行理由)
-2. [開始前に](#開始前に)
+2. [開始する前に](#開始する前に)
 3. [クイックスタート（5分）](#クイックスタート5分)
 4. [完全なAPIリファレンス](#完全なapiリファレンス)
 5. [コード移行例](#コード移行例)
@@ -27,22 +27,22 @@
 ### 主な利点
 
 | 項目 | Docotic.Pdf | IronPDF |
-|------|-------------|---------|
-| **HTMLからPDFへ** | 別途アドオンが必要 (HtmlToPdf) | 組み込みのコア機能 |
+|--------|-------------|---------|
+| **HTMLからPDFへ** | 別途アドオンが必要（HtmlToPdf） | 組み込みのコア機能 |
 | **パッケージ構造** | コア + 複数のアドオン | 単一のNuGetパッケージ |
 | **ライセンスモデル** | アドオンごとのライセンス | 全機能が含まれる |
 | **APIの複雑さ** | アドオンごとに異なる名前空間 | 統一されたAPI |
-| **HTMLエンジン** | Chromium (アドオン経由) | Chromium (組み込み) |
-| **コミュニティの規模** | 小さい | 大きい、リソースが豊富 |
-| **ドキュメンテーション** | 技術リファレンス | 豊富なチュートリアル |
+| **HTMLエンジン** | Chromium（アドオン経由） | Chromium（組み込み） |
+| **コミュニティの規模** | 小さい | より大きく、リソースが豊富 |
+| **ドキュメント** | 技術的な参照 | 広範なチュートリアル |
 
 ### 機能比較
 
 | 機能 | Docotic.Pdf | IronPDF |
-|------|-------------|---------|
+|---------|-------------|---------|
 | ゼロからPDFを作成 | ✅ | ✅ |
-| HTMLからPDFへ | ✅ (アドオンが必要) | ✅ (組み込み) |
-| URLからPDFへ | ✅ (アドオンが必要) | ✅ (組み込み) |
+| HTMLからPDFへ | ✅（アドオンが必要） | ✅（組み込み） |
+| URLからPDFへ | ✅（アドオンが必要） | ✅（組み込み） |
 | PDFの操作 | ✅ | ✅ |
 | テキスト抽出 | ✅ | ✅ |
 | マージ/分割 | ✅ | ✅ |
@@ -51,21 +51,21 @@
 | フォーム入力 | ✅ | ✅ |
 | PDF/A準拠 | ✅ | ✅ |
 | ウォーターマーク | ✅ | ✅ |
-| 100%マネージドコード | ✅ | ❌ (Chromiumエンジン) |
+| 100%マネージドコード | ✅ | ❌（Chromiumエンジン） |
 | コードによるページレイアウト | ✅ | HTML/CSSベース |
 
 ### 移行の利点
 
-1. **パッケージ管理の簡素化**: アドオンの複雑さなし—IronPDFはすべての機能を1つのパッケージに含む
+1. **パッケージ管理の簡素化**: アドオンの複雑さがなく、IronPDFは全機能を1つのパッケージに含む
 2. **HTMLファーストアプローチ**: 追加の依存関係なしにネイティブHTML/CSSレンダリング
-3. **より大きなエコシステム**: StackOverflowの回答、チュートリアル、コミュニティサポートがより多い
+3. **より大きなエコシステム**: より多くのStackOverflowの回答、チュートリアル、コミュニティサポート
 4. **モダンなAPIデザイン**: .NET開発者に自然に感じられる流暢で直感的なメソッド
 5. **一貫したライセンス**: 1つのライセンスで全機能をカバー
 6. **アクティブな開発**: 新機能と改善のための定期的なアップデート
 
 ---
 
-## 開始前に
+## 開始する前に
 
 ### 前提条件
 
@@ -73,14 +73,14 @@
 - **NuGetアクセス**: nuget.orgからパッケージをインストールできることを確認
 - **ライセンスキー**: [IronPDFウェブサイト](https://ironpdf.com/)から取得（無料トライアル利用可能）
 
-### すべてのDocotic.Pdf参照を見つける
+### すべてのDocotic.Pdf参照を探す
 
 ```bash
-# コードベース内のすべてのDocotic.Pdfの使用箇所を検索
+# コードベース内のすべてのDocotic.Pdfの使用箇所を探す
 grep -r "using BitMiracle.Docotic" --include="*.cs" .
 grep -r "PdfDocument\|PdfPage\|PdfCanvas" --include="*.cs" .
 
-# NuGetパッケージ参照を検索
+# NuGetパッケージ参照を探す
 grep -r "Docotic.Pdf" --include="*.csproj" .
 grep -r "Docotic.Pdf" --include="packages.config" .
 ```
@@ -88,74 +88,14 @@ grep -r "Docotic.Pdf" --include="packages.config" .
 ### 変更点の概要
 
 | 変更点 | Docotic.Pdf | IronPDF | 影響 |
-|--------|-------------|---------|------|
+|--------|-------------|---------|--------|
 | **HTMLレンダリング** | HtmlToPdfアドオンが必要 | 組み込み | アドオンパッケージを削除 |
-| **ページインデックス** | 0ベース (`Pages[0]`) | 0ベース (`Pages[0]`) | 変更不要 |
+| **ページインデックス** | 0ベース（`Pages[0]`） | 0ベース（`Pages[0]`） | 変更不要 |
 | **座標系** | 左下原点 | HTML/CSSフロー | CSSを使用して位置を指定 |
 | **キャンバス描画** | `PdfCanvas.DrawText()` | HTMLマークアップ | パラダイムシフト |
-| **テキスト抽出** | `page.GetText()` / `TextData.GetText()` | `pdf.ExtractAllText()` | メソッド名の変更 |
-| **ドキュメントの読み込み** | `new PdfDocument(path)` | `PdfDocument.FromFile(path)` | コンストラクタ → 静的メソッド |
-| **保存** | `document.Save(path)` | `pdf.SaveAs(path)` | メソッド名の変更 |
-| **廃棄** | `IDisposable`パターン | 不要 | よりシンプルなリソース管理 |
-
----
-
-## クイックスタート（5分）
-
-### ステップ1: NuGetパッケージを更新
-
-```bash
-# Docotic.Pdfパッケージを削除
-dotnet remove package BitMiracle.Docotic.Pdf
-dotnet remove package BitMiracle.Docotic.Pdf.HtmlToPdf
-dotnet remove package BitMiracle.Docotic.Pdf.Layout
-
-# IronPDFをインストール
-dotnet add package IronPdf
-```
-
-### ステップ2: Usingステートメントを更新
-
-```csharp
-// 以前
-using BitMiracle.Docotic.Pdf;
-using BitMiracle.Docotic.Pdf.Layout;
-// HTMLアドオンを使用している場合
-// using BitMiracle.Docotic.Pdf.HtmlToPdf;
-
-// 以降
-using IronPdf;
-```
-
-### ステップ3: ライセンスキーを適用
-
-```csharp
-// アプリケーションの起動時に追加 (Program.csまたはGlobal.asax)
-IronPdf.License.LicenseKey = "YOUR-LICENSE-KEY";
-```
-
-### ステップ4: 基本的なコード移行
-
-**以前 (Docotic.Pdf):**
-```csharp
-using BitMiracle.Docotic.Pdf;
-
-using (var pdf = new PdfDocument())
-{
-    var page = pdf.Pages[0];
-    var canvas = page.Canvas;
-    canvas.DrawString(50, 50, "Hello World");
-    pdf.Save("output.pdf");
-}
-```
-
-**以降 (IronPDF):**
-```csharp
-using IronPdf;
-
-var renderer = new ChromePdfRenderer();
-var pdf = renderer.RenderHtmlAsPdf("<h1>Hello World</h1>");
-pdf.SaveAs("output.pdf");
-```
+| **テキスト抽出** | `page.GetText()` / `TextData.GetText()` | `pdf.ExtractAllText()` | メソッド名変更 |
+| **ドキュメントの読み込み** | `new PdfDocument(path)` | `PdfDocument.FromFile(path)` | コンストラクター → 静的メソッド |
+| **保存** | `document.Save(path)` | `pdf.SaveAs(path)` | メソッド名変更 |
+| **破棄** | `IDisposable`パターン | 不要 | よりシンプルなリソース管理 |
 
 ---

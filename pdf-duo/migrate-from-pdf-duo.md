@@ -6,18 +6,18 @@
 
 ---
 
-# 移行ガイド: PDF Duo .NET → IronPDF
+# PDF Duo .NETからIronPDFへの移行方法は？
 
 ## なぜ移行するのか？
 
-PDF Duo .NETは、あまり知られていない、文書化が不十分で、メンテナンス状況が不明瞭なライブラリです。IronPDFへの移行は、PDF生成のための安定した、よく文書化された、積極的にメンテナンスされているソリューションを提供します。
+PDF Duo .NETは、あまり知られていない、文書化が不十分で、メンテナンス状況が不明瞭なライブラリです。IronPDFへの移行により、安定した、よく文書化され、積極的にメンテナンスされているPDF生成ソリューションを提供します。
 
-### PDF Duo .NETの重大な問題点
+### PDF Duo .NETの重大な問題
 
-1. **不明瞭な出所**: 開発者不明、会社のバックアップが不明瞭
+1. **不明瞭な出所**: 開発者不明、会社のバックアップが不明
    - GitHubリポジトリやソースコードが見当たらない
-   - NuGetダウンロード統計が限られている
-   - ライセンス条項が不確実
+   - NuGetのダウンロード統計が限られている
+   - ライセンス条項が不確か
 
 2. **文書が不足**: 信頼できる情報を見つけることがほぼ不可能
    - 公式APIリファレンスがない
@@ -31,15 +31,15 @@ PDF Duo .NETは、あまり知られていない、文書化が不十分で、�
 
 4. **機能が限定的**: 基本的な機能のみ
    - シンプルなHTMLからPDFへ
-   - 基本的なPDFマージ
-   - 高度な機能なし（フォーム、セキュリティ、透かし）
+   - 基本的なPDFのマージ
+   - 高度な機能（フォーム、セキュリティ、ウォーターマーク）がない
 
 5. **不明なレンダリングエンジン**: 内部の仕組みが不明
    - CSS/JavaScriptのサポートが不明
    - レンダリング品質が予測不可能
-   - 現代のウェブ機能が不確実
+   - 現代のウェブ機能が不確か
 
-6. **サポートリスク**: 壊れたときの救済策がない
+6. **サポートリスク**: 物事が壊れたときの救済策がない
    - 専門的なサポートがない
    - 助けてくれるコミュニティがない
    - 完全に放棄されるリスク
@@ -48,26 +48,26 @@ PDF Duo .NETは、あまり知られていない、文書化が不十分で、�
 
 | 項目 | PDF Duo .NET | IronPDF |
 |--------|-------------|---------|
-| メンテナンス | 不明/非活動 | 活動的、定期的な更新 |
+| メンテナンス | 不明/非活動的 | アクティブ、定期的な更新 |
 | 文書 | 不足/欠落 | 包括的 |
-| サポート | なし | プロフェッショナルサポートチーム |
-| コミュニティ | ~0ユーザー | 41M+ NuGetダウンロード |
+| サポート | なし | 専門のサポートチーム |
+| コミュニティ | 約0ユーザー | 41M+のNuGetダウンロード |
 | レンダリング | 不明なエンジン | 現代のChromium |
 | 機能 | 基本的 | 全機能 |
-| 安定性 | 不明 | 実績ある生産性 |
-| ライセンス | 不明瞭 | 透明性 |
+| 安定性 | 不明 | 実績のある生産 |
+| ライセンス | 不明瞭 | 透明 |
 
 ---
 
 ## NuGetパッケージの変更
 
 ```bash
-# PDF Duo .NETの削除（正しいパッケージ名が見つかれば）
+# PDF Duo .NETを削除（正しいパッケージ名が見つかる場合）
 dotnet remove package PDFDuo.NET
 dotnet remove package PDFDuo
 dotnet remove package PDF-Duo
 
-# IronPDFのインストール
+# IronPDFをインストール
 dotnet add package IronPdf
 ```
 
@@ -120,20 +120,20 @@ dotnet add package IronPdf
 
 | PDF Duo .NET | IronPDF | 備考 |
 |--------------|---------|-------|
-| `PDFDocument.Load(path)` | `PdfDocument.FromFile(path)` | PDFの読み込み |
-| `document.Save(path)` | `pdf.SaveAs(path)` | PDFの保存 |
-| `document.ToBytes()` | `pdf.BinaryData` | バイト配列の取得 |
-| `PDFDocument.Merge(docs)` | `PdfDocument.Merge(pdfs)` | PDFのマージ |
+| `PDFDocument.Load(path)` | `PdfDocument.FromFile(path)` | PDFをロード |
+| `document.Save(path)` | `pdf.SaveAs(path)` | PDFを保存 |
+| `document.ToBytes()` | `pdf.BinaryData` | バイト配列を取得 |
+| `PDFDocument.Merge(docs)` | `PdfDocument.Merge(pdfs)` | PDFをマージ |
 | `new PdfMerger()` | `PdfDocument.Merge()` | 静的メソッド |
-| `merger.AddFile(path)` | _(別途読み込み)_ | 読み込んでからマージ |
+| `merger.AddFile(path)` | _(別途ロード)_ | ロードしてからマージ |
 
 ### PDF Duoにない機能（IronPDFで新規）
 
 | 機能 | IronPDF |
 |---------|---------|
 | ヘッダー/フッター | `RenderingOptions.HtmlHeader`, `HtmlFooter` |
-| ページ番号 | `{page}`, `{total-pages}` プレースホルダー |
-| 透かし | `pdf.ApplyWatermark(html)` |
+| ページ番号 | `{page}`, `{total-pages}`プレースホルダー |
+| ウォーターマーク | `pdf.ApplyWatermark(html)` |
 | パスワード保護 | `pdf.SecuritySettings` |
 | フォーム入力 | `pdf.Form.Fields` |
 | デジタル署名 | `pdf.SignWithFile()` |
@@ -146,7 +146,7 @@ dotnet add package IronPdf
 
 ### 例1: 基本的なHTMLからPDFへ
 
-**以前 (PDF Duo .NET):**
+**移行前 (PDF Duo .NET):**
 ```csharp
 using PDFDuo;
 
@@ -184,7 +184,7 @@ public class PdfService
 
 ### 例2: 設定付きのURLからPDFへ
 
-**以前 (PDF Duo .NET):**
+**移行前 (PDF Duo .NET):**
 ```csharp
 using PDFDuo;
 
@@ -218,7 +218,7 @@ pdf.SaveAs("webpage.pdf");
 
 ### 例3: PDFのマージ
 
-**以前 (PDF Duo .NET):**
+**移行前 (PDF Duo .NET):**
 ```csharp
 using PDFDuo;
 
@@ -242,9 +242,9 @@ merged.SaveAs("merged.pdf");
 
 ### 例4: ヘッダーとフッターの追加（新機能）
 
-**以前 (PDF Duo .NET):**
+**移行前 (PDF Duo .NET):**
 ```csharp
-// PDF Duo .NETはヘッダー/フッターをサポートしていない
+// PDF Duo .NETではヘッダー/フッターはサポートされていません
 // 同等の機能なし
 ```
 
@@ -270,11 +270,11 @@ var pdf = renderer.RenderHtmlAsPdf(html);
 pdf.SaveAs("report.pdf");
 ```
 
-### 例5: 透かしの追加（新機能）
+### 例5: ウォーターマークの追加（新機能）
 
-**以前 (PDF Duo .NET):**
+**移行前 (PDF Duo .NET):**
 ```csharp
-// PDF Duo .NETは透かしをサポートしていない
+// PDF Duo .NETではウォーターマークはサポートされていません
 // 同等の機能なし
 ```
 
@@ -294,11 +294,11 @@ pdf.ApplyWatermark(
 pdf.SaveAs("watermarked.pdf");
 ```
 
-### 例6: パスワード保護（新機能）
+### 例6: パスワード保護の追加（新機能）
 
-**以前 (PDF Duo .NET):**
+**移行前 (PDF Duo .NET):**
 ```csharp
-// PDF Duo .NETはパスワード保護をサポートしていない
+// PDF Duo .NETではパスワード保護はサポートされていません
 // 同等の機能なし
 ```
 
@@ -319,9 +319,9 @@ pdf.SaveAs("protected.pdf");
 
 ### 例7: テキスト抽出（新機能）
 
-**以前 (PDF Duo .NET):**
+**移行前 (PDF Duo .NET):**
 ```csharp
-// PDF Duo .NETはテキスト抽出をサポートしていない
+// PDF Duo .NETではテキスト抽出はサポートされていません
 // 同等の機能なし
 ```
 
@@ -343,9 +343,9 @@ for (int i = 0; i < pdf.PageCount; i++)
 
 ### 例8: PDFから画像へ（新機能）
 
-**以前 (PDF Duo .NET):**
+**移行前 (PDF Duo .NET):**
 ```csharp
-// PDF Duo .NETはPDFから画像への変換をサポートしていない
+// PDF Duo .NETではPDFから画像への変換はサポートされていません
 // 同等の機能なし
 ```
 
@@ -364,9 +364,9 @@ var bitmaps = pdf.ToBitmap(150);
 
 ### 例9: フォーム入力（新機能）
 
-**以前 (PDF Duo .NET):**
+**移行前 (PDF Duo .NET):**
 ```csharp
-// PDF Duo .NETはフォーム入力をサポートしていない
+// PDF Duo .NETではフォーム入力はサポートされていません
 // 同等の機能なし
 ```
 
@@ -389,7 +389,7 @@ pdf.SaveAs("filled_form.pdf");
 
 ### 例10: 完全な移行例
 
-**以前 (PDF Duo .NET):**
+**移行前 (PDF Duo .NET):**
 ```csharp
 using PDFDuo;
 
@@ -406,7 +406,7 @@ public class PdfDuoService
         var converter = new HtmlToPdfConverter(settings);
         converter.ConvertHtmlString(html, outputPath);
 
-        // それで終わり - ヘッダー、フッター、透かし、セキュリティなし
+        // それだけ - ヘッダー、フッター、ウォーターマーク、セキュリティなし
         // PDF Duo .NETの機能は非常に限定的
     }
 
@@ -448,9 +448,3 @@ public class PdfService
         _renderer.RenderingOptions.HtmlHeader = new HtmlHeaderFooter
         {
             HtmlFragment = "<div style='text-align:center;'>Company Report</div>",
-            MaxHeight = 25
-        };
-
-        _renderer.RenderingOptions.HtmlFooter = new HtmlHeaderFooter
-        {
-            HtmlFragment = "<div style='text

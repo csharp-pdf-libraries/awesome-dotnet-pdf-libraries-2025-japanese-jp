@@ -6,22 +6,22 @@
 
 ---
 
-# 移行ガイド: PDFBolt → IronPDF
+# PDFBoltからIronPDFへの移行方法は？
 
 ## なぜPDFBoltからIronPDFへ移行するのか？
 
-PDFBoltはクラウドのみのSaaSサービスで、ドキュメントを外部サーバーで処理します。クイックプロトタイプには便利ですが、このアーキテクチャは本番アプリケーションにとって重大な課題を生み出します：
+PDFBoltは、ドキュメントを外部サーバーで処理するクラウド専用のSaaSサービスです。クイックプロトタイプには便利ですが、このアーキテクチャは本番アプリケーションにおいて重大な課題を生み出します：
 
 ### PDFBoltの重大な制限
 
-1. **クラウドのみの処理**: すべてのドキュメントが外部サーバーを経由します—自己ホストのオプションがありません
-2. **データプライバシーリスク**: 機密ドキュメント（契約書、医療記録、財務データ）が外部に送信されます
-3. **使用制限**: 無料枠は月100ドキュメントに制限されており、ペイ・パー・ドキュメントの価格設定はすぐに積み上がります
-4. **ネットワーク依存**: インターネットのアウトやPDFBoltのダウンタイム = あなたのPDF生成が停止します
-5. **遅延**: ネットワーク往復により、すべての変換に数秒が追加されます
-6. **コンプライアンス問題**: GDPR、HIPAA、SOC2の監査が外部処理により複雑化します
-7. **APIキーのセキュリティ**: 漏洩したキー = あなたのアカウントに請求される不正使用
-8. **ベンダーロックイン**: PDFBoltが条件を変更またはサービスを停止した場合、あなたのアプリケーションは失敗します
+1. **クラウド専用処理**：すべてのドキュメントが外部サーバーを経由します。自己ホストオプションはありません
+2. **データプライバシーリスク**：外部に送信される機密ドキュメント（契約書、医療記録、財務データ）
+3. **使用制限**：無料枠は月100ドキュメントまで。ドキュメントごとの課金はすぐに高額になります
+4. **ネットワーク依存性**：インターネットの停止やPDFBoltのダウンタイム = PDF生成が停止します
+5. **遅延**：ネットワークの往復で毎回数秒が加算されます
+6. **コンプライアンスの問題**：GDPR、HIPAA、SOC2の監査が外部処理により複雑化します
+7. **APIキーセキュリティ**：漏洩したキー = あなたのアカウントに請求される不正使用
+8. **ベンダーロックイン**：PDFBoltが条件を変更したりサービスを停止した場合、あなたのアプリケーションは失敗します
 
 ### IronPDFの利点
 
@@ -32,8 +32,8 @@ PDFBoltはクラウドのみのSaaSサービスで、ドキュメントを外部
 | **インターネットが必要** | はい、常に | いいえ |
 | **遅延** | ネットワーク往復 | ミリ秒 |
 | **コンプライアンス** | 複雑（外部処理） | 単純（ローカル処理） |
-| **コストモデル** | ドキュメントごと | 一回払いまたは年間 |
-| **オフライン操作** | 不可能 | 完全にサポート |
+| **コストモデル** | ドキュメントごと | 一回または年間 |
+| **オフライン操作** | 不可能 | 完全にサポートされています |
 | **APIキーリスク** | 漏洩 = 請求される | ライセンスキー、請求リスクなし |
 
 ---
@@ -70,16 +70,16 @@ using IronPdf.Rendering;
 
 ### コアクラスのマッピング
 
-| PDFBolt | IronPDF | メモ |
+| PDFBolt | IronPDF | 備考 |
 |---------|---------|-------|
-| `new Client(apiKey)` | `new ChromePdfRenderer()` | APIキー不要 |
+| `new Client(apiKey)` | `new ChromePdfRenderer()` | APIキーは不要 |
 | `new HtmlToPdfConverter()` | `new ChromePdfRenderer()` | すべてに同じレンダラー |
 | `new PdfOptions()` | `renderer.RenderingOptions` | プロパティベースの設定 |
 | `PdfResult` | `PdfDocument` | 豊富なドキュメントオブジェクト |
 
 ### 変換メソッド
 
-| PDFBolt | IronPDF | メモ |
+| PDFBolt | IronPDF | 備考 |
 |---------|---------|-------|
 | `await client.HtmlToPdf(html)` | `renderer.RenderHtmlAsPdf(html)` | デフォルトで同期 |
 | `await client.HtmlToPdf(html, options)` | `renderer.RenderHtmlAsPdf(html)` | レンダラー上のオプション |
@@ -91,7 +91,7 @@ using IronPdf.Rendering;
 
 ### 出力メソッド
 
-| PDFBolt | IronPDF | メモ |
+| PDFBolt | IronPDF | 備考 |
 |---------|---------|-------|
 | `await result.SaveToFile(path)` | `pdf.SaveAs(path)` | 同期メソッド |
 | `result.GetBytes()` | `pdf.BinaryData` | プロパティアクセス |
@@ -100,7 +100,7 @@ using IronPdf.Rendering;
 
 ### ページ設定
 
-| PDFBolt | IronPDF | メモ |
+| PDFBolt | IronPDF | 備考 |
 |---------|---------|-------|
 | `options.PageSize = PageSize.A4` | `renderer.RenderingOptions.PaperSize = PdfPaperSize.A4` | 列挙名が異なる |
 | `options.PageSize = PageSize.Letter` | `renderer.RenderingOptions.PaperSize = PdfPaperSize.Letter` | 標準サイズ |
@@ -110,17 +110,17 @@ using IronPdf.Rendering;
 
 ### 余白設定
 
-| PDFBolt | IronPDF | メモ |
+| PDFBolt | IronPDF | 備考 |
 |---------|---------|-------|
 | `options.MarginTop = 20` | `renderer.RenderingOptions.MarginTop = 20` | ミリメートルで |
-| `options.MarginBottom = 20` | `renderer.RenderingOptions.MarginBottom = 20` | 個々のプロパティ |
+| `options.MarginBottom = 20` | `renderer.RenderingOptions.MarginBottom = 20` | 個別のプロパティ |
 | `options.MarginLeft = 15` | `renderer.RenderingOptions.MarginLeft = 15` | 余白オブジェクトなし |
 | `options.MarginRight = 15` | `renderer.RenderingOptions.MarginRight = 15` | 直接割り当て |
-| `options.Margins = new Margins(t,r,b,l)` | 個々のプロパティ | 上記参照 |
+| `options.Margins = new Margins(t,r,b,l)` | 個別のプロパティ | 上記参照 |
 
 ### レンダリングオプション
 
-| PDFBolt | IronPDF | メモ |
+| PDFBolt | IronPDF | 備考 |
 |---------|---------|-------|
 | `options.PrintBackground = true` | `renderer.RenderingOptions.PrintHtmlBackgrounds = true` | CSSの背景 |
 | `options.WaitForNetworkIdle = true` | `renderer.RenderingOptions.WaitFor.NetworkIdle()` | 待機戦略 |
@@ -130,37 +130,37 @@ using IronPdf.Rendering;
 
 ### ヘッダーとフッター
 
-| PDFBolt | IronPDF | メモ |
+| PDFBolt | IronPDF | 備考 |
 |---------|---------|-------|
 | `options.Header = "Header text"` | `renderer.RenderingOptions.HtmlHeader = new HtmlHeaderFooter { HtmlFragment = "<div>Header</div>" }` | HTMLベース |
 | `options.Footer = "Footer text"` | `renderer.RenderingOptions.HtmlFooter = new HtmlHeaderFooter { HtmlFragment = "<div>Footer</div>" }` | 完全なCSSサポート |
 | `options.DisplayHeaderFooter = true` | HtmlHeader/HtmlFooter設定時に自動 | 暗黙的 |
 | `{pageNumber}` | `{page}` | 現在のページ |
-| `{totalPages}` | `{total-pages}` | 合計ページ数 |
+| `{totalPages}` | `{total-pages}` | 総ページ数 |
 | `{date}` | `{date}` | 同じ |
 | `{title}` | `{html-title}` | ドキュメントタイトル |
 
-### PDF操作（IronPDFでの新機能）
+### PDF操作（IronPDFの新機能）
 
-| PDFBolt | IronPDF | メモ |
+| PDFBolt | IronPDF | 備考 |
 |---------|---------|-------|
-| _(利用不可)_ | `PdfDocument.Merge(pdf1, pdf2)` | PDFの結合 |
-| _(利用不可)_ | `pdf.CopyPages(start, end)` | ページの抽出 |
-| _(利用不可)_ | `pdf.RemovePages(indices)` | ページの削除 |
-| _(利用不可)_ | `pdf.InsertPdf(other, index)` | PDFの挿入 |
-| _(利用不可)_ | `pdf.RotatePage(index, degrees)` | ページの回転 |
-| _(利用不可)_ | `pdf.ApplyWatermark(html)` | ウォーターマークの追加 |
-| _(利用不可)_ | `pdf.ExtractAllText()` | テキストの抽出 |
-| _(利用不可)_ | `pdf.RasterizeToImageFiles()` | PDFから画像へ |
+| _(利用不可)_ | `PdfDocument.Merge(pdf1, pdf2)` | PDFをマージ |
+| _(利用不可)_ | `pdf.CopyPages(start, end)` | ページを抽出 |
+| _(利用不可)_ | `pdf.RemovePages(indices)` | ページを削除 |
+| _(利用不可)_ | `pdf.InsertPdf(other, index)` | PDFを挿入 |
+| _(利用不可)_ | `pdf.RotatePage(index, degrees)` | ページを回転 |
+| _(利用不可)_ | `pdf.ApplyWatermark(html)` | ウォーターマークを追加 |
+| _(利用不可)_ | `pdf.ExtractAllText()` | テキストを抽出 |
+| _(利用不可)_ | `pdf.RasterizeToImageFiles()` | PDFを画像に変換 |
 | _(利用不可)_ | `pdf.SecuritySettings` | 暗号化 |
 
 ---
 
 ## コード移行例
 
-### 例1: APIキーパターンの削除
+### 例1：APIキーパターンの削除
 
-**PDFBolt前:**
+**移行前（PDFBolt）：**
 ```csharp
 using PDFBolt;
 
@@ -170,7 +170,7 @@ public class PdfService
 
     public PdfService(IConfiguration config)
     {
-        // 設定からAPIキー - 漏洩した場合のセキュリティリスク
+        // 漏洩した場合のセキュリティリスクがある設定からAPIキーを取得
         var apiKey = config["PDFBolt:ApiKey"];
         _client = new Client(apiKey);
     }
@@ -194,7 +194,7 @@ public class PdfService
 }
 ```
 
-**IronPDF後:**
+**移行後（IronPDF）：**
 ```csharp
 using IronPdf;
 
@@ -211,7 +211,7 @@ public class PdfService
 
     public byte[] GeneratePdf(string html)
     {
-        // レート制限なし、APIキーの検証なし
+        // 制限なし、APIキーの検証なし
         // ネットワーク不要、外部処理なし
         var pdf = _renderer.RenderHtmlAsPdf(html);
         return pdf.BinaryData;
@@ -219,9 +219,9 @@ public class PdfService
 }
 ```
 
-### 例2: 非同期から同期への変換
+### 例2：非同期から同期への変換
 
-**PDFBolt前:**
+**移行前（PDFBolt）：**
 ```csharp
 using PDFBolt;
 
@@ -246,7 +246,7 @@ public async Task<ActionResult> GenerateInvoice(int orderId)
 }
 ```
 
-**IronPDF後:**
+**移行後（IronPDF）：**
 ```csharp
 using IronPdf;
 
@@ -267,9 +267,9 @@ public ActionResult GenerateInvoice(int orderId)
 }
 ```
 
-### 例3: ヘッダー/フッター付きのURLからPDFへ
+### 例3：ヘッダー/フッター付きのURLからPDFへの変換
 
-**PDFBolt前:**
+**移行前（PDFBolt）：**
 ```csharp
 using PDFBolt;
 using PDFBolt.Models;
@@ -293,7 +293,7 @@ public async Task<byte[]> CaptureWebpageAsync(string url)
 }
 ```
 
-**IronPDF後:**
+**移行後（IronPDF）：**
 ```csharp
 using IronPdf;
 
@@ -312,7 +312,7 @@ public byte[] CaptureWebpage(string url)
         MaxHeight = 20
     };
 
-    // 組み込みのプレースホルダー: {page}, {total-pages}, {date}, {time}
+    // 組み込みのプレースホルダー：{page}, {total-pages}, {date}, {time}
     renderer.RenderingOptions.HtmlFooter = new HtmlHeaderFooter
     {
         HtmlFragment = "<div style='font-size:10px; text-align:center;'>Page {page} of {total-pages}</div>",
@@ -324,9 +324,9 @@ public byte[] CaptureWebpage(string url)
 }
 ```
 
-### 例4: レート制限なしのバッチ処理
+### 例4：制限なしのバッチ処理
 
-**PDFBolt前:**
+**移行前（PDFBolt）：**
 ```csharp
 using PDFBolt;
 
@@ -337,7 +337,7 @@ public async Task GenerateMonthlyReports(List<Report> reports)
 
     foreach (var report in reports)
     {
-        // レート制限をチェック - PDFBolt無料枠 = 月100
+        // PDFBoltの無料枠の制限をチェック - PDFBolt無料枠 = 月100
         if (processed >= 100)
         {
             throw new Exception("PDFBoltの月間制限に達しました！");
@@ -350,18 +350,18 @@ public async Task GenerateMonthlyReports(List<Report> reports)
             await result.SaveToFile($"report-{report.Id}.pdf");
             processed++;
 
-            // レート制限に達しないように遅延を追加
+            // 制限に達しないように遅延を追加
             await Task.Delay(1000);
         }
         catch (PDFBoltException ex) when (ex.Code == "RATE_LIMIT")
         {
-            throw new Exception($"レポート{processed}件後にレート制限");
+            throw new Exception($"レポート{processed}件後にレート制限に達しました");
         }
     }
 }
 ```
 
-**IronPDF後:**
+**移行後（IronPDF）：**
 ```csharp
 using IronPdf;
 
@@ -369,7 +369,7 @@ public void GenerateMonthlyReports(List<Report> reports)
 {
     var renderer = new ChromePdfRenderer();
 
-    // レート制限なし、月間上限なし、遅延不要
+    // 制限なし、月間キャップなし、遅延不要
     foreach (var report in reports)
     {
         var html = RenderReport(report);
@@ -377,7 +377,5 @@ public void GenerateMonthlyReports(List<Report> reports)
         pdf.SaveAs($"report-{report.Id}.pdf");
     }
 
-    // 速度向上のために並列処理:
-    Parallel.ForEach(reports, report =>
-    {
-        var localRenderer = new ChromePdfRenderer();
+    // 速度向上のために並列処理：
+    Parallel

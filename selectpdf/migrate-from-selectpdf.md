@@ -6,11 +6,11 @@
 
 ---
 
-# 移行ガイド: SelectPdf → IronPDF
+# SelectPdfからIronPDFへの移行方法は？
 
 ## 目次
 1. [SelectPdfから移行する理由](#selectpdfから移行する理由)
-2. [Windowsのみの問題](#windowsのみの問題)
+2. [Windows専用の問題](#windows専用の問題)
 3. [古いレンダリングエンジン](#古いレンダリングエンジン)
 4. [5ページ無料版の罠](#5ページ無料版の罠)
 5. [クイックスタート移行（5分）](#クイックスタート移行5分)
@@ -31,44 +31,44 @@
 
 | 問題 | 影響 | IronPDFの解決策 |
 |-------|--------|------------------|
-| **Windowsのみ** | Linux、Docker、Azure Functionsにデプロイできない | 完全なクロスプラットフォームサポート |
-| **古いレンダリングエンジン** | 最新のCSSが失敗し、レイアウトが崩れる | 最新のChromium |
-| **5ページ無料版の制限** | 5ページ後に強力なウォーターマーキング | 寛大なトライアル |
-| **.NET 10のサポートなし** | 将来の互換性の問題 | 完全な.NET 10サポート |
-| **クラウドデプロイメントがブロックされる** | AWS Lambda、Azure Functionsを使用できない | クラウドネイティブ |
+| **Windows専用** | Linux、Docker、Azure Functionsへのデプロイができない | 完全なクロスプラットフォームサポート |
+| **古いレンダリングエンジン** | 現代のCSSが失敗し、レイアウトが崩れる | 最新のChromium |
+| **5ページ無料版の制限** | 5ページを超えると強制的な透かし | 寛大なトライアル |
+| **.NET 10のサポートなし** | 将来にわたる問題 | 完全な.NET 10サポート |
+| **クラウドデプロイメントがブロックされる** | AWS Lambda、Azure Functionsが使用できない | クラウドネイティブ |
 
 ### 核心的な問題
 
 SelectPdfは堅牢なHTMLからPDFへのソリューションとして自己を宣伝していますが、根本的な制限があります：
 
-1. **偽のクロスプラットフォームの主張**：マーケティング言語にもかかわらず、SelectPdfは**Windows上でのみ機能します**
-2. **古いChromiumフォーク**：古いBlink/WebKitフォークを使用しており、最新のCSSでは失敗します
-3. **制限的な無料版**：ウォーターマーキング前に5ページのみ
-4. **クラウドサポートなし**：Azure Functions、AWS Lambda、またはDockerにデプロイできません
+1. **偽のクロスプラットフォーム主張**：マーケティング言語にもかかわらず、SelectPdfは**Windows上でのみ動作します**
+2. **古いChromiumフォーク**：古いBlink/WebKitフォークを使用しており、現代のCSSでは失敗します
+3. **制限的な無料版**：透かし前に5ページのみ
+4. **クラウドサポートなし**：Azure Functions、AWS Lambda、Dockerへのデプロイができません
 
-### 機能比較の概要
+### 機能比較概要
 
 | 機能 | SelectPdf | IronPDF |
 |---------|-----------|---------|
 | **Windows** | ✅ | ✅ |
-| **Linux** | ❌ サポートされていません | ✅ 10+ディストリビューション |
-| **macOS** | ❌ サポートされていません | ✅ 完全サポート |
-| **Docker** | ❌ サポートされていません | ✅ 公式イメージ |
-| **Azure Functions** | ❌ サポートされていません | ✅ 完全サポート |
-| **AWS Lambda** | ❌ サポートされていません | ✅ 完全サポート |
+| **Linux** | ❌ サポートされていない | ✅ 10+ディストリビューション |
+| **macOS** | ❌ サポートされていない | ✅ 完全サポート |
+| **Docker** | ❌ サポートされていない | ✅ 公式イメージ |
+| **Azure Functions** | ❌ サポートされていない | ✅ 完全サポート |
+| **AWS Lambda** | ❌ サポートされていない | ✅ 完全サポート |
 | **CSS Grid** | ⚠️ 限定 | ✅ 完全サポート |
 | **Flexbox** | ⚠️ 限定 | ✅ 完全サポート |
-| **CSS変数** | ❌ サポートされていません | ✅ 完全サポート |
-| **.NET 10** | ❌ サポートされていません | ✅ 完全サポート |
+| **CSS変数** | ❌ サポートされていない | ✅ 完全サポート |
+| **.NET 10** | ❌ サポートされていない | ✅ 完全サポート |
 | **無料版の制限** | 5ページ | 寛大なトライアル |
 
 ---
 
-## Windowsのみの問題
+## Windows専用の問題
 
 ### SelectPdfのプラットフォーム制限
 
-マーケティング主張にかかわらず、SelectPdfは明示的に**サポートしていません**：
+どんなマーケティング主張にもかかわらず、SelectPdfは明示的に**サポートしていません**：
 
 - Linux（どのディストリビューションでも）
 - macOS
@@ -78,7 +78,7 @@ SelectPdfは堅牢なHTMLからPDFへのソリューションとして自己を�
 - Google Cloud Functions
 - 任意のARMベースのシステム
 
-これは根本的なアーキテクチャの制限です—SelectPdfはWindows固有のライブラリに依存しており、移植できません。
+これは根本的なアーキテクチャ上の制限です—SelectPdfはWindows固有のライブラリに依存しており、移植できません。
 
 ### あなたのアプリケーションにとってこれが意味すること
 
@@ -86,14 +86,14 @@ SelectPdfは堅牢なHTMLからPDFへのソリューションとして自己を�
 // ❌ SelectPdf - このコードはLinux/Dockerで失敗します
 using SelectPdf;
 
-// Azure App Service（Linux）へのデプロイメント - 失敗
-// Dockerコンテナへのデプロイメント - 失敗
-// AWS Lambdaへのデプロイメント - 失敗
+// Azure App Service（Linux）へのデプロイ - 失敗
+// Dockerコンテナへのデプロイ - 失敗
+// AWS Lambdaへのデプロイ - 失敗
 // GitHub Actions on ubuntu-latest - 失敗
 
 var converter = new HtmlToPdf();
 var doc = converter.ConvertHtmlString("<h1>Hello</h1>");
-// 例外: SelectPdfはWindows上でのみ機能します
+// 例外：SelectPdfはWindows上でのみ動作します
 ```
 
 ### IronPDFのクロスプラットフォームサポート
@@ -102,11 +102,11 @@ var doc = converter.ConvertHtmlString("<h1>Hello</h1>");
 // ✅ IronPDF - どこでも動作します
 using IronPdf;
 
-// Azure App Service（Linux）- 動作します
-// Dockerコンテナ - 動作します
-// AWS Lambda - 動作します
-// GitHub Actions on ubuntu-latest - 動作します
-// macOS開発 - 動作します
+// Azure App Service（Linux） - 動作
+// Dockerコンテナ - 動作
+// AWS Lambda - 動作
+// GitHub Actions on ubuntu-latest - 動作
+// macOS開発 - 動作
 
 var renderer = new ChromePdfRenderer();
 var pdf = renderer.RenderHtmlAsPdf("<h1>Hello</h1>");
@@ -125,10 +125,10 @@ pdf.SaveAs("output.pdf");
 | Alpine Linux | ❌ | ✅ |
 | Amazon Linux 2 | ❌ | ✅ |
 | macOS 10.15+ | ❌ | ✅ |
-| Azure App Service (Linux) | ❌ | ✅ |
+| Azure App Service（Linux） | ❌ | ✅ |
 | Azure Functions | ❌ | ✅ |
 | AWS Lambda | ❌ | ✅ |
-| Docker (Linux) | ❌ | ✅ |
+| Docker（Linux） | ❌ | ✅ |
 | Kubernetes | ❌ | ✅ |
 
 ---
@@ -137,16 +137,16 @@ pdf.SaveAs("output.pdf");
 
 ### SelectPdfのChromiumフォーク
 
-SelectPdfは**古いBlink/WebKitフォーク**を使用しており、現代のウェブ標準に追いついていません：
+SelectPdfは**古いBlink/WebKitフォーク**を使用しており、現代のWeb標準に追いついていません：
 
 ```html
-<!-- この現代のCSSはSelectPdfで失敗するか、正しくレンダリングされません -->
+<!-- この現代のCSSはSelectPdfで失敗または誤ってレンダリングされます -->
 
 <!-- CSS Grid - 壊れている -->
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
-    <div>アイテム 1</div>
-    <div>アイテム 2</div>
-    <div>アイテム 3</div>
+    <div>アイテム1</div>
+    <div>アイテム2</div>
+    <div>アイテム3</div>
 </div>
 
 <!-- 高度なFlexbox - 壊れている -->
@@ -154,7 +154,7 @@ SelectPdfは**古いBlink/WebKitフォーク**を使用しており、現代の�
     <div style="flex: 1 1 300px;">Flexアイテム</div>
 </div>
 
-<!-- CSS変数 - サポートされていません -->
+<!-- CSS変数 - サポートされていない -->
 <style>
 :root { --primary-color: #007bff; }
 h1 { color: var(--primary-color); }
@@ -170,7 +170,7 @@ h1 { color: var(--primary-color); }
 ### IronPDFの現代的なChromium
 
 ```csharp
-// ✅ IronPDF - 最新の安定したChromiumを使用
+// ✅ IronPDF - 最新の安定版Chromiumを使用
 var renderer = new ChromePdfRenderer();
 
 var html = @"
@@ -180,9 +180,9 @@ var html = @"
     .flex { display: flex; gap: var(--gap); flex-wrap: wrap; }
 </style>
 <div class='grid'>
-    <div style='background: var(--primary); color: white; padding: 1rem;'>アイテム 1</div>
-    <div style='background: var(--primary); color: white; padding: 1rem;'>アイテム 2</div>
-    <div style='background: var(--primary); color: white; padding: 1rem;'>アイテム 3</div>
+    <div style='background: var(--primary); color: white; padding: 1rem;'>アイテム1</div>
+    <div style='background: var(--primary); color: white; padding: 1rem;'>アイテム2</div>
+    <div style='background: var(--primary); color: white; padding: 1rem;'>アイテム3</div>
 </div>";
 
 var pdf = renderer.RenderHtmlAsPdf(html);
@@ -194,8 +194,8 @@ var pdf = renderer.RenderHtmlAsPdf(html);
 | CSS機能 | SelectPdf | IronPDF |
 |-------------|-----------|---------|
 | CSS Grid | ⚠️ 部分的/壊れている | ✅ 完全 |
-| Flexbox (基本) | ✅ | ✅ |
-| Flexbox (gapプロパティ) | ❌ | ✅ |
+| Flexbox（基本） | ✅ | ✅ |
+| Flexbox（gapプロパティ） | ❌ | ✅ |
 | CSS変数 | ❌ | ✅ |
 | CSS calc() | ⚠️ 限定 | ✅ |
 | @media print | ⚠️ 限定 | ✅ |
@@ -211,21 +211,21 @@ var pdf = renderer.RenderHtmlAsPdf(html);
 
 ### SelectPdfの厳しい制限
 
-SelectPdfの無料版には重大な制限があります：
+SelectPdfの無料版には厳しい制限があります：
 
 ```csharp
-// ❌ SelectPdf 無料版
+// ❌ SelectPdf無料版
 // - PDFあたり最大5ページ
-// - 5ページを超えると、すべてのページに強力なウォーターマーキング
-// - 「SelectPdfで作成されました」のウォーターマーク
-// - 購入しない限り削除できません
-// - 評価も制限されています
+// - 5ページを超えると、すべてのページに強制的な透かし
+// - 「SelectPdfで作成されました」の透かし
+// - 購入しない限り削除できない
+// - 評価も限定されている
 
 var converter = new HtmlToPdf();
 var doc = converter.ConvertHtmlString(longHtmlContent);
 // コンテンツが5ページを超える場合：
 // - ページ1-5：あなたのコンテンツ
-// - ページ6+：大量のウォーターマーク
+// - ページ6+：重い透かしが入ります
 ```
 
 ### 商用価格比較
@@ -234,7 +234,7 @@ var doc = converter.ConvertHtmlString(longHtmlContent);
 |--------|-----------|---------|
 | **開始価格** | $499 | $749 |
 | **無料トライアルページ** | 最大5ページ | 寛大なトライアル |
-| **ウォーターマークの挙動** | 5ページ後に強力 | トライアルウォーターマーク |
+| **透かしの挙動** | 5ページ後に強制 | トライアル透かし |
 | **ライセンスタイプ** | サブスクリプションオプション | 永久利用可能 |
 | **価格の透明性** | 複雑な階層 | 明確な価格設定 |
 
@@ -242,7 +242,7 @@ var doc = converter.ConvertHtmlString(longHtmlContent);
 
 ## クイックスタート移行（5分）
 
-### ステップ1: NuGetパッケージを更新
+### ステップ1：NuGetパッケージを更新
 
 ```bash
 # SelectPdfを削除
@@ -252,26 +252,26 @@ dotnet remove package Select.HtmlToPdf
 dotnet add package IronPdf
 ```
 
-### ステップ2: Usingステートメントを更新
+### ステップ2：Usingステートメントを更新
 
 ```csharp
 // 以前
 using SelectPdf;
 
-// 以後
+// その後
 using IronPdf;
 ```
 
-### ステップ3: ライセンスキーを追加（トライアル用はオプション）
+### ステップ3：ライセンスキーを追加（トライアル用はオプション）
 
 ```csharp
-// アプリケーション起動時に追加（ライセンス版用）
+// アプリケーションの起動時に追加（ライセンス版用）
 IronPdf.License.LicenseKey = "YOUR-LICENSE-KEY";
 ```
 
-### ステップ4: コードを更新
+### ステップ4：コードを更新
 
-**以前 (SelectPdf):**
+**以前（SelectPdf）：**
 ```csharp
 using SelectPdf;
 
@@ -285,7 +285,7 @@ doc.Save("output.pdf");
 doc.Close();
 ```
 
-**以後 (IronPDF):**
+**その後（IronPDF）：**
 ```csharp
 using IronPdf;
 
@@ -331,7 +331,7 @@ pdf.SaveAs("output.pdf");
 | `converter.ConvertHtmlString(html)` | `renderer.RenderHtmlAsPdf(html)` | HTMLからPDFへ |
 | `converter.ConvertHtmlString(html, baseUrl)` | `renderer.RenderHtmlAsPdf(html, baseUrl)` | ベースURL付き |
 | `doc.Save(path)` | `pdf.SaveAs(path)` | ファイルを保存 |
-| `doc.Save(stream)` | `pdf.Stream` または `pdf.BinaryData` | バイトを取得 |
+| `doc.Save(stream)` | `pdf.Stream`または`pdf.BinaryData` | バイトを取得 |
 | `doc.Close()` | 不要 | IDisposable |
 | `doc.Pages.Count` | `pdf.PageCount` | ページ数 |
 
@@ -342,4 +342,6 @@ pdf.SaveAs("output.pdf");
 | `Options.PdfPageSize` | `RenderingOptions.PaperSize` | ページサイズ |
 | `Options.PdfPageOrientation` | `RenderingOptions.PaperOrientation` | 方向 |
 | `Options.MarginTop` | `RenderingOptions.MarginTop` | 上マージン（mm） |
-| `Options.MarginBottom` |
+| `Options.MarginBottom` | `RenderingOptions.MarginBottom` | 下マージン（mm） |
+| `Options.MarginLeft` | `RenderingOptions.MarginLeft` | 左マージン（mm） |
+| `Options.MarginRight` | `RenderingOptions.MarginRight

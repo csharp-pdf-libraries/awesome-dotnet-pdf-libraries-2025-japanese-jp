@@ -6,7 +6,7 @@
 
 ---
 
-# 移行ガイド: PrinceXML → IronPDF
+# PrinceXMLからIronPDFへの移行方法は？
 
 ## PrinceXMLから移行する理由は？
 
@@ -14,20 +14,20 @@
 
 PrinceXMLは、**別のコマンドライン実行可能ファイル**として動作し、.NETアプリケーションにとって大きなアーキテクチャ上の課題を生み出します：
 
-1. **プロセス管理のオーバーヘッド**：外部プロセスを生成、監視、終了させる必要がある
-2. **ネイティブ.NET統合なし**：stdin/stdoutまたは一時ファイル経由で通信する
-3. **デプロイの複雑さ**：すべてのサーバーにPrinceのインストールが必要
-4. **サーバーごとのライセンス**：各デプロイメントには別のライセンスが必要
-5. **エラーハンドリングの難しさ**：エラー検出のためにテキスト出力を解析する
+1. **プロセス管理のオーバーヘッド**：外部プロセスを生成、監視、終了させる必要があります
+2. **ネイティブ.NET統合なし**：stdin/stdoutまたは一時ファイル経由で通信
+3. **展開の複雑さ**：すべてのサーバーにPrinceのインストールが必要
+4. **サーバーごとのライセンス**：各展開には別のライセンスが必要
+5. **エラー処理の難しさ**：エラー検出のためにテキスト出力を解析
 6. **非同期/待機なし**：ブロッキングコールまたは複雑な非同期ラッパーが必要
-7. **パス依存性**：PATHまたは絶対パス上のPrince実行可能ファイルを見つける必要がある
+7. **パス依存性**：PATHまたは絶対パス上でPrince実行可能ファイルを見つける必要がある
 
 ### CSSページメディアの制限
 
 PrinceXMLのCSSページメディアサポートは強力ですが、ベンダーロックインを生み出します：
 
 ```css
-/* 他では機能しないPrince固有のCSS */
+/* 他では動作しないPrince特有のCSS */
 @page {
     size: A4;
     margin: 2cm;
@@ -39,42 +39,42 @@ PrinceXMLのCSSページメディアサポートは強力ですが、ベンダ�
     }
 }
 
-/* Prince固有の拡張 */
+/* Prince特有の拡張 */
 prince-pdf-page-label: "チャプター " counter(chapter);
 prince-pdf-destination: attr(id);
 ```
 
-### 移行比較の概要
+### 移行の比較
 
 | 項目 | PrinceXML | IronPDF |
 |--------|-----------|---------|
 | アーキテクチャ | 外部プロセス | ネイティブ.NETライブラリ |
 | 統合 | コマンドライン | 直接API |
-| デプロイメント | すべてのサーバーにインストール | 単一のNuGetパッケージ |
-| エラーハンドリング | テキスト出力を解析 | .NET例外 |
+| 展開 | すべてのサーバーにインストール | 単一のNuGetパッケージ |
+| エラー処理 | テキスト出力の解析 | .NET例外 |
 | 非同期サポート | 手動ラッパー | ネイティブ非同期/待機 |
 | PDF操作 | 生成のみ | 完全な操作 |
 | ライセンス | サーバーごと | 開発者ごと |
-| 更新 | 手動で再インストール | NuGet更新 |
-| デバッグ | 困難 | 完全なデバッガーサポート |
+| アップデート | 手動で再インストール | NuGetアップデート |
+| デバッグ | 困難 | フルデバッガーサポート |
 
 ---
 
-## クイックスタート: PrinceXMLからIronPDFへ5分で移行
+## 5分で完了：PrinceXMLからIronPDFへのクイックスタート
 
-### ステップ1: IronPDFのインストール
+### ステップ1：IronPDFのインストール
 
 ```bash
-# IronPDFのインストール
+# IronPDFをインストール
 dotnet add package IronPdf
 
 # 使用している場合はPrinceラッパーを削除
 dotnet remove package PrinceXMLWrapper
 ```
 
-### ステップ2: プロセスコードの置換
+### ステップ2：プロセスコードの置き換え
 
-**PrinceXML:**
+**PrinceXML：**
 ```csharp
 using System.Diagnostics;
 
@@ -97,19 +97,19 @@ if (process.ExitCode != 0)
 }
 ```
 
-**IronPDF:**
+**IronPDF：**
 ```csharp
 using IronPdf;
 
-IronPdf.License.LicenseKey = "あなたのライセンスキー";
+IronPdf.License.LicenseKey = "YOUR-LICENSE-KEY";
 var renderer = new ChromePdfRenderer();
 var pdf = renderer.RenderHtmlFileAsPdf("input.html");
 pdf.SaveAs("output.pdf");
 ```
 
-### ステップ3: CSSページメディアの移行
+### ステップ3：CSSページメディアの移行
 
-**PrinceXML CSS:**
+**PrinceXML CSS：**
 ```css
 @page {
     size: A4;
@@ -117,10 +117,10 @@ pdf.SaveAs("output.pdf");
 }
 ```
 
-**IronPDF C# (同等):**
+**IronPDF C#（同等）：**
 ```csharp
 renderer.RenderingOptions.PaperSize = PdfPaperSize.A4;
-renderer.RenderingOptions.MarginTop = 56;    // ~2cm
+renderer.RenderingOptions.MarginTop = 56;    // 約2cm
 renderer.RenderingOptions.MarginBottom = 56;
 renderer.RenderingOptions.MarginLeft = 56;
 renderer.RenderingOptions.MarginRight = 56;
@@ -135,7 +135,7 @@ renderer.RenderingOptions.MarginRight = 56;
 | Princeコマンド | IronPDF相当 |
 |---------------|-------------------|
 | `prince input.html -o output.pdf` | `renderer.RenderHtmlFileAsPdf("input.html").SaveAs("output.pdf")` |
-| `prince --style=custom.css input.html` | HTMLにCSSを含めるか`RenderingOptions`を使用 |
+| `prince --style=custom.css input.html` | HTML内にCSSを含めるか、`RenderingOptions`を使用 |
 | `prince --javascript` | `renderer.RenderingOptions.EnableJavaScript = true` |
 | `prince --no-javascript` | `renderer.RenderingOptions.EnableJavaScript = false` |
 | `prince --page-size=Letter` | `renderer.RenderingOptions.PaperSize = PdfPaperSize.Letter` |
@@ -158,10 +158,10 @@ renderer.RenderingOptions.MarginRight = 56;
 | `size: A4 landscape` | `PaperSize = PdfPaperSize.A4` + `PaperOrientation = Landscape` |
 | `margin: 2cm` | `MarginTop/Bottom/Left/Right = 56` |
 | `margin-top: 1in` | `MarginTop = 72` |
-| `@top-center { content: "..." }` | 中央揃えのdivを含む`HtmlHeader` |
-| `@bottom-right { content: counter(page) }` | `{page}`プレースホルダーを含む`HtmlFooter` |
+| `@top-center { content: "..." }` | `HtmlHeader`で中央揃えのdiv |
+| `@bottom-right { content: counter(page) }` | `HtmlFooter`で`{page}`プレースホルダー |
 
-### ページサイズの変換
+### ページサイズ変換
 
 | サイズ | ポイント | ミリメートル |
 |------|--------|-------------|
@@ -170,15 +170,15 @@ renderer.RenderingOptions.MarginRight = 56;
 | Legal | 612 x 1008 | 216 x 356 |
 | A3 | 842 x 1191 | 297 x 420 |
 | 1インチ | 72 | 25.4 |
-| 1cm | 28.35 | 10 |
+| 1 cm | 28.35 | 10 |
 
 ---
 
 ## コード例
 
-### 例1: 基本的なHTMLファイルからPDFへ
+### 例1：基本的なHTMLファイルからPDFへ
 
-**PrinceXML:**
+**PrinceXML：**
 ```csharp
 using System.Diagnostics;
 using System.IO;
@@ -217,12 +217,12 @@ public class PrinceConverter
     }
 }
 
-// 使用例
+// 使用法
 var converter = new PrinceConverter(@"C:\Program Files\Prince\engine\bin\prince.exe");
 converter.ConvertHtmlToPdf("report.html", "report.pdf");
 ```
 
-**IronPDF:**
+**IronPDF：**
 ```csharp
 using IronPdf;
 
@@ -230,7 +230,7 @@ public class PdfConverter
 {
     public PdfConverter()
     {
-        IronPdf.License.LicenseKey = "あなたのライセンスキー";
+        IronPdf.License.LicenseKey = "YOUR-LICENSE-KEY";
     }
 
     public void ConvertHtmlToPdf(string htmlPath, string outputPath)
@@ -241,21 +241,21 @@ public class PdfConverter
     }
 }
 
-// 使用例
+// 使用法
 var converter = new PdfConverter();
 converter.ConvertHtmlToPdf("report.html", "report.pdf");
 ```
 
-### 例2: HTML文字列からPDFへ
+### 例2：HTML文字列からPDFへ
 
-**PrinceXML:**
+**PrinceXML：**
 ```csharp
 using System.Diagnostics;
 using System.IO;
 
 public byte[] ConvertHtmlStringToPdf(string htmlContent)
 {
-    // Princeはファイル入力を必要とする - 一時ファイルを作成する必要がある
+    // Princeはファイル入力が必要 - 一時ファイルを作成する必要がある
     string tempHtmlPath = Path.GetTempFileName() + ".html";
     string tempPdfPath = Path.GetTempFileName() + ".pdf";
 
@@ -296,7 +296,7 @@ public byte[] ConvertHtmlStringToPdf(string htmlContent)
 }
 ```
 
-**IronPDF:**
+**IronPDF：**
 ```csharp
 using IronPdf;
 
@@ -316,9 +316,9 @@ public void ConvertHtmlStringToFile(string htmlContent, string outputPath)
 }
 ```
 
-### 例3: JavaScriptを使用したURLからPDFへ
+### 例3：JavaScriptを使用したURLからPDFへ
 
-**PrinceXML:**
+**PrinceXML：**
 ```csharp
 using System.Diagnostics;
 
@@ -340,7 +340,7 @@ public void ConvertUrlToPdf(string url, string outputPath)
 
     // Princeは限定的なJavaScriptサポートを持つ
     // 複雑なSPAではタイムアウトする可能性がある
-    process.WaitForExit(30000); // 30秒タイムアウト
+    process.WaitForExit(30000); // 30秒のタイムアウト
 
     if (!process.HasExited)
     {
@@ -355,7 +355,7 @@ public void ConvertUrlToPdf(string url, string outputPath)
 }
 ```
 
-**IronPDF:**
+**IronPDF：**
 ```csharp
 using IronPdf;
 
@@ -363,13 +363,13 @@ public void ConvertUrlToPdf(string url, string outputPath)
 {
     var renderer = new ChromePdfRenderer();
 
-    // 完全なJavaScriptサポート (ES2024)
+    // 完全なJavaScriptサポート（ES2024）
     renderer.RenderingOptions.EnableJavaScript = true;
 
     // JavaScriptの完了を待つ
     renderer.RenderingOptions.WaitFor.JavaScript(5000);
 
-    // 特定の要素を待つ
+    // 特定の要素の待機
     renderer.RenderingOptions.WaitFor.HtmlElementById("content-loaded", 10000);
 
     // ネットワークのアイドルを待つ
@@ -391,9 +391,9 @@ public async Task ConvertUrlToPdfAsync(string url, string outputPath)
 }
 ```
 
-### 例4: CSSページメディアのヘッダー/フッター移行
+### 例4：CSSページメディアのヘッダー/フッターの移行
 
-**PrinceXML CSS:**
+**PrinceXML CSS：**
 ```css
 @page {
     size: A4;
@@ -417,7 +417,7 @@ public async Task ConvertUrlToPdfAsync(string url, string outputPath)
     }
 
     @bottom-right {
-        content: "生成日: " prince-script(today);
+        content: "生成: " prince-script(today);
         font-size: 8pt;
         color: #999;
     }
@@ -426,7 +426,7 @@ public async Task ConvertUrlToPdfAsync(string url, string outputPath)
 h1 { string-set: chapter-title content(); }
 ```
 
-**IronPDF C#:**
+**IronPDF C#：**
 ```csharp
 using IronPdf;
 
@@ -452,14 +452,14 @@ public PdfDocument ConvertWithHeadersFooters(string html)
         MaxHeight = 30
     };
 
-    // ページ番号と日付を含むフッター
+    // フッター（ページ番号と日付付き）
     renderer.RenderingOptions.HtmlFooter = new HtmlHeaderFooter
     {
         HtmlFragment = @"
             <div style='width: 100%; font-size: 9pt; display: flex; justify-content: space-between;'>
                 <span></span>
                 <span>ページ {page} の {total-pages}</span>
-                <span style='font-size: 8pt; color: #999;'>生成日: {date}</span>
+                <span style='font-size: 8pt; color: #999;'>生成: {date}</span>
             </div>",
         MaxHeight = 40
     };
@@ -468,9 +468,9 @@ public PdfDocument ConvertWithHeadersFooters(string html)
 }
 ```
 
-### 例5: ページサイズと向き
+### 例5：ページサイズと向き
 
-**PrinceXML:**
+**PrinceXML：**
 ```csharp
 var process = new Process
 {
@@ -486,7 +486,7 @@ process.Start();
 process.WaitForExit();
 ```
 
-**IronPDF:**
+**IronPDF：**
 ```csharp
 using IronPdf;
 
@@ -502,4 +502,5 @@ renderer.RenderingOptions.MarginBottom = 36;
 renderer.RenderingOptions.MarginLeft = 72;    // 1インチ
 renderer.RenderingOptions.MarginRight = 72;
 
-// カスタム
+// カスタムページサイズ
+renderer.RenderingOptions.SetCustomPaperSizeInInches(8.5, 14); // Legalサイ

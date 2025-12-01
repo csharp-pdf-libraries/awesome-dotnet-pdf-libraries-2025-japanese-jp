@@ -6,41 +6,41 @@
 
 ---
 
-# PDFreactorからIronPDFへの移行：完全な.NET移行ガイド
+# PDFreactorからIronPDFへの移行方法は？
 
-PDFreactorは、優れたCSSページメディアサポートを備えた強力なJavaベースのHTMLからPDFへの変換サーバーです。高忠実度ドキュメントのレンダリングに優れていますが、Java依存性とサーバーアーキテクチャは、.NET環境での複雑さを大幅に増加させます。このガイドでは、外部依存性なしで同等のレンダリング機能を提供するネイティブ.NETライブラリであるIronPDFへの包括的な移行パスを提供します。
+PDFreactorは、優れたCSS Paged Mediaサポートを備えた強力なJavaベースのHTMLからPDFへの変換サーバーです。高忠実度ドキュメントレンダリングに優れていますが、Javaの依存関係とサーバーアーキテクチャは.NET環境での複雑さを生み出します。このガイドでは、外部依存関係なしで同等のレンダリング機能を提供するネイティブ.NETライブラリであるIronPDFへの包括的な移行パスを提供します。
 
 ## 目次
 
-1. [PDFreactorからIronPDFへ移行する理由](#why-migrate-from-pdfreactor-to-ironpdf)
+1. [PDFreactorからIronPDFに移行する理由は？](#why-migrate-from-pdfreactor-to-ironpdf)
 2. [アーキテクチャの違い](#architectural-differences)
 3. [インストールとセットアップ](#installation-and-setup)
 4. [コアAPIマッピング](#core-api-mappings)
 5. [コード移行例](#code-migration-examples)
 6. [設定の移行](#configuration-migration)
-7. [CSSページメディアの移行](#css-paged-media-migration)
+7. [CSS Paged Mediaの移行](#css-paged-media-migration)
 8. [ヘッダーとフッター](#headers-and-footers)
 9. [JavaScriptと非同期コンテンツ](#javascript-and-async-content)
-10. [サーバーvsライブラリアーキテクチャ](#server-vs-library-architecture)
+10. [サーバー対ライブラリアーキテクチャ](#server-vs-library-architecture)
 11. [パフォーマンスの最適化](#performance-optimization)
 12. [トラブルシューティング](#troubleshooting)
 13. [移行チェックリスト](#migration-checklist)
 
 ---
 
-## PDFreactorからIronPDFへ移行する理由
+## PDFreactorからIronPDFに移行する理由は？
 
-### Java依存性の問題
+### Javaの依存関係問題
 
 PDFreactorのアーキテクチャは、.NET環境でいくつかの課題を生み出します：
 
-1. **Java Runtimeが必要**：すべてのサーバーにJRE/JDKのインストールが必要
-2. **サーバーアーキテクチャ**：追加のインフラストラクチャが必要な別のサービスとして実行
-3. **複雑なデプロイメント**：.NET CI/CDパイプラインでのJava依存性の管理
-4. **プロセス間通信**：REST APIまたはソケット通信によるレイテンシーの追加
-5. **別々のライセンス管理**：アプリケーションではなくサーバーインスタンスにライセンスがバインドされている
+1. **Javaランタイムが必要**：すべてのサーバーにJRE/JDKのインストールが必要
+2. **サーバーアーキテクチャ**：追加のインフラストラクチャを必要とする別のサービスとして実行
+3. **複雑なデプロイメント**：.NET CI/CDパイプラインでのJava依存関係の管理
+4. **プロセス間通信**：REST APIまたはソケット通信がレイテンシを追加
+5. **別々のライセンス管理**：アプリケーションではなくサーバーインスタンスにライセンスがバインドされる
 6. **リソースの分離**：別々のプロセスメモリとCPU管理
-7. **運用上のオーバーヘッド**：維持、監視、更新が必要な2つのランタイム
+7. **運用上のオーバーヘッド**：2つのランタイムを維持、監視、更新する必要がある
 
 ### IronPDFの利点
 
@@ -49,13 +49,13 @@ PDFreactorのアーキテクチャは、.NET環境でいくつかの課題を生
 | ランタイム | Java（外部） | ネイティブ.NET |
 | アーキテクチャ | サーバーベースのサービス | プロセス内ライブラリ |
 | デプロイメント | 複雑（Java + サービス） | NuGetパッケージ |
-| 依存性 | JRE + RESTクライアント | 自己完結型 |
-| レイテンシー | ネットワーク/IPCオーバーヘッド | 直接メソッドコール |
+| 依存関係 | JRE + RESTクライアント | 自己完結型 |
+| レイテンシ | ネットワーク/IPCオーバーヘッド | 直接メソッド呼び出し |
 | スケーリング | サーバーごとのライセンス | 開発者ごとのライセンス |
-| 統合 | REST APIコール | ネイティブ.NET API |
+| 統合 | REST API呼び出し | ネイティブ.NET API |
 | メモリ | 別プロセス | プロセス内制御 |
-| CSSサポート | 優れている（ページメディア） | 優れている（Chromium） |
-| PDF操作 | 変換のみ | フルライフサイクル |
+| CSSサポート | 優れている（Paged Media） | 優れている（Chromium） |
+| PDF操作 | 変換のみ | ライフサイクル全体 |
 
 ---
 
@@ -65,8 +65,8 @@ PDFreactorのアーキテクチャは、.NET環境でいくつかの課題を生
 
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│   .NET App      │────▶│  PDFreactor     │────▶│   PDF 出力    │
-│  (RESTクライアント)  │ HTTP│    サーバー       │     │                 │
+│   .NET App      │────▶│  PDFreactor     │────▶│   PDF Output    │
+│  (REST Client)  │ HTTP│    Server       │     │                 │
 └─────────────────┘     │   (Java)        │     └─────────────────┘
                         └─────────────────┘
 ```
@@ -75,10 +75,10 @@ PDFreactorのアーキテクチャは、.NET環境でいくつかの課題を生
 
 ```
 ┌─────────────────────────────────────────┐
-│              .NET アプリケーション           │
+│              .NET Application           │
 │  ┌─────────────────────────────────┐    │
-│  │         IronPDF ライブラリ         │    │
-│  │    (組み込みChromiumエンジン)   │───▶│ PDF 出力
+│  │         IronPDF Library         │    │
+│  │    (Embedded Chromium Engine)   │───▶│ PDF Output
 │  └─────────────────────────────────┘    │
 └─────────────────────────────────────────┘
 ```
@@ -90,11 +90,11 @@ PDFreactorのアーキテクチャは、.NET環境でいくつかの課題を生
 ### PDFreactorの削除
 
 ```bash
-# PDFreactor NuGetパッケージの削除
+# PDFreactor NuGetパッケージを削除
 dotnet remove package PDFreactor.NET
 dotnet remove package PDFreactor.Native.Windows.x64
 
-# PDFreactorサーバーサービスの停止（ローカルで実行している場合）
+# PDFreactorサーバーサービスを停止（ローカルで実行している場合）
 # Windows: net stop PDFreactor
 # Linux: sudo systemctl stop pdfreactor
 ```
@@ -107,19 +107,19 @@ dotnet add package IronPdf
 
 ### ライセンス設定
 
-**PDFreactor（サーバーベース）:**
+**PDFreactor（サーバーベース）：**
 ```csharp
-// サーバーでの設定（設定ファイルまたはコマンドライン経由）
+// サーバーで設定ファイルまたはコマンドライン経由でライセンスを設定
 // クライアントはライセンス付きサーバーに接続
 var pdfReactor = new PDFreactor("http://pdfreactor-server:9423");
 ```
 
-**IronPDF（アプリケーションレベル）:**
+**IronPDF（アプリケーションレベル）：**
 ```csharp
-// アプリケーション起動時の一回限りのセットアップ
+// アプリケーション起動時に一度だけセットアップ
 IronPdf.License.LicenseKey = "YOUR-IRONPDF-LICENSE-KEY";
 
-// またはappsettings.json経由
+// またはappsettings.json経由で
 {
   "IronPdf": {
     "LicenseKey": "YOUR-IRONPDF-LICENSE-KEY"
@@ -135,20 +135,20 @@ IronPdf.License.LicenseKey = "YOUR-IRONPDF-LICENSE-KEY";
 
 | PDFreactor | IronPDF | 備考 |
 |------------|---------|-------|
-| `PDFreactor` | `ChromePdfRenderer` | 主要変換クラス |
+| `PDFreactor` | `ChromePdfRenderer` | 主要な変換クラス |
 | `Configuration` | `ChromePdfRenderOptions` | PDF設定 |
 | `Result` | `PdfDocument` | 出力ドキュメント |
 | `Configuration.Document` | `RenderHtmlAsPdf(html)` | HTML入力 |
 | `Result.Document` (byte[]) | `pdf.BinaryData` | 生のバイト |
-| `Configuration.BaseURL` | `RenderingOptions.BaseUrl` | リソースの基本URL |
+| `Configuration.BaseURL` | `RenderingOptions.BaseUrl` | リソースのベースURL |
 
 ### 設定プロパティ
 
-| PDFreactor 設定 | IronPDF RenderingOptions | 備考 |
+| PDFreactor設定 | IronPDF RenderingOptions | 備考 |
 |-------------------------|-------------------------|-------|
 | `config.Document = html` | `renderer.RenderHtmlAsPdf(html)` | HTMLコンテンツ |
 | `config.Document = url` | `renderer.RenderUrlAsPdf(url)` | URL変換 |
-| `config.BaseURL` | `RenderingOptions.BaseUrl` | リソースの基本パス |
+| `config.BaseURL` | `RenderingOptions.BaseUrl` | リソースのベースパス |
 | `config.EnableJavaScript = true` | `RenderingOptions.EnableJavaScript = true` | JS実行 |
 | `config.JavaScriptSettings.Timeout` | `RenderingOptions.WaitFor.RenderDelay` | JSタイムアウト |
 | `config.PageFormat = PageFormat.A4` | `RenderingOptions.PaperSize = PdfPaperSize.A4` | 用紙サイズ |
@@ -176,11 +176,11 @@ IronPdf.License.LicenseKey = "YOUR-IRONPDF-LICENSE-KEY";
 
 | PDFreactor | IronPDF | 備考 |
 |------------|---------|-------|
-| `config.AddUserStyleSheet(css)` | HTMLに埋め込むか`CustomCssUrl`を使用 | CSS注入 |
+| `config.AddUserStyleSheet(css)` | HTML内に埋め込むか`CustomCssUrl`を使用 | CSS注入 |
 | `config.AddUserScript(js)` | `RenderingOptions.Javascript` | JS注入 |
 | `config.MediaTypes` | `RenderingOptions.CssMediaType` | 画面/印刷 |
-| `config.MergeMode` | HTML/CSSで制御 | HTML/CSSで制御 |
-| `config.DocumentDefaultLanguage` | HTML `lang`属性 | ドキュメント言語 |
+| `config.MergeMode` | HTML内のCSS | HTML/CSS経由で制御 |
+| `config.DocumentDefaultLanguage` | HTMLの`lang`属性 | ドキュメント言語 |
 
 ### 高度な変換オプション
 
@@ -197,7 +197,7 @@ IronPdf.License.LicenseKey = "YOUR-IRONPDF-LICENSE-KEY";
 
 ## コード移行例
 
-### 例1: 基本的なHTMLからPDFへ
+### 例1：基本的なHTMLからPDFへ
 
 **PDFreactor:**
 ```csharp
@@ -226,7 +226,7 @@ var pdf = renderer.RenderHtmlAsPdf("<html><body><h1>こんにちは世界</h1></
 pdf.SaveAs("output.pdf");
 ```
 
-### 例2: URLからPDFへ
+### 例2：URLからPDFへ
 
 **PDFreactor:**
 ```csharp
@@ -256,7 +256,7 @@ var pdf = renderer.RenderUrlAsPdf("https://www.example.com");
 pdf.SaveAs("webpage.pdf");
 ```
 
-### 例3: ページ設定
+### 例3：ページ設定
 
 **PDFreactor:**
 ```csharp
@@ -295,7 +295,7 @@ var pdf = renderer.RenderHtmlAsPdf(htmlContent);
 pdf.SaveAs("document.pdf");
 ```
 
-### 例4: CSSスタイルシート
+### 例4：CSSスタイルシート
 
 **PDFreactor:**
 ```csharp
@@ -306,7 +306,7 @@ var config = new Configuration
     Document = htmlContent
 };
 
-// CSSページメディアスタイルシートを追加
+// CSS Paged Mediaスタイルシートを追加
 config.AddUserStyleSheet(
     "@page { size: A4 landscape; margin: 2cm; }" +
     "@page :first { margin-top: 5cm; }" +
@@ -344,9 +344,9 @@ string htmlWithCss = $@"
 var pdf = renderer.RenderHtmlAsPdf(htmlWithCss);
 ```
 
-### 例5: ヘッダーとフッター
+### 例5：ヘッダーとフッター
 
-**PDFreactor (CSSページメディア):**
+**PDFreactor (CSS Paged Media):**
 ```csharp
 using RealObjects.PDFreactor;
 
@@ -358,14 +358,14 @@ var config = new Configuration
 config.AddUserStyleSheet(@"
     @page {
         @top-center {
-            content: '会社レポート';
+            content: '会社報告書';
             font-size: 10pt;
         }
         @bottom-left {
             content: '機密';
         }
         @bottom-center {
-            content: 'ページ ' counter(page) ' / ' counter(pages);
+            content: 'ページ ' counter(page) ' の ' counter(pages);
         }
         @bottom-right {
             content: string(date);
@@ -385,18 +385,21 @@ var renderer = new ChromePdfRenderer();
 // テキストベースのヘッダー/フッター
 renderer.RenderingOptions.TextHeader = new TextHeaderFooter
 {
-    CenterText = "会社レポート",
+    CenterText = "会社報告書",
     FontSize = 10
 };
 
 renderer.RenderingOptions.TextFooter = new TextHeaderFooter
 {
     LeftText = "機密",
-    CenterText = "ページ {page} / {total-pages}",
+    CenterText = "ページ {page} の {total-pages}",
     RightText = "{date}"
 };
 
 var pdf = renderer.RenderHtmlAsPdf(htmlContent);
 pdf.SaveAs("report.pdf");
 
-// より細かい制
+// より制御が必要な場合はHTMLヘッダー/フッターを使用
+renderer.RenderingOptions.HtmlHeader = new HtmlHeaderFooter
+{
+    HtmlFragment = "<div

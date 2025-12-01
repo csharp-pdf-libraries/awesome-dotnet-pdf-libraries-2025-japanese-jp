@@ -6,27 +6,27 @@
 
 ---
 
-# 移行ガイド: RawPrint → IronPDF
+# RawPrintからIronPDFへの移行方法は？
 
-## RawPrintから移行する理由は？
+## なぜRawPrintから移行するのか？
 
-RawPrintは、生のバイトをプリンタースプーラーに送信する低レベルの印刷ユーティリティです。PDFライブラリではありません - データをプリンターにプッシュするだけです。主な制限事項:
+RawPrintは、生のバイトをプリンタースプーラーに送信する低レベルの印刷ユーティリティです。PDFライブラリではありません - ただプリンターにデータをプッシュするだけです。主な制限事項:
 
 1. **PDF作成不可**: PDFを作成または生成できない
 2. **Windows専用**: Windowsの印刷サブシステムに依存
 3. **低レベルAPI**: 手動でのプリンターハンドル管理
-4. **文書処理不可**: バイト伝送のみ
+4. **ドキュメント処理不可**: バイトの伝送のみ
 5. **限定的な制御**: 最小限の印刷ジョブ設定
-6. **クロスプラットフォーム非対応**: Windowsスプーラーに依存
+6. **クロスプラットフォーム不可**: Windowsスプーラーに依存
 
-### RawPrintができること vs. 必要なこと
+### RawPrintができること vs. あなたが必要とすること
 
-| タスク | RawPrint | IronPDF |
+| 作業 | RawPrint | IronPDF |
 |------|----------|---------|
 | HTMLからPDFを作成 | いいえ | はい |
 | URLからPDFを作成 | いいえ | はい |
-| PDFの編集/修正 | いいえ | はい |
-| PDFの結合/分割 | いいえ | はい |
+| PDFを編集/修正 | いいえ | はい |
+| PDFを結合/分割 | いいえ | はい |
 | 既存のPDFを印刷 | はい（生のバイト） | はい（高レベルAPI） |
 | 印刷制御 | 基本 | 完全なオプション |
 | クロスプラットフォーム | Windowsのみ | はい |
@@ -35,7 +35,7 @@ RawPrintは、生のバイトをプリンタースプーラーに送信する低
 
 ## クイックスタート: RawPrintからIronPDFへ
 
-### ステップ1: NuGetパッケージの置き換え
+### ステップ1: NuGetパッケージを置き換える
 
 ```bash
 # RawPrintを削除
@@ -45,13 +45,13 @@ dotnet remove package RawPrint
 dotnet add package IronPdf
 ```
 
-### ステップ2: ライセンスの初期化
+### ステップ2: ライセンスを初期化
 
 ```csharp
 IronPdf.License.LicenseKey = "YOUR-LICENSE-KEY";
 ```
 
-### ステップ3: 印刷コードの置き換え
+### ステップ3: 印刷コードを置き換える
 
 **RawPrint:**
 ```csharp
@@ -75,15 +75,15 @@ pdf.Print("HP LaserJet");
 
 | RawPrint | IronPDF | 備考 |
 |----------|---------|-------|
-| `Printer.SendBytesToPrinter()` | `pdf.Print()` | 高レベルの印刷 |
+| `Printer.SendBytesToPrinter()` | `pdf.Print()` | 高レベル印刷 |
 | `Printer.OpenPrinter()` | 該当なし | 不要 |
 | `Printer.ClosePrinter()` | 該当なし | 自動 |
 | `Printer.StartDocPrinter()` | 該当なし | 自動 |
 | `Printer.WritePrinter()` | 該当なし | 自動 |
 | `Printer.EndDocPrinter()` | 該当なし | 自動 |
-| 該当なし | `ChromePdfRenderer` | PDFの作成 |
-| 該当なし | `PdfDocument.Merge()` | PDFの結合 |
-| 該当なし | `pdf.ApplyWatermark()` | ウォーターマークの追加 |
+| 該当なし | `ChromePdfRenderer` | PDFを作成 |
+| 該当なし | `PdfDocument.Merge()` | PDFを結合 |
+| 該当なし | `pdf.ApplyWatermark()` | ウォーターマークを追加 |
 
 ---
 
@@ -150,7 +150,7 @@ pdf.SaveAs("invoice.pdf");
 pdf.Print();
 ```
 
-### 例3: 設定付きで印刷
+### 例3: 設定を指定して印刷
 
 **RawPrint:**
 ```csharp
@@ -223,7 +223,7 @@ pdf.PrintWithDialog();
 // PDFを作成するために外部ライブラリが必要、その後：
 using RawPrint;
 
-// 何か他のものを使ってpdfBytesを作成したと仮定
+// pdfBytesを何か他のもので作成したと仮定
 byte[] pdfBytes = SomeOtherLibrary.CreatePdf(data);
 Printer.SendBytesToPrinter("Printer Name", pdfBytes, pdfBytes.Length);
 ```
@@ -234,7 +234,7 @@ using IronPdf;
 
 var renderer = new ChromePdfRenderer();
 
-// ページオプションの設定
+// ページオプションを設定
 renderer.RenderingOptions.PaperSize = PdfPaperSize.A4;
 renderer.RenderingOptions.PaperOrientation = PdfPaperOrientation.Landscape;
 
@@ -297,9 +297,9 @@ merged.Print("Printer");
 | URLからPDF | いいえ | はい |
 | ゼロから作成 | いいえ | はい |
 | **PDF操作** | | |
-| PDFの結合 | いいえ | はい |
-| PDFの分割 | いいえ | はい |
-| ウォーターマークの追加 | いいえ | はい |
+| PDFを結合 | いいえ | はい |
+| PDFを分割 | いいえ | はい |
+| ウォーターマークを追加 | いいえ | はい |
 | 既存の編集 | いいえ | はい |
 | **印刷** | | |
 | PDF印刷 | はい（生） | はい（高レベル） |
@@ -323,7 +323,7 @@ merged.Print("Printer");
 
 ### シナリオ1: レポートを印刷
 
-**以前:** PDFを他の場所で作成し、その後RawPrintを使用
+**以前:** PDFを他の場所で作成し、その後でRawPrintを使用
 ```csharp
 // ステップ1: 何らかのライブラリを使用してPDFを作成
 byte[] pdf = CreatePdfSomehow(reportData);
@@ -367,34 +367,108 @@ while (queue.TryDequeue(out var job))
 ## 移行チェックリスト
 
 ### 移行前
-- [ ] RawPrintの使用箇所を特定
-- [ ] 使用されているプリンター名を文書化
-- [ ] 外部PDF作成コードをメモ
-- [ ] IronPDFライセンスを取得
 
-### コードの更新
-- [ ] RawPrintパッケージを削除
-- [ ] IronPdfパッケージをインストール
-- [ ] 生の印刷をpdf.Print()に置き換え
-- [ ] PDF作成と印刷を統合
-- [ ] ライセンス初期化を追加
-- [ ] 手動ハンドル管理を削除
+- [ ] **RawPrintの使用箇所をすべて特定**
+  ```bash
+  grep -r "using RawPrint" --include="*.cs" .
+  grep -r "Printer\|SendBytesToPrinter" --include="*.cs" .
+  ```
+  **理由:** 完全な移行カバレッジを確保するためにすべての使用箇所を特定します。
+
+- [ ] **使用されているプリンター名を文書化**
+  ```csharp
+  // 以下のようなパターンを探す:
+  string printerName = "MyPrinter";
+  ```
+  **理由:** IronPDFの高レベル印刷に正しく設定されているすべてのプリンターを確認します。
+
+- [ ] **外部PDF作成コードに注意**
+  ```csharp
+  // 外部PDF作成ロジックを探す:
+  var pdfBytes = ExternalLibrary.CreatePdf();
+  ```
+  **理由:** IronPDFでPDF作成を置き換えるまたは強化する領域を特定します。
+
+- [ ] **IronPDFライセンスキーを取得**
+  **理由:** IronPDFは本番使用にライセンスキーが必要です。無料試用版はhttps://ironpdf.com/で入手可能です。
+
+### コード更新
+
+- [ ] **RawPrintパッケージを削除**
+  ```bash
+  dotnet remove package RawPrint
+  ```
+  **理由:** 低レベル印刷ユーティリティへの依存を削除します。
+
+- [ ] **IronPdfパッケージをインストール**
+  ```bash
+  dotnet add package IronPdf
+  ```
+  **理由:** 高度なPDF作成と印刷機能を提供するIronPDFを追加します。
+
+- [ ] **生の印刷をpdf.Print()に置き換え**
+  ```csharp
+  // 以前 (RawPrint)
+  Printer.SendBytesToPrinter(printerName, pdfBytes);
+
+  // その後 (IronPDF)
+  var pdf = PdfDocument.FromBinary(pdfBytes);
+  pdf.Print(printerName);
+  ```
+  **理由:** 信頼性と設定可能な印刷のためにIronPDFの高レベルAPIを使用します。
+
+- [ ] **PDF作成と印刷を統合**
+  ```csharp
+  // 以前 (RawPrintと外部PDF作成)
+  var pdfBytes = ExternalLibrary.CreatePdf();
+  Printer.SendBytesToPrinter(printerName, pdfBytes);
+
+  // その後 (IronPDF)
+  var renderer = new ChromePdfRenderer();
+  var pdf = renderer.RenderHtmlAsPdf(htmlContent);
+  pdf.Print(printerName);
+  ```
+  **理由:** IronPDFの統合ツールを使用してPDF作成と印刷を簡素化します。
+
+- [ ] **ライセンス初期化を追加**
+  ```csharp
+  // アプリケーション起動時に追加
+  IronPdf.License.LicenseKey = "YOUR-LICENSE-KEY";
+  ```
+  **理由:** PDF操作の前にライセンスキーを設定する必要があります。
+
+- [ ] **手動ハンドル管理を削除**
+  ```csharp
+  // 以前 (RawPrint)
+  Printer.OpenPrinter(printerName, out printerHandle);
+  Printer.StartDocPrinter(printerHandle, ...);
+  Printer.WritePrinter(printerHandle, ...);
+  Printer.EndDocPrinter(printerHandle);
+  Printer.ClosePrinter(printerHandle);
+
+  // その後 (IronPDF)
+  pdf.Print(printerName);
+  ```
+  **理由:** IronPDFの自動処理を使用して、手動プリンターハンドル管理を簡素化します。
 
 ### テスト
-- [ ] 対象プリンターへの印刷をテスト
-- [ ] 印刷品質を確認
-- [ ] 複数コピーをテスト
-- [ ] サイレント印刷をテスト
-- [ ] 必要に応じてクロスプラットフォームをテスト
 
----
+- [ ] **対象プリンターへの印刷をテスト**
+  **理由:** IronPDFで正しく設定され、機能しているすべてのプリンターを確認します。
 
-## 追加リソース
+- [ ] **印刷品質を確認**
+  **理由:** IronPDFのレンダリングで品質期待値を満たしていることを確認します。
 
-- [IronPDF Documentation](https://ironpdf.com/docs/)
-- [IronPDF Printing Guide](https://ironpdf.com/how-to/csharp-print-pdf/)
-- [IronPDF Tutorials](https://ironpdf.com/tutorials/)
+- [ ] **複数コピーをテスト**
+  ```csharp
+  // IronPDFの例
+  pdf.Print(printerName, new PrintOptions { Copies = 3 });
+  ```
+  **理由:** 複数コピーが正しく処理されることを確認します。
 
----
-
-*この移行ガイドは、[Awesome .NET PDF Libraries](../README.md) コレクションの一部です。*
+- [ ] **サイレント印刷をテスト**
+  ```csharp
+  // IronPDFの例
+  pdf.Print(printerName, new PrintOptions { Silent = true });
+  ```
+  **理由:** ユーザーの介入なしにサイレント印刷が期

@@ -6,11 +6,11 @@
 
 ---
 
-# 移行ガイド: Aspose.PDF for .NET → IronPDF
+# Aspose.PDF for .NETからIronPDFへの移行方法は？
 
 ## 目次
 1. [Aspose.PDFからIronPDFへの移行理由](#asposepdfからironpdfへの移行理由)
-2. [開始する前に](#開始する前に)
+2. [開始前に](#開始前に)
 3. [クイックスタート（5分）](#クイックスタート5分)
 4. [完全なAPIリファレンス](#完全なapiリファレンス)
 5. [コード移行例](#コード移行例)
@@ -26,15 +26,15 @@
 
 ### コスト比較
 
-Aspose.PDFは従来のエンタープライズライセンスモデルを使用しており、年次更新が必要です：
+Aspose.PDFは従来のエンタープライズライセンスモデルを使用しており、年間更新が必要です：
 
 | 項目 | Aspose.PDF | IronPDF |
 |--------|-----------|---------|
-| **開始価格** | $1,199/開発者/年 | $749 一回払い（Lite） |
+| **開始価格** | $1,199/開発者/年 | $749 一回限り（Lite） |
 | **ライセンスモデル** | 年間サブスクリプション + 更新 | 永久ライセンス |
-| **OEMライセンス** | $5,997+ 追加 | 高位層で含まれる |
-| **サポート** | 追加コスト層 | 含まれる |
-| **3年間の総コスト** | 開発者あたり $3,597+ | $749 一回払い |
+| **OEMライセンス** | $5,997+ 追加 | 高位プランに含まれる |
+| **サポート** | 追加費用の階層 | 含まれる |
+| **3年間の総コスト** | 開発者あたり$3,597+ | $749 一回限り |
 
 ### HTMLレンダリングエンジン比較
 
@@ -44,74 +44,74 @@ Aspose.PDFは従来のエンタープライズライセンスモデルを使用�
 | **Flexbox/Grid** | サポートされていない | 完全サポート |
 | **JavaScript** | 非常に限定的 | 完全サポート |
 | **Webフォント** | 部分的 | 完全 |
-| **現代のHTML5** | 限定的 | 完全 |
-| **レンダリング品質** | 可変 | ピクセル完璧 |
+| **モダンHTML5** | 限定的 | 完全 |
+| **レンダリング品質** | 可変 | ピクセルパーフェクト |
 
 ### パフォーマンス比較
 
-ユーザーからは、顕著なパフォーマンスの違いが報告されています：
+ユーザーは顕著なパフォーマンスの違いを報告しています：
 
 | 指標 | Aspose.PDF | IronPDF |
 |--------|-----------|---------|
 | **HTMLレンダリング** | 文書化された遅延（場合によっては30倍遅い） | 最適化されたChromiumエンジン |
 | **大規模なドキュメント** | メモリ問題が報告されている | 効率的なストリーミング |
 | **Linuxパフォーマンス** | 高CPU、メモリリークが報告されている | 安定 |
-| **バッチ処理** | 可変 | 一貫性 |
+| **バッチ処理** | 可変 | 一貫性がある |
 
 ### 移行するタイミング
 
-**IronPDFに移行する場合：**
-- 現代のHTML/CSSレンダリングが必要な場合
+**IronPDFに移行すべき場合：**
+- モダンなHTML/CSSレンダリングが必要な場合
 - アプリケーションのパフォーマンスが重要な場合
 - ライセンスコストを削減したい場合
 - Aspose.PDFのHTMLエンジンに問題がある場合
 - 信頼性の高いクロスプラットフォームパフォーマンスが必要な場合
 
-**Aspose.PDFを継続する場合：**
-- IronPDFで利用できない特定のAspose.PDF機能を使用している場合
-- ドキュメントがプログラムで構築されている場合（HTMLベースではない）
+**Aspose.PDFを継続すべき場合：**
+- IronPDFにない特定のAspose.PDF機能を使用している場合
+- ドキュメントがプログラムで構築されている（HTMLベースではない）場合
 - 他のAspose製品との深い統合がある場合
 - 移行コストがライセンス節約を上回る場合
 
 ---
 
-## 開始する前に
+## 開始前に
 
 ### 前提条件
 
 - **.NET Framework 4.6.2+** または **.NET Core 3.1+** または **.NET 5/6/7/8/9**
-- **Visual Studio 2019+** または **VS Code** にC#拡張機能がある
+- **Visual Studio 2019+** または **VS Code** にC#拡張機能
 - **NuGetパッケージマネージャー** アクセス
 - 移行する**既存のAspose.PDFコードベース**
 
-### Aspose.PDF参照の検索
+### Aspose.PDFの参照をすべて見つける
 
 移行する前に、コードベース内のすべてのAspose.PDFの使用を特定します：
 
 ```bash
-# Aspose.Pdf usingステートメントをすべて検索
+# Aspose.Pdfのusingステートメントをすべて見つける
 grep -r "using Aspose.Pdf" --include="*.cs" .
 
-# Document使用を検索
+# Documentの使用を見つける
 grep -r "new Document\|Document\." --include="*.cs" .
 
-# HtmlLoadOptions使用を検索
+# HtmlLoadOptionsの使用を見つける
 grep -r "HtmlLoadOptions\|HtmlFragment" --include="*.cs" .
 
-# Facades使用を検索
+# Facadesの使用を見つける
 grep -r "PdfFileEditor\|PdfFileMend\|PdfFileStamp" --include="*.cs" .
 
-# TextAbsorber使用を検索
+# TextAbsorberの使用を見つける
 grep -r "TextAbsorber\|TextFragmentAbsorber" --include="*.cs" .
 ```
 
 ### 予想される変更点
 
-| Aspose.PDFパターン | 必要な変更 |
+| Aspose.PDFのパターン | 必要な変更 |
 |--------------------|-----------------|
 | `new Document()` + `Pages.Add()` | HTMLレンダリングを代わりに使用 |
 | `HtmlLoadOptions` | `ChromePdfRenderer.RenderHtmlAsPdf()` |
-| `TextFragment` + 手動位置指定 | CSSに基づく位置指定 |
+| `TextFragment` + 手動の位置指定 | CSSベースの位置指定 |
 | `PdfFileEditor.Concatenate()` | `PdfDocument.Merge()` |
 | `TextFragmentAbsorber` | `pdf.ExtractAllText()` |
 | `ImageStamp` | HTMLベースの透かし |
@@ -154,20 +154,20 @@ using IronPdf.Editing;
 
 ### ステップ3: ライセンス設定を更新する
 
-**以前 (Aspose.PDF):**
+**Aspose.PDFの前：**
 ```csharp
 var license = new Aspose.Pdf.License();
 license.SetLicense("Aspose.Pdf.lic");
 ```
 
-**後 (IronPDF):**
+**IronPDFの後：**
 ```csharp
 IronPdf.License.LicenseKey = "YOUR-IRONPDF-LICENSE-KEY";
 ```
 
 ### ステップ4: 最初のPDFを変換する
 
-**以前 (Aspose.PDF):**
+**Aspose.PDFの前：**
 ```csharp
 string html = "<h1>Hello World</h1>";
 using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(html)))
@@ -177,7 +177,7 @@ using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(html)))
 }
 ```
 
-**後 (IronPDF):**
+**IronPDFの後：**
 ```csharp
 var renderer = new ChromePdfRenderer();
 var pdf = renderer.RenderHtmlAsPdf("<h1>Hello World</h1>");
