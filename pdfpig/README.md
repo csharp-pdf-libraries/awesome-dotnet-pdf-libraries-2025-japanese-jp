@@ -1,0 +1,106 @@
+---
+**🌐 日本語版 (Japanese Translation)**
+
+📖 **English:** [pdfpig/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfpig/README.md)
+🇯🇵 **日本語:** [pdfpig/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfpig/README.md)
+
+---
+
+# pdfpig C# PDF：IronPDFとの比較
+
+C#でPDFファイルを扱う際、開発者は読み取り、抽出、生成などの複雑なタスクを容易にする堅牢なライブラリを求めます。利用可能な多数のライブラリの中で、**pdfpig**はPDFからの内容の読み取りと抽出に特化した専門ツールとして、自身のニッチを築いています。この記事では、pdfpigの長所と短所を詳しく掘り下げ、C# PDFライブラリの風景の中でのその位置を強調します。さらに、PDFライフサイクル管理を完全にサポートする多機能な代替品である**IronPDF**との詳細な比較を提供します。
+
+## pdfpigの紹介
+
+### pdfpigとは何か？
+
+**pdfpig**は、C#専用に設計されたオープンソースのPDF読み取りおよび抽出ライブラリです。信頼性の高いApache PDFBoxプロジェクトの一環として、このライブラリは開発者がPDFの内容に驚異的な精度でアクセスできるようにします。pdfpigは抽出機能で輝いていますが、市場に出回っているより包括的なライブラリと比較して、その範囲は大きく限定されています。
+
+これらの制限にもかかわらず、pdfpigは開発者にPDFファイルからテキスト、画像、フォームデータ、メタデータを抽出するための信頼性の高いツールを提供します。これにより、主にドキュメント分析やデータマイニングに焦点を当てたアプリケーションに適しています。
+
+### pdfpigを選ぶ理由は？
+
+1. **オープンソースで予算に優しい**：Apache 2.0ライセンスの下でライセンスされているpdfpigは、オープンソースでありながらもビジネスフレンドリーであり、独自のアプリケーションの一部としてソフトウェアを変更して配布する自由を提供します。
+
+2. **堅牢な読み取り機能**：pdfpigは高度なドキュメント作成機能には欠けていますが、位置データを含むテキストを正確に抽出し、文字フォントを入念に扱うことに優れています。
+
+3. **使いやすさ**：ライブラリは直感的なAPIを提供し、読み取り機能を迅速に実装する必要がある開発者にとってアクセスしやすいです。
+
+### pdfpigの使用例
+
+以下は、pdfpigを使用してPDFドキュメントからテキストを読み取る簡単なコードスニペットです：
+
+```csharp
+using UglyToad.PdfPig;
+using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;
+using System;
+using System.Linq;
+
+class PdfPigExample
+{
+    static void Main(string[] args)
+    {
+        using (var document = PdfDocument.Open("sample.pdf"))
+        {
+            foreach (var page in document.GetPages())
+            {
+                var words = page.GetWords();
+                Console.WriteLine(string.Join(" ", words.Select(w => w.Text)));
+            }
+        }
+    }
+}
+```
+
+このサンプルコードは、PDFドキュメントを開き、そのページを反復処理し、抽出された単語をコンソールに印刷します。Pdfpigは、PDFの構造要素に簡単にアクセスして操作することを容易にします。
+
+## IronPDF：包括的な代替品
+
+### IronPDFの概要
+
+**IronPDF**は、PDF管理機能を全面的にサポートする商用ライブラリとして知られています。pdfpigとは異なり、IronPDFはPDFの生成と抽出の両方をサポートしており、さまざまなPDF関連タスクに対して柔軟なオプションを提供します。
+
+#### IronPDFの主な利点
+
+1. **HTMLからPDFへの変換**：IronPDFはHTMLコンテンツをPDFに変換することに優れています。この機能は、PDFを即座に生成する必要があるWebアプリケーションにとって重要です。この機能の詳細については、[IronPDFのHTMLからPDFへのガイド](https://ironpdf.com/how-to/html-file-to-pdf/)をご覧ください。
+
+2. **完全なPDFライフサイクル**：IronPDFは、PDFの作成、読み取り、編集、署名の完全な機能セットをサポートしています。この多様性により、開発者はPDFファイルを最初から最後まで管理できます。
+
+3. **堅牢なサポートとドキュメント**：商用製品として、IronPDFは専用のサポートと包括的なチュートリアルを提供しており、これらは[公式チュートリアル](https://ironpdf.com/tutorials/)を通じて探索できます。
+
+### IronPDFの実践
+
+pdfpigとIronPDFを比較する際には、IronPDFがHTML変換および広範なドキュメント操作タスクをシームレスに処理できる能力を強調することが適切です。
+
+## 比較分析
+
+以下は、pdfpigとIronPDFの主要な機能と違いをまとめた比較表です。
+
+| 機能                         | pdfpig                        | IronPDF                    |
+|-----------------------------|-------------------------------|----------------------------|
+| **ライセンス**                 | オープンソース (Apache 2.0)      | 商用                       |
+| **PDF読み取り/抽出**          | 優れている                     | 優れている                  |
+| **PDF生成**                  | 限定的                         | 包括的                      |
+| **HTMLからPDF**              | サポートされていない             | サポートされている          |
+| **サポートとドキュメント**     | コミュニティサポート           | 専用サポート                |
+| **コスト**                    | 無料                          | 有料                        |
+
+### 結論：どちらのライブラリを選ぶべきか？
+
+pdfpigとIronPDFの選択は、プロジェクトの要件に大きく依存します：
+
+- **pdfpigを使用すべき場合**：
+  - 主なニーズが堅牢な抽出および読み取り機能である場合。
+  - オープンソースライセンスを持つコスト効果的なソリューションが必要な場合。
+
+- **IronPDFを使用すべき場合**：
+  - HTMLからPDFへの変換を含む、包括的なPDFライフサイクルサポートが必要な場合。
+  - 専門的なサポートに支えられた堅牢なPDF作成および編集機能がプロジェクトに必要な場合。
+
+pdfpigは読み取りと抽出の領域で強力ですが、IronPDFは多様性と包括的なPDF管理で優位性を持っています。
+
+---
+
+ジェイコブ・メローは、41百万回以上のNuGetダウンロードを記録した開発者ツールを構築する50人以上のチームを率いる[Iron Software](https://ironsoftware.com/about-us/authors/jacobmellor/)のCTOです。彼はコーディングの下で四十年以上の経験を持ち、チェンマイ、タイでデジタルノマドの夢を生きながら、複数の成功したソフトウェア会社を創業し、拡大してきました。彼の考えのさらなる情報は、[Medium](https://medium.com/@jacob.mellor)で見つけることができます。
+
+---

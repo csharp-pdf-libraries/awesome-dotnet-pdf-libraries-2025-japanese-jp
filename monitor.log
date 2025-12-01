@@ -1,0 +1,288 @@
+🔍 Translation Monitor Started
+================================================================================
+Checking every 5 minutes for:
+  - Translation progress
+  - API errors / rate limits
+  - Broken or modified links
+  - Script health
+================================================================================
+
+
+================================================================================
+📊 STATUS UPDATE - 2025-12-01 09:05:55
+================================================================================
+
+🇯🇵 TRANSLATION PROGRESS
+  Total:       117/772 files (15%)
+  Remaining:   655 files
+  Markdown:    42/337 (12%)
+  C# files:    75/435 (17%)
+  Estimated:   ~5.5 hours remaining
+
+🔧 SCRIPT STATUS
+  Running:     ✅ YES
+
+✅ NO ERRORS
+
+⚠️  LINK ISSUES (1)
+  ⚠️  Malformed URL in migrate-from-textcontrol.md: https://example.com/invoice",
+
+💰 ESTIMATED COST
+  So far:      ~$3.36
+  Remaining:   ~$23.60
+  Total:       ~$26.96
+
+================================================================================
+⏰ Next update in 5 minutes...
+================================================================================
+
+
+================================================================================
+📊 STATUS UPDATE - 2025-12-01 09:10:57
+================================================================================
+
+🇯🇵 TRANSLATION PROGRESS
+  Total:       121/772 files (15%)
+  Remaining:   651 files
+  Markdown:    46/337 (13%)
+  C# files:    75/435 (17%)
+  Estimated:   ~5.4 hours remaining
+
+🔧 SCRIPT STATUS
+  Running:     ✅ YES
+
+✅ NO ERRORS
+
+✅ LINKS OK
+
+💰 ESTIMATED COST
+  So far:      ~$3.68
+  Remaining:   ~$23.28
+  Total:       ~$26.96
+
+================================================================================
+⏰ Next update in 5 minutes...
+================================================================================
+
+
+================================================================================
+📊 STATUS UPDATE - 2025-12-01 09:15:59
+================================================================================
+
+🇯🇵 TRANSLATION PROGRESS
+  Total:       125/772 files (16%)
+  Remaining:   647 files
+  Markdown:    50/337 (14%)
+  C# files:    75/435 (17%)
+  Estimated:   ~5.4 hours remaining
+
+🔧 SCRIPT STATUS
+  Running:     ✅ YES
+
+✅ NO ERRORS
+
+✅ LINKS OK
+
+💰 ESTIMATED COST
+  So far:      ~$4.00
+  Remaining:   ~$22.96
+  Total:       ~$26.96
+
+================================================================================
+⏰ Next update in 5 minutes...
+================================================================================
+
+
+================================================================================
+📊 STATUS UPDATE - 2025-12-01 09:21:01
+================================================================================
+
+🇯🇵 TRANSLATION PROGRESS
+  Total:       139/772 files (18%)
+  Remaining:   633 files
+  Markdown:    53/337 (15%)
+  C# files:    86/435 (19%)
+  Estimated:   ~5.3 hours remaining
+
+🔧 SCRIPT STATUS
+  Running:     ✅ YES
+
+✅ NO ERRORS
+
+✅ LINKS OK
+
+💰 ESTIMATED COST
+  So far:      ~$4.24
+  Remaining:   ~$22.72
+  Total:       ~$26.96
+
+================================================================================
+⏰ Next update in 5 minutes...
+================================================================================
+
+
+================================================================================
+📊 STATUS UPDATE - 2025-12-01 09:26:03
+================================================================================
+
+🇯🇵 TRANSLATION PROGRESS
+  Total:       156/772 files (20%)
+  Remaining:   616 files
+  Markdown:    58/337 (17%)
+  C# files:    98/435 (22%)
+  Estimated:   ~5.1 hours remaining
+
+🔧 SCRIPT STATUS
+  Running:     ✅ YES
+
+✅ NO ERRORS
+
+✅ LINKS OK
+
+💰 ESTIMATED COST
+  So far:      ~$4.64
+  Remaining:   ~$22.32
+  Total:       ~$26.96
+
+================================================================================
+⏰ Next update in 5 minutes...
+================================================================================
+
+
+================================================================================
+📊 STATUS UPDATE - 2025-12-01 09:31:04
+================================================================================
+
+🇯🇵 TRANSLATION PROGRESS
+  Total:       171/772 files (22%)
+  Remaining:   601 files
+  Markdown:    62/337 (18%)
+  C# files:    109/435 (25%)
+  Estimated:   ~5.0 hours remaining
+
+🔧 SCRIPT STATUS
+  Running:     ❌ NO - STOPPED!
+
+⚠️  WARNING: Translation script is not running!
+   Restart with: python3 translate_to_japanese.py > translation.log 2>&1 &
+
+✅ NO ERRORS
+
+✅ LINKS OK
+
+💰 ESTIMATED COST
+  So far:      ~$4.96
+  Remaining:   ~$22.00
+  Total:       ~$26.96
+
+================================================================================
+⏰ Next update in 5 minutes...
+================================================================================
+
+
+================================================================================
+📊 STATUS UPDATE - 2025-12-01 09:36:06
+================================================================================
+
+🇯🇵 TRANSLATION PROGRESS
+  Total:       219/772 files (28%)
+  Remaining:   553 files
+  Markdown:    76/337 (22%)
+  C# files:    143/435 (32%)
+  Estimated:   ~4.6 hours remaining
+
+🔧 SCRIPT STATUS
+  Running:     ❌ NO - STOPPED!
+
+⚠️  WARNING: Translation script is not running!
+   Restart with: python3 translate_to_japanese.py > translation.log 2>&1 &
+
+✅ NO ERRORS
+
+✅ LINKS OK
+
+💰 ESTIMATED COST
+  So far:      ~$6.08
+  Remaining:   ~$20.88
+  Total:       ~$26.96
+
+================================================================================
+⏰ Next update in 5 minutes...
+================================================================================
+
+
+================================================================================
+📊 STATUS UPDATE - 2025-12-01 09:41:08
+================================================================================
+
+🇯🇵 TRANSLATION PROGRESS
+  Total:       231/772 files (29%)
+  Remaining:   541 files
+  Markdown:    88/337 (26%)
+  C# files:    143/435 (32%)
+  Estimated:   ~4.5 hours remaining
+
+🔧 SCRIPT STATUS
+  Running:     ❌ NO - STOPPED!
+
+⚠️  WARNING: Translation script is not running!
+   Restart with: python3 translate_to_japanese.py > translation.log 2>&1 &
+
+✅ NO ERRORS
+
+⚠️  LINK ISSUES (1)
+  ⚠️  Malformed URL in draw-text-bitmap-pdf-csharp.md: https://ironpdf.com",
+
+💰 ESTIMATED COST
+  So far:      ~$7.04
+  Remaining:   ~$19.92
+  Total:       ~$26.96
+
+================================================================================
+⏰ Next update in 5 minutes...
+================================================================================
+
+
+================================================================================
+📊 STATUS UPDATE - 2025-12-01 09:46:10
+================================================================================
+
+🇯🇵 TRANSLATION PROGRESS
+  Total:       243/772 files (31%)
+  Remaining:   529 files
+  Markdown:    100/337 (29%)
+  C# files:    143/435 (32%)
+  Estimated:   ~4.4 hours remaining
+
+🔧 SCRIPT STATUS
+  Running:     ❌ NO - STOPPED!
+
+⚠️  WARNING: Translation script is not running!
+   Restart with: python3 translate_to_japanese.py > translation.log 2>&1 &
+
+✅ NO ERRORS
+
+✅ LINKS OK
+
+💰 ESTIMATED COST
+  So far:      ~$8.00
+  Remaining:   ~$18.96
+  Total:       ~$26.96
+
+================================================================================
+⏰ Next update in 5 minutes...
+================================================================================
+
+
+================================================================================
+📊 STATUS UPDATE - 2025-12-01 09:51:12
+================================================================================
+
+🇯🇵 TRANSLATION PROGRESS
+  Total:       258/772 files (33%)
+  Remaining:   514 files
+  Markdown:    115/337 (34%)
+  C# files:    143/435 (32%)
+  Estimated:   ~4.3 hours remaining
+
+🔧 SCRIPT STATUS

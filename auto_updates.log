@@ -1,0 +1,122 @@
+
+===========================================================================
+🇯🇵 TRANSLATION STATUS - 2025-12-01 09:36:45
+===========================================================================
+⚡ Mode:        4 Parallel Workers
+📊 Progress:    219/772 files (28%)
+⏳ Remaining:   553 files
+
+📝 Markdown:    76/337 (22%)
+💻 C# Files:    143/435 (32%)
+
+💰 Cost:        $6.08 / $26.96
+📈 Progress:    22.0% of budget spent
+===========================================================================
+✅ Next update in 5 minutes...
+
+
+===========================================================================
+🇯🇵 TRANSLATION STATUS - 2025-12-01 09:41:47
+===========================================================================
+⚡ Mode:        4 Parallel Workers
+📊 Progress:    233/772 files (30%)
+⏳ Remaining:   539 files
+
+📝 Markdown:    90/337 (26%)
+💻 C# Files:    143/435 (32%)
+
+💰 Cost:        $7.20 / $26.96
+📈 Progress:    26.0% of budget spent
+===========================================================================
+✅ Next update in 5 minutes...
+
+
+===========================================================================
+🇯🇵 TRANSLATION STATUS - 2025-12-01 09:46:49
+===========================================================================
+⚡ Mode:        4 Parallel Workers
+📊 Progress:    246/772 files (31%)
+⏳ Remaining:   526 files
+
+📝 Markdown:    103/337 (30%)
+💻 C# Files:    143/435 (32%)
+
+💰 Cost:        $8.24 / $26.96
+📈 Progress:    30.0% of budget spent
+===========================================================================
+✅ Next update in 5 minutes...
+
+
+===========================================================================
+🇯🇵 TRANSLATION STATUS - 2025-12-01 09:51:51
+===========================================================================
+⚡ Mode:        4 Parallel Workers
+📊 Progress:    259/772 files (33%)
+⏳ Remaining:   513 files
+
+📝 Markdown:    116/337 (34%)
+💻 C# Files:    143/435 (32%)
+
+💰 Cost:        $9.28 / $26.96
+📈 Progress:    34.0% of budget spent
+===========================================================================
+✅ Next update in 5 minutes...
+
+
+===========================================================================
+🇯🇵 TRANSLATION STATUS - 2025-12-01 09:57:15
+===========================================================================
+⚡ Mode:        4 Parallel Workers
+📊 Progress:    273/772 files (35%)
+⏳ Remaining:   499 files
+
+📝 Markdown:    130/337 (38%)
+💻 C# Files:    143/435 (32%)
+
+💰 Cost:        $10.40 / $26.96
+📈 Progress:    38.0% of budget spent
+===========================================================================
+✅ Next update in 5 minutes...
+
+./auto_update.sh: line 51: 55987 Killed: 9               python3 -c "
+import subprocess
+from datetime import datetime
+
+timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+source_dir = '$SOURCE_DIR'
+dest_dir = '$DEST_DIR'
+
+total_md = int(subprocess.check_output(f'find {source_dir} -name \"*.md\" -type f -not -path \"*/source-material/*\" | wc -l', shell=True).decode().strip())
+done_md = int(subprocess.check_output(f'find {dest_dir} -name \"*.md\" -type f | wc -l', shell=True).decode().strip())
+total_cs = int(subprocess.check_output(f'find {source_dir} -name \"*.cs\" -type f -not -path \"*/source-material/*\" | wc -l', shell=True).decode().strip())
+done_cs = int(subprocess.check_output(f'find {dest_dir} -name \"*.cs\" -type f | wc -l', shell=True).decode().strip())
+
+total = total_md + total_cs
+done = done_md + done_cs
+percent = (done * 100) // total if total > 0 else 0
+remaining = total - done
+
+md_percent = (done_md * 100) // total_md if total_md > 0 else 0
+cs_percent = (done_cs * 100) // total_cs if total_cs > 0 else 0
+
+cost = done_md * 0.08
+estimated_total = total_md * 0.08
+
+print()
+print('='*75)
+print(f'🇯🇵 TRANSLATION STATUS - {timestamp}')
+print('='*75)
+print(f'⚡ Mode:        4 Parallel Workers')
+print(f'📊 Progress:    {done}/{total} files ({percent}%)')
+print(f'⏳ Remaining:   {remaining} files')
+print()
+print(f'📝 Markdown:    {done_md}/{total_md} ({md_percent}%)')
+print(f'💻 C# Files:    {done_cs}/{total_cs} ({cs_percent}%)')
+print()
+print(f'💰 Cost:        \${cost:.2f} / \${estimated_total:.2f}')
+print(f'📈 Progress:    {cost*100//estimated_total if estimated_total > 0 else 0}% of budget spent')
+print('='*75)
+print('✅ Next update in 5 minutes...')
+print()
+"

@@ -1,0 +1,30 @@
+```csharp
+// NuGet: Install-Package Telerik.Reporting
+using Telerik.Reporting;
+using Telerik.Reporting.Processing;
+using System.Collections.Specialized;
+
+class TelerikExample
+{
+    static void Main()
+    {
+        var reportSource = new Telerik.Reporting.TypeReportSource();
+        var instanceReportSource = new Telerik.Reporting.InstanceReportSource();
+        instanceReportSource.ReportDocument = new Telerik.Reporting.Report()
+        {
+            // <h1>Hello World</h1><p>Sample HTML content</p>という値を持つ新しいTelerik.Reporting.HtmlTextBoxをItemsに追加します。
+            Items = { new Telerik.Reporting.HtmlTextBox() { Value = "<h1>Hello World</h1><p>Sample HTML content</p>" } }
+        };
+        
+        var reportProcessor = new ReportProcessor();
+        // "PDF"形式でレポートをレンダリングし、その結果をresultに格納します。
+        var result = reportProcessor.RenderReport("PDF", instanceReportSource, null);
+        
+        using (var fs = new System.IO.FileStream("output.pdf", System.IO.FileMode.Create))
+        {
+            // result.DocumentBytesをファイルに書き込みます。
+            fs.Write(result.DocumentBytes, 0, result.DocumentBytes.Length);
+        }
+    }
+}
+```

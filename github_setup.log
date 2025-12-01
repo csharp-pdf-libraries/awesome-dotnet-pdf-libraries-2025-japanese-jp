@@ -1,0 +1,396 @@
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-jp/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-zh-cn/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-kr/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-pt-br/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-es/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-de/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-fr/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-ru/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-zh-tw/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-it/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-pl/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-tr/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-nl/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-in/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-id/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-vn/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-th/.git/
+================================================================================
+Master Translation Manager
+Managing translations across all language variants
+================================================================================
+
+Languages to process: 17
+
+================================================================================
+Tier 1: 5 languages
+================================================================================
+
+🌐 Processing: Japanese (ja)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-jp
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-jp
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: Simplified Chinese (zh-CN)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-zh-cn
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-zh-cn
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-zh-cn
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: Korean (ko)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-kr
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-kr
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-kr
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: Portuguese (Brazil) (pt-BR)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-pt-br
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-pt-br
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-pt-br
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: Spanish (es)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-es
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-es
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-es
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+================================================================================
+Tier 2: 5 languages
+================================================================================
+
+🌐 Processing: German (de)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-de
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-de
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-de
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: French (fr)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-fr
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-fr
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-fr
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: Russian (ru)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-ru
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-ru
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-ru
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: Traditional Chinese (zh-TW)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-zh-tw
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-zh-tw
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-zh-tw
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: Italian (it)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-it
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-it
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-it
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+================================================================================
+Tier 3: 7 languages
+================================================================================
+
+🌐 Processing: Polish (pl)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-pl
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-pl
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-pl
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: Turkish (tr)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-tr
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-tr
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-tr
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: Dutch (nl)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-nl
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-nl
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-nl
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: Hindi (hi)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-in
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-in
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-in
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: Indonesian (id)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-id
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-id
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-id
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: Vietnamese (vi)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-vn
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-vn
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-vn
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+🌐 Processing: Thai (th)
+
+📦 Creating GitHub repository: awesome-dotnet-pdf-libraries-2025-th
+  ✅ Repository created: https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-th
+  ✅ Local repository initialized at /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-th
+  ⏳ Translation in progress: 0/0 files (0%)
+     Repository ready, translation script needs to be started
+
+================================================================================
+Summary complete!
+================================================================================

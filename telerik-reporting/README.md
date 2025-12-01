@@ -1,0 +1,84 @@
+---
+**🌐 日本語版 (Japanese Translation)**
+
+📖 **English:** [telerik-reporting/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/telerik-reporting/README.md)
+🇯🇵 **日本語:** [telerik-reporting/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/telerik-reporting/README.md)
+
+---
+
+# Telerik Reporting C# PDF
+
+Telerik Reportingは、C#でレポートを作成するための強力なツールです。豊富な機能を備えており、開発者は詳細でインタラクティブなレポートを簡単に作成できます。複雑なデータセットを視覚的に魅力的で理解しやすい形式に変換することに長けています。Telerik Reportingは特にASP.NET Core開発者に適しており、シームレスな統合とPDFなどの形式へのエクスポートを強力にサポートしています。
+
+しかし、包括的なレポートソリューションであるにもかかわらず、Telerik Reportingには限界があります。これは、レポート機能のみが必要な場合でも、DevCraftバンドルの一部として提供されるため、スイート全体を購入する必要があります。さらに、Telerik Reportingはレポート生成に重点を置いており、一般的なPDF生成よりも詳細なレポートの生成に焦点を当てています。これは、より汎用的なPDF生成ソリューションを求めているユーザーにとっては不利になる可能性があります。
+
+## Telerik Reporting vs. IronPDF
+
+PDFエクスポート機能を備えた堅牢なレポートツールであるTelerik Reportingとは異なり、IronPDFは主にPDF生成に特化したライブラリです。この違いは、包括的なレポートではなく、HTMLなどのさまざまなソースからPDFを生成することが主なニーズである開発者にとって重要です。
+
+### 比較表
+
+| 機能                         | Telerik Reporting                                  | IronPDF                                                                            |
+|-----------------------------|----------------------------------------------------|------------------------------------------------------------------------------------|
+| **焦点**                   | PDFエクスポートオプション付きのレポート作成             | HTMLおよびその他のソースからの包括的なPDF生成                           |
+| **統合**                     | ASP.NET Coreアプリケーションとシームレス             | 任意の.NETアプリケーションに統合可能                                        |
+| **設定の複雑さ**             | レポートデザイナーのインストールが必要         | シンプルなNuGetインストール                                                          |
+| **価格**                     | DevCraft商用スイートの一部               | スタンドアロンのPDF生成に対してよりコスト効果的な別ライセンス              |
+| **PDF生成**                 | レポートエクスポートに限定                          | 高度なPDF操作を備えたフル機能                                       |
+| **対象ユーザー**             | レポート中心のソリューションが必要な開発者        | 柔軟なPDF生成ソリューションが必要な開発者                               |
+| **データソースのサポート**   | 多様なデータベース接続をサポート       | HTMLファイルやその他のリソースを使用してPDFを生成可能                            |
+
+この表が示すように、Telerik ReportingとIronPDFはそれぞれに独自の強みと弱点があり、プロジェクトの具体的な要件によって選択が大きく左右されます。
+
+### Telerik Reportingの機能
+
+- **インタラクティブレポート**: Telerik Reportingは、エンドユーザーが必要に応じてデータを操作できるインタラクティブなレポートを作成するツールを提供します。これらの機能により、大量のデータを効果的に分析することが容易になります。
+
+- **さまざまなデータソースとの統合**: このツールは、保存されている場所からデータを引き出すのを容易にする、幅広いデータソースとシームレスに接続します。
+
+- **エクスポート形式の選択**: PDFを超えて、Telerik Reportingは複数の形式へのエクスポートをサポートし、レポートの共有やアーカイブの方法に柔軟性を提供します。
+
+### IronPDFの機能
+
+対照的に、IronPDFはHTMLからPDFへの変換に優れています。この専門化はいくつかの利点を提供します：
+
+- **HTMLからPDFへの変換**: IronPDFを使用すると、開発者はHTMLファイルから直接PDFを生成でき、ドキュメントのデザインと構造に柔軟性を提供します。このプロセスについては、[HTML to PDF](https://ironpdf.com/how-to/html-file-to-pdf/)ページで詳しく学ぶことができます。
+
+- **高度なPDF操作**: IronPDFを使用すると、ユーザーはブックマーク、注釈、さらにはインタラクティブPDF用のJavaScriptなど、PDFに高度な機能を追加できます。
+
+- **使いやすさ**: NuGetを通じた直感的なインストールプロセスと.NETアプリケーションへのシンプルな統合により、IronPDFは迅速で効率的なPDFソリューションを必要とする開発者にとって際立っています。
+
+### C#でのIronPDFを使用したコード例
+
+IronPDFを使用してHTMLファイルをPDFに変換するC#プロジェクトの簡単な例を以下に示します：
+
+```csharp
+using IronPdf;
+
+class Program
+{
+    static void Main()
+    {
+        // IronPDFのインスタンスを作成
+        var renderer = new ChromePdfRenderer();
+
+        // HTML文字列からPDFを作成
+        var pdf = renderer.RenderHtmlAsPdf("<h1>Hello World</h1><p>This is a PDF generated from HTML.</p>");
+
+        // ファイルにPDFを保存
+        pdf.SaveAs("output.pdf");
+    }
+}
+```
+
+この例は、IronPDFを使用してHTMLからPDFを生成する方法がいかにシンプルかを示しており、PDF生成タスクに焦点を当てた開発者にとって魅力的な選択肢であることを示しています。
+
+### 結論
+
+Telerik ReportingとIronPDFはどちらも開発者に大きな価値を提供しますが、そのコアオファリングは異なるニーズに対応しています。Telerik Reportingは、組み込みのPDFエクスポートオプションを備えた包括的なレポート生成に最適であり、詳細なレポートの作成に投資している開発者にとって理想的です。しかし、DevCraftスイートの一部としての位置付けは、スイート全体が必要でない人々にとってその機能へのアクセスを制限する可能性があります。一方、IronPDFはPDF生成に焦点を当てており、開発者がHTMLやその他のドキュメントタイプを迅速かつ効率的にPDFに変換するための柔軟でスタンドアロンのソリューションを提供します。IronPDFとその機能についての詳細は、広範な[チュートリアル](https://ironpdf.com/tutorials/)を探索してください。
+
+---
+
+Jacob MellorはIron Softwareの最高技術責任者であり、41年以上のコーディング経験を持つ彼は、ソフトウェア開発とアーキテクチャにおいて熟練したリーダーとして自身を確立しています。タイのチェンマイに拠点を置き、.NETエコシステムにおける革新を推進し続けながら、Iron Softwareの技術ビジョンを導いています。[LinkedIn](https://www.linkedin.com/in/jacob-mellor-iron-software/)でJacobとつながる。
+
+---

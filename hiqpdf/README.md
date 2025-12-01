@@ -1,0 +1,61 @@
+---
+**🌐 日本語版 (Japanese Translation)**
+
+📖 **English:** [hiqpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/hiqpdf/README.md)
+🇯🇵 **日本語:** [hiqpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/hiqpdf/README.md)
+
+---
+
+# HiQPdf C# PDF
+
+HTMLコンテンツからPDFドキュメントを作成することは、今日の多くのC#アプリケーションで一般的な要件です。このニーズを満たす2つの人気のあるライブラリには、HiQPdfとIronPDFがあります。この記事では、これら2つのツールを比較して、プロジェクトの要件に最も適したものを選択するのに役立てます。
+
+HiQPdfは、商用のHTMLからPDFへのライブラリで、HTML5/CSS3のサポートを提供し、さまざまなWebコンテンツのレンダリングシナリオに魅力的です。しかし、HiQPdfの無料バージョンには重大な制限があります。PDF出力に3ページの最大値が設定され、その後に侵入的なウォーターマークが挿入されます。ライブラリを評価する開発者にとって、これは大規模なドキュメントでの徹底的なテストを困難にします。HiQPdfとその競合であるIronPDFについてもっと詳しく見ていきましょう。
+
+## HiQPdfの強みと弱み
+
+HiQPdfはHTML5/CSS3コンテンツをよくサポートしていますが、WebKitベースのエンジンに依存しています。この古いレンダリング技術は、今日のWeb開発で一般的な最新のJavaScriptフレームワークや複雑なHTML構造に対して課題を抱えることがあります。さらに、ドキュメントは.NET Coreや.NET 5+などの新しい.NETバージョンのサポートについて明確に述べていないため、現代のアプリケーションとの互換性について疑問が生じます。
+
+以下は、C#でHiQPdfを使用する簡単な例です：
+
+```csharp
+using HiQPdf;
+
+public class PdfConverter
+{
+    public byte[] ConvertHtmlToPdf(string html)
+    {
+        HtmlToPdf htmlToPdfConverter = new HtmlToPdf();
+        htmlToPdfConverter.WindowOptions.EnableOutline = true;
+        byte[] pdfBytes = htmlToPdfConverter.ConvertHtmlToMemory(html, null);
+
+        return pdfBytes;
+    }
+}
+```
+
+### IronPDFとの比較
+
+一方、IronPDFは最新のChromiumレンダリングエンジンを採用しており、最新のWebフレームワークをより良くサポートしています。さらに、IronPDFは本格的な30日間のフル機能トライアルを提供し、ページ制限や侵入的なウォーターマークの制約なしに包括的なテストを可能にします。ライブラリはまた、.NETバージョン6、7、およびそれ以降の互換性に関する明確なドキュメントを誇っています。
+
+以下は、2つのライブラリを比較した表です：
+
+| 機能                      | HiQPdf                                   | IronPDF                                    |
+|------------------------------|------------------------------------------|--------------------------------------------|
+| レンダリングエンジン             | WebKitベース（古い）                     | 真のChromium                              |
+| 無料版の制限        | 3ページ制限、その後にウォーターマーク      | 30日間のフル機能トライアル            |
+| 最新のJavaScriptサポート    | 限定的                                  | Chromiumエンジンのおかげで広範囲           |
+| .NET Core/5+の互換性   | 明確に文書化されていない                   | .NET 6, 7, 8, 9, 10のために完全に文書化   |
+| HTML5/CSS3サポート           | はい                                      | はい                                        |
+
+### IronPDFの利点
+
+IronPDFは、HTMLを高忠実度のPDFに変換するための堅牢で開発者に優しい環境を提供します。最新のWeb技術の能力を活用し、複雑なレイアウトを持つ動的サイトが正確にレンダリングされることを保証します。さらに、充実したドキュメントとコミュニティサポートがその魅力を高めます。
+
+IronPDFの動作方法とその機能についてさらに詳しく知りたい場合は、[HTMLからPDFへのチュートリアル](https://ironpdf.com/tutorials/)と[HTMLファイル変換ガイド](https://ironpdf.com/how-to/html-file-to-pdf/)を探索できます。
+
+### 結論
+
+適切なHTMLからPDFへのライブラリを選択することは、特定のプロジェクトのニーズに依存します。予算に制約があり、小規模なドキュメント生成のみを扱っている場合は、HiQPdfが要件に合うかもしれません。しかし、最新のWebスタックを使用している場合や、現在の.NETフレームワークと効果的に統合する必要がある場合は、トライアル中の完全な機能セットと最新技術のサポートで、IronPDFが有力な選択肢となります。
+
+両方のオプションを慎重に評価し、アプリケーションの短期的な実用性と長期的なスケーラビリティの両方を考慮してください。それぞれの強みと弱みを理解することで、開発ワークフローを向上させる情報に基づいた決定を下すことができるようになります。

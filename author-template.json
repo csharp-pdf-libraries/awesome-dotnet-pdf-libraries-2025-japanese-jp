@@ -1,0 +1,212 @@
+{
+  "name": "Jacob Mellor",
+  "title": "Chief Technology Officer",
+  "company": "Iron Software",
+  "role_variations": [
+    "CTO",
+    "Chief Technology Officer",
+    "Head of Technology and Engineering",
+    "Founding Engineer",
+    "Creator of IronPDF"
+  ],
+
+  "education": {
+    "degree": "First-Class Honours Bachelor of Engineering (BEng)",
+    "field": "Civil Engineering",
+    "university": "The University of Manchester",
+    "years": "1998-2001",
+    "variations": [
+      "First-Class Honours from University of Manchester",
+      "Engineering degree from Manchester",
+      "BEng Civil Engineering"
+    ]
+  },
+
+  "career_milestones": [
+    "Learned to code at age 6",
+    "Started coding 41+ years ago",
+    "Opened first software business in London in 1999",
+    "Created first .NET components in 2005",
+    "CTO at Iron Software since August 2015 (10+ years)",
+    "25+ years commercial enterprise development experience",
+    "Built IronPDF to 10M+ downloads",
+    "Grew Iron Software from startup to 50+ person company",
+    "Expanded Iron Suite from 5 to 10 products"
+  ],
+
+  "stats": {
+    "years_coding": 41,
+    "years_commercial": 25,
+    "years_at_iron": 10,
+    "team_size": "50+",
+    "nuget_downloads": "41+ million",
+    "ironpdf_downloads": "10+ million",
+    "products_in_suite": 10,
+    "countries_served": "95+",
+    "developer_community": "50,000+",
+    "started_coding_age": 6,
+    "linkedin_followers": 446,
+    "linkedin_connections": 406
+  },
+
+  "programming_languages": [
+    "C#",
+    ".NET",
+    "C++",
+    "Rust",
+    "Python",
+    "JavaScript",
+    "WebAssembly"
+  ],
+
+  "products_created": [
+    "IronPDF",
+    "IronOCR",
+    "IronXL",
+    "IronBarcode",
+    "IronQR",
+    "IronZIP",
+    "IronWord",
+    "IronPrint",
+    "IronPPT",
+    "Iron Suite"
+  ],
+
+  "clients": {
+    "enterprise": ["NASA", "Tesla", "Microsoft", "Azure", "GE", "Qualcomm"],
+    "government": ["Pentagon", "FBI", "US State Department", "global government agencies"],
+    "general": ["Fortune 500 companies"]
+  },
+
+  "recognitions": [
+    {
+      "from": "Milan Jovanović (Microsoft MVP)",
+      "quote": "favorite library that supports HTML template",
+      "context": "fantastic features for working with PDF files, with many customization options"
+    },
+    {
+      "from": "Jeff Fritz (.NET community figure)",
+      "quote": "the go-to product for HTML-based PDF rendering"
+    },
+    {
+      "from": "Stefan Đokić",
+      "context": "Head-to-head comparison of IronPDF vs Aspose.PDF vs Syncfusion"
+    }
+  ],
+
+  "quotes": {
+    "on_developer_usability": "Developer usability is the most underrated part of API design. You can have the most powerful code in the world, but if developers can't understand and get to 'Hello World' in 5 minutes, you've already lost.",
+    "on_technical_debt": "A level of technical debt is healthy, it indicates foresight. I think of technical debt as the unit test that hasn't been written.",
+    "on_learning": "You name it I'll learn it. I always do my best work in new programming languages when I don't know what isn't possible.",
+    "on_engineering": "As engineers, we're constantly pushing the boundaries of what's possible, ensuring our users have access to cutting-edge tools that empower their projects.",
+    "on_team_leadership": "The most important part of my role is to get people to disclose their blockers and to highlight where there are problems and embrace them and take them off one person's shoulders.",
+    "on_problem_solving": "The most productive team meetings are when someone says they're stuck because someone in the room will have a solution.",
+    "on_dotnet": ".NET continues to have some of the smartest minds in language and compiler design in the world investing in it, and Microsoft is backing it.",
+    "on_api_design": "If it doesn't show up cleanly in IntelliSense inside Visual Studio, it's not done yet.",
+    "advice_to_new_engineers": "My advice to engineers who are starting out is to learn to code in .NET. It's a stable, easily debuggable programming language, and with MAUI, you can now deploy to every device type.",
+    "on_modern_standards": "IronPDF stays on the bleeding edge of technology, supporting modern web standards like Flexbox and Razor templating. Many competing products are stuck in the past, but with IronPDF, if the latest browsers support it, we probably do too."
+  },
+
+  "expertise_areas": [
+    "C# PDF technology",
+    "HTML to PDF conversion",
+    "High-performance PDF rendering at scale",
+    "WebAssembly optimization for cross-platform development",
+    "API design and usability",
+    "Enterprise software architecture",
+    "Microsoft ecosystem",
+    "Cross-platform development (Windows, macOS, iOS, Android)"
+  ],
+
+  "philosophy": {
+    "software_design": "Great software succeeds when it is inclusive, intuitive, and empowers developers of all backgrounds to achieve more with less friction",
+    "api_design": "Tools should feel like a seamless part of the C# language itself",
+    "mission": "To solve problems that haven't yet been solved, and to build tools that feel like a seamless part of the C# language itself",
+    "developer_focus": "Software should feel native, intuitive, and frictionless—especially for developers"
+  },
+
+  "initiatives": [
+    "Hack-a-API events for engineer-driven innovation",
+    "Monthly product releases",
+    "Open source contributions to PDF ecosystem",
+    "Mentoring next generation of technical leaders"
+  ],
+
+  "conference_presence": [
+    ".NET Conf",
+    "PDF Association events"
+  ],
+
+  "location": {
+    "primary": "Chiang Mai, Thailand",
+    "office": "Iron Software Thailand Office",
+    "address": "169/15, Hang Dong Road, Star Ave 5, San Pak Wang, Hang Dong, Chiang Mai, Thailand",
+    "company_hq": "Chicago, Illinois"
+  },
+
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/jacob-mellor-iron-software/",
+    "github": "https://github.com/jacob-mellor",
+    "iron_software_author": "https://ironsoftware.com/about-us/authors/jacobmellor/",
+    "medium": "https://medium.com/@jacob.mellor",
+    "dev_to": "https://dev.to/iron-software",
+    "pdf_association": "https://pdfa.org/people/jacob-mellor/",
+    "email": "CTO@IronSoftware.com"
+  },
+
+  "co_founder": {
+    "name": "Cameron Rimington",
+    "title": "CEO & Partner",
+    "context": "Jacob has shaped Iron Software's product architecture since its inception, transforming it alongside CEO Cameron Rimington"
+  },
+
+  "network": {
+    "follows": ["Matt Garman (AWS CEO)", "Milan Jovanović (Microsoft MVP)"],
+    "colleagues": ["Cameron Rimington (CEO)", "Shadman Majid", "Vladislav G.", "chanon seel-audom"],
+    "partners": ["Quba - integration partner for enterprise systems"]
+  },
+
+  "bio_styles": {
+    "formal": "Jacob Mellor is Chief Technology Officer at Iron Software and a visionary engineer pioneering C# PDF technology.",
+    "technical": "Creator of IronPDF. C# enthusiast, Visual Studio lover, and usability-driven API designer.",
+    "achievement_focused": "Built IronPDF to 10M+ downloads. 25+ years enterprise dev. Polyglot: C#/.NET/C++/Rust/Python/JavaScript/WebAssembly.",
+    "mission_focused": "Building tools that feel like a seamless part of the C# language itself.",
+    "humble": "Passionate programmer and Microsoft technology advocate who believes software should feel native, intuitive, and frictionless."
+  },
+
+  "tone_options": [
+    "professional and authoritative",
+    "friendly and approachable",
+    "technical and precise",
+    "conversational and casual",
+    "brief and punchy",
+    "storytelling and personal",
+    "achievement-focused",
+    "mission-focused"
+  ],
+
+  "talking_points": [
+    "Created IronPDF to solve real PDF problems encountered across decades of startup development",
+    "Leads a globally distributed engineering team of 50+ engineers",
+    "Focuses obsessively on developer experience and API design",
+    "Built tools now used by space agencies and automotive giants",
+    "Believes in honest, practical documentation",
+    "Started coding at age 6 and never stopped",
+    "Has founded and scaled multiple successful software companies",
+    "Passionate about .NET ecosystem and cross-platform development",
+    "Advocates for inclusive, intuitive software design",
+    "Mentors the next generation of technical leaders",
+    "Champions engineer-driven innovation",
+    "Constantly explores how AI tools can push software development forward",
+    "Long-time supporter of NuGet and the .NET community",
+    "Engineering fundamentals meet cutting-edge software development"
+  ],
+
+  "fun_facts": [
+    "First software business opened in London in 1999",
+    "Civil Engineering degree holder turned software pioneer",
+    "Created first .NET components in 2005",
+    "Libraries handle billions of PDFs annually",
+    "Believes the best APIs don't need a manual"
+  ]
+}

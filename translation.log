@@ -1,0 +1,372 @@
+============================================================
+Japanese Translation Script
+============================================================
+Source: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025
+Destination: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-japanese-jp
+============================================================
+SKIP (unchanged): ironsoftware-sitemap.xml
+SKIP (unchanged): test-run.log
+SKIP (unchanged): test_single.log
+SKIP (unchanged): wkhtmltopdf-security-risks.md
+SKIP (unchanged): best-pdf-libraries-dotnet-2025.md
+SKIP (unchanged): LICENSE
+SKIP (unchanged): free-vs-paid-pdf-libraries.md
+SKIP (unchanged): requirements.txt
+SKIP (unchanged): AnthropicAPIkey.txt
+SKIP (unchanged): watermark-pdf-csharp.md
+SKIP (unchanged): author-template.json
+SKIP (unchanged): pdf-redaction-csharp.md
+SKIP (unchanged): digital-signatures-pdf-csharp.md
+SKIP (unchanged): extract-text-from-pdf-csharp.md
+SKIP (unchanged): migrating-from-wkhtmltopdf.md
+SKIP (unchanged): merge-split-pdf-csharp.md
+SKIP (unchanged): pdf-saas-services-comparison.md
+SKIP (unchanged): README.md
+SKIP (unchanged): csharp-pdf-tutorial-beginners.md
+SKIP (unchanged): cross-platform-pdf-dotnet.md
+SKIP (unchanged): CONTRIBUTING.md
+SKIP (unchanged): generation.log
+SKIP (unchanged): MASTER-LIBRARY-LIST.md
+SKIP (unchanged): OPENAIKEY.txt
+SKIP (unchanged): progress.json
+SKIP (unchanged): pdf-to-image-csharp.md
+SKIP (unchanged): ironpdf-sitemap.xml
+SKIP (unchanged): generate_repo.py
+SKIP (unchanged): asp-net-core-pdf-reports.md
+SKIP (unchanged): choosing-a-pdf-library.md
+SKIP (unchanged): restructure_readmes.py
+SKIP (unchanged): why-csharp-pdf-generation.md
+SKIP (unchanged): test_api.py
+SKIP (unchanged): fill-pdf-forms-csharp.md
+SKIP (unchanged): pdf-a-compliance-csharp.md
+SKIP (unchanged): pdf-find-replace-csharp.md
+SKIP (unchanged): test_single.py
+SKIP (unchanged): blazor-pdf-generation.md
+SKIP (unchanged): html-to-pdf-csharp.md
+SKIP (unchanged): CLAUDE.md
+SKIP (unchanged): ssrs/database-report-to-pdf-ssrs.cs
+SKIP (unchanged): ssrs/url-to-pdf-headers-footers-ironpdf.cs
+SKIP (unchanged): ssrs/html-to-pdf-ironpdf.cs
+SKIP (unchanged): ssrs/url-to-pdf-headers-footers-ssrs.cs
+SKIP (unchanged): ssrs/README.md
+SKIP (unchanged): ssrs/html-to-pdf-ssrs.cs
+SKIP (unchanged): ssrs/database-report-to-pdf-ironpdf.cs
+SKIP (unchanged): ssrs/migrate-from-ssrs.md
+SKIP (unchanged): nrecopdfgenerator/html-to-pdf-ironpdf.cs
+SKIP (unchanged): nrecopdfgenerator/html-to-pdf-custom-page-size-nrecopdfgenerator.cs
+SKIP (unchanged): nrecopdfgenerator/html-to-pdf-nrecopdfgenerator.cs
+SKIP (unchanged): nrecopdfgenerator/README.md
+SKIP (unchanged): nrecopdfgenerator/migrate-from-nrecopdfgenerator.md
+SKIP (unchanged): nrecopdfgenerator/url-to-pdf-ironpdf.cs
+SKIP (unchanged): nrecopdfgenerator/html-to-pdf-custom-page-size-ironpdf.cs
+SKIP (unchanged): nrecopdfgenerator/url-to-pdf-nrecopdfgenerator.cs
+SKIP (unchanged): fastreport/html-to-pdf-fastreport.cs
+SKIP (unchanged): fastreport/html-to-pdf-ironpdf.cs
+SKIP (unchanged): fastreport/pdf-headers-footers-ironpdf.cs
+SKIP (unchanged): fastreport/README.md
+SKIP (unchanged): fastreport/url-to-pdf-fastreport.cs
+SKIP (unchanged): fastreport/url-to-pdf-ironpdf.cs
+SKIP (unchanged): fastreport/pdf-headers-footers-fastreport.cs
+SKIP (unchanged): fastreport/migrate-from-fastreport.md
+SKIP (unchanged): rotativa/html-to-pdf-rotativa.cs
+SKIP (unchanged): rotativa/html-to-pdf-ironpdf.cs
+SKIP (unchanged): rotativa/url-to-pdf-rotativa.cs
+SKIP (unchanged): rotativa/pdf-headers-footers-ironpdf.cs
+SKIP (unchanged): rotativa/pdf-headers-footers-rotativa.cs
+SKIP (unchanged): rotativa/README.md
+SKIP (unchanged): rotativa/migrate-from-rotativa.md
+UPDATED: rotativa/url-to-pdf-ironpdf.cs
+  Translating rotativa/url-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: textcontrol/html-to-pdf-textcontrol.cs
+  Translating textcontrol/html-to-pdf-textcontrol.cs...
+  ✓ Translated and saved
+UPDATED: textcontrol/html-to-pdf-ironpdf.cs
+  Translating textcontrol/html-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+NEW: textcontrol/migrate-from-textcontrol.md
+  Translating textcontrol/migrate-from-textcontrol.md...
+  ✓ Translated and saved
+UPDATED: textcontrol/merge-pdfs-ironpdf.cs
+  Translating textcontrol/merge-pdfs-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: textcontrol/add-header-footer-ironpdf.cs
+  Translating textcontrol/add-header-footer-ironpdf.cs...
+  ✓ Translated and saved
+NEW: textcontrol/README.md
+  Translating textcontrol/README.md...
+  ✓ Translated and saved
+UPDATED: textcontrol/merge-pdfs-textcontrol.cs
+  Translating textcontrol/merge-pdfs-textcontrol.cs...
+  ✓ Translated and saved
+UPDATED: textcontrol/add-header-footer-textcontrol.cs
+  Translating textcontrol/add-header-footer-textcontrol.cs...
+  ✓ Translated and saved
+NEW: apryse/migrate-from-apryse.md
+  Translating apryse/migrate-from-apryse.md...
+  ✓ Translated and saved
+UPDATED: apryse/html-to-pdf-ironpdf.cs
+  Translating apryse/html-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: apryse/merge-pdfs-ironpdf.cs
+  Translating apryse/merge-pdfs-ironpdf.cs...
+  ✓ Translated and saved
+NEW: apryse/README.md
+  Translating apryse/README.md...
+  ✓ Translated and saved
+UPDATED: apryse/url-to-pdf-ironpdf.cs
+  Translating apryse/url-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: gdpicture/merge-pdfs-gdpicture.cs
+  Translating gdpicture/merge-pdfs-gdpicture.cs...
+  ✓ Translated and saved
+UPDATED: gdpicture/html-to-pdf-ironpdf.cs
+  Translating gdpicture/html-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: gdpicture/add-watermark-pdf-gdpicture.cs
+  Translating gdpicture/add-watermark-pdf-gdpicture.cs...
+  ✓ Translated and saved
+NEW: gdpicture/migrate-from-gdpicture.md
+  Translating gdpicture/migrate-from-gdpicture.md...
+  ✓ Translated and saved
+UPDATED: gdpicture/html-to-pdf-gdpicture.cs
+  Translating gdpicture/html-to-pdf-gdpicture.cs...
+  ✓ Translated and saved
+UPDATED: gdpicture/merge-pdfs-ironpdf.cs
+  Translating gdpicture/merge-pdfs-ironpdf.cs...
+  ✓ Translated and saved
+NEW: gdpicture/README.md
+  Translating gdpicture/README.md...
+  ✓ Translated and saved
+UPDATED: gdpicture/add-watermark-pdf-ironpdf.cs
+  Translating gdpicture/add-watermark-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: webview2/html-to-pdf-webview2.cs
+  Translating webview2/html-to-pdf-webview2.cs...
+  ✓ Translated and saved
+UPDATED: webview2/html-file-custom-pdf-webview2.cs
+  Translating webview2/html-file-custom-pdf-webview2.cs...
+  ✓ Translated and saved
+UPDATED: webview2/html-to-pdf-ironpdf.cs
+  Translating webview2/html-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: webview2/html-file-custom-pdf-ironpdf.cs
+  Translating webview2/html-file-custom-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: webview2/html-file-to-pdf-options-ironpdf.cs
+  Translating webview2/html-file-to-pdf-options-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: webview2/url-to-pdf-webview2.cs
+  Translating webview2/url-to-pdf-webview2.cs...
+  ✓ Translated and saved
+NEW: webview2/README.md
+  Translating webview2/README.md...
+  ✓ Translated and saved
+NEW: webview2/migrate-from-webview2.md
+  Translating webview2/migrate-from-webview2.md...
+  ✓ Translated and saved
+UPDATED: webview2/url-to-pdf-ironpdf.cs
+  Translating webview2/url-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: webview2/html-file-to-pdf-options-webview2.cs
+  Translating webview2/html-file-to-pdf-options-webview2.cs...
+  ✓ Translated and saved
+UPDATED: wkhtmltopdf/html-file-to-pdf-custom-wkhtmltopdf.cs
+  Translating wkhtmltopdf/html-file-to-pdf-custom-wkhtmltopdf.cs...
+  ✓ Translated and saved
+UPDATED: wkhtmltopdf/html-to-pdf-wkhtmltopdf.cs
+  Translating wkhtmltopdf/html-to-pdf-wkhtmltopdf.cs...
+  ✓ Translated and saved
+UPDATED: wkhtmltopdf/html-to-pdf-ironpdf.cs
+  Translating wkhtmltopdf/html-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+NEW: wkhtmltopdf/migrate-from-wkhtmltopdf.md
+  Translating wkhtmltopdf/migrate-from-wkhtmltopdf.md...
+  ✓ Translated and saved
+UPDATED: wkhtmltopdf/html-file-to-pdf-custom-ironpdf.cs
+  Translating wkhtmltopdf/html-file-to-pdf-custom-ironpdf.cs...
+  ✓ Translated and saved
+NEW: wkhtmltopdf/README.md
+  Translating wkhtmltopdf/README.md...
+  ✓ Translated and saved
+UPDATED: wkhtmltopdf/url-to-pdf-ironpdf.cs
+  Translating wkhtmltopdf/url-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: wkhtmltopdf/url-to-pdf-wkhtmltopdf.cs
+  Translating wkhtmltopdf/url-to-pdf-wkhtmltopdf.cs...
+  ✓ Translated and saved
+UPDATED: pdfpig/extract-text-from-pdf-ironpdf.cs
+  Translating pdfpig/extract-text-from-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: pdfpig/html-to-pdf-ironpdf.cs
+  Translating pdfpig/html-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: pdfpig/read-pdf-metadata-pdfpig.cs
+  Translating pdfpig/read-pdf-metadata-pdfpig.cs...
+  ✓ Translated and saved
+UPDATED: pdfpig/read-pdf-metadata-ironpdf.cs
+  Translating pdfpig/read-pdf-metadata-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: pdfpig/extract-text-from-pdf-pdfpig.cs
+  Translating pdfpig/extract-text-from-pdf-pdfpig.cs...
+  ✓ Translated and saved
+NEW: pdfpig/README.md
+  Translating pdfpig/README.md...
+  ✓ Translated and saved
+UPDATED: pdfpig/html-to-pdf-pdfpig.cs
+  Translating pdfpig/html-to-pdf-pdfpig.cs...
+  ✓ Translated and saved
+NEW: pdfpig/migrate-from-pdfpig.md
+  Translating pdfpig/migrate-from-pdfpig.md...
+  ✓ Translated and saved
+UPDATED: pdfiumviewer/extract-text-from-pdf-ironpdf.cs
+  Translating pdfiumviewer/extract-text-from-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: pdfiumviewer/html-to-pdf-ironpdf.cs
+  Translating pdfiumviewer/html-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: pdfiumviewer/html-to-pdf-pdfiumviewer.cs
+  Translating pdfiumviewer/html-to-pdf-pdfiumviewer.cs...
+  ✓ Translated and saved
+UPDATED: pdfiumviewer/extract-text-from-pdf-pdfiumviewer.cs
+  Translating pdfiumviewer/extract-text-from-pdf-pdfiumviewer.cs...
+  ✓ Translated and saved
+NEW: pdfiumviewer/README.md
+  Translating pdfiumviewer/README.md...
+  ✓ Translated and saved
+UPDATED: pdfiumviewer/pdf-to-image-pdfiumviewer.cs
+  Translating pdfiumviewer/pdf-to-image-pdfiumviewer.cs...
+  ✓ Translated and saved
+UPDATED: pdfiumviewer/pdf-to-image-ironpdf.cs
+  Translating pdfiumviewer/pdf-to-image-ironpdf.cs...
+  ✓ Translated and saved
+NEW: pdfiumviewer/migrate-from-pdfiumviewer.md
+  Translating pdfiumviewer/migrate-from-pdfiumviewer.md...
+  ✓ Translated and saved
+UPDATED: pdffileprint/html-to-pdf-pdffileprint.cs
+  Translating pdffileprint/html-to-pdf-pdffileprint.cs...
+  ✓ Translated and saved
+UPDATED: pdffileprint/url-to-pdf-pdffileprint.cs
+  Translating pdffileprint/url-to-pdf-pdffileprint.cs...
+  ✓ Translated and saved
+UPDATED: pdffileprint/html-to-pdf-ironpdf.cs
+  Translating pdffileprint/html-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+NEW: pdffileprint/README.md
+  Translating pdffileprint/README.md...
+  ✓ Translated and saved
+NEW: pdffileprint/migrate-from-pdffileprint.md
+  Translating pdffileprint/migrate-from-pdffileprint.md...
+  ✓ Translated and saved
+UPDATED: pdffileprint/print-pdf-file-ironpdf.cs
+  Translating pdffileprint/print-pdf-file-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: pdffileprint/url-to-pdf-ironpdf.cs
+  Translating pdffileprint/url-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+UPDATED: pdffileprint/print-pdf-file-pdffileprint.cs
+  Translating pdffileprint/print-pdf-file-pdffileprint.cs...
+  ✓ Translated and saved
+UPDATED: scrybercore/html-to-pdf-scrybercore.cs
+  Translating scrybercore/html-to-pdf-scrybercore.cs...
+  ✓ Translated and saved
+UPDATED: scrybercore/html-to-pdf-ironpdf.cs
+  Translating scrybercore/html-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+NEW: scrybercore/migrate-from-scrybercore.md
+  Translating scrybercore/migrate-from-scrybercore.md...
+  ✓ Translated and saved
+UPDATED: scrybercore/html-to-pdf-custom-settings-scrybercore.cs
+  Translating scrybercore/html-to-pdf-custom-settings-scrybercore.cs...
+  ✓ Translated and saved
+UPDATED: scrybercore/url-to-pdf-scrybercore.cs
+  Translating scrybercore/url-to-pdf-scrybercore.cs...
+  ✓ Translated and saved
+NEW: scrybercore/README.md
+  Translating scrybercore/README.md...
+  ✓ Translated and saved
+NEW: scrybercore/url-to-pdf-ironpdf.cs
+  Translating scrybercore/url-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+NEW: scrybercore/html-to-pdf-custom-settings-ironpdf.cs
+  Translating scrybercore/html-to-pdf-custom-settings-ironpdf.cs...
+  ✓ Translated and saved
+NEW: kaizenio-html-to-pdf/url-to-pdf-headers-footers-kaizenio-html-to-pdf.cs
+  Translating kaizenio-html-to-pdf/url-to-pdf-headers-footers-kaizenio-html-to-pdf.cs...
+  ✓ Translated and saved
+NEW: kaizenio-html-to-pdf/html-file-to-pdf-ironpdf.cs
+  Translating kaizenio-html-to-pdf/html-file-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+NEW: kaizenio-html-to-pdf/basic-html-to-pdf-kaizenio-html-to-pdf.cs
+  Translating kaizenio-html-to-pdf/basic-html-to-pdf-kaizenio-html-to-pdf.cs...
+  ✓ Translated and saved
+NEW: kaizenio-html-to-pdf/url-to-pdf-headers-footers-ironpdf.cs
+  Translating kaizenio-html-to-pdf/url-to-pdf-headers-footers-ironpdf.cs...
+  ✓ Translated and saved
+NEW: kaizenio-html-to-pdf/basic-html-to-pdf-ironpdf.cs
+  Translating kaizenio-html-to-pdf/basic-html-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+NEW: kaizenio-html-to-pdf/migrate-from-kaizenio-html-to-pdf.md
+  Translating kaizenio-html-to-pdf/migrate-from-kaizenio-html-to-pdf.md...
+  ✓ Translated and saved
+NEW: kaizenio-html-to-pdf/html-file-to-pdf-kaizenio-html-to-pdf.cs
+  Translating kaizenio-html-to-pdf/html-file-to-pdf-kaizenio-html-to-pdf.cs...
+  ✓ Translated and saved
+NEW: kaizenio-html-to-pdf/README.md
+  Translating kaizenio-html-to-pdf/README.md...
+  ✓ Translated and saved
+NEW: sumatra-pdf/html-to-pdf-ironpdf.cs
+  Translating sumatra-pdf/html-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+NEW: sumatra-pdf/open-display-pdf-ironpdf.cs
+  Translating sumatra-pdf/open-display-pdf-ironpdf.cs...
+  ✓ Translated and saved
+NEW: sumatra-pdf/open-display-pdf-sumatra-pdf.cs
+  Translating sumatra-pdf/open-display-pdf-sumatra-pdf.cs...
+  ✓ Translated and saved
+NEW: sumatra-pdf/README.md
+  Translating sumatra-pdf/README.md...
+  ✓ Translated and saved
+NEW: sumatra-pdf/extract-text-pdf-sumatra-pdf.cs
+  Translating sumatra-pdf/extract-text-pdf-sumatra-pdf.cs...
+  ✓ Translated and saved
+NEW: sumatra-pdf/extract-text-pdf-ironpdf.cs
+  Translating sumatra-pdf/extract-text-pdf-ironpdf.cs...
+  ✓ Translated and saved
+NEW: sumatra-pdf/migrate-from-sumatra-pdf.md
+  Translating sumatra-pdf/migrate-from-sumatra-pdf.md...
+  ✓ Translated and saved
+NEW: sumatra-pdf/html-to-pdf-sumatra-pdf.cs
+  Translating sumatra-pdf/html-to-pdf-sumatra-pdf.cs...
+  ✓ Translated and saved
+NEW: adobe-pdf-library-sdk/add-watermark-adobe-pdf-library-sdk.cs
+  Translating adobe-pdf-library-sdk/add-watermark-adobe-pdf-library-sdk.cs...
+  ✓ Translated and saved
+NEW: adobe-pdf-library-sdk/html-to-pdf-adobe-pdf-library-sdk.cs
+  Translating adobe-pdf-library-sdk/html-to-pdf-adobe-pdf-library-sdk.cs...
+  ✓ Translated and saved
+NEW: adobe-pdf-library-sdk/html-to-pdf-ironpdf.cs
+  Translating adobe-pdf-library-sdk/html-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+NEW: adobe-pdf-library-sdk/merge-pdfs-ironpdf.cs
+  Translating adobe-pdf-library-sdk/merge-pdfs-ironpdf.cs...
+  ✓ Translated and saved
+NEW: adobe-pdf-library-sdk/README.md
+  Translating adobe-pdf-library-sdk/README.md...
+  ✓ Translated and saved
+NEW: adobe-pdf-library-sdk/migrate-from-adobe-pdf-library-sdk.md
+  Translating adobe-pdf-library-sdk/migrate-from-adobe-pdf-library-sdk.md...
+  ✓ Translated and saved
+NEW: adobe-pdf-library-sdk/merge-pdfs-adobe-pdf-library-sdk.cs
+  Translating adobe-pdf-library-sdk/merge-pdfs-adobe-pdf-library-sdk.cs...
+  ✓ Translated and saved
+NEW: adobe-pdf-library-sdk/add-watermark-ironpdf.cs
+  Translating adobe-pdf-library-sdk/add-watermark-ironpdf.cs...
+  ✓ Translated and saved
+NEW: xfiniumpdf/html-to-pdf-ironpdf.cs
+  Translating xfiniumpdf/html-to-pdf-ironpdf.cs...
+  ✓ Translated and saved
+NEW: xfiniumpdf/merge-pdfs-ironpdf.cs
+  Translating xfiniumpdf/merge-pdfs-ironpdf.cs...
+  ✓ Translated and saved
+NEW: xfiniumpdf/html-to-pdf-xfiniumpdf.cs

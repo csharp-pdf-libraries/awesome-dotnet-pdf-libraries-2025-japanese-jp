@@ -1,0 +1,22 @@
+============================================================
+Awesome .NET PDF Libraries 2025 - Repository Generator
+============================================================
+
+Parsing sitemaps...
+✓ Parsed ironpdf-sitemap.xml
+✓ Parsed ironsoftware-sitemap.xml
+  Found 0 relevant URLs:
+✓ Anthropic API initialized (60s timeout)
+✓ OpenAI API initialized (60s timeout)
+
+Parsing library list...
+✓ Found 72 libraries to process
+
+🧪 TEST MODE: Processing only 'puppeteersharp'
+
+Processing 1 libraries with 3 parallel workers...
+
+============================================================
+Processing: PuppeteerSharp (puppeteersharp)
+============================================================
+  → Phase 1/5: SEO Research (using SOURCE_MATERIAL_DIR)...

@@ -1,0 +1,16 @@
+```csharp
+// NuGet: Install-Package IronPdf をインストール
+using IronPdf;
+
+class IronPdfExample
+{
+    static void Main()
+    {
+        string htmlContent = "<html><body><h1>Hello World</h1></body></html>";
+        
+        var renderer = new ChromePdfRenderer();
+        var pdf = renderer.RenderHtmlAsPdf(htmlContent);
+        pdf.SaveAs("output.pdf");
+    }
+}
+```

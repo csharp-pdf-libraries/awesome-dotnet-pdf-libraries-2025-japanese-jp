@@ -1,0 +1,611 @@
+================================================================================
+Parallel Translation Engine - 4 Workers
+================================================================================
+Source: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025
+Destination: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-japanese-jp
+================================================================================
+
+📂 Discovering files...
+✅ Found 788 files to process
+
+🚀 Starting 4 translation workers...
+[Worker 1] Started
+[Worker 2] Started
+[Worker 3] Started
+[Worker 4] Started
+[Worker 2] Translating: pdfpig/migrate-from-pdfpig.md
+[Worker 4] Translating: pdfiumviewer/migrate-from-pdfiumviewer.md
+[Worker 3] Translating: pdffileprint/README.md
+[Worker 1] Translating: pdffileprint/migrate-from-pdffileprint.md
+
+⏱️  Progress: 0/788 files (0%) - Rate: 0.0 files/min - ETA: 0.0 min
+[Worker 3] Translating: pdfprinting/migrate-from-pdfprinting.md
+[Worker 4] Translating: pdfprinting/README.md
+[Worker 1] Translating: pdfium/migrate-from-pdfium.md
+[Worker 2] Translating: pdfium/README.md
+
+⏱️  Progress: 4/788 files (0%) - Rate: 2.0 files/min - ETA: 392.2 min
+[Worker 4] Translating: FAQ/url-to-pdf-csharp.md
+
+⏱️  Progress: 5/788 files (0%) - Rate: 1.7 files/min - ETA: 470.0 min
+[Worker 3] Translating: FAQ/image-to-pdf-csharp.md
+[Worker 1] Translating: FAQ/create-pdf-forms-csharp.md
+[Worker 2] Translating: FAQ/cqrs-pattern-csharp-practical-guide.md
+
+⏱️  Progress: 8/788 files (1%) - Rate: 2.0 files/min - ETA: 390.2 min
+[Worker 4] Translating: FAQ/migrate-telerik-to-ironpdf.md
+[Worker 1] Translating: FAQ/how-to-install-dotnet-10.md
+[Worker 3] Translating: FAQ/rotate-text-pdf-csharp.md
+[Worker 2] Translating: FAQ/itextsharp-abandoned-upgrade-ironpdf.md
+
+⏱️  Progress: 12/788 files (1%) - Rate: 2.4 files/min - ETA: 323.5 min
+[Worker 1] Translating: FAQ/dotnet-core-pdf-generation-csharp.md
+[Worker 4] Translating: FAQ/dotnet-10-csharp-14-tutorial.md
+
+⏱️  Progress: 14/788 files (1%) - Rate: 2.3 files/min - ETA: 331.9 min
+[Worker 3] Translating: FAQ/csharp-random-int.md
+[Worker 2] Translating: FAQ/pdf-headers-footers-csharp.md
+
+⏱️  Progress: 16/788 files (2%) - Rate: 2.3 files/min - ETA: 337.9 min
+[Worker 1] Translating: FAQ/pdf-rendering-options-csharp.md
+[Worker 4] Translating: FAQ/pdf-metadata-csharp.md
+[Worker 3] Translating: FAQ/what-is-mvc-pattern-explained.md
+[Worker 2] Translating: FAQ/jetbrains-rider-vs-visual-studio-2026.md
+
+⏱️  Progress: 20/788 files (2%) - Rate: 2.5 files/min - ETA: 307.4 min
+[Worker 1] Translating: FAQ/pdf-margins-csharp.md
+[Worker 4] Translating: FAQ/dotnet-cross-platform-development.md
+
+⏱️  Progress: 22/788 files (2%) - Rate: 2.4 files/min - ETA: 313.5 min
+[Worker 3] Translating: FAQ/xml-to-pdf-csharp.md
+[Worker 2] Translating: FAQ/pdf-revision-history-csharp.md
+
+⏱️  Progress: 24/788 files (3%) - Rate: 2.4 files/min - ETA: 318.5 min
+[Worker 1] Translating: FAQ/ironpdf-macos-csharp.md
+[Worker 4] Translating: FAQ/edit-pdf-csharp.md
+[Worker 3] Translating: FAQ/compare-csharp-to-python.md
+
+⏱️  Progress: 27/788 files (3%) - Rate: 2.5 files/min - ETA: 310.2 min
+[Worker 2] Translating: FAQ/pdf-bookmarks-csharp.md
+[Worker 1] Translating: FAQ/ironpdf-azure-deployment-csharp.md
+
+⏱️  Progress: 29/788 files (3%) - Rate: 2.4 files/min - ETA: 314.2 min
+[Worker 4] Translating: FAQ/xaml-to-pdf-maui-csharp.md
+[Worker 3] Translating: FAQ/pdf-login-authentication-csharp.md
+[Worker 2] Translating: FAQ/avalonia-vs-maui-dotnet-10.md
+
+⏱️  Progress: 32/788 files (4%) - Rate: 2.5 files/min - ETA: 307.3 min
+[Worker 1] Translating: FAQ/what-is-ironpdf-overview.md
+[Worker 4] Translating: FAQ/utf8-unicode-pdf-csharp.md
+
+⏱️  Progress: 34/788 files (4%) - Rate: 2.4 files/min - ETA: 310.6 min
+[Worker 3] Translating: FAQ/add-images-to-pdf-csharp.md
+[Worker 2] Translating: FAQ/migrate-aspose-to-ironpdf.md
+
+⏱️  Progress: 36/788 files (4%) - Rate: 2.4 files/min - ETA: 313.5 min
+[Worker 1] Translating: FAQ/getting-started-csharp-2025.md
+[Worker 4] Translating: FAQ/migrate-itextsharp-to-ironpdf.md
+[Worker 3] Translating: FAQ/migrate-puppeteer-playwright-to-ironpdf.md
+[Worker 2] Translating: FAQ/split-pdf-csharp.md
+
+⏱️  Progress: 40/788 files (5%) - Rate: 2.5 files/min - ETA: 299.4 min
+[Worker 1] Translating: FAQ/upgrade-dinktopdf-to-ironpdf.md
+[Worker 4] Translating: FAQ/html-to-pdf-csharp-ironpdf.md
+
+⏱️  Progress: 42/788 files (5%) - Rate: 2.5 files/min - ETA: 302.1 min
+[Worker 3] Translating: FAQ/html-to-pdf-problems-csharp.md
+[Worker 2] Translating: FAQ/whats-new-csharp-14.md
+[Worker 1] Translating: FAQ/csharp-foreach-with-index.md
+
+⏱️  Progress: 45/788 files (5%) - Rate: 2.5 files/min - ETA: 297.4 min
+[Worker 4] Translating: FAQ/ironpdf-cookbook-quick-examples.md
+[Worker 3] Translating: FAQ/twitter-posts-pdfs-dotnet.md
+[Worker 2] Translating: FAQ/pdf-a-compliance-csharp.md
+
+⏱️  Progress: 48/788 files (6%) - Rate: 2.5 files/min - ETA: 293.1 min
+[Worker 1] Translating: FAQ/pdf-to-html-csharp.md
+[Worker 4] Translating: FAQ/convert-html-to-pdf-csharp.md
+
+⏱️  Progress: 50/788 files (6%) - Rate: 2.5 files/min - ETA: 295.4 min
+[Worker 3] Translating: FAQ/pdf-table-of-contents-csharp.md
+[Worker 2] Translating: FAQ/best-csharp-pdf-libraries-2025.md
+
+⏱️  Progress: 52/788 files (6%) - Rate: 2.5 files/min - ETA: 297.4 min
+[Worker 1] Translating: FAQ/pdf-viewer-maui-csharp.md
+[Worker 4] Translating: FAQ/docx-to-pdf-csharp.md
+[Worker 2] Translating: FAQ/print-pdf-csharp.md
+
+⏱️  Progress: 55/788 files (6%) - Rate: 2.5 files/min - ETA: 293.4 min
+[Worker 3] Translating: FAQ/pdf-images-azure-blob-storage-csharp.md
+[Worker 4] Translating: FAQ/extract-images-from-pdf-csharp.md
+[Worker 1] Translating: FAQ/draw-lines-rectangles-pdf-csharp.md
+
+⏱️  Progress: 58/788 files (7%) - Rate: 2.5 files/min - ETA: 289.6 min
+[Worker 2] Translating: FAQ/svg-to-pdf-csharp.md
+[Worker 3] Translating: FAQ/who-is-jeff-fritz.md
+
+⏱️  Progress: 60/788 files (7%) - Rate: 2.5 files/min - ETA: 291.4 min
+[Worker 4] Translating: FAQ/why-pdf-libraries-exist-and-cost-money.md
+[Worker 1] Translating: FAQ/will-ai-replace-dotnet-developers-2025.md
+[Worker 2] Translating: FAQ/compare-csharp-to-java.md
+
+⏱️  Progress: 63/788 files (7%) - Rate: 2.5 files/min - ETA: 287.9 min
+[Worker 3] Translating: FAQ/create-pdf-csharp-complete-guide.md
+[Worker 4] Translating: FAQ/mvc-view-to-pdf-csharp.md
+
+⏱️  Progress: 65/788 files (8%) - Rate: 2.5 files/min - ETA: 289.4 min
+[Worker 2] Translating: FAQ/pdf-versions-csharp.md
+[Worker 1] Translating: FAQ/choose-csharp-pdf-library.md
+
+⏱️  Progress: 67/788 files (8%) - Rate: 2.5 files/min - ETA: 290.7 min
+[Worker 3] Translating: FAQ/data-uri-base64-images-pdf-csharp.md
+[Worker 4] Translating: FAQ/javascript-wait-5-seconds.md
+[Worker 1] Translating: FAQ/markdown-to-pdf-csharp.md
+[Worker 2] Translating: FAQ/pdf-memorystream-csharp.md
+
+⏱️  Progress: 71/788 files (9%) - Rate: 2.5 files/min - ETA: 282.9 min
+[Worker 4] Translating: FAQ/python-find-in-list.md
+
+⏱️  Progress: 72/788 files (9%) - Rate: 2.5 files/min - ETA: 288.5 min
+[Worker 3] Translating: FAQ/csharp-patterns-dotnet-developers.md
+[Worker 1] Translating: FAQ/html-to-pdf-csharp.md
+[Worker 2] Translating: FAQ/web-fonts-icons-pdf-csharp.md
+
+⏱️  Progress: 75/788 files (9%) - Rate: 2.5 files/min - ETA: 285.4 min
+[Worker 4] Translating: FAQ/migrate-syncfusion-to-ironpdf.md
+[Worker 3] Translating: FAQ/access-pdf-dom-object-csharp.md
+[Worker 1] Translating: FAQ/pdf-security-digital-signatures-csharp.md
+[Worker 2] Translating: FAQ/html-to-pdf-page-breaks-csharp.md
+
+⏱️  Progress: 79/788 files (10%) - Rate: 2.5 files/min - ETA: 278.4 min
+[Worker 4] Translating: FAQ/export-save-pdf-csharp.md
+
+⏱️  Progress: 80/788 files (10%) - Rate: 2.5 files/min - ETA: 283.3 min
+[Worker 3] Translating: FAQ/how-to-properly-redact-pdfs-csharp.md
+[Worker 2] Translating: FAQ/html-to-pdf-enterprise-scale-csharp.md
+[Worker 1] Translating: FAQ/pdf-page-orientation-rotation-csharp.md
+
+⏱️  Progress: 83/788 files (10%) - Rate: 2.5 files/min - ETA: 280.4 min
+[Worker 4] Translating: FAQ/async-pdf-generation-csharp.md
+[Worker 3] Translating: FAQ/csharp-round-to-2-decimal-places.md
+
+⏱️  Progress: 85/788 files (10%) - Rate: 2.5 files/min - ETA: 281.3 min
+[Worker 2] Translating: FAQ/whats-new-in-csharp-14.md
+[Worker 1] Translating: FAQ/cshtml-to-pdf-aspnet-core-mvc.md
+[Worker 2] Translating: FAQ/dotnet-pdf-viewer-csharp.md
+
+⏱️  Progress: 88/788 files (11%) - Rate: 2.5 files/min - ETA: 278.6 min
+[Worker 4] Translating: telerik-reporting/migrate-from-telerik-reporting.md
+[Worker 3] Translating: telerik-reporting/headers-footers-telerik-reporting.cs
+[Worker 3] Translating: telerik-reporting/html-to-pdf-ironpdf.cs
+[Worker 3] Translating: telerik-reporting/url-to-pdf-telerik-reporting.cs
+[Worker 1] Translating: telerik-reporting/README.md
+[Worker 4] Translating: telerik-reporting/url-to-pdf-ironpdf.cs
+[Worker 3] Translating: telerik-reporting/headers-footers-ironpdf.cs
+[Worker 4] Translating: telerik-reporting/html-to-pdf-telerik-reporting.cs
+
+⏱️  Progress: 96/788 files (12%) - Rate: 2.7 files/min - ETA: 259.6 min
+[Worker 3] Translating: sap-crystal-reports/url-to-pdf-sap-crystal-reports.cs
+[Worker 4] Translating: sap-crystal-reports/headers-footers-sap-crystal-reports.cs
+[Worker 3] Translating: sap-crystal-reports/html-to-pdf-ironpdf.cs
+[Worker 4] Translating: sap-crystal-reports/README.md
+[Worker 3] Translating: sap-crystal-reports/html-to-pdf-sap-crystal-reports.cs
+[Worker 3] Translating: sap-crystal-reports/url-to-pdf-ironpdf.cs
+[Worker 3] Translating: sap-crystal-reports/headers-footers-ironpdf.cs
+[Worker 3] Translating: sap-crystal-reports/migrate-from-sap-crystal-reports.md
+[Worker 2] Translating: pdfmyurl/html-string-to-pdf-pdfmyurl.cs
+[Worker 2] Translating: pdfmyurl/migrate-from-pdfmyurl.md
+[Worker 1] Translating: pdfmyurl/html-to-pdf-ironpdf.cs
+[Worker 1] Translating: pdfmyurl/html-file-to-pdf-settings-pdfmyurl.cs
+[Worker 1] Translating: pdfmyurl/README.md
+
+⏱️  Progress: 109/788 files (13%) - Rate: 2.9 files/min - ETA: 230.6 min
+[Worker 4] Translating: pdfmyurl/html-file-to-pdf-settings-ironpdf.cs
+[Worker 4] Translating: pdfmyurl/html-to-pdf-pdfmyurl.cs
+[Worker 4] Translating: pdfmyurl/html-string-to-pdf-ironpdf.cs
+[Worker 4] Translating: pdfview4net/migrate-from-pdfview4net.md
+[Worker 1] Translating: pdfview4net/html-to-pdf-ironpdf.cs
+[Worker 1] Translating: pdfview4net/read-pdf-text-ironpdf.cs
+
+⏱️  Progress: 115/788 files (14%) - Rate: 3.0 files/min - ETA: 222.5 min
+[Worker 3] Translating: pdfview4net/html-to-pdf-pdfview4net.cs
+[Worker 3] Translating: pdfview4net/README.md
+[Worker 1] Translating: pdfview4net/read-pdf-text-pdfview4net.cs
+[Worker 1] Translating: pdfview4net/html-string-to-pdf-pdfview4net.cs
+[Worker 2] Translating: pdfview4net/html-string-to-pdf-ironpdf.cs
+[Worker 1] Translating: itext-itextsharp/html-to-pdf-ironpdf.cs
+[Worker 2] Translating: itext-itextsharp/create-pdf-text-images-itext-itextsharp.cs
+[Worker 1] Translating: itext-itextsharp/merge-pdfs-ironpdf.cs
+[Worker 1] Translating: itext-itextsharp/README.md
+[Worker 2] Translating: itext-itextsharp/html-to-pdf-itext-itextsharp.cs
+[Worker 2] Translating: itext-itextsharp/migrate-from-itext-itextsharp.md
+[Worker 4] Translating: itext-itextsharp/merge-pdfs-itext-itextsharp.cs
+[Worker 4] Translating: itext-itextsharp/create-pdf-text-images-ironpdf.cs
+[Worker 4] Translating: compdfkit/html-to-pdf-ironpdf.cs
+
+⏱️  Progress: 129/788 files (16%) - Rate: 3.3 files/min - ETA: 199.3 min
+[Worker 4] Translating: compdfkit/add-watermark-compdfkit.cs
+[Worker 4] Translating: compdfkit/merge-pdfs-ironpdf.cs
+[Worker 4] Translating: compdfkit/README.md
+[Worker 3] Translating: compdfkit/merge-pdfs-compdfkit.cs
+[Worker 3] Translating: compdfkit/migrate-from-compdfkit.md
+[Worker 1] Translating: compdfkit/html-to-pdf-compdfkit.cs
+[Worker 1] Translating: gotenberg/html-to-pdf-gotenberg.cs
+[Worker 4] Translating: gotenberg/migrate-from-gotenberg.md
+[Worker 1] Translating: gotenberg/url-to-pdf-gotenberg.cs
+
+⏱️  Progress: 138/788 files (17%) - Rate: 3.4 files/min - ETA: 188.5 min
+[Worker 2] Translating: gotenberg/html-to-pdf-ironpdf.cs
+[Worker 1] Translating: gotenberg/html-to-pdf-custom-size-gotenberg.cs
+[Worker 2] Translating: gotenberg/README.md
+[Worker 1] Translating: gotenberg/html-to-pdf-custom-size-ironpdf.cs
+[Worker 1] Translating: gotenberg/url-to-pdf-ironpdf.cs
+[Worker 1] Translating: puppeteersharp/html-to-pdf-puppeteersharp.cs
+[Worker 1] Translating: puppeteersharp/html-to-pdf-ironpdf.cs
+[Worker 1] Translating: puppeteersharp/README.md
+[Worker 4] Translating: puppeteersharp/migrate-from-puppeteersharp.md
+
+⏱️  Progress: 147/788 files (18%) - Rate: 3.6 files/min - ETA: 178.9 min
+[Worker 1] Translating: zetpdf/migrate-from-zetpdf.md
+[Worker 3] Translating: zetpdf/README.md
+[Worker 2] Translating: zetpdf/url-to-pdf-ironpdf.cs
+[Worker 2] Translating: winnovative/html-to-pdf-ironpdf.cs
+[Worker 2] Translating: winnovative/url-to-pdf-winnovative.cs
+[Worker 2] Translating: winnovative/html-to-pdf-header-footer-ironpdf.cs
+[Worker 1] Translating: winnovative/README.md
+
+⏱️  Progress: 154/788 files (19%) - Rate: 3.7 files/min - ETA: 173.0 min
+[Worker 2] Translating: winnovative/migrate-from-winnovative.md
+[Worker 4] Translating: winnovative/html-to-pdf-winnovative.cs
+[Worker 4] Translating: spirepdf/migrate-from-spirepdf.md
+[Worker 2] Translating: spirepdf/add-text-to-pdf-ironpdf.cs
+[Worker 2] Translating: spirepdf/html-to-pdf-ironpdf.cs
+[Worker 2] Translating: spirepdf/merge-pdfs-spirepdf.cs
+[Worker 3] Translating: spirepdf/merge-pdfs-ironpdf.cs
+[Worker 1] Translating: spirepdf/README.md
+[Worker 3] Translating: spirepdf/html-to-pdf-spirepdf.cs
+[Worker 2] Translating: spirepdf/add-text-to-pdf-spirepdf.cs
+[Worker 3] Translating: grabzit/html-to-pdf-ironpdf.cs
+[Worker 2] Translating: grabzit/url-to-pdf-grabzit.cs
+
+⏱️  Progress: 166/788 files (21%) - Rate: 3.9 files/min - ETA: 161.2 min
+[Worker 3] Translating: grabzit/html-to-image-grabzit.cs
+[Worker 2] Translating: grabzit/README.md
+[Worker 3] Translating: grabzit/migrate-from-grabzit.md
+[Worker 3] Translating: playwright/README.md
+
+⏱️  Progress: 170/788 files (21%) - Rate: 3.9 files/min - ETA: 160.0 min
+[Worker 4] Translating: playwright/html-to-pdf-custom-size-ironpdf.cs
+[Worker 4] Translating: playwright/url-to-pdf-ironpdf.cs
+[Worker 2] Translating: playwright/url-to-pdf-playwright.cs
+[Worker 4] Translating: playwright/pdf-custom-settings-playwright.cs
+[Worker 2] Translating: playwright/migrate-from-playwright.md
+[Worker 4] Translating: playwright/html-to-pdf-custom-size-playwright.cs
+[Worker 4] Translating: fluid/html-to-pdf-fluid.cs
+[Worker 4] Translating: fluid/invoice-template-pdf-fluid.cs
+[Worker 4] Translating: fluid/html-to-pdf-ironpdf.cs
+[Worker 1] Translating: fluid/migrate-from-fluid.md
+[Worker 4] Translating: fluid/README.md
+[Worker 3] Translating: fluid/template-dynamic-data-pdf-ironpdf.cs
+
+⏱️  Progress: 182/788 files (23%) - Rate: 4.0 files/min - ETA: 149.9 min
+[Worker 3] Translating: fluid/template-dynamic-data-pdf-fluid.cs
+[Worker 3] Translating: fluid/invoice-template-pdf-ironpdf.cs
+[Worker 3] Translating: syncfusion-pdf-framework/html-to-pdf-ironpdf.cs
+[Worker 3] Translating: syncfusion-pdf-framework/migrate-from-syncfusion-pdf-framework.md
+[Worker 4] Translating: syncfusion-pdf-framework/create-pdf-from-text-syncfusion-pdf-framework.cs
+[Worker 4] Translating: syncfusion-pdf-framework/merge-pdf-documents-ironpdf.cs
+[Worker 4] Translating: syncfusion-pdf-framework/README.md
+[Worker 2] Translating: syncfusion-pdf-framework/create-pdf-from-text-ironpdf.cs
+[Worker 2] Translating: syncfusion-pdf-framework/html-to-pdf-syncfusion-pdf-framework.cs
+[Worker 2] Translating: syncfusion-pdf-framework/merge-pdf-documents-syncfusion-pdf-framework.cs
+
+⏱️  Progress: 192/788 files (24%) - Rate: 4.2 files/min - ETA: 142.9 min
+[Worker 2] Translating: pdfsharp/html-to-pdf-pdfsharp.cs
+[Worker 2] Translating: pdfsharp/add-text-to-pdf-ironpdf.cs
+[Worker 2] Translating: pdfsharp/create-pdf-with-image-pdfsharp.cs
+[Worker 2] Translating: pdfsharp/README.md
+[Worker 1] Translating: pdfsharp/migrate-from-pdfsharp.md
+[Worker 4] Translating: pdfsharp/create-pdf-with-image-ironpdf.cs
+[Worker 4] Translating: dynamicpdf/add-text-to-pdf-ironpdf.cs
+[Worker 3] Translating: dynamicpdf/html-to-pdf-ironpdf.cs
+[Worker 3] Translating: dynamicpdf/html-to-pdf-dynamicpdf.cs
+[Worker 4] Translating: dynamicpdf/merge-pdfs-ironpdf.cs
+[Worker 4] Translating: dynamicpdf/README.md
+[Worker 3] Translating: dynamicpdf/merge-pdfs-dynamicpdf.cs
+
+⏱️  Progress: 204/788 files (25%) - Rate: 4.3 files/min - ETA: 134.6 min
+[Worker 3] Translating: dynamicpdf/add-text-to-pdf-dynamicpdf.cs
+[Worker 3] Translating: dynamicpdf/migrate-from-dynamicpdf.md
+[Worker 2] Translating: nutrient/merge-pdfs-nutrient.cs
+[Worker 2] Translating: nutrient/html-to-pdf-ironpdf.cs
+[Worker 2] Translating: nutrient/merge-pdfs-ironpdf.cs
+[Worker 2] Translating: nutrient/migrate-from-nutrient.md
+[Worker 3] Translating: nutrient/README.md
+
+⏱️  Progress: 211/788 files (26%) - Rate: 4.4 files/min - ETA: 131.3 min
+[Worker 4] Translating: nutrient/add-watermark-nutrient.cs
+[Worker 4] Translating: nutrient/html-to-pdf-nutrient.cs
+[Worker 4] Translating: nutrient/add-watermark-ironpdf.cs
+[Worker 4] Translating: questpdf/header-footer-pdf-ironpdf.cs
+[Worker 1] Translating: questpdf/create-invoice-pdf-questpdf.cs
+[Worker 4] Translating: questpdf/html-to-pdf-ironpdf.cs
+[Worker 4] Translating: questpdf/html-to-pdf-questpdf.cs
+[Worker 1] Translating: questpdf/README.md
+[Worker 4] Translating: questpdf/header-footer-pdf-questpdf.cs
+[Worker 4] Translating: questpdf/create-invoice-pdf-ironpdf.cs
+[Worker 4] Translating: questpdf/migrate-from-questpdf.md
+[Worker 3] Translating: vectsharp/shapes-and-text-ironpdf.cs
+[Worker 3] Translating: vectsharp/html-to-pdf-ironpdf.cs
+[Worker 3] Translating: vectsharp/README.md
+
+⏱️  Progress: 225/788 files (28%) - Rate: 4.6 files/min - ETA: 122.7 min
+[Worker 2] Translating: vectsharp/multi-page-pdf-ironpdf.cs
+[Worker 2] Translating: vectsharp/html-to-pdf-vectsharp.cs
+[Worker 2] Translating: vectsharp/migrate-from-vectsharp.md
+[Worker 1] Translating: vectsharp/multi-page-pdf-vectsharp.cs
+[Worker 1] Translating: vectsharp/shapes-and-text-vectsharp.cs
+
+⏱️  Progress: 230/788 files (29%) - Rate: 4.6 files/min - ETA: 121.4 min
+[Worker 1] Translating: dinktopdf/migrate-from-dinktopdf.md
+[Worker 4] Translating: dinktopdf/html-to-pdf-dinktopdf.cs
+[Worker 3] Translating: dinktopdf/url-to-pdf-dinktopdf.cs
+[Worker 2] Translating: dinktopdf/html-to-pdf-ironpdf.cs
+[Worker 3] Translating: dinktopdf/html-to-pdf-custom-settings-dinktopdf.cs
+[Worker 2] Translating: dinktopdf/README.md
+[Worker 4] Translating: dinktopdf/url-to-pdf-ironpdf.cs
+[Worker 4] Translating: dinktopdf/html-to-pdf-custom-settings-ironpdf.cs
+[Worker 4] Translating: tuespechkin/html-to-pdf-ironpdf.cs
+[Worker 3] Translating: tuespechkin/url-to-pdf-tuespechkin.cs
+[Worker 4] Translating: tuespechkin/README.md
+[Worker 3] Translating: tuespechkin/migrate-from-tuespechkin.md
+
+⏱️  Progress: 242/788 files (30%) - Rate: 4.7 files/min - ETA: 115.1 min
+[Worker 1] Translating: tuespechkin/url-to-pdf-ironpdf.cs
+[Worker 1] Translating: tuespechkin/html-to-pdf-custom-settings-tuespechkin.cs
+[Worker 1] Translating: tuespechkin/html-to-pdf-tuespechkin.cs
+[Worker 1] Translating: tuespechkin/html-to-pdf-custom-settings-ironpdf.cs
+[Worker 2] Translating: htmldoc/migrate-from-htmldoc.md
+[Worker 1] Translating: htmldoc/html-to-pdf-ironpdf.cs
+[Worker 1] Translating: htmldoc/html-to-pdf-htmldoc.cs
+[Worker 1] Translating: htmldoc/README.md
+
+⏱️  Progress: 250/788 files (31%) - Rate: 4.8 files/min - ETA: 112.0 min
+[Worker 2] Translating: htmldoc/url-to-pdf-with-headers-htmldoc.cs
+[Worker 2] Translating: htmldoc/html-string-to-pdf-htmldoc.cs
+[Worker 2] Translating: htmldoc/html-string-to-pdf-ironpdf.cs
+[Worker 3] Translating: princexml/html-to-pdf-princexml.cs
+[Worker 3] Translating: princexml/migrate-from-princexml.md
+[Worker 2] Translating: princexml/README.md
+[Worker 4] Translating: princexml/url-to-pdf-ironpdf.cs
+[Worker 4] Translating: princexml/html-string-to-pdf-ironpdf.cs
+[Worker 4] Translating: bitmiracle-docoticpdf/html-to-pdf-ironpdf.cs
+[Worker 4] Translating: bitmiracle-docoticpdf/extract-text-bitmiracle-docoticpdf.cs
+[Worker 4] Translating: bitmiracle-docoticpdf/merge-pdfs-ironpdf.cs
+[Worker 4] Translating: bitmiracle-docoticpdf/migrate-from-bitmiracle-docoticpdf.md
+
+⏱️  Progress: 262/788 files (33%) - Rate: 4.9 files/min - ETA: 106.5 min
+[Worker 1] Translating: bitmiracle-docoticpdf/html-to-pdf-bitmiracle-docoticpdf.cs
+[Worker 1] Translating: bitmiracle-docoticpdf/README.md
+[Worker 4] Translating: pdforge/url-to-pdf-pdforge.cs
+[Worker 4] Translating: pdforge/html-file-to-pdf-custom-size-ironpdf.cs
+[Worker 2] Translating: pdforge/README.md
+[Worker 4] Translating: pdforge/url-to-pdf-ironpdf.cs
+[Worker 4] Translating: pdforge/html-to-pdf-pdforge.cs
+[Worker 3] Translating: pdforge/html-file-to-pdf-custom-size-pdforge.cs
+[Worker 4] Translating: pdforge/migrate-from-pdforge.md
+[Worker 3] Translating: pdfreactor/html-to-pdf-ironpdf.cs
+
+⏱️  Progress: 272/788 files (34%) - Rate: 5.0 files/min - ETA: 102.5 min
+[Worker 1] Translating: pdfreactor/html-to-pdf-pdfreactor.cs
+[Worker 3] Translating: pdfreactor/html-to-pdf-headers-footers-pdfreactor.cs
+[Worker 1] Translating: pdfreactor/README.md
+[Worker 3] Translating: pdfreactor/url-to-pdf-ironpdf.cs
+[Worker 3] Translating: pdfreactor/migrate-from-pdfreactor.md
+[Worker 2] Translating: pdfreactor/html-to-pdf-headers-footers-ironpdf.cs
+[Worker 4] Translating: ironpdf/README.md
+[Worker 2] Translating: pdfbolt/html-file-custom-page-pdfbolt.cs
+
+⏱️  Progress: 280/788 files (35%) - Rate: 5.1 files/min - ETA: 99.8 min
+[Worker 2] Translating: pdfbolt/html-to-pdf-ironpdf.cs
+[Worker 2] Translating: pdfbolt/url-to-pdf-pdfbolt.cs
+[Worker 2] Translating: pdfbolt/README.md
+[Worker 1] Translating: pdfbolt/url-to-pdf-ironpdf.cs
+[Worker 1] Translating: pdfbolt/migrate-from-pdfbolt.md
+[Worker 3] Translating: pdfbolt/html-file-custom-page-ironpdf.cs
+[Worker 4] Translating: pdfbolt/html-to-pdf-pdfbolt.cs
+
+⏱️  Progress: 287/788 files (36%) - Rate: 5.1 files/min - ETA: 97.8 min
+[Worker 3] Translating: foxit-sdk/html-to-pdf-ironpdf.cs
+[Worker 4] Translating: foxit-sdk/add-watermark-foxit-sdk.cs
+[Worker 3] Translating: foxit-sdk/README.md
+[Worker 4] Translating: foxit-sdk/url-to-pdf-ironpdf.cs
+[Worker 2] Translating: foxit-sdk/url-to-pdf-foxit-sdk.cs
+[Worker 4] Translating: foxit-sdk/html-to-pdf-foxit-sdk.cs
+[Worker 2] Translating: foxit-sdk/migrate-from-foxit-sdk.md
+[Worker 4] Translating: foxit-sdk/add-watermark-ironpdf.cs
+[Worker 4] Translating: eopdf/html-file-to-pdf-settings-eopdf.cs
+[Worker 4] Translating: eopdf/merge-pdfs-eopdf.cs
+[Worker 4] Translating: eopdf/migrate-from-eopdf.md
+[Worker 3] Translating: eopdf/html-to-pdf-ironpdf.cs
+
+⏱️  Progress: 299/788 files (37%) - Rate: 5.2 files/min - ETA: 93.3 min
+[Worker 3] Translating: eopdf/html-to-pdf-eopdf.cs
+[Worker 1] Translating: eopdf/merge-pdfs-ironpdf.cs
+[Worker 3] Translating: eopdf/README.md
+[Worker 1] Translating: eopdf/url-to-pdf-eopdf.cs
+[Worker 1] Translating: eopdf/url-to-pdf-ironpdf.cs
+[Worker 1] Translating: eopdf/html-file-to-pdf-settings-ironpdf.cs
+[Worker 2] Translating: pdf-duo/html-to-pdf-pdf-duo.cs
+[Worker 2] Translating: pdf-duo/html-to-pdf-ironpdf.cs
+[Worker 2] Translating: pdf-duo/migrate-from-pdf-duo.md
+[Worker 1] Translating: pdf-duo/README.md
+[Worker 3] Translating: pdf-duo/url-to-pdf-pdf-duo.cs
+
+⏱️  Progress: 310/788 files (39%) - Rate: 5.3 files/min - ETA: 89.5 min
+[Worker 3] Translating: pdf-duo/url-to-pdf-ironpdf.cs
+[Worker 3] Translating: pdf-duo/pdf-merging-ironpdf.cs
+[Worker 3] Translating: pdf-duo/pdf-merging-pdf-duo.cs
+[Worker 4] Translating: apache-pdfbox/extract-text-from-pdf-ironpdf.cs
+[Worker 3] Translating: apache-pdfbox/html-to-pdf-ironpdf.cs
+[Worker 4] Translating: apache-pdfbox/migrate-from-apache-pdfbox.md
+[Worker 3] Translating: apache-pdfbox/merge-pdfs-apache-pdfbox.cs
+[Worker 3] Translating: apache-pdfbox/merge-pdfs-ironpdf.cs
+[Worker 3] Translating: apache-pdfbox/README.md
+
+⏱️  Progress: 319/788 files (40%) - Rate: 5.4 files/min - ETA: 86.8 min
+[Worker 1] Translating: apache-pdfbox/extract-text-from-pdf-apache-pdfbox.cs
+[Worker 2] Translating: apache-pdfbox/html-to-pdf-apache-pdfbox.cs
+[Worker 1] Translating: tall-components/add-watermark-tall-components.cs
+[Worker 2] Translating: tall-components/merge-pdfs-tall-components.cs
+[Worker 4] Translating: tall-components/html-to-pdf-ironpdf.cs
+[Worker 4] Translating: tall-components/migrate-from-tall-components.md
+[Worker 1] Translating: tall-components/merge-pdfs-ironpdf.cs
+[Worker 2] Translating: tall-components/README.md
+[Worker 1] Translating: tall-components/html-to-pdf-tall-components.cs
+[Worker 1] Translating: tall-components/add-watermark-ironpdf.cs
+[Worker 1] Translating: craftmypdf/html-to-pdf-ironpdf.cs
+[Worker 1] Translating: craftmypdf/html-to-pdf-craftmypdf.cs
+[Worker 1] Translating: craftmypdf/pdf-headers-footers-ironpdf.cs
+[Worker 1] Translating: craftmypdf/README.md
+
+⏱️  Progress: 333/788 files (42%) - Rate: 5.5 files/min - ETA: 82.0 min
+[Worker 3] Translating: craftmypdf/url-to-pdf-ironpdf.cs
+[Worker 3] Translating: craftmypdf/migrate-from-craftmypdf.md
+[Worker 4] Translating: craftmypdf/url-to-pdf-craftmypdf.cs
+[Worker 4] Translating: craftmypdf/pdf-headers-footers-craftmypdf.cs
+[Worker 1] Translating: mupdf/migrate-from-mupdf.md
+[Worker 4] Translating: mupdf/merge-pdfs-mupdf.cs
+[Worker 4] Translating: mupdf/html-to-pdf-mupdf.cs
+[Worker 4] Translating: mupdf/extract-text-mupdf.cs
+[Worker 4] Translating: mupdf/merge-pdfs-ironpdf.cs
+[Worker 4] Translating: mupdf/README.md
+[Worker 2] Translating: mupdf/extract-text-ironpdf.cs
+[Worker 2] Translating: gemboxpdf/merge-pdf-files-gemboxpdf.cs
+
+⏱️  Progress: 345/788 files (43%) - Rate: 5.7 files/min - ETA: 78.4 min
+[Worker 2] Translating: gemboxpdf/add-text-to-pdf-ironpdf.cs
+[Worker 2] Translating: gemboxpdf/html-to-pdf-ironpdf.cs
+[Worker 2] Translating: gemboxpdf/migrate-from-gemboxpdf.md
+
+⏱️  Progress: 348/788 files (44%) - Rate: 5.6 files/min - ETA: 78.4 min
+[Worker 3] Translating: gemboxpdf/README.md
+[Worker 4] Translating: selectpdf/custom-page-settings-selectpdf.cs
+[Worker 1] Translating: selectpdf/migrate-from-selectpdf.md
+[Worker 4] Translating: selectpdf/html-to-pdf-selectpdf.cs
+[Worker 4] Translating: selectpdf/README.md
+[Worker 3] Translating: rawprint/print-document-formatting-rawprint.cs
+[Worker 2] Translating: rawprint/html-to-pdf-rawprint.cs
+
+⏱️  Progress: 355/788 files (45%) - Rate: 5.6 files/min - ETA: 76.9 min
+[Worker 3] Translating: rawprint/html-to-pdf-ironpdf.cs
+[Worker 2] Translating: rawprint/url-to-pdf-rawprint.cs
+[Worker 3] Translating: rawprint/README.md
+[Worker 1] Translating: rawprint/migrate-from-rawprint.md
+[Worker 4] Translating: rawprint/url-to-pdf-ironpdf.cs
+[Worker 4] Translating: rawprint/print-document-formatting-ironpdf.cs
+[Worker 4] Translating: api2pdf/html-to-pdf-ironpdf.cs
+[Worker 2] Translating: api2pdf/html-file-to-pdf-options-ironpdf.cs
+[Worker 4] Translating: api2pdf/url-to-pdf-api2pdf.cs
+[Worker 2] Translating: api2pdf/README.md
+[Worker 4] Translating: api2pdf/html-file-to-pdf-options-api2pdf.cs
+[Worker 4] Translating: api2pdf/url-to-pdf-ironpdf.cs
+[Worker 4] Translating: api2pdf/migrate-from-api2pdf.md
+
+⏱️  Progress: 368/788 files (46%) - Rate: 5.7 files/min - ETA: 73.1 min
+[Worker 1] Translating: api2pdf/html-to-pdf-api2pdf.cs
+[Worker 1] Translating: asposepdf/merge-pdf-files-asposepdf.cs
+[Worker 1] Translating: asposepdf/html-to-pdf-asposepdf.cs
+[Worker 1] Translating: asposepdf/migrate-from-asposepdf.md
+[Worker 3] Translating: asposepdf/html-string-to-pdf-asposepdf.cs
+[Worker 4] Translating: asposepdf/README.md
+[Worker 3] Translating: asposepdf/html-string-to-pdf-ironpdf.cs
+[Worker 3] Translating: bcl-easypdf-sdk/migrate-from-bcl-easypdf-sdk.md
+
+⏱️  Progress: 376/788 files (47%) - Rate: 5.8 files/min - ETA: 71.3 min
+[Worker 2] Translating: bcl-easypdf-sdk/README.md
+[Worker 1] Translating: bcl-easypdf-sdk/url-to-pdf-ironpdf.cs
+[Worker 1] Translating: bcl-easypdf-sdk/merge-pdf-files-ironpdf.cs
+[Worker 1] Translating: bcl-easypdf-sdk/html-to-pdf-bcl-easypdf-sdk.cs
+[Worker 1] Translating: bcl-easypdf-sdk/url-to-pdf-bcl-easypdf-sdk.cs
+[Worker 1] Translating: hiqpdf/html-to-pdf-ironpdf.cs
+[Worker 4] Translating: hiqpdf/merge-pdfs-ironpdf.cs
+[Worker 1] Translating: hiqpdf/pdf-headers-footers-ironpdf.cs
+[Worker 3] Translating: hiqpdf/README.md
+[Worker 4] Translating: hiqpdf/migrate-from-hiqpdf.md
+[Worker 1] Translating: hiqpdf/html-to-pdf-hiqpdf.cs
+
+⏱️  Progress: 387/788 files (49%) - Rate: 5.9 files/min - ETA: 68.4 min
+[Worker 1] Translating: hiqpdf/merge-pdfs-hiqpdf.cs
+[Worker 1] Translating: hiqpdf/pdf-headers-footers-hiqpdf.cs
+[Worker 1] Translating: jsreport/migrate-from-jsreport.md
+[Worker 3] Translating: jsreport/html-to-pdf-ironpdf.cs
+[Worker 3] Translating: jsreport/README.md
+[Worker 2] Translating: jsreport/html-to-pdf-jsreport.cs
+[Worker 4] Translating: jsreport/url-to-pdf-ironpdf.cs
+[Worker 2] Translating: jsreport/html-to-pdf-headers-footers-ironpdf.cs
+[Worker 4] Translating: jsreport/html-to-pdf-headers-footers-jsreport.cs
+[Worker 2] Translating: jsreport/url-to-pdf-jsreport.cs
+[Worker 1] Translating: haukcodedinktopdf/migrate-from-haukcodedinktopdf.md
+[Worker 4] Translating: haukcodedinktopdf/html-to-pdf-ironpdf.cs
+[Worker 2] Translating: haukcodedinktopdf/custom-page-settings-ironpdf.cs
+[Worker 4] Translating: haukcodedinktopdf/url-to-pdf-haukcodedinktopdf.cs
+
+⏱️  Progress: 401/788 files (50%) - Rate: 6.0 files/min - ETA: 64.7 min
+[Worker 2] Translating: haukcodedinktopdf/README.md
+[Worker 4] Translating: haukcodedinktopdf/url-to-pdf-ironpdf.cs
+[Worker 4] Translating: haukcodedinktopdf/custom-page-settings-haukcodedinktopdf.cs
+[Worker 4] Translating: haukcodedinktopdf/html-to-pdf-haukcodedinktopdf.cs
+[Worker 3] Translating: activepdf/url-to-pdf-activepdf.cs
+[Worker 4] Translating: activepdf/migrate-from-activepdf.md
+[Worker 3] Translating: activepdf/html-to-pdf-activepdf.cs
+[Worker 3] Translating: activepdf/html-to-pdf-ironpdf.cs
+[Worker 3] Translating: activepdf/merge-pdfs-ironpdf.cs
+[Worker 3] Translating: activepdf/merge-pdfs-activepdf.cs
+[Worker 3] Translating: activepdf/README.md
+[Worker 1] Translating: activepdf/url-to-pdf-ironpdf.cs
+[Worker 1] Translating: abcpdf/html-to-pdf-ironpdf.cs
+
+⏱️  Progress: 414/788 files (52%) - Rate: 6.1 files/min - ETA: 61.5 min
+[Worker 1] Translating: abcpdf/merge-pdfs-ironpdf.cs
+[Worker 1] Translating: abcpdf/README.md
+[Worker 2] Translating: abcpdf/migrate-from-abcpdf.md
+
+⏱️  Progress: 417/788 files (52%) - Rate: 6.0 files/min - ETA: 61.4 min
+[Worker 1] Translating: abcpdf/html-to-pdf-abcpdf.cs
+[Worker 4] Translating: abcpdf/html-string-to-pdf-ironpdf.cs
+[Worker 1] Translating: fonet/url-to-pdf-fonet.cs
+[Worker 4] Translating: fonet/pdf-with-settings-ironpdf.cs
+[Worker 1] Translating: fonet/html-to-pdf-ironpdf.cs
+[Worker 4] Translating: fonet/README.md
+[Worker 1] Translating: fonet/url-to-pdf-ironpdf.cs
+[Worker 1] Translating: fonet/migrate-from-fonet.md
+[Worker 3] Translating: fonet/pdf-with-settings-fonet.cs
+[Worker 3] Translating: fonet/html-to-pdf-fonet.cs
+[Worker 3] Translating: gnostice/merge-pdf-files-gnostice.cs
+[Worker 3] Translating: gnostice/html-to-pdf-ironpdf.cs
+[Worker 3] Translating: gnostice/add-watermark-to-pdf-ironpdf.cs
+[Worker 3] Translating: gnostice/migrate-from-gnostice.md
+
+⏱️  Progress: 431/788 files (54%) - Rate: 6.2 files/min - ETA: 58.0 min
+[Worker 4] Translating: gnostice/README.md
+[Worker 2] Translating: gnostice/merge-pdf-files-ironpdf.cs
+[Worker 1] Translating: gnostice/html-to-pdf-gnostice.cs
+
+⏱️  Progress: 436/788 files (55%) - Rate: 6.1 files/min - ETA: 57.4 min
+
+⏱️  Progress: 438/788 files (55%) - Rate: 6.1 files/min - ETA: 57.6 min
+
+⏱️  Progress: 438/788 files (55%) - Rate: 6.0 files/min - ETA: 58.4 min
+
+⏱️  Progress: 438/788 files (55%) - Rate: 5.9 files/min - ETA: 59.2 min
+
+⏱️  Progress: 438/788 files (55%) - Rate: 5.8 files/min - ETA: 60.0 min
+
+⏱️  Progress: 438/788 files (55%) - Rate: 5.8 files/min - ETA: 60.8 min
+
+⏱️  Progress: 438/788 files (55%) - Rate: 5.7 files/min - ETA: 61.6 min
+
+⏱️  Progress: 438/788 files (55%) - Rate: 5.6 files/min - ETA: 62.4 min
+
+⏱️  Progress: 438/788 files (55%) - Rate: 5.5 files/min - ETA: 63.2 min

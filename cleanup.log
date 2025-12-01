@@ -1,0 +1,100 @@
+================================================================================
+GitHub Repository Cleanup
+================================================================================
+Keeping only:
+  - awesome-dotnet-pdf-libraries-2025 (English - iron-software org)
+  - awesome-dotnet-pdf-libraries-2025-jp (Japanese - csharp-pdf-libraries)
+
+Deleting 16 premature repositories...
+================================================================================
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-zh-cn
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-zh-cn
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-kr
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-kr
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-pt-br
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-pt-br
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-es
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-es
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-de
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-de
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-fr
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-fr
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-ru
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-ru
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-zh-tw
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-zh-tw
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-it
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-it
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-pl
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-pl
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-tr
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-tr
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-nl
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-nl
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-in
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-in
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-id
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-id
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-vn
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-vn
+   ✅ Deleted
+
+🗑️  Deleting: awesome-dotnet-pdf-libraries-2025-th
+   ✅ Deleted successfully
+🗑️  Deleting local: /Users/jacob/Sites/awesome-dotnet-pdf-libraries-2025-th
+   ✅ Deleted
+
+================================================================================
+✅ Cleanup Complete!
+================================================================================
+
+Remaining repositories:
+  1. awesome-dotnet-pdf-libraries-2025 (English)
+  2. awesome-dotnet-pdf-libraries-2025-jp (Japanese)
+
+Other languages will be created one at a time as translations complete.
+================================================================================

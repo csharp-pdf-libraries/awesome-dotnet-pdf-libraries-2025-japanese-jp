@@ -1,0 +1,1 @@
+Since there are no comments in the provided C# code snippet, there's nothing to translate. If you have any specific comments or another code snippet you'd like translated, please provide them.
