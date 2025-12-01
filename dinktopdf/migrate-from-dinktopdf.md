@@ -6,7 +6,7 @@
 
 ---
 
-# 移行ガイド: DinkToPdf → IronPDF
+# DinkToPdfからIronPDFへの移行方法は？
 
 ## 目次
 1. [IronPDFへの移行理由](#ironpdfへの移行理由)
@@ -28,9 +28,9 @@
 
 DinkToPdfはwkhtmltopdfをラップしており、**修正されていない重大なセキュリティ脆弱性**があります：
 
-1. **CVE-2022-35583 (SSRF)**: 攻撃者が内部ネットワークリソースにアクセスすることを可能にするサーバーサイドリクエスト偽造
-2. **プロジェクト放棄**: wkhtmltopdfは2020年以降、メンテナンスされていません
-3. **セキュリティパッチなし**: 既知の脆弱性は修正されることがありません
+1. **CVE-2022-35583 (SSRF)**: 攻撃者が内部ネットワークリソースにアクセスできるサーバーサイドリクエストフォージェリ
+2. **プロジェクトの放棄**: wkhtmltopdfは2020年以降メンテナンスされていません
+3. **セキュリティパッチの不在**: 既知の脆弱性は修正されることがありません
 
 ### DinkToPdfの技術的問題
 
@@ -38,8 +38,8 @@ DinkToPdfはwkhtmltopdfをラップしており、**修正されていない重�
 |-------|--------|
 | **スレッドセーフティ** | 本番環境でのSynchronizedConverterのクラッシュ |
 | **ネイティブバイナリ** | プラットフォーム固有のバイナリを含む複雑なデプロイメント |
-| **CSSの制限** | Flexbox、Grid、または現代のCSSサポートなし |
-| **JavaScript** | 実行が不安定、タイムアウト |
+| **CSSの制限** | Flexbox、Grid、または現代的なCSSのサポートなし |
+| **JavaScript** | 実行の不一致、タイムアウト |
 | **レンダリング** | 古いWebKitエンジン（2015年頃） |
 | **メンテナンス** | 最終更新: 2018年 |
 
@@ -48,12 +48,12 @@ DinkToPdfはwkhtmltopdfをラップしており、**修正されていない重�
 | 項目 | DinkToPdf | IronPDF |
 |--------|-----------|---------|
 | **セキュリティ** | CVE-2022-35583 (SSRF)、未修正 | 既知の脆弱性なし |
-| **レンダリングエンジン** | 古いWebKit (2015) | 現代のChromium |
-| **スレッドセーフティ** | 並行使用でクラッシュ | 完全にスレッドセーフ |
-| **ネイティブ依存関係** | プラットフォーム固有のバイナリ | 純粋なNuGetパッケージ |
+| **レンダリングエンジン** | 古いWebKit (2015) | 現代的なChromium |
+| **スレッドセーフティ** | 並行使用時のクラッシュ | 完全にスレッドセーフ |
+| **ネイティブ依存性** | プラットフォーム固有のバイナリ | 純粋なNuGetパッケージ |
 | **CSSサポート** | Flexbox/Gridなし | 完全なCSS3 |
-| **JavaScript** | 限定的、不安定 | 完全サポート |
-| **メンテナンス** | 放棄 (2018) | 積極的なメンテナンス |
+| **JavaScript** | 限定的、不一致 | 完全なサポート |
+| **メンテナンス** | 放棄された (2018) | 積極的なメンテナンス |
 | **サポート** | コミュニティのみ | プロフェッショナルサポート |
 
 ### 機能比較
@@ -64,9 +64,9 @@ DinkToPdfはwkhtmltopdfをラップしており、**修正されていない重�
 | URLからPDFへ | ✅ | ✅ |
 | カスタムマージン | ✅ | ✅ |
 | ヘッダー/フッター | ✅ (限定的) | ✅ (完全なHTML) |
-| CSS3 | ❌ 限定 | ✅ 完全 |
+| CSS3 | ❌ 限定的 | ✅ 完全 |
 | Flexbox/Grid | ❌ | ✅ |
-| JavaScript | ⚠️ 限定 | ✅ 完全 |
+| JavaScript | ⚠️ 限定的 | ✅ 完全 |
 | PDF操作 | ❌ | ✅ |
 | フォーム入力 | ❌ | ✅ |
 | デジタル署名 | ❌ | ✅ |
@@ -84,10 +84,10 @@ DinkToPdfはwkhtmltopdfをラップしており、**修正されていない重�
 - **NuGetアクセス**: nuget.orgからパッケージをインストールできることを確認
 - **ライセンスキー**: [IronPDFウェブサイト](https://ironpdf.com/)から取得（無料トライアル利用可能）
 
-### すべてのDinkToPdf参照を見つける
+### DinkToPdfのすべての参照を見つける
 
 ```bash
-# コードベース内のすべてのDinkToPdfの使用箇所を検索
+# コードベース内のすべてのDinkToPdfの使用を検索
 grep -r "using DinkToPdf" --include="*.cs" .
 grep -r "SynchronizedConverter\|HtmlToPdfDocument\|ObjectSettings" --include="*.cs" .
 
@@ -104,19 +104,19 @@ find . -name "libwkhtmltox*"
 
 | 変更 | DinkToPdf | IronPDF | 影響 |
 |--------|-----------|---------|--------|
-| **コンバーター** | `SynchronizedConverter(new PdfTools())` | `ChromePdfRenderer` | インスタンス化がシンプル |
+| **コンバーター** | `SynchronizedConverter(new PdfTools())` | `ChromePdfRenderer` | よりシンプルなインスタンス化 |
 | **ドキュメント** | `HtmlToPdfDocument` | 直接メソッド呼び出し | ドキュメントオブジェクトなし |
-| **設定** | `GlobalSettings` + `ObjectSettings` | `RenderingOptions` | オプションオブジェクトが一つ |
+| **設定** | `GlobalSettings` + `ObjectSettings` | `RenderingOptions` | シングルオプションオブジェクト |
 | **戻り値の型** | `byte[]` | `PdfDocument` | より強力なオブジェクト |
 | **バイナリ** | `libwkhtmltox.dll/so` | なし（管理された） | ネイティブファイルを削除 |
 | **スレッドセーフティ** | `SynchronizedConverter`が必要 | デフォルトでスレッドセーフ | よりシンプルなコード |
-| **DI** | シングルトンが必要 | 任意のライフタイム | 柔軟 |
+| **DI** | シングルトンが必要 | 任意のライフタイム | 柔軟性 |
 
 ---
 
 ## クイックスタート（5分）
 
-### ステップ 1: NuGetパッケージを更新
+### ステップ1: NuGetパッケージを更新
 
 ```bash
 # DinkToPdfを削除
@@ -126,32 +126,32 @@ dotnet remove package DinkToPdf
 dotnet add package IronPdf
 ```
 
-### ステップ 2: ネイティブバイナリを削除
+### ステップ2: ネイティブバイナリを削除
 
 プロジェクトからこれらのファイルを削除します：
 - `libwkhtmltox.dll` (Windows)
 - `libwkhtmltox.so` (Linux)
 - `libwkhtmltox.dylib` (macOS)
 
-### ステップ 3: Usingステートメントを更新
+### ステップ3: Usingステートメントを更新
 
 ```csharp
 // 以前
 using DinkToPdf;
 using DinkToPdf.Contracts;
 
-// 以後
+// 以降
 using IronPdf;
 ```
 
-### ステップ 4: ライセンスキーを適用
+### ステップ4: ライセンスキーを適用
 
 ```csharp
 // アプリケーションの起動時に追加（Program.csまたはGlobal.asax）
 IronPdf.License.LicenseKey = "YOUR-LICENSE-KEY";
 ```
 
-### ステップ 5: 基本的なコード移行
+### ステップ5: 基本的なコード移行
 
 **以前 (DinkToPdf):**
 ```csharp
@@ -177,7 +177,7 @@ byte[] pdf = converter.Convert(doc);
 File.WriteAllBytes("output.pdf", pdf);
 ```
 
-**以後 (IronPDF):**
+**以降 (IronPDF):**
 ```csharp
 using IronPdf;
 
