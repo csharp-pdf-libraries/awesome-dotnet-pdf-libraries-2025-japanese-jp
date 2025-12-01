@@ -6,35 +6,35 @@
 
 ---
 
-# 移行ガイド: QuestPDF → IronPDF
+# QuestPDFからIronPDFへの移行方法は？
 
-## QuestPDFからIronPDFへの移行理由
+## QuestPDFからIronPDFへ移行する理由
 
-**QuestPDFはHTMLからPDFへの変換によく推奨されますが、HTMLをまったくサポートしていません。** Redditや開発者フォーラムで積極的に宣伝されているにもかかわらず、QuestPDFは独自のプロプライエタリなレイアウト言語を使用しており、既存のWebスキルを活用する代わりに全く新しいDSLを学ぶ必要があります。この根本的な制限は、ほとんどのPDF生成シナリオにおいて間違った選択となります。
+**QuestPDFはHTMLからPDFへの変換によく推奨されますが、実際にはHTMLを全くサポートしていません。** Redditや開発者フォーラムで積極的に宣伝されているにもかかわらず、QuestPDFは独自のプロプライエタリなレイアウト言語を使用しており、既存のWebスキルを活用する代わりに全く新しいDSL（ドメイン固有言語）を学習する必要があります。この根本的な制限は、ほとんどのPDF生成シナリオにおいて間違った選択です。
 
-### 核心問題: HTMLサポートがない
+### 核心的な問題：HTMLサポートがない
 
 | 機能 | QuestPDF | IronPDF |
 |---------|----------|---------|
-| **HTMLからPDFへ** | ❌ **サポートされていません** | ✅ 完全サポート |
-| **CSSスタイリング** | ❌ **サポートされていません** | ✅ 完全なCSS3 |
-| **既存のテンプレート** | ❌ ゼロから再構築必要 | ✅ HTML/CSSアセットの再利用 |
+| **HTMLからPDFへ** | ❌ **サポートされていない** | ✅ 完全サポート |
+| **CSSスタイリング** | ❌ **サポートされていない** | ✅ 完全なCSS3 |
+| **既存のテンプレート** | ❌ ゼロから再構築が必要 | ✅ HTML/CSSアセットの再利用 |
 | **デザインツールの互換性** | ❌ なし | ✅ あらゆるWebデザインツール |
 | **学習曲線** | 新しい独自のDSL | Webスキルの移行 |
-| **レイアウトプレビュー** | ❌ IDEプラグインが必要 | ✅ 任意のブラウザでプレビュー |
+| **レイアウトプレビュー** | ❌ IDEプラグインが必要 | ✅ 任意のブラウザでプレビュー可能 |
 | **真のオープンソース** | ❌ 開発者用は無料、クライアント用は有料 | ✅ シンプルな商用ライセンス |
 
 ---
 
 ## QuestPDFのライセンスの罠
 
-QuestPDFは自身を「無料」かつ「オープンソース」としていますが、これは誤解を招くものです:
+QuestPDFは「無料」と「オープンソース」として自己を宣伝していますが、これは誤解を招くものです：
 
 ### 現実
 
 1. **無料枠の制限**: QuestPDFの「コミュニティライセンス」は、年間総収入が100万ドル未満の企業にのみ無料です
 2. **クライアントへの影響**: 収入の閾値を超えると、クライアント（開発者だけでなく）もライセンスを購入する必要があります
-3. **ライセンス監査**: QuestPDFのモデルは、収入の開示とコンプライアンスの追跡を必要としますが、単純な開発者ごとの商用ライセンスとは異なります
+3. **ライセンス監査**: シンプルな開発者ごとの商用ライセンスとは異なり、QuestPDFのモデルでは収入の開示とコンプライアンスの追跡が必要です
 4. **iTextスタイルのライセンス**: 多くの組織に頭痛の種となったiText/iTextSharpライセンスモデルを反映しています
 
 ### IronPDFのシンプルなライセンス
@@ -43,17 +43,17 @@ QuestPDFは自身を「無料」かつ「オープンソース」としていま
 - 収入監査なし
 - クライアントのライセンス要件なし
 - 明確で予測可能なコスト
-- 一度ライセンスを取得すればどこでもデプロイ可能
+- 一度ライセンスを取得すればどこでも展開可能
 
 ---
 
 ## 独自言語の問題
 
-QuestPDFは標準のWeb技術を使用する代わりに、カスタムのC#フルエントAPIを学ぶことを強制します:
+QuestPDFは、標準のWeb技術を使用する代わりに、カスタムのC#フルエントAPIを学習することを強制します：
 
-### QuestPDFのアプローチ (独自のDSL)
+### QuestPDFのアプローチ（独自のDSL）
 ```csharp
-// QuestPDFのカスタムフルエントAPIを学ぶ必要があります
+// QuestPDFのカスタムフルエントAPIを学習する必要があります
 container.Page(page =>
 {
     page.Content().Column(column =>
@@ -70,13 +70,13 @@ container.Page(page =>
 
 **問題点:**
 - コードをビルドして実行しないと出力を視覚化できない
-- Visual StudioやJetBrains IDE用のQuestPDF Previewerプラグインが必要
-- 標準エディターでのレイアウト構造のシンタックスハイライトがない
+- Visual StudioやJetBrainsのIDE用のQuestPDFプレビュープラグインが必要
+- 標準エディタでのレイアウト構造のシンタックスハイライトがない
 - 既存のHTML/CSSテンプレートを再利用できない
 - デザインの変更にはC#コードの変更が必要
 - 非開発者（デザイナー）がテンプレートに貢献できない
 
-### IronPDFのアプローチ (標準のHTML/CSS)
+### IronPDFのアプローチ（標準のHTML/CSS）
 ```csharp
 // 標準のHTML/CSSを使用 - 任意のブラウザでプレビュー
 var html = @"
@@ -103,7 +103,7 @@ var pdf = renderer.RenderHtmlAsPdf(html);
 **利点:**
 - 任意のWebブラウザで即座にプレビュー可能
 - 既存のHTML/CSSスキルを使用
-- デザイナーがテンプレートを作成および変更可能
+- デザイナーがテンプレートを作成および修正可能
 - 任意のHTMLテンプレートエンジン（Razor、Handlebarsなど）を使用可能
 - CSSフレームワーク（Bootstrap、Tailwind）を活用
 - ブラウザの開発ツールでレイアウトをデバッグ
@@ -112,36 +112,36 @@ var pdf = renderer.RenderHtmlAsPdf(html);
 
 ## デザインアセットの再利用ができない
 
-QuestPDFの最大の制限の1つは、既存のデザインアセットを再利用できないことです:
+QuestPDFの最大の制限の一つは、既存のデザインアセットを再利用できないことです：
 
 | アセットタイプ | QuestPDF | IronPDF |
 |------------|----------|---------|
-| **HTMLメールテンプレート** | ❌ 再構築が必要 | ✅ 直接使用 |
-| **ウェブサイトのスタイルシート** | ❌ 再構築が必要 | ✅ 直接使用 |
-| **Bootstrap/Tailwind** | ❌ サポートされていません | ✅ 完全サポート |
-| **Figma/Sketchエクスポート** | ❌ サポートされていません | ✅ HTMLへのエクスポート |
-| **既存のレポート** | ❌ 再構築が必要 | ✅ HTMLバージョンを保持 |
-| **デザインシステムコンポーネント** | ❌ 再構築が必要 | ✅ 直接再利用 |
+| **HTMLメールテンプレート** | ❌ ゼロから再構築が必要 | ✅ 直接使用可能 |
+| **ウェブサイトのスタイルシート** | ❌ ゼロから再構築が必要 | ✅ 直接使用可能 |
+| **Bootstrap/Tailwind** | ❌ サポートされていない | ✅ 完全サポート |
+| **Figma/Sketchのエクスポート** | ❌ サポートされていない | ✅ HTMLへのエクスポート |
+| **既存のレポート** | ❌ ゼロから再構築が必要 | ✅ HTMLバージョンを保持 |
+| **デザインシステムコンポーネント** | ❌ ゼロから再構築が必要 | ✅ 直接再利用可能 |
 
-**実際のコスト**: QuestPDFでのデザイン変更は、C#開発者がコードを変更する必要があります。IronPDFでは、デザイナーがHTML/CSSテンプレートを独立して更新できます。
+**実際のコスト**: QuestPDFでのデザイン変更には、C#開発者がコードを変更する必要があります。IronPDFでは、デザイナーがHTML/CSSテンプレートを独立して更新できます。
 
 ---
 
-## IDEプラグインの要件
+## IDEプラグインが必要
 
-QuestPDFでは、PDFレイアウトをプレビューするために特別なプラグインをインストールする必要があります:
+QuestPDFは、PDFレイアウトをプレビューするために特別なプラグインをインストールする必要があります：
 
-### プラグインなし
-- コードをビルドして実行して出力を確認する必要があります
+### プラグインなしの場合
+- 出力を確認するためにコードをビルドして実行する必要があります
 - 位置決めやスタイリングに試行錯誤が必要
 - 開発中の視覚的フィードバックがない
 - 反復サイクルが遅い
 
 ### IronPDF（プラグイン不要）
 - 任意のブラウザでHTMLを開いてプレビュー
-- デバッグのためにブラウザの開発ツールを使用
+- デバッグにブラウザの開発ツールを使用
 - 即時の視覚的フィードバック
-- ホットリロードでの高速反復
+- ホットリロードでの迅速な反復
 
 ---
 
@@ -162,7 +162,7 @@ dotnet add package IronPdf
 | QuestPDF | IronPDF |
 |----------|---------|
 | `QuestPDF.Fluent` | `IronPdf` |
-| `QuestPDF.Helpers` | 不要 (CSSを使用) |
+| `QuestPDF.Helpers` | 不要（CSSを使用） |
 | `QuestPDF.Infrastructure` | `IronPdf` |
 | N/A (HTMLサポートなし) | `IronPdf.Rendering` |
 
@@ -170,21 +170,21 @@ dotnet add package IronPdf
 
 ## APIマッピング
 
-| QuestPDFの概念 | IronPDFの同等物 | 備考 |
+| QuestPDFの概念 | IronPDFの相当するもの | 備考 |
 |------------------|-------------------|-------|
 | `Document.Create()` | `new ChromePdfRenderer()` | レンダラーの作成 |
 | `.Page()` | `RenderHtmlAsPdf()` | HTMLをPDFにレンダリング |
-| `.Text()` | HTMLの`<p>`、`<h1>`、`<span>` | 標準のHTMLタグ |
-| `.Bold()` | CSSの`font-weight: bold` | 標準のCSS |
-| `.FontSize(24)` | CSSの`font-size: 24px` | 標準のCSS |
-| `.Image()` | HTMLの`<img src="...">` | 標準のHTML |
-| `.Table()` | HTMLの`<table>` | 標準のHTML |
-| `.Column()` | CSSの`display: flex; flex-direction: column` | CSS Flexbox |
-| `.Row()` | CSSの`display: flex; flex-direction: row` | CSS Flexbox |
+| `.Text()` | HTML `<p>`, `<h1>`, `<span>` | 標準のHTMLタグ |
+| `.Bold()` | CSS `font-weight: bold` | 標準のCSS |
+| `.FontSize(24)` | CSS `font-size: 24px` | 標準のCSS |
+| `.Image()` | HTML `<img src="...">` | 標準のHTML |
+| `.Table()` | HTML `<table>` | 標準のHTML |
+| `.Column()` | CSS `display: flex; flex-direction: column` | CSS Flexbox |
+| `.Row()` | CSS `display: flex; flex-direction: row` | CSS Flexbox |
 | `.PageSize()` | `RenderingOptions.PaperSize` | 用紙の寸法 |
 | `.Margin()` | `RenderingOptions.Margin*` | ページの余白 |
 | `.GeneratePdf()` | `pdf.SaveAs()` | ファイル出力 |
-| `.GeneratePdfStream()` | `pdf.BinaryData`または`pdf.Stream` | メモリ出力 |
+| `.GeneratePdfStream()` | `pdf.BinaryData` or `pdf.Stream` | メモリ出力 |
 | N/A | `PdfDocument.Merge()` | PDFのマージ |
 | N/A | `PdfDocument.FromFile()` | 既存のPDFの読み込み |
 | N/A | `pdf.SecuritySettings` | PDFの暗号化 |
@@ -196,14 +196,14 @@ dotnet add package IronPdf
 
 ### 例1: シンプルな請求書
 
-**変更前 (QuestPDF) - 独自のDSL:**
+**Before (QuestPDF) - 独自のDSL:**
 ```csharp
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 
-// QuestPDFのフルエントAPIを学ぶ必要があります
-// IDEプラグインまたはコードの実行なしにはプレビューできません
+// QuestPDFのフルエントAPIを学習する必要があります
+// IDEプラグインまたはコードの実行なしではプレビューできません
 Document.Create(container =>
 {
     container.Page(page =>
@@ -249,7 +249,7 @@ Document.Create(container =>
 }).GeneratePdf("invoice.pdf");
 ```
 
-**変更後 (IronPDF) - 標準のHTML/CSS:**
+**After (IronPDF) - 標準のHTML/CSS:**
 ```csharp
 using IronPdf;
 
@@ -287,7 +287,7 @@ string html = @"
             font-size: 18px;
             font-weight: bold;
             text-align: right;
-            margin-top: 20px.
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -329,7 +329,7 @@ pdf.SaveAs("invoice.pdf");
 
 ### 例2: Flexboxを使用した複雑なレイアウト
 
-**変更前 (QuestPDF) - 複雑なネストされたDSL:**
+**Before (QuestPDF) - 複雑なネストされたDSL:**
 ```csharp
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
@@ -385,16 +385,10 @@ Document.Create(container =>
 }).GeneratePdf("complex-invoice.pdf");
 ```
 
-**変更後 (IronPDF) - クリーンなCSS Flexbox:**
+**After (IronPDF) - クリーンなCSS Flexbox:**
 ```csharp
 using IronPdf;
 
 IronPdf.License.LicenseKey = "YOUR-LICENSE-KEY";
 
 string html = @"
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        body {
-            font-family: Arial

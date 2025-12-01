@@ -6,50 +6,50 @@
 
 ---
 
-# 移行ガイド: Nutrient (旧PSPDFKit) → IronPDF
+# Nutrient（旧PSPDFKit）からIronPDFへの移行方法は？
 
 ## なぜ移行するのか？
 
-Nutrient (旧PSPDFKit)はPDFライブラリからAI機能とエンタープライズの複雑さを備えた包括的な「ドキュメントインテリジェンスプラットフォーム」へと進化しました。プラットフォームのオーバーヘッドなしに直接的なPDF操作が必要なチームにとって、IronPDFは集中的でコスト効果の高い代替手段を提供します。
+Nutrient（旧PSPDFKit）はPDFライブラリからAI機能とエンタープライズの複雑さを備えた包括的な「ドキュメントインテリジェンスプラットフォーム」へと進化しました。プラットフォームのオーバーヘッドなしに直接的なPDF操作が必要なチームに対して、IronPDFは集中的でコスト効果の高い代替手段を提供します。
 
 ### Nutrientの問題点
 
-1. **プラットフォームの過剰設計**: かつてのPDF SDKは現在、「ドキュメントインテリジェンスプラットフォーム」に
-   - 必要ないかもしれないAI機能
+1. **プラットフォームの過剰設計**: かつてのPDF SDKは現在、「ドキュメントインテリジェンスプラットフォーム」になっています
+   - 必要としないかもしれないAI機能
    - PDFを超えるドキュメントワークフロー機能
    - 単純なPDFタスクのための複雑なアーキテクチャ
 
-2. **エンタープライズ価格設定**: 大規模な組織向けに位置付け
-   - 営業連絡を要する不透明な価格設定
+2. **エンタープライズ価格**: 大企業向けに位置付けられています
+   - 営業担当者への連絡が必要な不透明な価格設定
    - 中小規模のチームにとって高価
    - クラウド/サーバー展開のための複雑なライセンス
 
-3. **リブランドの混乱**: PSPDFKit → Nutrientへの移行
-   - ドキュメントが両方の名前を参照
-   - パッケージ名がPSPDFKitを使用している可能性がある
-   - 移行中の移行パスが不明確
+3. **リブランドによる混乱**: PSPDFKit → Nutrientへの移行
+   - 文書化は両方の名前を参照しています
+   - パッケージ名はまだPSPDFKitを使用している可能性があります
+   - 移行中に移行パスが不明確
 
-4. **非同期ファーストの複雑さ**: すべてがasync/awaitを要求
+4. **非同期ファーストの複雑さ**: すべてがasync/awaitを必要とします
    - 初期化のための`PdfProcessor.CreateAsync()`
    - 単純なタスクのための非同期操作
    - 同期ワークフローのためのオーバーヘッド
 
-5. **重い依存関係**: フルプラットフォームはより多くのリソースを要求
+5. **重い依存関係**: フルプラットフォームはより多くのリソースを必要とします
    - 大きなパッケージフットプリント
    - より多くの初期化時間
    - 追加の設定
 
 ### IronPDFの利点
 
-| 項目 | Nutrient (PSPDFKit) | IronPDF |
-|------|-------------------|---------|
+| アスペクト | Nutrient (PSPDFKit) | IronPDF |
+|--------|-------------------|---------|
 | フォーカス | ドキュメントインテリジェンスプラットフォーム | PDFライブラリ |
-| 価格設定 | エンタープライズ (営業連絡) | 透明、公開された価格 |
+| 価格設定 | エンタープライズ（営業に連絡） | 透明で公開されている |
 | アーキテクチャ | 複雑なプラットフォーム | 単純なライブラリ |
-| APIスタイル | 非同期ファースト | 同期オプション付きの同期 |
+| APIスタイル | 非同期ファースト | 同期と非同期のオプション |
 | 依存関係 | 重い | 軽量 |
-| 設定 | 複雑 | 直接的 |
-| 学習曲線 | 険しい (プラットフォーム) | 緩やか (ライブラリ) |
+| 設定 | 複雑 | 単純 |
+| 学習曲線 | 急（プラットフォーム） | 緩やか（ライブラリ） |
 | 対象ユーザー | エンタープライズ | すべてのチームサイズ |
 
 ---
@@ -88,7 +88,7 @@ dotnet add package IronPdf
 
 | Nutrient (PSPDFKit) | IronPDF | 備考 |
 |---------------------|---------|-------|
-| `await PdfProcessor.CreateAsync()` | `new ChromePdfRenderer()` | 非同期不要 |
+| `await PdfProcessor.CreateAsync()` | `new ChromePdfRenderer()` | 非同期は不要 |
 | `processor.Dispose()` | _(自動または手動)_ | よりシンプルなライフサイクル |
 | `new PdfConfiguration { ... }` | `renderer.RenderingOptions` | プロパティベース |
 
@@ -116,7 +116,7 @@ dotnet add package IronPdf
 |---------------------|---------|-------|
 | `config.PageSize = PageSize.A4` | `RenderingOptions.PaperSize = PdfPaperSize.A4` | Enum |
 | `config.Orientation = Orientation.Landscape` | `RenderingOptions.PaperOrientation = Landscape` | Enum |
-| `config.Margins = new Margins(t, r, b, l)` | 個々のマージンプロパティ | MarginTopなど |
+| `config.Margins = new Margins(t, r, b, l)` | 個別のマージンプロパティ | MarginTopなど |
 
 ### ドキュメント操作
 
@@ -149,10 +149,10 @@ dotnet add package IronPdf
 
 | Nutrient (PSPDFKit) | IronPDF | 備考 |
 |---------------------|---------|-------|
-| _(複雑な注釈アプローチ)_ | `RenderingOptions.HtmlHeader` | シンプルなHTML |
-| _(複雑な注釈アプローチ)_ | `RenderingOptions.HtmlFooter` | シンプルなHTML |
-| _(カスタム実装)_ | `{page}` プレースホルダー | ページ番号 |
-| _(カスタム実装)_ | `{total-pages}` プレースホルダー | 総ページ数 |
+| _(複雑な注釈アプローチ)_ | `RenderingOptions.HtmlHeader` | 単純なHTML |
+| _(複雑な注釈アプローチ)_ | `RenderingOptions.HtmlFooter` | 単純なHTML |
+| _(カスタム実装)_ | `{page}`プレースホルダー | ページ番号 |
+| _(カスタム実装)_ | `{total-pages}`プレースホルダー | 合計ページ数 |
 
 ### 出力
 
@@ -166,7 +166,7 @@ dotnet add package IronPdf
 
 ## コード移行例
 
-### 例 1: 基本的なHTMLからPDFへ
+### 例1: 基本的なHTMLからPDFへ
 
 **移行前 (Nutrient/PSPDFKit):**
 ```csharp
@@ -210,7 +210,7 @@ public class PdfService
 }
 ```
 
-### 例 2: URLからPDFへの変換と設定
+### 例2: 設定付きのURLからPDFへ
 
 **移行前 (Nutrient/PSPDFKit):**
 ```csharp
@@ -257,7 +257,7 @@ public byte[] ConvertUrl(string url)
 }
 ```
 
-### 例 3: PDFのマージ
+### 例3: PDFのマージ
 
 **移行前 (Nutrient/PSPDFKit):**
 ```csharp
@@ -299,7 +299,7 @@ public void MergePdfs(string[] inputPaths, string outputPath)
 }
 ```
 
-### 例 4: 透かしの追加
+### 例4: 透かしの追加
 
 **移行前 (Nutrient/PSPDFKit):**
 ```csharp
@@ -344,7 +344,7 @@ public void AddWatermark(string inputPath, string outputPath)
 
     pdf.ApplyWatermark(
         "<h1 style='color:gray; opacity:0.5; font-size:48px;'>CONFIDENTIAL</h1>",
-        45, // rotation
+        45, // 回転
         VerticalAlignment.Middle,
         HorizontalAlignment.Center);
 
@@ -352,21 +352,21 @@ public void AddWatermark(string inputPath, string outputPath)
 }
 ```
 
-### 例 5: ヘッダーとフッター
+### 例5: ヘッダーとフッター
 
 **移行前 (Nutrient/PSPDFKit):**
 ```csharp
 using PSPDFKit.Pdf;
 using System.Threading.Tasks;
 
-// Nutrientでは、ヘッダー/フッターに複雑な注釈ベースのアプローチが必要
-// しばしばカスタム実装または後処理が必要
+// Nutrientはヘッダー/フッターに複雑な注釈ベースのアプローチが必要です
+// しばしばカスタム実装または後処理が必要です
 public async Task CreateWithHeaderFooterAsync(string html, string outputPath)
 {
     using var processor = await PdfProcessor.CreateAsync();
     var document = await processor.GeneratePdfFromHtmlStringAsync(html);
 
-    // 複雑: 各ページに手動でテキスト注釈を追加する必要がある
+    // 複雑: 各ページに手動でテキスト注釈を追加する必要があります
     for (int i = 0; i < document.PageCount; i++)
     {
         var header = new TextAnnotation("Document Header")
@@ -413,7 +413,7 @@ public void CreateWithHeaderFooter(string html, string outputPath)
 }
 ```
 
-### 例 6: フォームフィールドの処理
+### 例6: フォームフィールドの処理
 
 **移行前 (Nutrient/PSPDFKit):**
 ```csharp
@@ -424,6 +424,4 @@ using System.Threading.Tasks;
 public async Task FillFormAsync(string inputPath, string outputPath)
 {
     using var processor = await PdfProcessor.CreateAsync();
-    var document = await processor.OpenAsync(inputPath);
-
-    var formFields = await
+    var document = await processor.Open
