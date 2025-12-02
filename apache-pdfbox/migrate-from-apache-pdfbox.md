@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [apache-pdfbox/migrate-from-apache-pdfbox.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/apache-pdfbox/migrate-from-apache-pdfbox.md)
-🇯🇵 **日本語:** [apache-pdfbox/migrate-from-apache-pdfbox.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/apache-pdfbox/migrate-from-apache-pdfbox.md)
+ **English:** [apache-pdfbox/migrate-from-apache-pdfbox.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/apache-pdfbox/migrate-from-apache-pdfbox.md)
+ **:** [apache-pdfbox/migrate-from-apache-pdfbox.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/apache-pdfbox/migrate-from-apache-pdfbox.md)
 
 ---
-
 # Apache PDFBox (.NET Ports) から C# で IronPDF への移行方法は？
 
 > **移行の複雑さ：** 中

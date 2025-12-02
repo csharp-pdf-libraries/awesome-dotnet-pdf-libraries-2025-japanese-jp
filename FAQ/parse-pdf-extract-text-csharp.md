@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/parse-pdf-extract-text-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/parse-pdf-extract-text-csharp.md)
-🇯🇵 **日本語:** [FAQ/parse-pdf-extract-text-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/parse-pdf-extract-text-csharp.md)
+ **English:** [FAQ/parse-pdf-extract-text-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/parse-pdf-extract-text-csharp.md)
+ **:** [FAQ/parse-pdf-extract-text-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/parse-pdf-extract-text-csharp.md)
 
 ---
-
 # C#でPDFからテキストを確実に抽出する方法は？（実践的なヒント、コード、落とし穴）
 
 C#でPDFからテキストを抽出することは、見かけほど簡単ではありません。PDFは視覚的な忠実度には最適ですが、自動化、索引付け、またはデータマイニングのためにクリーンで構造化されたテキストが必要な場合は頭痛の種です。このFAQでは、C#でのPDFテキスト抽出の実際の課題、実用的な解決策（コード付き！）、エッジケースの処理に関するアドバイス、および一般的な落とし穴について説明します。これにより、最も難解なビジネスドキュメントでも自信を持って自動化できます。

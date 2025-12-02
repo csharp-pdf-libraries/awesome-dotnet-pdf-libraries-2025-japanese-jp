@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfium/migrate-from-pdfium.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfium/migrate-from-pdfium.md)
-🇯🇵 **日本語:** [pdfium/migrate-from-pdfium.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfium/migrate-from-pdfium.md)
+ **English:** [pdfium/migrate-from-pdfium.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfium/migrate-from-pdfium.md)
+ **:** [pdfium/migrate-from-pdfium.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfium/migrate-from-pdfium.md)
 
 ---
-
 # Pdfium.NETからIronPDFへの移行方法は？
 
 ## なぜPdfium.NETからIronPDFに移行するのか？

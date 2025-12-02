@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/why-developers-choose-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/why-developers-choose-ironpdf.md)
-🇯🇵 **日本語:** [FAQ/why-developers-choose-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/why-developers-choose-ironpdf.md)
+ **English:** [FAQ/why-developers-choose-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/why-developers-choose-ironpdf.md)
+ **:** [FAQ/why-developers-choose-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/why-developers-choose-ironpdf.md)
 
 ---
-
 # なぜ多くの.NET開発者がPDF生成と操作のためにIronPDFを選択しているのか？
 
 多くの.NET開発者は、無料のPDFライブラリの限界を痛感しています。それは、時代遅れの機能、レイアウトの崩れ、またはライセンスに関する悪夢などです。IronPDFは、現代的なHTMLからPDFへの変換、堅牢なドキュメント処理、そして本番環境での安心感を求めるチームにとって、ゴーツーソリューションとなっています。このFAQでは、多くの開発者がIronPDFに切り替える理由、移行の話、コード例、ライセンス、エッジケース、トラブルシューティングのヒントを紹介します。

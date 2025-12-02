@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [nutrient/migrate-from-nutrient.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/nutrient/migrate-from-nutrient.md)
-🇯🇵 **日本語:** [nutrient/migrate-from-nutrient.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/nutrient/migrate-from-nutrient.md)
+ **English:** [nutrient/migrate-from-nutrient.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/nutrient/migrate-from-nutrient.md)
+ **:** [nutrient/migrate-from-nutrient.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/nutrient/migrate-from-nutrient.md)
 
 ---
-
 # Nutrient（旧PSPDFKit）からIronPDFへの移行方法は？
 
 ## なぜ移行するのか？

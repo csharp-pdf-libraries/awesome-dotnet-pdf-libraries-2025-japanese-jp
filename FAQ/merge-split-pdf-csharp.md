@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/merge-split-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/merge-split-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/merge-split-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/merge-split-pdf-csharp.md)
+ **English:** [FAQ/merge-split-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/merge-split-pdf-csharp.md)
+ **:** [FAQ/merge-split-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/merge-split-pdf-csharp.md)
 
 ---
-
 # C# (.NET 10) で IronPDF を使用して PDF をマージおよび分割する方法は？
 
 PDF のマージと分割は、請求書、契約書、または巨大なレポートを扱っているかどうかにかかわらず、.NET 開発者にとって一般的でありながらも厄介な作業です。IronPDF はこれらの操作を簡単にし、他のライブラリと比較して最小限のコードとより少ない頭痛で PDF を結合、抽出、または再編成できます。この FAQ では、IronPDF を使用して C# で PDF を扱うための実用的な方法、エッジケース、およびトラブルシューティングを説明します。

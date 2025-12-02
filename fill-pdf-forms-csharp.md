@@ -1,8 +1,7 @@
 ---
-**🌐 日本語版** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/fill-pdf-forms-csharp.md)
+** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/fill-pdf-forms-csharp.md)
 
 ---
-
 # C#でPDFフォームを埋める: AcroForms、XFA、およびフラット化ガイド
 
 **[Jacob Mellor](https://www.linkedin.com/in/jacob-mellor-iron-software/)による** — Iron SoftwareのCTO、IronPDFのクリエーター

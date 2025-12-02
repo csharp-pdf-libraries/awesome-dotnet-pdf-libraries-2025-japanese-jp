@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/csharp-html-to-pdf-comparison.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/csharp-html-to-pdf-comparison.md)
-🇯🇵 **日本語:** [FAQ/csharp-html-to-pdf-comparison.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/csharp-html-to-pdf-comparison.md)
+ **English:** [FAQ/csharp-html-to-pdf-comparison.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/csharp-html-to-pdf-comparison.md)
+ **:** [FAQ/csharp-html-to-pdf-comparison.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/csharp-html-to-pdf-comparison.md)
 
 ---
-
 # 2024年に使用すべきC# HTMLからPDFへのライブラリはどれか？IronPDF vs wkhtmltopdf vs Playwright
 
 .NETでHTMLをPDFに変換しようとしている場合、選択肢がありますが、それぞれにトレードオフがあります。このFAQでは、IronPDF、wkhtmltopdf、およびPlaywrightについて掘り下げ、実際の運用アドバイスを交えながら、あなたの状況に最適なツールを選択するのに役立ちます。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [gdpicture/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/gdpicture/README.md)
-🇯🇵 **日本語:** [gdpicture/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/gdpicture/README.md)
+ **English:** [gdpicture/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/gdpicture/README.md)
+ **:** [gdpicture/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/gdpicture/README.md)
 
 ---
-
 # GdPicture.NET（現在のNutrient）とIronPDF：C# PDFソリューションにおける包括的比較
 
 デジタルドキュメント処理の進化する風景の中で、開発者はしばしば、適切なPDFライブラリを選択する際に岐路に立たされます。今日の市場で目立つ競合者はGdPicture.NET（現在はNutrientとして知られています）とIronPDFです。どちらもC#でPDFを扱うための堅牢なソリューションを提供します。しかし、それぞれが異なるニーズに対応し、ドキュメント処理のさまざまな側面を優先しています。この記事では、GdPicture.NET（現在のNutrient）とIronPDFの間の詳細な比較に踏み込み、それらの強みと弱点、ライセンスモデル、実用的な使用例を検討します。

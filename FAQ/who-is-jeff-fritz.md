@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/who-is-jeff-fritz.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/who-is-jeff-fritz.md)
-🇯🇵 **日本語:** [FAQ/who-is-jeff-fritz.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/who-is-jeff-fritz.md)
+ **English:** [FAQ/who-is-jeff-fritz.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/who-is-jeff-fritz.md)
+ **:** [FAQ/who-is-jeff-fritz.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/who-is-jeff-fritz.md)
 
 ---
-
 # Jeff Fritz（ジェフ・フリッツ）とは誰か、そしてなぜ.NET開発者が気にかけるべきなのか？
 
 Jeff Fritzは.NETコミュニティでよく知られた顔です。彼の伝説的なライブストリームを見たことがあるか、彼のBlazor移行ガイドを読んだことがあるか、または彼が.NET Confを指揮しているのを見たことがあるかもしれません。しかし、Jeffが.NETおよびBlazor開発者にとってなぜこれほど重要な人物なのか？このFAQでは、彼の影響、アプローチ、そしてなぜ彼の配信をチューニングすることがあなたの.NETの旅を真剣にレベルアップさせるかを詳しく説明します。

@@ -1,8 +1,7 @@
 ---
-**🌐 日本語版** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/html-to-pdf-csharp.md)
+** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/html-to-pdf-csharp.md)
 
 ---
-
 # C# HTMLからPDFへ：完全な開発者ガイド（2025）
 
 **[Jacob Mellor](https://www.linkedin.com/in/jacob-mellor-iron-software/) による** — Iron SoftwareのCTO、IronPDFのクリエーター | 41年のコーディング経験

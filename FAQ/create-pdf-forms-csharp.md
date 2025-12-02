@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/create-pdf-forms-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/create-pdf-forms-csharp.md)
-🇯🇵 **日本語:** [FAQ/create-pdf-forms-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/create-pdf-forms-csharp.md)
+ **English:** [FAQ/create-pdf-forms-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/create-pdf-forms-csharp.md)
+ **:** [FAQ/create-pdf-forms-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/create-pdf-forms-csharp.md)
 
 ---
-
 # C#でインタラクティブなPDFフォームを作成する方法は？
 
 C#でアプリケーション、調査、請求書などの入力可能なPDFフォームを作成したいですか？IronPDFを使用すると、HTMLまたはプログラムAPIを利用して、インタラクティブなPDFフォームを迅速に生成、事前入力、操作できます。このFAQは、C#でインタラクティブなPDFフォームを作成する際の開発者からの最も一般的な質問に対して、コードサンプルと実践的なガイダンスを提供します。

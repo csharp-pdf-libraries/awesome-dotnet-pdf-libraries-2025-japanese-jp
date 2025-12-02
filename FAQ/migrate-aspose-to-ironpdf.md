@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/migrate-aspose-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/migrate-aspose-to-ironpdf.md)
-🇯🇵 **日本語:** [FAQ/migrate-aspose-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/migrate-aspose-to-ironpdf.md)
+ **English:** [FAQ/migrate-aspose-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/migrate-aspose-to-ironpdf.md)
+ **:** [FAQ/migrate-aspose-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/migrate-aspose-to-ironpdf.md)
 
 ---
-
 # Aspose.PDFからIronPDFへの.NETプロジェクトの移行方法は？
 
 .NETでのPDF処理を簡素化したいですか？Aspose.PDFからIronPDFへの移行は、コストを削減し、ワークフローを加速し、コードベースを大幅にクリーンにすることができます。このFAQは、実用的なコードサンプルとスムーズな移行のためのヒントを交えながら、いつ、なぜ、どのように切り替えるかを説明します。

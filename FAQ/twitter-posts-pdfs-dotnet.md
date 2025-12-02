@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/twitter-posts-pdfs-dotnet.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/twitter-posts-pdfs-dotnet.md)
-🇯🇵 **日本語:** [FAQ/twitter-posts-pdfs-dotnet.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/twitter-posts-pdfs-dotnet.md)
+ **English:** [FAQ/twitter-posts-pdfs-dotnet.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/twitter-posts-pdfs-dotnet.md)
+ **:** [FAQ/twitter-posts-pdfs-dotnet.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/twitter-posts-pdfs-dotnet.md)
 
 ---
-
 # .NET開発者が2024-2025年にPDFライブラリについて知っておくべきこと
 
 PDF生成は、いずれ全ての.NET開発者が直面するものです—通常、ほとんど警告なしに。厄介なCSSレンダリングから混乱を招くライセンス、デプロイメントの頭痛の種まで、PDFライブラリを選ぶことは多くの落とし穴があります。このFAQは、2024年以降の開発者のフィードバックに基づいた実用的なアドバイス、コードサンプル、現実世界のヒントで騒音を切り抜けます。

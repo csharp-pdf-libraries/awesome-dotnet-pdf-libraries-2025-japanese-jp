@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/mvc-view-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/mvc-view-to-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/mvc-view-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/mvc-view-to-pdf-csharp.md)
+ **English:** [FAQ/mvc-view-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/mvc-view-to-pdf-csharp.md)
+ **:** [FAQ/mvc-view-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/mvc-view-to-pdf-csharp.md)
 
 ---
-
 # ASP.NET MVC および Core で Razor ビューを PDF にレンダリングする方法は？
 
 既存の Razor ビューから ASP.NET MVC または Core プロジェクトで直接洗練されたブランドの PDF を生成する必要がありますか？IronPDF を使用すると、`.cshtml` Razor ページを高忠実度の PDF に変換できます。追加のテンプレート、HTML のコピー＆ペースト、サードパーティのサービスは不要です。この FAQ では、基本的なセットアップから高度なカスタマイズまで、知っておくべきすべてをコードファーストの回答と実用的なヒントで説明します。

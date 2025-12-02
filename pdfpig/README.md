@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfpig/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfpig/README.md)
-🇯🇵 **日本語:** [pdfpig/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfpig/README.md)
+ **English:** [pdfpig/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfpig/README.md)
+ **:** [pdfpig/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfpig/README.md)
 
 ---
-
 # pdfpig C# PDF：IronPDFとの比較
 
 C#でPDFファイルを扱う際、開発者は読み取り、抽出、生成などの複雑なタスクを容易にする堅牢なライブラリを求めます。利用可能な多数のライブラリの中で、**pdfpig**はPDFからの内容の読み取りと抽出に特化した専門ツールとして、自身のニッチを築いています。この記事では、pdfpigの長所と短所を詳しく掘り下げ、C# PDFライブラリの風景の中でのその位置を強調します。さらに、PDFライフサイクル管理を完全にサポートする多機能な代替品である**IronPDF**との詳細な比較を提供します。

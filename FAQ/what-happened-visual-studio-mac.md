@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/what-happened-visual-studio-mac.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/what-happened-visual-studio-mac.md)
-🇯🇵 **日本語:** [FAQ/what-happened-visual-studio-mac.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/what-happened-visual-studio-mac.md)
+ **English:** [FAQ/what-happened-visual-studio-mac.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/what-happened-visual-studio-mac.md)
+ **:** [FAQ/what-happened-visual-studio-mac.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/what-happened-visual-studio-mac.md)
 
 ---
-
 # Macで.NET開発者がVisual Studio for Macが廃止された今、どうすればいいのか？
 
 2024年8月31日をもって、Visual Studio for Macは正式に廃止されました。これにより、Microsoftからのアップデート、セキュリティ修正、またはサポートは一切提供されなくなります。したがって、macOSで.NET開発を行っているあなたは、どのように前進すればよいのでしょうか？このFAQでは、VS for Macが廃止された理由、現代の代替手段、プロジェクトの移行方法、そしてMac上でC#アプリ（[IronPDF](https://ironpdf.com)を含む）を引き続き構築する方法について説明します。

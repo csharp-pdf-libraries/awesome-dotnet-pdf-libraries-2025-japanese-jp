@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [rawprint/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/rawprint/README.md)
-🇯🇵 **日本語:** [rawprint/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/rawprint/README.md)
+ **English:** [rawprint/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/rawprint/README.md)
+ **:** [rawprint/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/rawprint/README.md)
 
 ---
-
 # RawPrintとIronPDFをC#で比較：PDFの印刷と作成
 
 C#で文書の印刷や生成を扱う際、開発者は多くのライブラリから選択することがしばしば混乱を招きます。これらのライブラリの中で、RawPrintとIronPDFはそれぞれ異なるアプローチと使用例によって対照的です。RawPrintはプリンターへの生のバイトの送信に特化した低レベルのソリューションを提供する一方で、IronPDFはPDFの作成、操作、変換のための高レベルAPIを提供します。この記事では、両ライブラリの強みと弱点を分析し、C#アプリケーションに最適なソリューションを求める開発者に実用的な洞察と比較を提供することを目指します。

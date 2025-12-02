@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/webassembly-dotnet-10.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/webassembly-dotnet-10.md)
-🇯🇵 **日本語:** [FAQ/webassembly-dotnet-10.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/webassembly-dotnet-10.md)
+ **English:** [FAQ/webassembly-dotnet-10.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/webassembly-dotnet-10.md)
+ **:** [FAQ/webassembly-dotnet-10.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/webassembly-dotnet-10.md)
 
 ---
-
 # .NET 10 WebAssemblyを使用してブラウザでC#を実行する方法は？（Blazor、パフォーマンス、および実用的な例）
 
 かつてブラウザで直接C#を実行することは不可能に思えましたが、.NET 10の改善されたWebAssembly (Wasm) サポートにより、現在では迅速かつ実用的で、本番環境に対応しています。豊かなインタラクティブUI、クライアント側のデータ処理、またはWebアプリに新機能を追加したい場合でも、.NET 10のBlazor WebAssemblyはゲームチェンジャーです。このFAQでは、WebAssemblyの理解からBlazor WASMアプリの構築、デプロイ、最適化、さらには実世界の経験に基づくプロのヒントやトラブルシューティングまで、基本を順を追って説明します。

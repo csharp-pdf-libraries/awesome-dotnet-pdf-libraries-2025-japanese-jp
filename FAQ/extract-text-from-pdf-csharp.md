@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/extract-text-from-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/extract-text-from-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/extract-text-from-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/extract-text-from-pdf-csharp.md)
+ **English:** [FAQ/extract-text-from-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/extract-text-from-pdf-csharp.md)
+ **:** [FAQ/extract-text-from-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/extract-text-from-pdf-csharp.md)
 
 ---
-
 # C#でIronPDFを使用してPDFからテキスト、データ、画像を抽出する方法は？
 
 .NETでPDFからデータを抽出することは、特に請求書、レポート、フォームなどを大量に扱う場合には困難な作業です。IronPDFは、デジタルPDFやスキャンされたPDFからテキスト、テーブル、画像、またはメタデータを抽出する必要があるC#開発者向けの実用的なAPIを提供します。このFAQでは、最も一般的な抽出シナリオ、エッジケース、そしてすぐに使用できるコードサンプルをカバーしています。

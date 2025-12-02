@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/migrate-puppeteer-playwright-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/migrate-puppeteer-playwright-to-ironpdf.md)
-🇯🇵 **日本語:** [FAQ/migrate-puppeteer-playwright-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/migrate-puppeteer-playwright-to-ironpdf.md)
+ **English:** [FAQ/migrate-puppeteer-playwright-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/migrate-puppeteer-playwright-to-ironpdf.md)
+ **:** [FAQ/migrate-puppeteer-playwright-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/migrate-puppeteer-playwright-to-ironpdf.md)
 
 ---
-
 # Puppeteer/PlaywrightからIronPDFへの移行を検討すべき理由は？
 
 .NETでPDFを生成している場合、PuppeteerやPlaywrightを選んだのは、それらが人気のブラウザ自動化ツールだからかもしれません。しかし、プロジェクトがPDFに本格的に取り組むようになると（バッチ処理、Dockerデプロイメント、実際のドキュメントワークフローなど）、すぐに問題点に直面します。このFAQでは、多くの開発者が[IronPDF](https://ironpdf.com)に移行する理由、コードをどのように移行するか、途中で注意すべき点を詳しく説明します。

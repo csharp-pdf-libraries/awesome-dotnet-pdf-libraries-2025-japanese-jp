@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/javascript-wait-5-seconds.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/javascript-wait-5-seconds.md)
-🇯🇵 **日本語:** [FAQ/javascript-wait-5-seconds.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/javascript-wait-5-seconds.md)
+ **English:** [FAQ/javascript-wait-5-seconds.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/javascript-wait-5-seconds.md)
+ **:** [FAQ/javascript-wait-5-seconds.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/javascript-wait-5-seconds.md)
 
 ---
-
 # JavaScriptで5秒間待機または一時停止させる方法（遅延を適切に処理する）
 
 JavaScriptコードを一時停止させる—例えば、何かを実行する前に5秒間待つ—は非常に一般的なニーズですが、JavaScriptにはC#やPythonのようなネイティブの`sleep()`関数がありません。では、UIをフリーズさせたり、コードを混乱させたりせずに、JavaScriptでどのようにして遅延を作り出すのでしょうか？ここでは、PDF生成や動的コンテンツを含む、JavaScriptの遅延を扱うための実用的な実世界ガイドを紹介します。

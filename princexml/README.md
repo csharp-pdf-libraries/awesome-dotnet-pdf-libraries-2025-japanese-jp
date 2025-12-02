@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [princexml/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/princexml/README.md)
-🇯🇵 **日本語:** [princexml/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/princexml/README.md)
+ **English:** [princexml/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/princexml/README.md)
+ **:** [princexml/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/princexml/README.md)
 
 ---
-
 # PrinceXML + C# + PDF
 
 ドキュメント処理の領域において、特にC#でHTMLをPDFに変換する場合、よく登場する2つのソリューションがPrinceXMLとIronPDFです。PrinceXMLは、そのCSSページメディアのサポートを通じて、卓越した印刷品質のPDFを実現することで同義であり、印刷特化のCSSデザインに焦点を当てる開発者にとって著名な選択肢となっています。また、PrinceXMLはCSSを使用した印刷フォーマットの特殊な取り扱いに魅力を感じる開発者に訴求する、スタンドアロンの変換エンジンとしての役割も持っています。一方、IronPDFは.NETエコシステム内での密接な統合で認識されており、デプロイメントを合理化し、広範なPDF操作機能をネイティブサポートで提供します。これら2つの強力なツールの比較分析に深く潜り込んでみましょう。

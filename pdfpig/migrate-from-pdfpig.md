@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfpig/migrate-from-pdfpig.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfpig/migrate-from-pdfpig.md)
-🇯🇵 **日本語:** [pdfpig/migrate-from-pdfpig.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfpig/migrate-from-pdfpig.md)
+ **English:** [pdfpig/migrate-from-pdfpig.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfpig/migrate-from-pdfpig.md)
+ **:** [pdfpig/migrate-from-pdfpig.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfpig/migrate-from-pdfpig.md)
 
 ---
-
 # PdfPigからIronPDFへの移行方法は？
 
 ## なぜPdfPigから移行するのか？

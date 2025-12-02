@@ -1,12 +1,11 @@
 ---
-**🌐 日本語版 | Japanese Version**
+**  | Japanese Version**
 
-この文書は英語版から翻訳されたものです。最新の情報については、[英語版をご覧ください](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025)。
+[](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025)
 
 *This document has been translated from English. For the latest information, please refer to the [English version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025).*
 
 ---
-
 # 2025年の素晴らしい.NET PDFライブラリ
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)

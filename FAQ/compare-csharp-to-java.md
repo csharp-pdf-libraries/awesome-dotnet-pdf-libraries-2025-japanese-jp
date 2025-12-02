@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/compare-csharp-to-java.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/compare-csharp-to-java.md)
-🇯🇵 **日本語:** [FAQ/compare-csharp-to-java.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/compare-csharp-to-java.md)
+ **English:** [FAQ/compare-csharp-to-java.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/compare-csharp-to-java.md)
+ **:** [FAQ/compare-csharp-to-java.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/compare-csharp-to-java.md)
 
 ---
-
 # 2025年にC#またはJavaを使用すべきか？実践的な開発者FAQ
 
 2025年の次のプロジェクトでC#とJavaのどちらを選ぶべきか？あなたは一人ではありません。これら2つの言語は、エンタープライズアプリからクラウド、ゲーム、モバイルまで、あらゆるもののトップ候補として残っています。以下では、最も一般的な開発者の質問を実際のコードと正直なトレードオフで分析し、あなたが決定を下すのを助けます。

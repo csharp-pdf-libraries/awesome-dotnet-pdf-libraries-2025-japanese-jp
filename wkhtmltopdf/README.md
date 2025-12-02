@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [wkhtmltopdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/wkhtmltopdf/README.md)
-🇯🇵 **日本語:** [wkhtmltopdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/wkhtmltopdf/README.md)
+ **English:** [wkhtmltopdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/wkhtmltopdf/README.md)
+ **:** [wkhtmltopdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/wkhtmltopdf/README.md)
 
 ---
-
 # wkhtmltopdf + C# + PDF
 
 C#アプリケーションにおけるPDF生成の世界では、wkhtmltopdfのようなライブラリの使用が一般的です。Qt WebKitを使用してHTMLドキュメントをPDFに変換する能力で知られる長年にわたるツールであるwkhtmltopdfは、そのコマンドライン機能で開発者の間で人気があります。しかし、その強みとともに、特に無視できなくなった重大な脆弱性という課題に対処することが重要です。

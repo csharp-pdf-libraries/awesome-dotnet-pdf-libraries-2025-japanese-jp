@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/migrate-syncfusion-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/migrate-syncfusion-to-ironpdf.md)
-🇯🇵 **日本語:** [FAQ/migrate-syncfusion-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/migrate-syncfusion-to-ironpdf.md)
+ **English:** [FAQ/migrate-syncfusion-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/migrate-syncfusion-to-ironpdf.md)
+ **:** [FAQ/migrate-syncfusion-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/migrate-syncfusion-to-ironpdf.md)
 
 ---
-
 # Syncfusion PDFからIronPDFへの移行方法は？
 
 Syncfusion PDFからIronPDFへの移行は、PDF機能のみを使用していて、より正確なHTMLレンダリングやより軽い依存関係のフットプリントを求めている場合に、.NET PDFワークフローを合理化できます。このFAQでは、いつ、なぜ移行するか、主な違い、実用的な移行手順、注意すべき落とし穴、そしてすぐに使用できるコード例をカバーしています。

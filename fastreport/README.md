@@ -1,8 +1,7 @@
 ---
-**🌐 日本語版** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/fastreport/README.md)
+** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/fastreport/README.md)
 
 ---
-
 # FastReport.NET + C# + PDF
 
 FastReport.NETは、.NETエコシステム向けに構築された強力なレポーティングソリューションです。これは、さまざまなデータソースから複雑で高度にインタラクティブなレポートを作成し、PDFを含む複数の形式で出力する柔軟性を備えた商用製品です。FastReport.NETは、視覚的なレポートデザイナーをバックアップする堅牢なレポーティングエンジンが必要な開発者によって特に使用されています。このツールは、詳細なレポートを複雑なレイアウト制御で構築するために最適化されており、レポーティングが中心機能であるアプリケーションにとって特に有益です。

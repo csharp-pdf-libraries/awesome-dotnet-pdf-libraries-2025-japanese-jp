@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/pdf-performance-optimization-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-performance-optimization-csharp.md)
-🇯🇵 **日本語:** [FAQ/pdf-performance-optimization-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-performance-optimization-csharp.md)
+ **English:** [FAQ/pdf-performance-optimization-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-performance-optimization-csharp.md)
+ **:** [FAQ/pdf-performance-optimization-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-performance-optimization-csharp.md)
 
 ---
-
 # C#でPDF生成パフォーマンスを最適化する方法は？
 
 .NETアプリで遅い、または容量の大きいPDFに対処している場合、あなたは一人ではありません。PDFのパフォーマンス問題は、遅いバッチ処理、増大するストレージコスト、そしてフラストレーションを感じるユーザーにつながります。良いニュースですか？適切な戦略と[IronPDF](https://ironpdf.com)のようなツールを使用すれば、コードベース全体を書き換えることなく、PDF生成の速度を劇的に向上させ、ファイルサイズを縮小することができます。

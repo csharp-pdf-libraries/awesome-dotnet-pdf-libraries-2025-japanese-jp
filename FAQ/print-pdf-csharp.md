@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/print-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/print-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/print-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/print-pdf-csharp.md)
+ **English:** [FAQ/print-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/print-pdf-csharp.md)
+ **:** [FAQ/print-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/print-pdf-csharp.md)
 
 ---
-
 # C#でユーザーの操作なしにPDFをプログラムで印刷する方法は？
 
 キオスク、倉庫システム、そして静かで信頼性の高い出力が必要などのワークフローで、C#でPDFの印刷を自動化することは不可欠です。ポップアップダイアログにうんざりしている場合や、プリンターをうまく動作させるのに苦労している場合、このFAQは、静かな印刷の基本から、IronPDFを使用した実用的で本番環境に対応したC#コードまで、すべてをカバーしています。プログラムによる印刷の「方法」と、最も一般的な問題への対処方法を見ていきましょう。

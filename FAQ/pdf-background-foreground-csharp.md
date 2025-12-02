@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/pdf-background-foreground-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-background-foreground-csharp.md)
-🇯🇵 **日本語:** [FAQ/pdf-background-foreground-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-background-foreground-csharp.md)
+ **English:** [FAQ/pdf-background-foreground-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-background-foreground-csharp.md)
+ **:** [FAQ/pdf-background-foreground-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-background-foreground-csharp.md)
 
 ---
-
 # C#でPDFに背景、オーバーレイ、ウォーターマークを追加する方法は？
 
 C#プロジェクトでPDFに背景、オーバーレイ、ウォーターマークを追加することは一般的な要件です。これには、会社のレターヘッドを適用したり、ドキュメントに「DRAFT」とスタンプを押したり、個人化されたフッターを追加したりすることが含まれます。IronPDFを使用すると、元のドキュメントを再生成することなく、これらの要素を既存のPDFに重ねることができます。このFAQでは、C#で背景、オーバーレイ、ウォーターマークを適用するための実用的で現実世界のアプローチを説明します。これには、パフォーマンスのヒント、動的コンテンツ、トラブルシューティングが含まれます。

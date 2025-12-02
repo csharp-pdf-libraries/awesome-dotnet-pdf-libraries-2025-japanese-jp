@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [ssrs/migrate-from-ssrs.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/ssrs/migrate-from-ssrs.md)
-🇯🇵 **日本語:** [ssrs/migrate-from-ssrs.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/ssrs/migrate-from-ssrs.md)
+ **English:** [ssrs/migrate-from-ssrs.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/ssrs/migrate-from-ssrs.md)
+ **:** [ssrs/migrate-from-ssrs.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/ssrs/migrate-from-ssrs.md)
 
 ---
-
 # SQL Server Reporting Services (SSRS) から IronPDF への移行方法は？
 
 ## SSRS から移行する理由は？

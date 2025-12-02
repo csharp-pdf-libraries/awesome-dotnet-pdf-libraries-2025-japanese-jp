@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/pdf-headers-footers-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-headers-footers-csharp.md)
-🇯🇵 **日本語:** [FAQ/pdf-headers-footers-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-headers-footers-csharp.md)
+ **English:** [FAQ/pdf-headers-footers-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-headers-footers-csharp.md)
+ **:** [FAQ/pdf-headers-footers-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-headers-footers-csharp.md)
 
 ---
-
 # C#でIronPDFを使用してPDFにヘッダーとフッターを追加する方法は？
 
 ヘッダーとフッターを追加することで、あなたのPDFを平凡から会議室レベルに引き上げることができます。[Iron Software](https://ironsoftware.com)から提供されている強力な.NET PDFライブラリーであるIronPDFを使用すれば、ページ番号からカスタムHTMLレイアウトやロゴまで、簡単に追加することができます。このFAQでは、C#でプロフェッショナルなヘッダーとフッターを作成する方法、実用的なコード、ヒント、一般的な問題への解決策を説明します。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [textcontrol/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/textcontrol/README.md)
-🇯🇵 **日本語:** [textcontrol/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/textcontrol/README.md)
+ **English:** [textcontrol/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/textcontrol/README.md)
+ **:** [textcontrol/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/textcontrol/README.md)
 
 ---
-
 # TextControl (TX Text Control) C# PDF
 
 C#でドキュメントを生成する際、効率、安定性、品質を保証するために適切なライブラリを選択することが重要です。利用可能なさまざまなオプションの中で、TextControl (TX Text Control)は、ドキュメント編集とPDF生成機能を統合したいと考えている方々にとって、堅牢なソリューションを提供します。しかし、TextControl (TX Text Control)がプロジェクトに適しているかどうかを評価する際には、IronPDFなどの市場にある他のツールとも比較する必要があります。この記事では、これらのライブラリの強みと弱みを詳しく調査し、機能と価格の重要な違いを強調します。

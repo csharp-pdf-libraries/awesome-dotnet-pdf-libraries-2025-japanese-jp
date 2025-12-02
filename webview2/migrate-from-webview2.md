@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [webview2/migrate-from-webview2.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/webview2/migrate-from-webview2.md)
-🇯🇵 **日本語:** [webview2/migrate-from-webview2.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/webview2/migrate-from-webview2.md)
+ **English:** [webview2/migrate-from-webview2.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/webview2/migrate-from-webview2.md)
+ **:** [webview2/migrate-from-webview2.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/webview2/migrate-from-webview2.md)
 
 ---
-
 # WebView2 (Microsoft Edge) から IronPDF への移行方法は？
 
 ## 重要な警告：WebView2 は PDF 生成に適していません

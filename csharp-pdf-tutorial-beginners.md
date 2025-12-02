@@ -1,8 +1,7 @@
 ---
-**🌐 日本語版** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/csharp-pdf-tutorial-beginners.md)
+** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/csharp-pdf-tutorial-beginners.md)
 
 ---
-
 # C# PDFチュートリアル入門編：最初のPDFを作成する
 
 **[Jacob Mellor](https://www.linkedin.com/in/jacob-mellor-iron-software/)による** — Iron SoftwareのCTO、IronPDFのクリエーター

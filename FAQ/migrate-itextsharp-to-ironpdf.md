@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/migrate-itextsharp-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/migrate-itextsharp-to-ironpdf.md)
-🇯🇵 **日本語:** [FAQ/migrate-itextsharp-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/migrate-itextsharp-to-ironpdf.md)
+ **English:** [FAQ/migrate-itextsharp-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/migrate-itextsharp-to-ironpdf.md)
+ **:** [FAQ/migrate-itextsharp-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/migrate-itextsharp-to-ironpdf.md)
 
 ---
-
 # iTextSharpからIronPDFへの移行方法は？
 
 iTextSharpからIronPDFへの移行は、.NETのPDFワークフローを大幅に簡素化し、コードベースを近代化し、ライセンスの頭痛の種を取り除くことができます。このFAQでは、なぜ切り替えるべきか、主な違い、移行戦略、そして移行をスムーズにするためのヒントをカバーしています。他のPDFツールからの移行を検討している場合は、[wkhtmltopdfからの移行](migrate-wkhtmltopdf-to-ironpdf.md)、[Telerikからの移行](migrate-telerik-to-ironpdf.md)、または[Syncfusionからの移行](migrate-syncfusion-to-ironpdf.md)のガイドもご覧ください。

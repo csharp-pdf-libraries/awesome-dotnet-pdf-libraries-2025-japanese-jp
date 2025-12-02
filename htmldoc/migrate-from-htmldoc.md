@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [htmldoc/migrate-from-htmldoc.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/htmldoc/migrate-from-htmldoc.md)
-🇯🇵 **日本語:** [htmldoc/migrate-from-htmldoc.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/htmldoc/migrate-from-htmldoc.md)
+ **English:** [htmldoc/migrate-from-htmldoc.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/htmldoc/migrate-from-htmldoc.md)
+ **:** [htmldoc/migrate-from-htmldoc.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/htmldoc/migrate-from-htmldoc.md)
 
 ---
-
 # HTMLDOCからIronPDFへの移行方法は？
 
 ## 目次

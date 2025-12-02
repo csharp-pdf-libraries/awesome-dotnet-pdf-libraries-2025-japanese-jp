@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [activepdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/activepdf/README.md)
-🇯🇵 **日本語:** [activepdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/activepdf/README.md)
+ **English:** [activepdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/activepdf/README.md)
+ **:** [activepdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/activepdf/README.md)
 
 ---
-
 # ActivePDF vs. IronPDF: C# PDF ライブラリ比較
 
 ActivePDFは、現在Foxitの所有下にある包括的なPDF操作ツールキットで、C#内でのPDF操作を強力に扱う能力で歴史的に知られています。この記事では、ActivePDFとIronPDFの詳細な比較を掘り下げ、それらの強み、弱み、現在のC#開発環境での関連性を検討します。

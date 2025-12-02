@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/itextsharp-abandoned-upgrade-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/itextsharp-abandoned-upgrade-ironpdf.md)
-🇯🇵 **日本語:** [FAQ/itextsharp-abandoned-upgrade-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/itextsharp-abandoned-upgrade-ironpdf.md)
+ **English:** [FAQ/itextsharp-abandoned-upgrade-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/itextsharp-abandoned-upgrade-ironpdf.md)
+ **:** [FAQ/itextsharp-abandoned-upgrade-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/itextsharp-abandoned-upgrade-ironpdf.md)
 
 ---
-
 # なぜ2025年にiTextSharpからIronPDFに移行すべきなのか、そして実際にどうやって移行するのか？
 
 まだ.NETでPDF処理にiTextSharpを使用している場合、借りてきた時間の上で走っています。レガシーなiTextSharpバージョンは、セキュリティリスク、時代遅れの技術、厳しいライセンスに悩まされています。IronPDFは、現代的で開発者に優しい代替品として広く認識されています。ここでは、なぜ切り替えを検討すべきか、そして実際の例を用いて移行に取り組む方法を説明します。

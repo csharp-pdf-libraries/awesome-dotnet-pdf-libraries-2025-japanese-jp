@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/async-pdf-generation-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/async-pdf-generation-csharp.md)
-🇯🇵 **日本語:** [FAQ/async-pdf-generation-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/async-pdf-generation-csharp.md)
+ **English:** [FAQ/async-pdf-generation-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/async-pdf-generation-csharp.md)
+ **:** [FAQ/async-pdf-generation-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/async-pdf-generation-csharp.md)
 
 ---
-
 # C#でアプリをフリーズさせずに非同期でPDFを生成する方法は？
 
 C#での非同期PDF生成は、Web API、デスクトップUI、または高スループットのバックグラウンドサービスなど、スムーズで応答性の高いアプリケーションを実現したい場合に不可欠です。IronPDFのようなツールを活用して非同期プログラミングパターンを利用することで、UIのフリーズを防ぎ、Webサーバーのボトルネックを避け、PDFワークフローを効率的にスケールアップすることができます。非同期PDF生成のベストプラクティス、一般的な落とし穴、実際のコードサンプル、および高度なテクニックを探求しましょう。これにより、.NETプロジェクトを自信を持って加速できます。

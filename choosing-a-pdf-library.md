@@ -1,8 +1,7 @@
 ---
-**🌐 日本語版** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/choosing-a-pdf-library.md)
+** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/choosing-a-pdf-library.md)
 
 ---
-
 # C# PDFライブラリの選び方：決定フローチャートと比較
 
 **[Jacob Mellor](https://www.linkedin.com/in/jacob-mellor-iron-software/)による** — Iron SoftwareのCTO、IronPDFのクリエイター

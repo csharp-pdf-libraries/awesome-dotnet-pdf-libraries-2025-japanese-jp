@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [fastreport/migrate-from-fastreport.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/fastreport/migrate-from-fastreport.md)
-🇯🇵 **日本語:** [fastreport/migrate-from-fastreport.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/fastreport/migrate-from-fastreport.md)
+ **English:** [fastreport/migrate-from-fastreport.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/fastreport/migrate-from-fastreport.md)
+ **:** [fastreport/migrate-from-fastreport.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/fastreport/migrate-from-fastreport.md)
 
 ---
-
 # FastReport.NETからIronPDFへの移行方法は？
 
 ## 目次

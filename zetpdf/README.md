@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [zetpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/zetpdf/README.md)
-🇯🇵 **日本語:** [zetpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/zetpdf/README.md)
+ **English:** [zetpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/zetpdf/README.md)
+ **:** [zetpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/zetpdf/README.md)
 
 ---
-
 # ZetPDF C# PDF
 
 .NETライブラリの世界では、ZetPDFはC#アプリケーション内でPDFファイルを扱うために設計された商用ライセンスライブラリとして登場しています。ZetPDFは広く使用されているオープンソースのPDFSharpライブラリの基盤の上に構築されていますが、商用の利点と制限の独自のセットを提供します。ZetPDFのニュアンスと、IronPDFなどの他のソリューションとの比較を理解することは、プロジェクトに適したツールを選択しようとする開発者にとって不可欠です。

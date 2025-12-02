@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/understanding-pdf-security-net-10-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/understanding-pdf-security-net-10-ironpdf.md)
-🇯🇵 **日本語:** [FAQ/understanding-pdf-security-net-10-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/understanding-pdf-security-net-10-ironpdf.md)
+ **English:** [FAQ/understanding-pdf-security-net-10-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/understanding-pdf-security-net-10-ironpdf.md)
+ **:** [FAQ/understanding-pdf-security-net-10-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/understanding-pdf-security-net-10-ironpdf.md)
 
 ---
-
 # .NET 10でIronPDFを使用してPDFを保護する方法は？
 
 .NETでPDFを保護することは、特に機密情報やコンプライアンス基準が関係している場合、パスワードを追加する以上のことです。IronPDFを使用すると、文書をロックダウンし、権限を制御し、さらには企業のワークフローのセキュリティを自動化するための強力なツールキットを手に入れることができます。このFAQは、実用的な.NET PDFセキュリティ技術、コードパターン、および必須のベストプラクティスを紹介します。

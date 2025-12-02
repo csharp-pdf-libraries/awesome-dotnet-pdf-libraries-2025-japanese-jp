@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdforge/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdforge/README.md)
-🇯🇵 **日本語:** [pdforge/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdforge/README.md)
+ **English:** [pdforge/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdforge/README.md)
+ **:** [pdforge/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdforge/README.md)
 
 ---
-
 # pdforge + C# + PDF
 
 C#でPDFを生成する際、pdforgeとIronPDFの2つの名前がよく挙がります。pdforgeはクラウドベースのPDF生成APIで、APIコールを介してアプリケーションと統合することでPDFファイルを簡単に生成する方法を提供します。これは、外部依存関係なしでPDF生成プロセスを完全に制御できるローカルライブラリであるIronPDFとは対照的です。これら2つのソリューションを検討する際、開発者はそれぞれ独自の利点と一定の制限を見つけるでしょう。

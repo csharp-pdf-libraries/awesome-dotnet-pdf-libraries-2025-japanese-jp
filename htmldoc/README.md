@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [htmldoc/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/htmldoc/README.md)
-🇯🇵 **日本語:** [htmldoc/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/htmldoc/README.md)
+ **English:** [htmldoc/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/htmldoc/README.md)
+ **:** [htmldoc/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/htmldoc/README.md)
 
 ---
-
 # HTMLDOC vs IronPDF: C#およびPDF生成のための包括的比較
 
 HTMLドキュメントをPDFファイルに変換する際、開発者はしばしば複数のツールの中から選択を迫られます。これらの中で、HTMLDOCとIronPDFは異なる理由で際立っています。HTMLDOCはドットコム時代にさかのぼる歴史を持つ古いコマンドラインベースのツールであり、一方IronPDFは.NET環境に特化した現代的で堅牢なソリューションを代表しています。この記事では、C#でPDF生成ツールを検討している開発者に向けて、両者の強みと弱みを深く掘り下げて提供します。

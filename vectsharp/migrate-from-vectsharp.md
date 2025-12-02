@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [vectsharp/migrate-from-vectsharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/vectsharp/migrate-from-vectsharp.md)
-🇯🇵 **日本語:** [vectsharp/migrate-from-vectsharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/vectsharp/migrate-from-vectsharp.md)
+ **English:** [vectsharp/migrate-from-vectsharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/vectsharp/migrate-from-vectsharp.md)
+ **:** [vectsharp/migrate-from-vectsharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/vectsharp/migrate-from-vectsharp.md)
 
 ---
-
 # VectSharpからIronPDFへの移行方法は？
 
 ## なぜVectSharpから移行するのか？

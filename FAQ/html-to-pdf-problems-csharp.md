@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/html-to-pdf-problems-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/html-to-pdf-problems-csharp.md)
-🇯🇵 **日本語:** [FAQ/html-to-pdf-problems-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/html-to-pdf-problems-csharp.md)
+ **English:** [FAQ/html-to-pdf-problems-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/html-to-pdf-problems-csharp.md)
+ **:** [FAQ/html-to-pdf-problems-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/html-to-pdf-problems-csharp.md)
 
 ---
-
 # C#で最も一般的なHTMLからPDFへの変換問題とその解決方法は？
 
 C#で[HTMLをPDFに変換する](https://ironpdf.com/how-to/pixel-perfect-html-to-pdf/)ことは、画像が表示されない、CSSが壊れる、フォントが消える、または謎の空白ページが出現するまでは簡単に思えます。開発者は、ブラウザで動作するものがPDF生成中に崩壊することをしばしば発見します。このFAQでは、実際の問題と、CSSの不具合からDockerデプロイメントの奇妙な点まで、実用的でコピーペーストできる解決策を示します。カバーしていないものに遭遇した場合は、関連ガイドをチェックするか、以下にコメントを残してください。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/getting-started-csharp-2025.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/getting-started-csharp-2025.md)
-🇯🇵 **日本語:** [FAQ/getting-started-csharp-2025.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/getting-started-csharp-2025.md)
+ **English:** [FAQ/getting-started-csharp-2025.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/getting-started-csharp-2025.md)
+ **:** [FAQ/getting-started-csharp-2025.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/getting-started-csharp-2025.md)
 
 ---
-
 # 2025年にC#を始める方法は？ 実践的な初心者FAQ
 
 2025年にC#を学ぼうと思っていますか？ あなたは正しい場所にいます。このFAQは、ツールの設定から実際のコードの書き方、最新のC#機能の使用、一般的な初心者の間違いを避ける方法まで、すべてをカバーしています。Web、デスクトップ、ゲーム、[IronPDF](https://ironpdf.com)のようなライブラリを使ったドキュメントの自動化を目指しているかどうかにかかわらず、このガイドはあなたを迅速に生産的にするために設計されています。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfmyurl/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfmyurl/README.md)
-🇯🇵 **日本語:** [pdfmyurl/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfmyurl/README.md)
+ **English:** [pdfmyurl/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfmyurl/README.md)
+ **:** [pdfmyurl/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfmyurl/README.md)
 
 ---
-
 # PDFmyURL + C# + PDF
 
 ドキュメント処理の世界では、URLからPDFを生成することは一般的な要件であり、特にウェブデータをアーカイブしたり、動的なウェブページをオフライン読み取り用の静的なポータブルドキュメントフォーマットに変換する必要があるビジネスにとっては重要です。PDFmyURLは、これを実現するためのさまざまなツールの中の一つのオプションです。このクラウドベースのAPIは、便利で直感的なサービスを提供します。しかし、IronPDFのような堅牢なライブラリと比較すると、議論に値する顕著な違いがあります。

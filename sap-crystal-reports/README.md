@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [sap-crystal-reports/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/sap-crystal-reports/README.md)
-🇯🇵 **日本語:** [sap-crystal-reports/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/sap-crystal-reports/README.md)
+ **English:** [sap-crystal-reports/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/sap-crystal-reports/README.md)
+ **:** [sap-crystal-reports/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/sap-crystal-reports/README.md)
 
 ---
-
 # SAP Crystal Reports + C# + PDF
 
 ITの風景では、多くの組織が生のデータを意味のある洞察に変換するために堅牢なレポーティングソリューションに依存しています。SAP Crystal Reportsは、この分野で「ピクセルパーフェクト」なレポートを生成するための企業が支持するツールとして際立っています。多様なデータソースに接続できる能力で認知されているSAP Crystal Reportsは、包括的なレポーティング機能を求める多くの企業にとっての第一選択肢となっています。しかし、技術が進化するにつれて、IronPDFのような革新的な代替品が登場し、現代のアプリケーションニーズに特化した機能を提供しています。

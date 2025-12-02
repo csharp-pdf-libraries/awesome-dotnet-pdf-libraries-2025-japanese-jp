@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/avalonia-vs-maui-dotnet-10.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/avalonia-vs-maui-dotnet-10.md)
-🇯🇵 **日本語:** [FAQ/avalonia-vs-maui-dotnet-10.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/avalonia-vs-maui-dotnet-10.md)
+ **English:** [FAQ/avalonia-vs-maui-dotnet-10.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/avalonia-vs-maui-dotnet-10.md)
+ **:** [FAQ/avalonia-vs-maui-dotnet-10.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/avalonia-vs-maui-dotnet-10.md)
 
 ---
-
 # Avaloniaと.NET MAUI、どちらをクロスプラットフォーム開発に使用すべきか？
 
 Avaloniaと.NET MAUIの選択は、クロスプラットフォームアプリを構築する.NET開発者にとっての古典的な岐路です。このFAQでは、それぞれの強み、制限、そして実際の開発者体験を掘り下げ、プロジェクト、プラットフォーム、チームに最適な選択を決定するための助けとなります。実用的なコードサンプル、プラットフォームサポート、パフォーマンス、MVVM、PDF生成、エコシステムに加え、トラブルシューティングのヒントやハイブリッド戦略をカバーします。

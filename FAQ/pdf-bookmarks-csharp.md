@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/pdf-bookmarks-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-bookmarks-csharp.md)
-🇯🇵 **日本語:** [FAQ/pdf-bookmarks-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-bookmarks-csharp.md)
+ **English:** [FAQ/pdf-bookmarks-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-bookmarks-csharp.md)
+ **:** [FAQ/pdf-bookmarks-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-bookmarks-csharp.md)
 
 ---
-
 # C#でIronPDFを使用してPDFブックマークを追加および管理する方法は？
 
 大きなPDFをクリック可能なブックマークで簡単にナビゲートできるようにしたいですか？IronPDFを使用すると、C#プロジェクトでPDFブックマークを簡単に追加、編集、自動化できます。このFAQでは、実用的なシナリオ、コードサンプル、専門家のヒントを提供して、法律契約、技術マニュアル、または動的レポートを処理しているかどうかにかかわらず、よりフレンドリーでプロフェッショナルなPDFを提供するのに役立ちます。

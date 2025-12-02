@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [scrybercore/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/scrybercore/README.md)
-🇯🇵 **日本語:** [scrybercore/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/scrybercore/README.md)
+ **English:** [scrybercore/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/scrybercore/README.md)
+ **:** [scrybercore/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/scrybercore/README.md)
 
 ---
-
 # Scryber.core: C# PDF生成に関する包括的な見解
 
 PDF生成は、請求書の生成から包括的なレポートの作成まで、幅広いアプリケーションにとって常に重要な要件でした。C# PDFツールの領域において、Scryber.coreはその独自のHTMLからPDFへの生成機能で自身のニッチを築きました。Scryber.coreは、HTMLテンプレートを使用してアプリケーションにPDF生成を統合したい開発者にとって有益なオープンソースソリューションを提供します。その革新的なアプローチにもかかわらず、Scryber.coreはIronPDFのような商業的に堅牢なソリューションと特に競合しています。

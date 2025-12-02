@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/migrate-questpdf-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/migrate-questpdf-to-ironpdf.md)
-🇯🇵 **日本語:** [FAQ/migrate-questpdf-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/migrate-questpdf-to-ironpdf.md)
+ **English:** [FAQ/migrate-questpdf-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/migrate-questpdf-to-ironpdf.md)
+ **:** [FAQ/migrate-questpdf-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/migrate-questpdf-to-ironpdf.md)
 
 ---
-
 # QuestPDFからIronPDFへのHTMLレンダリングの移行方法は？
 
 .NETでHTMLおよびCSSを多用するPDFタスクにおいてQuestPDFの限界に直面している場合、あなただけではありません。IronPDFは堅牢なHTMLからPDFへのレンダリング、最新のCSS/JSサポート、および広範なPDF操作機能を提供します。このFAQでは、主要な考慮事項、移行技術、落とし穴、および実用的なコードを通じて、プロジェクトを自信を持って前進させる方法を説明します。

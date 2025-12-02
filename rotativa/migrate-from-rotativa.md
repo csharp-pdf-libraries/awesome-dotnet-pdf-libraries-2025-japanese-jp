@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [rotativa/migrate-from-rotativa.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/rotativa/migrate-from-rotativa.md)
-🇯🇵 **日本語:** [rotativa/migrate-from-rotativa.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/rotativa/migrate-from-rotativa.md)
+ **English:** [rotativa/migrate-from-rotativa.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/rotativa/migrate-from-rotativa.md)
+ **:** [rotativa/migrate-from-rotativa.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/rotativa/migrate-from-rotativa.md)
 
 ---
-
 # RotativaからIronPDFへの移行方法は？
 
 ## ⚠️ 重要なセキュリティアドバイザリ

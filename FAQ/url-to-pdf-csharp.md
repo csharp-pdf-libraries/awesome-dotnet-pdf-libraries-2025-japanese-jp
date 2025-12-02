@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/url-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/url-to-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/url-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/url-to-pdf-csharp.md)
+ **English:** [FAQ/url-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/url-to-pdf-csharp.md)
+ **:** [FAQ/url-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/url-to-pdf-csharp.md)
 
 ---
-
 # C#で任意のURLをPDFに変換する方法は？
 
 ダッシュボード、請求書、オンラインドキュメントなどのWebページを、C#を使用して高忠実度の共有可能なPDFとしてキャプチャすることに興味はありますか？手動のブラウザ自動化や壊れやすいスクリーンショットツールをいじる必要はありません。実世界の認証、動的コンテンツ、レスポンシブレイアウト、バッチ処理など、IronPDFを使用してライブURLからPDFを生成する実用的な開発者FAQをここに紹介します。

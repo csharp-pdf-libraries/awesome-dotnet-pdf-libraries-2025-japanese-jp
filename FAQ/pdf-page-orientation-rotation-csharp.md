@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/pdf-page-orientation-rotation-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-page-orientation-rotation-csharp.md)
-🇯🇵 **日本語:** [FAQ/pdf-page-orientation-rotation-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-page-orientation-rotation-csharp.md)
+ **English:** [FAQ/pdf-page-orientation-rotation-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-page-orientation-rotation-csharp.md)
+ **:** [FAQ/pdf-page-orientation-rotation-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-page-orientation-rotation-csharp.md)
 
 ---
-
 # C#でIronPDFを使用してPDFページの向きと回転を制御する方法は？
 
 PDFが常に正しい向きであることを保証する必要がありますか、または同じドキュメント内で縦向きと横向きのページを混在させたいですか？.NET用のIronPDFは、新しいレポートの生成、スキャンされたファイルの整理、レイアウトが混在したコンテンツのマージなど、PDFページの向きと回転を正確に制御する機能を提供します。ここでは、最も一般的な（およびいくつかの高度な）シナリオをカバーする実用的なFAQと、行き詰まった際にコピー＆ペーストできるコードを紹介します。

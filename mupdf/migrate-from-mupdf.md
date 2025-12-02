@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [mupdf/migrate-from-mupdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/mupdf/migrate-from-mupdf.md)
-🇯🇵 **日本語:** [mupdf/migrate-from-mupdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/mupdf/migrate-from-mupdf.md)
+ **English:** [mupdf/migrate-from-mupdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/mupdf/migrate-from-mupdf.md)
+ **:** [mupdf/migrate-from-mupdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/mupdf/migrate-from-mupdf.md)
 
 ---
-
 # MuPDF (.NET バインディング) から IronPDF への移行方法は？
 
 ## なぜ移行するのか？

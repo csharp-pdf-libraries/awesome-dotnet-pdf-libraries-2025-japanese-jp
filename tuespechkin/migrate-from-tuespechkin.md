@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [tuespechkin/migrate-from-tuespechkin.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/tuespechkin/migrate-from-tuespechkin.md)
-🇯🇵 **日本語:** [tuespechkin/migrate-from-tuespechkin.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/tuespechkin/migrate-from-tuespechkin.md)
+ **English:** [tuespechkin/migrate-from-tuespechkin.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/tuespechkin/migrate-from-tuespechkin.md)
+ **:** [tuespechkin/migrate-from-tuespechkin.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/tuespechkin/migrate-from-tuespechkin.md)
 
 ---
-
 # TuesPechkinからIronPDFへの移行方法は？
 
 ## ⚠️ 重要なセキュリティアドバイス

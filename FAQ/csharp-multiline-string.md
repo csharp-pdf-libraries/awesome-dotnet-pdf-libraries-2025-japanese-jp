@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/csharp-multiline-string.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/csharp-multiline-string.md)
-🇯🇵 **日本語:** [FAQ/csharp-multiline-string.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/csharp-multiline-string.md)
+ **English:** [FAQ/csharp-multiline-string.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/csharp-multiline-string.md)
+ **:** [FAQ/csharp-multiline-string.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/csharp-multiline-string.md)
 
 ---
-
 # C#で複数行の文字列をどのように扱うか：生の文字列、逐語的文字列、補間文字列、および実践的なヒント
 
 C#で複数行の文字列を扱うことは、SQLクエリ、JSONブロブ、HTMLテンプレート、あるいはファイルパスなどを考えると、すぐに面倒なことになりがちです。しかし、C#は逐語的文字列、補間文字列、生の文字列リテラルなどの機能を使って、文字列を読みやすく、保守しやすくする強力な方法を提供しています。このFAQでは、それぞれのアプローチをいつ、どのように使用するか、実践的な例を示し、一般的な落とし穴を指摘します—そうすることで、あなたのコードが求める出力と同じくらいクリーンになります。

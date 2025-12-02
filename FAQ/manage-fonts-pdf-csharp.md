@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/manage-fonts-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/manage-fonts-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/manage-fonts-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/manage-fonts-pdf-csharp.md)
+ **English:** [FAQ/manage-fonts-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/manage-fonts-pdf-csharp.md)
+ **:** [FAQ/manage-fonts-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/manage-fonts-pdf-csharp.md)
 
 ---
-
 # C#とIronPDFを使用してPDFにフォントを埋め込み、管理する方法は？
 
 PDF内のフォントを正しく設定することは、ブランディングと可読性のために重要ですが、カスタムフォントが他の人がドキュメントを開いたときにTimes New Romanに変わってしまうなどの問題に簡単に遭遇することがあります。このFAQでは、IronPDFを使用してC#のPDF内でフォントを埋め込み、管理し、トラブルシューティングするための基本事項、実用的なコード例、および回避策について取り上げます。

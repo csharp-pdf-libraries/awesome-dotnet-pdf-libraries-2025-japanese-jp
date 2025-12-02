@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/advanced-html-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/advanced-html-to-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/advanced-html-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/advanced-html-to-pdf-csharp.md)
+ **English:** [FAQ/advanced-html-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/advanced-html-to-pdf-csharp.md)
+ **:** [FAQ/advanced-html-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/advanced-html-to-pdf-csharp.md)
 
 ---
-
 # C#でIronPDFを使用して高度なHTMLからPDFへの変換をマスターする方法は？
 
 C#でHTMLをPDFに変換することは始まりに過ぎません。ブランディング、動的ヘッダー、ウォーターマーク、デジタル署名、フォームなどを備えた洗練されたPDFを作成するには、高度な技術が必要です。この包括的なFAQでは、IronPDFを使用してC#でPDFを生成、変更、管理するためのプロフェッショナルレベルの戦略を紹介します。ページブレークからPDF/A準拠まで、実用的なコード、一般的な問題への解決策、ヒントを提供します。クライアント向けドキュメントの作成や大規模なドキュメントワークフローの自動化を行っている場合、このガイドはIronPDFの全機能を解き放つのに役立ちます。

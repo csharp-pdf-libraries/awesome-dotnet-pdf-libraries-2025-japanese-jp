@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/markdown-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/markdown-to-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/markdown-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/markdown-to-pdf-csharp.md)
+ **English:** [FAQ/markdown-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/markdown-to-pdf-csharp.md)
+ **:** [FAQ/markdown-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/markdown-to-pdf-csharp.md)
 
 ---
-
 # C#でMarkdownをPDFに変換する方法は？
 
 開発者にとって、Markdownファイルを洗練されたPDFに変換することは一般的なニーズです。プロジェクトのドキュメントを生成したり、非技術的なステークホルダーと仕様を共有したり、リリースノートをアーカイブしたりする場合などです。C#とIronPDFを使用すれば、このプロセスを効率的に自動化し、MarkdownコンテンツをPDF形式でプロフェッショナルに見せることができます。C#でのMarkdownからPDFへの変換について、開発者が最もよく尋ねる質問に答えましょう。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [nrecopdfgenerator/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/nrecopdfgenerator/README.md)
-🇯🇵 **日本語:** [nrecopdfgenerator/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/nrecopdfgenerator/README.md)
+ **English:** [nrecopdfgenerator/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/nrecopdfgenerator/README.md)
+ **:** [nrecopdfgenerator/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/nrecopdfgenerator/README.md)
 
 ---
-
 # NReco.PdfGeneratorとIronPDFの比較：C#でのPDF生成
 
 C#のPDF生成ライブラリを選択する際、開発者はよくNReco.PdfGeneratorやIronPDFなどの名前に出会います。NReco.PdfGeneratorは、HTMLをPDF形式に変換する際の定番ツールである`wkhtmltopdf`をラップしています。しかし、NReco.PdfGeneratorを利用するには、その利点と制限を理解する必要があります。一方で、IronPDFは.NET環境専用に開発された現代的な代替品を提供します。この記事では、これら二つのライブラリを、使いやすさ、柔軟性、セキュリティ、価格の透明性などの要素を考慮して詳細に比較します。

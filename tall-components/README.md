@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [tall-components/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/tall-components/README.md)
-🇯🇵 **日本語:** [tall-components/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/tall-components/README.md)
+ **English:** [tall-components/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/tall-components/README.md)
+ **:** [tall-components/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/tall-components/README.md)
 
 ---
-
 # Tall Components (TallPDF, PDFKit) C# PDF
 
 C# PDF SDK の領域において、Tall Components (TallPDF, PDFKit) は長らく認知されたプロバイダーでした。以前の著名さにもかかわらず、Tall Components (TallPDF, PDFKit) は買収され、新規販売が中止されたため、このソリューションを使用している開発者はアプローチを再考する必要に迫られています。状況が進化する中で、IronPDF が魅力的な代替手段として現れ、探求する価値のある強みと課題を持っています。これらの競合他社間の詳細な比較について見ていきましょう。

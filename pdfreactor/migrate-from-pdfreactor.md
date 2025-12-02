@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfreactor/migrate-from-pdfreactor.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfreactor/migrate-from-pdfreactor.md)
-🇯🇵 **日本語:** [pdfreactor/migrate-from-pdfreactor.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfreactor/migrate-from-pdfreactor.md)
+ **English:** [pdfreactor/migrate-from-pdfreactor.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfreactor/migrate-from-pdfreactor.md)
+ **:** [pdfreactor/migrate-from-pdfreactor.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfreactor/migrate-from-pdfreactor.md)
 
 ---
-
 # PDFreactorからIronPDFへの移行方法は？
 
 PDFreactorは、優れたCSS Paged Mediaサポートを備えた強力なJavaベースのHTMLからPDFへの変換サーバーです。高忠実度ドキュメントレンダリングに優れていますが、Javaの依存関係とサーバーアーキテクチャは.NET環境での複雑さを生み出します。このガイドでは、外部依存関係なしで同等のレンダリング機能を提供するネイティブ.NETライブラリであるIronPDFへの包括的な移行パスを提供します。

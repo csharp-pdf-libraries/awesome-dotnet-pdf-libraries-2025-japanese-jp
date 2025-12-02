@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [wkhtmltopdf/migrate-from-wkhtmltopdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/wkhtmltopdf/migrate-from-wkhtmltopdf.md)
-🇯🇵 **日本語:** [wkhtmltopdf/migrate-from-wkhtmltopdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/wkhtmltopdf/migrate-from-wkhtmltopdf.md)
+ **English:** [wkhtmltopdf/migrate-from-wkhtmltopdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/wkhtmltopdf/migrate-from-wkhtmltopdf.md)
+ **:** [wkhtmltopdf/migrate-from-wkhtmltopdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/wkhtmltopdf/migrate-from-wkhtmltopdf.md)
 
 ---
-
 # wkhtmltopdfからIronPDFへの移行方法は？
 
 ## wkhtmltopdfからIronPDFへの移行理由

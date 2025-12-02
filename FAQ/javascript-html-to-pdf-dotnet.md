@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/javascript-html-to-pdf-dotnet.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/javascript-html-to-pdf-dotnet.md)
-🇯🇵 **日本語:** [FAQ/javascript-html-to-pdf-dotnet.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/javascript-html-to-pdf-dotnet.md)
+ **English:** [FAQ/javascript-html-to-pdf-dotnet.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/javascript-html-to-pdf-dotnet.md)
+ **:** [FAQ/javascript-html-to-pdf-dotnet.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/javascript-html-to-pdf-dotnet.md)
 
 ---
-
 # .NETでHTMLをPDFに変換する際にJavaScriptを実行する方法は？
 
 JavaScriptは、インタラクティブなチャートから動的なテーブルまで、ほとんどの現代のWebアプリケーションの中心にあります。しかし、.NETでHTMLをPDFに変換するとき、PDFジェネレーターがブラウザのように実際にJavaScriptを実行できない限り、重要な要素が欠けていることに気づくかもしれません。このFAQでは、フル機能の動的PDF出力に関する実証済みの.NET戦略をカバーしています。これには、JSをサーバーサイドで実行する方法、非同期コンテンツを処理する方法、厄介な問題をデバッグする方法が含まれます。

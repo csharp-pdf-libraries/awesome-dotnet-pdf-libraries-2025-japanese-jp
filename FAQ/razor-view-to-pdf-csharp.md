@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/razor-view-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/razor-view-to-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/razor-view-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/razor-view-to-pdf-csharp.md)
+ **English:** [FAQ/razor-view-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/razor-view-to-pdf-csharp.md)
+ **:** [FAQ/razor-view-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/razor-view-to-pdf-csharp.md)
 
 ---
-
 # C#でRazorビューをPDFにレンダリングする方法は？
 
 C#でRazorビューを直接PDFにレンダリングすることは、請求書、レポートなどの印刷可能なドキュメント用に既存のUIテンプレートを活用する強力な方法です。IronPDFを使用すると、モデル、レイアウト、パーシャル、および高度なロジックを含む`.cshtml` Razorファイルを高忠実度のPDFに変換できます。これは、テンプレートの複製や新しい構文の学習なしに行えます。このFAQでは、セットアップからトラブルシューティングまでのプロセスを、実用的なコードサンプルと実際のシナリオに対する洞察とともに説明します。

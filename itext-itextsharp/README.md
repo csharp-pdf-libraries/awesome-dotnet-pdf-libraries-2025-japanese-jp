@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [itext-itextsharp/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/itext-itextsharp/README.md)
-🇯🇵 **日本語:** [itext-itextsharp/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/itext-itextsharp/README.md)
+ **English:** [itext-itextsharp/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/itext-itextsharp/README.md)
+ **:** [itext-itextsharp/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/itext-itextsharp/README.md)
 
 ---
-
 # iText / iTextSharp C# PDF: IronPDFとの包括的な比較
 
 C#用のPDFライブラリを評価する際、iText / iTextSharpは頑健なオプションとして頻繁に言及されます。包括的な機能セットで知られるiText / iTextSharpは、開発者がPDFドキュメントを効率的に作成、変更、操作することを可能にします。しかし、iText / iTextSharpはこれらの機能で有名ですが、特にライセンスモデルに関していくつかの顕著な課題を提示します。この記事では、これらの側面を詳細に探求し、別の人気のあるライブラリであるIronPDFと比較します。

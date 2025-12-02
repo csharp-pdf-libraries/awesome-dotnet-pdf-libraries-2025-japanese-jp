@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/docx-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/docx-to-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/docx-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/docx-to-pdf-csharp.md)
+ **English:** [FAQ/docx-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/docx-to-pdf-csharp.md)
+ **:** [FAQ/docx-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/docx-to-pdf-csharp.md)
 
 ---
-
 # C#でDOCXをPDFに簡単に変換する方法は？
 
 C#でWord文書（.docx）をPDFに変換することは、開発者にとって頻繁でありながらもしばしばフラストレーションの原因となります。特に、Microsoft Officeのインストールを避け、バッチ操作をサポートし、フォーマットを保持したい場合です。このFAQでは、C#でDOCXからPDFへの変換を自動化するための最速かつ最も信頼性の高い方法を、コードサンプル、ベストプラクティス、実際のシナリオに対する解決策と共にご紹介します。

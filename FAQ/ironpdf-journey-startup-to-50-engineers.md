@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/ironpdf-journey-startup-to-50-engineers.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/ironpdf-journey-startup-to-50-engineers.md)
-🇯🇵 **日本語:** [FAQ/ironpdf-journey-startup-to-50-engineers.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/ironpdf-journey-startup-to-50-engineers.md)
+ **English:** [FAQ/ironpdf-journey-startup-to-50-engineers.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/ironpdf-journey-startup-to-50-engineers.md)
+ **:** [FAQ/ironpdf-journey-startup-to-50-engineers.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/ironpdf-journey-startup-to-50-engineers.md)
 
 ---
-
 # IronPDFが.NETのHTMLからPDFへの変換をどのように革命したか（そして開発者が学べる教訓は何か）？
 
 IronPDFは、不格好な.NET PDFライブラリに対するフラストレーションから生まれました。今日では、何千もの企業が毎日何百万ものPDFを生成するために使用する堅牢なエンジンです。しかし、どのようにしてここに至ったのか、何がそれを異なるものにしているのか、そしてPDFライブラリを選択する際、レガシーツールからの移行、または自身の開発チームのスケーリングを考えているあなたが何を学べるのか？IronPDFの旅、技術的なブレイクスルー、そして実践的な開発者の知恵について詳しく見ていきましょう。

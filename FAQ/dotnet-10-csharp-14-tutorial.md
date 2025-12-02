@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/dotnet-10-csharp-14-tutorial.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/dotnet-10-csharp-14-tutorial.md)
-🇯🇵 **日本語:** [FAQ/dotnet-10-csharp-14-tutorial.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/dotnet-10-csharp-14-tutorial.md)
+ **English:** [FAQ/dotnet-10-csharp-14-tutorial.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/dotnet-10-csharp-14-tutorial.md)
+ **:** [FAQ/dotnet-10-csharp-14-tutorial.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/dotnet-10-csharp-14-tutorial.md)
 
 ---
-
 # .NET 10とC# 14の知っておくべき主要な機能と落とし穴は何ですか？
 
 .NET 10とC# 14は、開発者の生活をより簡単にすることに焦点を当てて登場しました。スクリプトの効率化、言語の表現力の向上、そして箱から出してすぐにパフォーマンスを向上させる機能を導入しています。C#スクリプトをプロジェクトのボイラープレートなしで書きたい、レガシータイプに拡張プロパティを追加したい、またはAPIからより多くの速度を絞り出したい場合でも、このFAQは最も重要なアップデート、ゴッチャ、実際のコードサンプルをカバーしています。.NET開発者が尋ねている質問に対する実用的な回答について読み進めてください。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/what-to-expect-dotnet-11.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/what-to-expect-dotnet-11.md)
-🇯🇵 **日本語:** [FAQ/what-to-expect-dotnet-11.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/what-to-expect-dotnet-11.md)
+ **English:** [FAQ/what-to-expect-dotnet-11.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/what-to-expect-dotnet-11.md)
+ **:** [FAQ/what-to-expect-dotnet-11.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/what-to-expect-dotnet-11.md)
 
 ---
-
 # .NET 11から開発者は何を期待できるか？
 
 .NET 11は、.NET 10がちょうど展開され始めたところで、すでに多くの開発者の視野に入っています。このFAQでは、.NET 11の最も期待される機能、言語の改善、AI統合、パフォーマンスの調整、移行戦略について詳しく説明します。ライブラリの作者であろうとアプリ開発者であろうと、先を行くために知っておくべきことをここで紹介します。

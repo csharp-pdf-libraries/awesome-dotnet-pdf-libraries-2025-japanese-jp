@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/sanitize-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/sanitize-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/sanitize-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/sanitize-pdf-csharp.md)
+ **English:** [FAQ/sanitize-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/sanitize-pdf-csharp.md)
+ **:** [FAQ/sanitize-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/sanitize-pdf-csharp.md)
 
 ---
-
 # C#でPDFを安全にサニタイズする方法は？セキュリティリスクを防ぐ
 
 C#アプリケーションで信頼できない、またはユーザーがアップロードしたドキュメントを扱う際は、PDFファイルのサニタイズが不可欠です。PDFは、スクリプト、埋め込みファイル、メタデータを隠すことができ、システムを攻撃にさらします。このFAQでは、.NETでIronPDFを使用した効果的なPDFサニタイズのベストプラクティスと実用的なコードを紹介します。

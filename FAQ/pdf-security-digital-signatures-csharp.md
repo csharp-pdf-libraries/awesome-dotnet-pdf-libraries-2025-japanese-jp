@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/pdf-security-digital-signatures-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-security-digital-signatures-csharp.md)
-🇯🇵 **日本語:** [FAQ/pdf-security-digital-signatures-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-security-digital-signatures-csharp.md)
+ **English:** [FAQ/pdf-security-digital-signatures-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-security-digital-signatures-csharp.md)
+ **:** [FAQ/pdf-security-digital-signatures-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-security-digital-signatures-csharp.md)
 
 ---
-
 # C#でデジタル署名、暗号化、およびベストプラクティスを使用してPDFを保護する方法は？
 
 C#でPDFを保護することは、単にパスワードを追加する以上のことです。それは法的署名、強力な暗号化、および一般的な間違いを避けることについてです。このFAQでは、.NETおよびIronPDFを使用してデジタル署名、AES-256暗号化、および権限制御を使用してPDFをロックダウンする方法を説明します。実用的なコード例、実際のプロジェクトからのアドバイス、および最も一般的な落とし穴を避けるためのヒントを提供します。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [spirepdf/migrate-from-spirepdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/spirepdf/migrate-from-spirepdf.md)
-🇯🇵 **日本語:** [spirepdf/migrate-from-spirepdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/spirepdf/migrate-from-spirepdf.md)
+ **English:** [spirepdf/migrate-from-spirepdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/spirepdf/migrate-from-spirepdf.md)
+ **:** [spirepdf/migrate-from-spirepdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/spirepdf/migrate-from-spirepdf.md)
 
 ---
-
 # Spire.PDFからIronPDFへの移行方法は？
 
 ## 目次

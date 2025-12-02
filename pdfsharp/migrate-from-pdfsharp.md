@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfsharp/migrate-from-pdfsharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfsharp/migrate-from-pdfsharp.md)
-🇯🇵 **日本語:** [pdfsharp/migrate-from-pdfsharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfsharp/migrate-from-pdfsharp.md)
+ **English:** [pdfsharp/migrate-from-pdfsharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfsharp/migrate-from-pdfsharp.md)
+ **:** [pdfsharp/migrate-from-pdfsharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfsharp/migrate-from-pdfsharp.md)
 
 ---
-
 # PDFSharpからIronPDFへの移行方法は？
 
 ## PDFSharpからIronPDFへ移行する理由

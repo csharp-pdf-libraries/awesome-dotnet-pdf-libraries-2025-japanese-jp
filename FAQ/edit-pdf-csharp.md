@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/edit-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/edit-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/edit-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/edit-pdf-csharp.md)
+ **English:** [FAQ/edit-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/edit-pdf-csharp.md)
+ **:** [FAQ/edit-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/edit-pdf-csharp.md)
 
 ---
-
 # C#でPDFを編集、ウォーターマークを追加、マージ、および赤塗りする方法は？
 
 C#でのPDF編集は歴史的に困難でしたが、IronPDFのような現代のライブラリがプロセスを革命的に変えました。直感的なAPIを使用することで、ウォーターマークの追加、マージ、赤塗り、スタンプの押印、抽出、およびPDFワークフローの自動化が簡単に行えるようになりました。暗号化されたストリームや低レベルのPDFハッキングは不要です。このFAQでは、.NETでPDF編集をマスターしようとする開発者に実用的なガイダンス、コード例、およびトラブルシューティングのヒントを提供します。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/edit-pdf-forms-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/edit-pdf-forms-csharp.md)
-🇯🇵 **日本語:** [FAQ/edit-pdf-forms-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/edit-pdf-forms-csharp.md)
+ **English:** [FAQ/edit-pdf-forms-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/edit-pdf-forms-csharp.md)
+ **:** [FAQ/edit-pdf-forms-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/edit-pdf-forms-csharp.md)
 
 ---
-
 # C#でプログラム的にPDFフォームを入力・自動化する方法は？
 
 C#でPDFフォームの入力を自動化することで、繰り返し作業の時間を節約し、エラーを最小限に抑え、ビジネスプロセスを合理化できます。IronPDFを使用すると、.NETコードから直接AcroFormフィールド（テキストボックス、ドロップダウン、チェックボックスなど）を効率的に読み取り、入力し、自動化できます。このFAQでは、PDFフォームを入力するための主要なステップとベストプラクティス、エラーの処理方法、C#アプリケーションでの自動化のスケールアップ方法について説明します。

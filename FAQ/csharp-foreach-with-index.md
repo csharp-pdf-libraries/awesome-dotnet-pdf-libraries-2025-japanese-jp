@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/csharp-foreach-with-index.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/csharp-foreach-with-index.md)
-🇯🇵 **日本語:** [FAQ/csharp-foreach-with-index.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/csharp-foreach-with-index.md)
+ **English:** [FAQ/csharp-foreach-with-index.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/csharp-foreach-with-index.md)
+ **:** [FAQ/csharp-foreach-with-index.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/csharp-foreach-with-index.md)
 
 ---
-
 # C#でforeachを使用しているときにインデックスを取得する方法は？
 
 C#でコレクションをループして各アイテムのインデックスにアクセスしたいですか？あなたは一人ではありません。多くの開発者が`foreach`に組み込みのインデックスサポートがないことを残念に思っています。幸いなことに、`foreach`の可読性とインデックス付きイテレーションの力を組み合わせるいくつかの実用的な方法があります。このFAQでは、C#のループでインデックスを扱う際の直接的な回答、コードサンプル、ヒントを見つけることができます。データを扱っている場合でも、APIを構築している場合でも、[IronPDF](https://ironpdf.com)のようなツールでPDFを生成している場合でもです。

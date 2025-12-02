@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [sumatra-pdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/sumatra-pdf/README.md)
-🇯🇵 **日本語:** [sumatra-pdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/sumatra-pdf/README.md)
+ **English:** [sumatra-pdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/sumatra-pdf/README.md)
+ **:** [sumatra-pdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/sumatra-pdf/README.md)
 
 ---
-
 # Sumatra PDF（統合）+ C# + PDF
 
 Sumatra PDF（統合）プロジェクトは、PDFを扱うためのユニークでありながら限定的なアプローチを提供します。これは主に、そのシンプルさと速度で知られる軽量のオープンソースPDFリーダーです。しかし、Sumatra PDF（統合）は、PDFファイルの閲覧を超えた作成や操作の機能を提供しません。無料で多機能なPDFリーダーとして、多くのユーザーに愛されていますが、アプリケーション内での作成やライブラリ統合など、より包括的なPDF機能を必要とする開発者にとっては、その本質的な設計の制限のために不十分です。

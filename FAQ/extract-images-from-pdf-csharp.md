@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/extract-images-from-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/extract-images-from-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/extract-images-from-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/extract-images-from-pdf-csharp.md)
+ **English:** [FAQ/extract-images-from-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/extract-images-from-pdf-csharp.md)
+ **:** [FAQ/extract-images-from-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/extract-images-from-pdf-csharp.md)
 
 ---
-
 # C#でIronPDFを使用してPDFから画像を抽出する方法は？
 
 PDF内に埋め込まれた画像―ロゴ、チャート、スキャンされたページ、または記入可能なフォーム内のグラフィックスなど―を抽出する必要がある場合、C#と[IronPDF](https://ironpdf.com)を使用すると驚くほど簡単です。このFAQでは、.NETでPDF画像を抽出、保存、および処理するための実践的なアプローチを、コードサンプル、メモリのヒント、バッチ処理のコツ、難しいエッジケースのアドバイスと共に紹介します。

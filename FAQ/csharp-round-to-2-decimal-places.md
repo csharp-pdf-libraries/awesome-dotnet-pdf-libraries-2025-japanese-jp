@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/csharp-round-to-2-decimal-places.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/csharp-round-to-2-decimal-places.md)
-🇯🇵 **日本語:** [FAQ/csharp-round-to-2-decimal-places.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/csharp-round-to-2-decimal-places.md)
+ **English:** [FAQ/csharp-round-to-2-decimal-places.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/csharp-round-to-2-decimal-places.md)
+ **:** [FAQ/csharp-round-to-2-decimal-places.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/csharp-round-to-2-decimal-places.md)
 
 ---
-
 # C#で信頼性のある結果のために数値を小数点以下2桁に丸める方法は？
 
 C#で数値を小数点以下2桁に丸めることは単純に聞こえますが、特にお金、データの正確さ、PDFに関しては、微妙な落とし穴が頭痛の種になることがあります。このFAQでは、実用的なコード、`decimal`が`double`よりも安全な理由、一般的な罠（バンカーの丸め方など）、UIやPDFレポートで出力を完璧に見せる方法を説明します。金融ダッシュボードの構築や請求書の生成を行っている場合でも、ここでコードファーストの答えを見つけることができます。

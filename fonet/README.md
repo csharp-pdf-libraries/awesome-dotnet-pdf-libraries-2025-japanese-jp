@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [fonet/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/fonet/README.md)
-🇯🇵 **日本語:** [fonet/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/fonet/README.md)
+ **English:** [fonet/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/fonet/README.md)
+ **:** [fonet/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/fonet/README.md)
 
 ---
-
 # FoNet (FO.NET) C# PDF
 
 C#でPDF生成を扱う際、開発者はユニークな機能と機能性を持つさまざまなライブラリに遭遇するかもしれません。これらの中で、FoNet（FO.NET）はXSL-FOドキュメントをPDFに変換するために特別に設計されたニッチツールとして際立っています。それ自体が強力であるにもかかわらず、FoNet（FO.NET）は主にXSL-FO言語に依存しているため、一連の課題を抱えています。この記事は、FoNet（FO.NET）と、PDF生成のためにより広く採用されているHTML/CSS標準を使用する別の一般的なライブラリであるIronPDFとの包括的な比較を提供することを目的としています。

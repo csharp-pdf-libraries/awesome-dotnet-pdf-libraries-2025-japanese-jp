@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [syncfusion-pdf-framework/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/syncfusion-pdf-framework/README.md)
-🇯🇵 **日本語:** [syncfusion-pdf-framework/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/syncfusion-pdf-framework/README.md)
+ **English:** [syncfusion-pdf-framework/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/syncfusion-pdf-framework/README.md)
+ **:** [syncfusion-pdf-framework/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/syncfusion-pdf-framework/README.md)
 
 ---
-
 # Syncfusion PDF フレームワーク + C# + PDF
 
 Syncfusion PDF フレームワークは、C# を使用して PDF 文書を作成、編集、保護するための幅広い機能を提供する包括的なライブラリです。これは、複数のプラットフォームにわたって1000以上のコンポーネントを含む Syncfusion の Essential Studio の一部として提供されます。C# アプリケーションに PDF 機能を統合したい開発者にとって、Syncfusion PDF フレームワークは堅牢なオプションを提示しますが、ライセンスとバンドルに関して重要な考慮事項があります。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/xml-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/xml-to-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/xml-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/xml-to-pdf-csharp.md)
+ **English:** [FAQ/xml-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/xml-to-pdf-csharp.md)
+ **:** [FAQ/xml-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/xml-to-pdf-csharp.md)
 
 ---
-
 # C#でXSLT、HTML、IronPDFを使用してXMLをPDFに変換する方法は？
 
 C#アプリケーションで構造化されたXMLを洗練されたPDFに変換することは一般的な課題です。特にレイアウトとブランディングを完全に制御したい場合にはそうです。最も効果的なアプローチは、XSLTを使用してXMLをHTMLに変換し、そのHTMLを[IronPDF](https://ironpdf.com)でPDFとしてレンダリングすることです。このFAQでは、ワークフロー、コード例、トラブルシューティング、およびベストプラクティスについて説明しているので、堅牢なドキュメントパイプラインを迅速に構築できます。

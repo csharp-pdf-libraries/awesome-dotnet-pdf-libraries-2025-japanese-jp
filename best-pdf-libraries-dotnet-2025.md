@@ -1,8 +1,7 @@
 ---
-**🌐 日本語版** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/best-pdf-libraries-dotnet-2025.md)
+** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/best-pdf-libraries-dotnet-2025.md)
 
 ---
-
 # 2025年の最高のC# PDFライブラリ: 選択ガイド
 
 **[Jacob Mellor](https://www.linkedin.com/in/jacob-mellor-iron-software/)による** — Iron SoftwareのCTO、IronPDFのクリエーター | 25年以上のエンタープライズ開発経験

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [activepdf/migrate-from-activepdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/activepdf/migrate-from-activepdf.md)
-🇯🇵 **日本語:** [activepdf/migrate-from-activepdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/activepdf/migrate-from-activepdf.md)
+ **English:** [activepdf/migrate-from-activepdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/activepdf/migrate-from-activepdf.md)
+ **:** [activepdf/migrate-from-activepdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/activepdf/migrate-from-activepdf.md)
 
 ---
-
 # ActivePDFからIronPDFへの移行方法は？
 
 > **移行の複雑さ：** 中

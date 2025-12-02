@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/pdf-to-memorystream-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-to-memorystream-csharp.md)
-🇯🇵 **日本語:** [FAQ/pdf-to-memorystream-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-to-memorystream-csharp.md)
+ **English:** [FAQ/pdf-to-memorystream-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-to-memorystream-csharp.md)
+ **:** [FAQ/pdf-to-memorystream-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-to-memorystream-csharp.md)
 
 ---
-
 # C#とIronPDFを使用してメモリ内でPDFを生成してストリーミングする方法は？
 
 現代の.NETアプリケーションを構築する場合、PDFを完全にメモリ内で扱うことは、最も速く、最もクリーンで、最も安全なアプローチです。一時ファイルがなく、ディスクアクセスがなく、最小限のクリーンアップが必要です。IronPDFを使用すると、ファイルシステムに一切触れることなくPDFを生成、操作、ストリーミングすることが簡単です。API、データベース、クラウドストレージなどにメモリ内PDFを活用する方法を、ステップバイステップで解説しましょう。

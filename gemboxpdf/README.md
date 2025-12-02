@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [gemboxpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/gemboxpdf/README.md)
-🇯🇵 **日本語:** [gemboxpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/gemboxpdf/README.md)
+ **English:** [gemboxpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/gemboxpdf/README.md)
+ **:** [gemboxpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/gemboxpdf/README.md)
 
 ---
-
 # GemBox.Pdf C# PDF：IronPDFとの徹底比較
 
 .NET PDFコンポーネントの分野で、GemBox.PdfはPDFの読み取り、書き込み、マージ、分割タスクを効率的に処理できる顕著なツールとして際立っています。GemBox.Pdfは、Adobe Acrobatを活用する必要性なしにPDF機能を開発するための実用的なソリューションを提供します。しかし、堅牢で包括的なPDF操作ライブラリを検討する際、IronPDFが強力な競争相手として頻繁に話題に上がります。この記事では、GemBox.PdfとIronPDFを比較検討し、それらの特徴、制限、および使用事例を評価します。

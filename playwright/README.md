@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [playwright/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/playwright/README.md)
-🇯🇵 **日本語:** [playwright/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/playwright/README.md)
+ **English:** [playwright/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/playwright/README.md)
+ **:** [playwright/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/playwright/README.md)
 
 ---
-
 # Playwright for .NET と C# による PDF 生成：比較分析
 
 .NET 開発者向けのブラウザ自動化の領域において、Playwright for .NET は強力なツールとして登場しました。Microsoft によって開発された Playwright for .NET は、主にエンドツーエンド (E2E) テストを目的として設計されていますが、C# を使用した PDF 生成の機能も提供しています。この二重目的のアプリケーションは、テストとドキュメントレンダリングの両方をプロセスに統合したい開発者にとって理想的な位置づけです。この記事では、PDF 生成に特化して設計されたライブラリである IronPDF と Playwright for .NET を比較し、それぞれの強みと弱みを探ります。

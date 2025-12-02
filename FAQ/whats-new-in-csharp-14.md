@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/whats-new-in-csharp-14.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/whats-new-in-csharp-14.md)
-🇯🇵 **日本語:** [FAQ/whats-new-in-csharp-14.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/whats-new-in-csharp-14.md)
+ **English:** [FAQ/whats-new-in-csharp-14.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/whats-new-in-csharp-14.md)
+ **:** [FAQ/whats-new-in-csharp-14.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/whats-new-in-csharp-14.md)
 
 ---
-
 # C# 14の最も実用的な新機能とその使用方法は？
 
 C# 14が.NET 10とともに登場し、日々の開発をよりクリーンで、より速く、より表現力豊かにする本当に役立つ機能の波をもたらしました。コレクション式、プライマリコンストラクタ、高度なパターンマッチング、インライン配列によるパフォーマンスの向上が必要かどうかにかかわらず、C# 14にはあなたにとっての何かがあります。このFAQでは、最も影響力のある機能を分析し、それらが輝く場所（そして問題を起こす場所）を示し、すぐにコピーして適応できる実際のコード例を提供します。新機能、その使用方法、注意点について知りたい場合は、正しい場所にいます。

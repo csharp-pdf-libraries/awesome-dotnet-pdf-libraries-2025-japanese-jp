@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/whats-new-in-dotnet-10.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/whats-new-in-dotnet-10.md)
-🇯🇵 **日本語:** [FAQ/whats-new-in-dotnet-10.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/whats-new-in-dotnet-10.md)
+ **English:** [FAQ/whats-new-in-dotnet-10.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/whats-new-in-dotnet-10.md)
+ **:** [FAQ/whats-new-in-dotnet-10.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/whats-new-in-dotnet-10.md)
 
 ---
-
 # .NET 10にアップグレードすべきか？機能、パフォーマンス、実践的な移行のヒント
 
 .NET 10は、パフォーマンスの向上、新しい言語機能（こんにちは、C# 14！）、そしてよりスムーズなクラウドネイティブのワークフローをもたらすため、注目を集めています。もし、あなたが.NET 8以前を使用している、または新機能やアップグレードの難易度がどの程度か気になっている場合、このFAQは実用的なアドバイスとコードサンプルでそれを分解します。

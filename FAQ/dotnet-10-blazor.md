@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/dotnet-10-blazor.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/dotnet-10-blazor.md)
-🇯🇵 **日本語:** [FAQ/dotnet-10-blazor.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/dotnet-10-blazor.md)
+ **English:** [FAQ/dotnet-10-blazor.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/dotnet-10-blazor.md)
+ **:** [FAQ/dotnet-10-blazor.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/dotnet-10-blazor.md)
 
 ---
-
 # .NET 10 Blazorの新機能と開発者が利用する方法
 
 .NET 10はBlazorに大幅なアップグレードをもたらし、バンドルサイズの大幅な縮小、簡単な永続的状態、パスワードレス認証、より良いフォーム検証などが含まれます。現代のC# Webアプリを構築している場合、これらの機能は時間の節約とより良いユーザーエクスペリエンスの提供に役立ちます。ここでは、最も重要な変更とそれらを今日どのように使用するかについての実用的なFAQを紹介します。

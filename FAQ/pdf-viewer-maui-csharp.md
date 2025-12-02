@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/pdf-viewer-maui-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-viewer-maui-csharp.md)
-🇯🇵 **日本語:** [FAQ/pdf-viewer-maui-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-viewer-maui-csharp.md)
+ **English:** [FAQ/pdf-viewer-maui-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-viewer-maui-csharp.md)
+ **:** [FAQ/pdf-viewer-maui-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-viewer-maui-csharp.md)
 
 ---
-
 # .NET MAUIを使用してC#でモダンなPDFビューアを構築する方法は？
 
 .NET MAUIアプリに高速で堅牢なPDFビューアを追加したいが、プラットフォームの特性や不格好な回避策に悩まされていませんか？あなたは一人ではありません。ネイティブプラットフォームのビューアは扱いにくく、Webベースのソリューションは不自然に感じ、クロスプラットフォームでのPDF表示は驚くほど難しいものです。幸いなことに、IronPDFのMAUIビューアを使用すると、既存のC#コードベースから、洗練された真にネイティブなPDF体験を提供できます。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [telerik-document-processing/migrate-from-telerik-document-processing.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/telerik-document-processing/migrate-from-telerik-document-processing.md)
-🇯🇵 **日本語:** [telerik-document-processing/migrate-from-telerik-document-processing.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/telerik-document-processing/migrate-from-telerik-document-processing.md)
+ **English:** [telerik-document-processing/migrate-from-telerik-document-processing.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/telerik-document-processing/migrate-from-telerik-document-processing.md)
+ **:** [telerik-document-processing/migrate-from-telerik-document-processing.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/telerik-document-processing/migrate-from-telerik-document-processing.md)
 
 ---
-
 # Telerik Document ProcessingからIronPDFへの移行方法は？
 
 ## 目次

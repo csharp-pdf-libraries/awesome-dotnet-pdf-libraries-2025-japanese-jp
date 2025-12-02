@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/how-to-develop-aspnet-applications-dotnet-10.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/how-to-develop-aspnet-applications-dotnet-10.md)
-🇯🇵 **日本語:** [FAQ/how-to-develop-aspnet-applications-dotnet-10.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/how-to-develop-aspnet-applications-dotnet-10.md)
+ **English:** [FAQ/how-to-develop-aspnet-applications-dotnet-10.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/how-to-develop-aspnet-applications-dotnet-10.md)
+ **:** [FAQ/how-to-develop-aspnet-applications-dotnet-10.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/how-to-develop-aspnet-applications-dotnet-10.md)
 
 ---
-
 # .NET 10を使用して最新のASP.NET Coreアプリを構築する方法は？（実践的なFAQ）
 
 .NET 10とASP.NET CoreでWeb開発を加速させる準備はできましたか？このFAQは、初期設定からデプロイメントまで、API、Webアプリ、対話型UIの構築に必要なすべてをカバーしています。リアルワールドのコードやパターンを用いています。堅牢でクロスプラットフォームのWebソリューションを迅速に出荷したい場合は、ぜひご覧ください。

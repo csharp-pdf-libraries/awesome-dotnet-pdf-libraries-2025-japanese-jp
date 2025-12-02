@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/find-replace-text-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/find-replace-text-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/find-replace-text-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/find-replace-text-pdf-csharp.md)
+ **English:** [FAQ/find-replace-text-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/find-replace-text-pdf-csharp.md)
+ **:** [FAQ/find-replace-text-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/find-replace-text-pdf-csharp.md)
 
 ---
-
 # C#を使用してPDFファイル内で検索と置換を自動化する方法は？
 
 会社名の一括更新、誤字の修正、または数十または数百のPDFファイル内の機密用語の交換を行いたいですか？C#を使用したPDF内の検索と置換の自動化—特にIronPDFを使用する場合—は、数え切れないほどの時間と頭痛を節約できます。このFAQでは、単純な文字列の置換からスキャンされたPDFの処理、正規表現パターン、フォームフィールド、さらにはパスワードで保護されたドキュメントの処理まで、知っておくべきことをすべてカバーしています。実用的な解決策について詳しく見ていきましょう！

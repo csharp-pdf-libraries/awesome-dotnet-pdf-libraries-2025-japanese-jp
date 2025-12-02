@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/pdf-margins-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-margins-csharp.md)
-🇯🇵 **日本語:** [FAQ/pdf-margins-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-margins-csharp.md)
+ **English:** [FAQ/pdf-margins-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-margins-csharp.md)
+ **:** [FAQ/pdf-margins-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-margins-csharp.md)
 
 ---
-
 # IronPDFを使用してC#でPDFの余白を制御する方法は？
 
 C#でPDFの余白を正しく設定することは、見た目がシャープな文書と、プロフェッショナルでない、あるいは使用不可能に見える文書との違いを生むことがあります。特にIronPDFを使用してプログラムでPDFを生成する場合、余白は可読性、印刷、全体的なプレゼンテーションにとって重要です。このFAQでは、IronPDFの余白に関するすべてを、基本設定、現実世界のシナリオ、高度な余白のコツ、デバッグのヒントまで深く掘り下げます。

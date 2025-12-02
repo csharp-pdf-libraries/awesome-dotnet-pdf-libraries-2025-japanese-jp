@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfreactor/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfreactor/README.md)
-🇯🇵 **日本語:** [pdfreactor/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfreactor/README.md)
+ **English:** [pdfreactor/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfreactor/README.md)
+ **:** [pdfreactor/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfreactor/README.md)
 
 ---
-
 # PDFreactor + C# + PDF: IronPDFとの包括的な比較
 
 HTMLコンテンツをPDF形式に変換する際、市場にはPDFreactorとIronPDFの2つの重要なプレイヤーがあり、C#環境で作業する開発者に独自のソリューションを提供しています。両者にはそれぞれ長所と短所がありますが、これらのニュアンスを理解することは、プロジェクトに適したツールを選択する上で不可欠です。

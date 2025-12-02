@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/pdf-metadata-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-metadata-csharp.md)
-🇯🇵 **日本語:** [FAQ/pdf-metadata-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-metadata-csharp.md)
+ **English:** [FAQ/pdf-metadata-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-metadata-csharp.md)
+ **:** [FAQ/pdf-metadata-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-metadata-csharp.md)
 
 ---
-
 # C#でIronPDFを使用してPDFメタデータを扱う方法は？
 
 PDFメタデータは効率的なドキュメント管理の基盤です。それがなければ、PDFはただのデジタルの山に過ぎません。メタデータを使用すると、それらは検索可能、整理可能になり、.NETアプリケーションでの自動化の準備が整います。このFAQでは、単一の請求書を更新する場合でも、アーカイブ全体をバッチ処理する場合でも、C#とIronPDFを使用してPDFメタデータを読み取り、設定し、自動化する方法を学びます。基本からカスタムメタデータ、XMP、バルク操作、注意点まで、この重要なスキルをマスターするためのすべてをカバーします。

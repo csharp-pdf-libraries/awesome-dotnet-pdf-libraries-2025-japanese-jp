@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/will-ai-replace-dotnet-developers-2025.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/will-ai-replace-dotnet-developers-2025.md)
-🇯🇵 **日本語:** [FAQ/will-ai-replace-dotnet-developers-2025.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/will-ai-replace-dotnet-developers-2025.md)
+ **English:** [FAQ/will-ai-replace-dotnet-developers-2025.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/will-ai-replace-dotnet-developers-2025.md)
+ **:** [FAQ/will-ai-replace-dotnet-developers-2025.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/will-ai-replace-dotnet-developers-2025.md)
 
 ---
-
 # 2026年までに、Claude CodeやChatGPTのようなAIが.NET開発者を置き換えるのか？
 
 Claude Code、ChatGPT、GitHub CopilotなどのAIツールは、.NET開発の風景を急速に変えています。しかし、それは数年以内に開発者が仕事を失うことを意味するのでしょうか？このFAQでは、AIが.NETの専門家に対して何ができる（またはできない）か、どのように適応すべきか、そしてなぜ人間の専門知識が不可欠であるかについて、コードファーストの視点で地に足のついた見解を提供します。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [xfiniumpdf/migrate-from-xfiniumpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/xfiniumpdf/migrate-from-xfiniumpdf.md)
-🇯🇵 **日本語:** [xfiniumpdf/migrate-from-xfiniumpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/xfiniumpdf/migrate-from-xfiniumpdf.md)
+ **English:** [xfiniumpdf/migrate-from-xfiniumpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/xfiniumpdf/migrate-from-xfiniumpdf.md)
+ **:** [xfiniumpdf/migrate-from-xfiniumpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/xfiniumpdf/migrate-from-xfiniumpdf.md)
 
 ---
-
 # XFINIUM.PDFからIronPDFへの移行方法は？
 
 ## XFINIUM.PDFから移行する理由は？

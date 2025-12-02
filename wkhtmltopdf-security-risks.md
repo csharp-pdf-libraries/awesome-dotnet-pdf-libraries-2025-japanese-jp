@@ -1,8 +1,7 @@
 ---
-**🌐 日本語版** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/wkhtmltopdf-security-risks.md)
+** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/wkhtmltopdf-security-risks.md)
 
 ---
-
 # wkhtmltopdfを置き換えるべき理由：重大なセキュリティ脆弱性と現代のPDF生成への道
 
 ## エグゼクティブサマリー

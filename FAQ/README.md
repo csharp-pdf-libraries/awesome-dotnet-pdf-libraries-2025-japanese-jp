@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/README.md)
-🇯🇵 **日本語:** [FAQ/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/README.md)
+ **English:** [FAQ/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/README.md)
+ **:** [FAQ/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/README.md)
 
 ---
-
 # IronPDF FAQ - よくある質問
 
 C#/.NETを使用したPDF生成、操作、およびドキュメント処理に関する166のFAQ記事の包括的なコレクションです。[IronPDF](https://ironpdf.com)を使用します。

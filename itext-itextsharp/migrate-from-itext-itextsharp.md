@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [itext-itextsharp/migrate-from-itext-itextsharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/itext-itextsharp/migrate-from-itext-itextsharp.md)
-🇯🇵 **日本語:** [itext-itextsharp/migrate-from-itext-itextsharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/itext-itextsharp/migrate-from-itext-itextsharp.md)
+ **English:** [itext-itextsharp/migrate-from-itext-itextsharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/itext-itextsharp/migrate-from-itext-itextsharp.md)
+ **:** [itext-itextsharp/migrate-from-itext-itextsharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/itext-itextsharp/migrate-from-itext-itextsharp.md)
 
 ---
-
 # iText / iTextSharpからIronPDFへの移行方法は？
 
 ## 目次

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [fluid/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/fluid/README.md)
-🇯🇵 **日本語:** [fluid/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/fluid/README.md)
+ **English:** [fluid/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/fluid/README.md)
+ **:** [fluid/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/fluid/README.md)
 
 ---
-
 # Fluid (テンプレート) + C# + PDF
 
 C#アプリケーションで動的にドキュメントを生成する際、技術の選択はワークフローの効率と出力品質に大きな違いをもたらします。この記事では、Fluidテンプレートエンジンを探求し、IronPDFと比較して、C#でのPDF生成におけるそれぞれの長所と短所を検討します。

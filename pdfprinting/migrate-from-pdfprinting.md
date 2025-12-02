@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfprinting/migrate-from-pdfprinting.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfprinting/migrate-from-pdfprinting.md)
-🇯🇵 **日本語:** [pdfprinting/migrate-from-pdfprinting.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfprinting/migrate-from-pdfprinting.md)
+ **English:** [pdfprinting/migrate-from-pdfprinting.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfprinting/migrate-from-pdfprinting.md)
+ **:** [pdfprinting/migrate-from-pdfprinting.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfprinting/migrate-from-pdfprinting.md)
 
 ---
-
 # PDFPrinting.NETからIronPDFへの移行方法は？
 
 ## なぜPDFPrinting.NETから移行するのか？

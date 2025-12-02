@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfview4net/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfview4net/README.md)
-🇯🇵 **日本語:** [pdfview4net/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfview4net/README.md)
+ **English:** [pdfview4net/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfview4net/README.md)
+ **:** [pdfview4net/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfview4net/README.md)
 
 ---
-
 # PDFView4NETとC# PDFソリューション
 
 C#アプリケーションにPDF機能を統合する際、開発者はしばしば、その能力を高めるために特化したライブラリが必要になることがあります。PDFView4NETは、C#でPDF表示機能に主に焦点を当てる開発者にとって人気の選択肢です。PDFView4NETは、Windows Forms（WinForms）およびWindows Presentation Foundation（WPF）アプリケーション向けに特別に設計された堅牢なPDF表示コントロールを提供します。ライブラリが提供するシームレスなPDF表示体験への重点は、デスクトップアプリケーション開発において、それを主要なオプションとしています。

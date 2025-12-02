@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/rtf-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/rtf-to-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/rtf-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/rtf-to-pdf-csharp.md)
+ **English:** [FAQ/rtf-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/rtf-to-pdf-csharp.md)
+ **:** [FAQ/rtf-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/rtf-to-pdf-csharp.md)
 
 ---
-
 # IronPDFを使用してC#でRTFをPDFに変換する方法は？
 
 RTFファイルは企業のワークフローに根強く残っていますが、それらをPDFに変換することは思っているよりも簡単です。このFAQは、[IronPDF](https://ironpdf.com)を使用してレガシーRTFドキュメントを現代化するためにC#開発者が知る必要があるすべてをカバーしています。基本的な変換からバッチ処理、書式の特徴、セキュリティ、トラブルシューティング、高度なカスタマイズまでです。

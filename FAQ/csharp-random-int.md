@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/csharp-random-int.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/csharp-random-int.md)
-🇯🇵 **日本語:** [FAQ/csharp-random-int.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/csharp-random-int.md)
+ **English:** [FAQ/csharp-random-int.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/csharp-random-int.md)
+ **:** [FAQ/csharp-random-int.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/csharp-random-int.md)
 
 ---
-
 # C#でランダムな整数を生成し、ランダム性を扱う方法は？
 
 C#でのランダム数は、ゲーム、テストデータ、シャッフリング、トークン生成などのセキュリティに敏感な操作に不可欠です。しかし、すべてのランダム数が同じように作られているわけではありません。微妙なミスがバグ、セキュリティの欠陥、または非ランダムな結果を引き起こす可能性があります。ランダムな整数を生成したい開発者のための実用的なFAQです。

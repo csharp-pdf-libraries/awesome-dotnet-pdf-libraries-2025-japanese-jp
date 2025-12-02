@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/dotnet-cross-platform-development.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/dotnet-cross-platform-development.md)
-🇯🇵 **日本語:** [FAQ/dotnet-cross-platform-development.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/dotnet-cross-platform-development.md)
+ **English:** [FAQ/dotnet-cross-platform-development.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/dotnet-cross-platform-development.md)
+ **:** [FAQ/dotnet-cross-platform-development.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/dotnet-cross-platform-development.md)
 
 ---
-
 # なぜ2024年に真のクロスプラットフォーム開発のために.NETを選ぶべきなのか？
 
 絶対に—.NETはもはやWindows専用ではありません。今日の.NETでは、同じコードベースからWindows、macOS、Linux、モバイル、ウェブ向けの高性能アプリを構築できます。MacからAPIを起動し、クラウド内のLinuxにデプロイし、モバイルデバイスをターゲットにする場合でも、.NETは真のポータビリティを提供します。このFAQでは、.NETがどのようにして真のクロスプラットフォーム開発を実現するか、どのプラットフォームをターゲットにできるか、一般的な落とし穴、および次のプロジェクトのための実用的なコード例を通して案内します。

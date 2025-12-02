@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/data-uri-base64-images-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/data-uri-base64-images-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/data-uri-base64-images-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/data-uri-base64-images-pdf-csharp.md)
+ **English:** [FAQ/data-uri-base64-images-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/data-uri-base64-images-pdf-csharp.md)
+ **:** [FAQ/data-uri-base64-images-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/data-uri-base64-images-pdf-csharp.md)
 
 ---
-
 # C# PDFでデータURIを使用して画像を信頼性高く埋め込む方法は？
 
 C#でHTMLから生成されたPDFに画像を埋め込むことは、外部ファイルやURLに依存している場合には困難です。よくある問題には、アセットの欠落やリンク切れがあります。最善の解決策は何でしょうか？PDF生成前にHTMLに直接画像データを挿入するためにデータURIを使用します。このFAQでは、データURI画像埋め込みに関する実用的なC#パターンを共有し、一般的な落とし穴をカバーし、堅牢でポータブルなPDFワークフローのための専門家によるトラブルシューティングのヒントを提供します。

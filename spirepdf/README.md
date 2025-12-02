@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [spirepdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/spirepdf/README.md)
-🇯🇵 **日本語:** [spirepdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/spirepdf/README.md)
+ **English:** [spirepdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/spirepdf/README.md)
+ **:** [spirepdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/spirepdf/README.md)
 
 ---
-
 # Spire.PDF C# PDFとIronPDFの比較分析
 
 Spire.PDFは、.NET開発者がPDFドキュメントを効率的に扱うために設計された堅牢な商用PDFライブラリです。Spire.PDFは、その特定の機能でプログラミングコミュニティに印をつけましたが、包括的な理解のためにその強みと弱みの両方を議論することが重要です。Spire.PDFは、特にレガシーアプリケーション内でいくつかのユースケースにおいて解決策として機能しますが、HTMLのレンダリングと処理に関して異なる利点を提供するIronPDFのような代替ライブラリを検討することが重要です。

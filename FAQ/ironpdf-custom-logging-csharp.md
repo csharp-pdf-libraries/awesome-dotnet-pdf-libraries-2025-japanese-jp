@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/ironpdf-custom-logging-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/ironpdf-custom-logging-csharp.md)
-🇯🇵 **日本語:** [FAQ/ironpdf-custom-logging-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/ironpdf-custom-logging-csharp.md)
+ **English:** [FAQ/ironpdf-custom-logging-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/ironpdf-custom-logging-csharp.md)
+ **:** [FAQ/ironpdf-custom-logging-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/ironpdf-custom-logging-csharp.md)
 
 ---
-
 # IronPDFでカスタムログを実装する方法は？
 
 IronPDFはカスタマイズ可能なログをサポートしているため、アプリケーションとプロダクションのニーズに最適な方法でライブラリログをキャプチャ、ルーティング、フォーマットできます。開発中の問題を追跡したい場合、SerilogやApplication Insightsと統合したい場合、または構造化されたログをデータベースにプッシュしたい場合でも、IronPDFを使用して独自のロガーを簡単に使用できます。

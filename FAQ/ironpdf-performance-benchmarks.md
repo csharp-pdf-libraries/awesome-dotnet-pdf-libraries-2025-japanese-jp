@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/ironpdf-performance-benchmarks.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/ironpdf-performance-benchmarks.md)
-🇯🇵 **日本語:** [FAQ/ironpdf-performance-benchmarks.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/ironpdf-performance-benchmarks.md)
+ **English:** [FAQ/ironpdf-performance-benchmarks.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/ironpdf-performance-benchmarks.md)
+ **:** [FAQ/ironpdf-performance-benchmarks.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/ironpdf-performance-benchmarks.md)
 
 ---
-
 # IronPDFの実際の.NETプロジェクトでの速度はどれくらいですか？ベンチマーク、コード、開発者の洞察
 
 .NETのPDF生成にIronPDFを検討している場合、マーケティングの誇大広告を超えた疑問があるかもしれません：**IronPDFは本当に速いのか？最新のHTMLやJavaScriptと確実に動作するか？Dockerでのスケールや挙動はどうか？** このFAQは、手作業によるベンチマーク、コード例、エッジケース、実用的なアドバイスを開発者の視点から直接提供します。

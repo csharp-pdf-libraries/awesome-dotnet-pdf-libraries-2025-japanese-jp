@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [TRANSLATION-PLAN.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/TRANSLATION-PLAN.md)
-🇯🇵 **日本語:** [TRANSLATION-PLAN.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/TRANSLATION-PLAN.md)
+ **English:** [TRANSLATION-PLAN.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/TRANSLATION-PLAN.md)
+ **:** [TRANSLATION-PLAN.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/TRANSLATION-PLAN.md)
 
 ---
-
 # 翻訳計画
 
 **注意**: 翻訳は一度に一つずつ、手動で開始されます。自動化されません。

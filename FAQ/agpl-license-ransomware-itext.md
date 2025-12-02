@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/agpl-license-ransomware-itext.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/agpl-license-ransomware-itext.md)
-🇯🇵 **日本語:** [FAQ/agpl-license-ransomware-itext.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/agpl-license-ransomware-itext.md)
+ **English:** [FAQ/agpl-license-ransomware-itext.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/agpl-license-ransomware-itext.md)
+ **:** [FAQ/agpl-license-ransomware-itext.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/agpl-license-ransomware-itext.md)
 
 ---
-
 # AGPLライセンスのPDFライブラリ（iTextなど）が.NET開発者にとって本当に無料ではない理由
 
 多くの開発者は、「オープンソース」という言葉を「使用無料」と解釈しています。しかし、AGPLのようなライセンスの下で.NET PDFライブラリを選択する場合、高額なライセンス料や法的リスクを招く可能性があります。このFAQでは、AGPLライセンスのPDFツールが商用プロジェクトにとってなぜ問題となるのか、どのように「ライセンスの罠」を見分けるか、そしてC#でのPDF生成のためのより安全な代替手段が何かを説明します。

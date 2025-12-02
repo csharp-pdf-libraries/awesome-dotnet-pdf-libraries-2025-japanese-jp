@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [foxit-sdk/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/foxit-sdk/README.md)
-🇯🇵 **日本語:** [foxit-sdk/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/foxit-sdk/README.md)
+ **English:** [foxit-sdk/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/foxit-sdk/README.md)
+ **:** [foxit-sdk/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/foxit-sdk/README.md)
 
 ---
-
 # Foxit SDK + C# + PDF
 
 Foxit SDKは、特にC#で作業している開発者にとって、PDFドキュメントの取り扱いにおいて強力なツールです。Foxit SDKは、エンタープライズレベルのアプリケーションに理想的な堅牢な機能を提供し、PDFの作成、編集、管理を扱うために様々なシステムとシームレスに統合できます。しかし、Foxit SDKには、より直接的な解決策を探している開発者にとって特に、いくつかの顕著な課題も伴います。

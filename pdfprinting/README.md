@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfprinting/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfprinting/README.md)
-🇯🇵 **日本語:** [pdfprinting/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfprinting/README.md)
+ **English:** [pdfprinting/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfprinting/README.md)
+ **:** [pdfprinting/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfprinting/README.md)
 
 ---
-
 # PDFPrinting.NET + C# + PDF
 
 .NET環境でPDF文書の管理と印刷を行う際、PDFPrinting.NETは無声印刷において類まれなる簡便さと効果を提供する特化したソリューションとして際立っています。主にWindowsエコシステム内で動作するPDFPrinting.NETは、アプリケーションにPDF印刷機能を統合する必要がある開発者を特に対象として設計された商用ライブラリです。PDFの無声かつ堅牢な印刷にのみ焦点を当てた専用ツールとして、ユーザーの介入なしにプログラム的に文書を印刷するというしばしば複雑な作業を簡素化するニッチを見つけています。この記事では、PDFPrinting.NETの強みと弱点を探り、IronPDFと比較し、それらの典型的な使用例について洞察を提供します。

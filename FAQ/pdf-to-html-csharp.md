@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/pdf-to-html-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-to-html-csharp.md)
-🇯🇵 **日本語:** [FAQ/pdf-to-html-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-to-html-csharp.md)
+ **English:** [FAQ/pdf-to-html-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-to-html-csharp.md)
+ **:** [FAQ/pdf-to-html-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-to-html-csharp.md)
 
 ---
-
 # C#でPDFをHTMLに変換する方法は？
 
 .NETアプリでPDFをウェブフレンドリーなHTMLに変換したいですか？IronPDFを使えば簡単です。ドキュメントをオンラインで表示したい、検索のためにインデックスを作成したい、またはコンテンツを抽出したい場合でも、PDFをHTMLに変換することで多くの可能性が開かれます。このFAQでは、セットアップ、コードサンプル、バッチ処理、トラブルシューティングなどについて説明します。

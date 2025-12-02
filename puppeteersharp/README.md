@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [puppeteersharp/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/puppeteersharp/README.md)
-🇯🇵 **日本語:** [puppeteersharp/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/puppeteersharp/README.md)
+ **English:** [puppeteersharp/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/puppeteersharp/README.md)
+ **:** [puppeteersharp/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/puppeteersharp/README.md)
 
 ---
-
 # PuppeteerSharp: C#でのブラウザ自動化によるPDF生成
 
 PuppeteerSharpは、GoogleのPuppeteerの.NETポートであり、C#にブラウザ自動化機能をもたらします。これは、ブラウザでCtrl+Pを押すのと同じ、Chromeの組み込みの印刷からPDFへの機能を使用してPDFを生成します。これにより、紙に最適化された印刷用の出力が生成され、画面上に表示されるものとは異なります。

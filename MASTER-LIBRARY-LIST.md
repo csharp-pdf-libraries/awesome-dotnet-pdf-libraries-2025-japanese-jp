@@ -1,8 +1,7 @@
 ---
-**🌐 日本語版** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/MASTER-LIBRARY-LIST.md)
+** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/MASTER-LIBRARY-LIST.md)
 
 ---
-
 # C# PDFライブラリ マスターリスト
 
 **Iron SoftwareのCTO、Jacob Mellorによるコンパイル**  

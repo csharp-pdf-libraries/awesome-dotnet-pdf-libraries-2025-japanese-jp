@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/redact-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/redact-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/redact-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/redact-pdf-csharp.md)
+ **English:** [FAQ/redact-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/redact-pdf-csharp.md)
+ **:** [FAQ/redact-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/redact-pdf-csharp.md)
 
 ---
-
 # C#でデータ漏洩なしに防弾PDFの削除を行う方法は？
 
 以前に「削除された」とされるPDFが誤って機密情報を露呈した経験がある方は、あなただけではありません。データが単に隠されるのではなく、不可逆的に削除される真のPDFの削除は、コンプライアンスと安心のために不可欠です。このFAQでは、C#でのゼロ漏洩PDF削除を説明し、IronPDFを使用した実用的なコード例を示し、苦労して学んだ教訓を共有します。テキスト、SSNのようなパターン、または特定の領域を削除する必要がある場合でも、ここに実用的な解決策が見つかります。

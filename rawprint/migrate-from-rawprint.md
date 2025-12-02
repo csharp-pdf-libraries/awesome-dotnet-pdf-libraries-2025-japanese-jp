@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [rawprint/migrate-from-rawprint.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/rawprint/migrate-from-rawprint.md)
-🇯🇵 **日本語:** [rawprint/migrate-from-rawprint.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/rawprint/migrate-from-rawprint.md)
+ **English:** [rawprint/migrate-from-rawprint.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/rawprint/migrate-from-rawprint.md)
+ **:** [rawprint/migrate-from-rawprint.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/rawprint/migrate-from-rawprint.md)
 
 ---
-
 # RawPrintからIronPDFへの移行方法は？
 
 ## なぜRawPrintから移行するのか？

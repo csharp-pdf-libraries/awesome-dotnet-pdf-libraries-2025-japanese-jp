@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [bcl-easypdf-sdk/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/bcl-easypdf-sdk/README.md)
-🇯🇵 **日本語:** [bcl-easypdf-sdk/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/bcl-easypdf-sdk/README.md)
+ **English:** [bcl-easypdf-sdk/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/bcl-easypdf-sdk/README.md)
+ **:** [bcl-easypdf-sdk/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/bcl-easypdf-sdk/README.md)
 
 ---
-
 # BCL EasyPDF SDKとC#: レガシー依存関係に挑戦されるPDF変換
 
 C#でPDF変換タスクに取り組む際、BCL EasyPDF SDKは仮想プリンタドライバーを使用した包括的なアプローチで広く認識されています。BCL EasyPDF SDKは、既存のMicrosoft Office依存関係の利用を強調し、PDF生成に焦点を当てた企業にとって重要なプレーヤーのままです。このプラットフォームは、開発者がWindowsシステムにネイティブな仮想印刷メカニズムを介して、さまざまなドキュメント形式をPDFに出力できるようにします。

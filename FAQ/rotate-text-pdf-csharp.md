@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/rotate-text-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/rotate-text-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/rotate-text-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/rotate-text-pdf-csharp.md)
+ **English:** [FAQ/rotate-text-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/rotate-text-pdf-csharp.md)
+ **:** [FAQ/rotate-text-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/rotate-text-pdf-csharp.md)
 
 ---
-
 # C#を使用してPDF内のテキストを回転させる方法は？
 
 PDF内のテキストを回転させることは、透かし、縦のラベル、または狭いテーブルの列にデータを収めるためなど、一般的なニーズです。C#では、HTML/CSSベースの生成と直接のPDF操作の両方をサポートするIronPDFライブラリを使用して、PDF内のテキストを簡単に回転させることができます。ここでは、始め方、最適な手法、注意点について説明します。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfsharp/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfsharp/README.md)
-🇯🇵 **日本語:** [pdfsharp/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfsharp/README.md)
+ **English:** [pdfsharp/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfsharp/README.md)
+ **:** [pdfsharp/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfsharp/README.md)
 
 ---
-
 # PDFSharpとIronPDFのC# PDF開発比較
 
 C#でPDFを作成する際、開発者はPDFSharpやIronPDFのようなオプションをよく検討します。PDFSharpは、C#でプログラム的にPDFを作成したいと考える人々にとって人気の選択肢となっています。PDFSharpを利用することで、開発者は精密なPDFを作成できます。しかし、PDFSharpのアーキテクチャは、座標を使用した配置の深い理解を必要とし、複雑なレイアウトの作成においてしばしば課題を提示します。

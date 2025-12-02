@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [peachpdf/migrate-from-peachpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/peachpdf/migrate-from-peachpdf.md)
-🇯🇵 **日本語:** [peachpdf/migrate-from-peachpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/peachpdf/migrate-from-peachpdf.md)
+ **English:** [peachpdf/migrate-from-peachpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/peachpdf/migrate-from-peachpdf.md)
+ **:** [peachpdf/migrate-from-peachpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/peachpdf/migrate-from-peachpdf.md)
 
 ---
-
 # PeachPDFからIronPDFへの移行方法は？
 
 ## PeachPDFから移行する理由は？

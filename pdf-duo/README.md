@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdf-duo/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdf-duo/README.md)
-🇯🇵 **日本語:** [pdf-duo/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdf-duo/README.md)
+ **English:** [pdf-duo/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdf-duo/README.md)
+ **:** [pdf-duo/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdf-duo/README.md)
 
 ---
-
 # PDF Duo .NET + C# + PDF
 
 PDF Duo .NETは、HTMLやその他のフォーマットをPDFに変換することを目的とした、.NETエコシステム内であまり知られていないライブラリです。多くの開発者がC#でのPDF生成にPDF Duo .NETの潜在的な有用性に興味を持つかもしれませんが、このライブラリの曖昧さは大きな課題を提示します。PDF Duo .NETは、限られたドキュメント、コミュニティとの関わりの少なさ、サポートとメンテナンスの不確実性により、本番環境のアプリケーションにはあまり理想的ではありません。

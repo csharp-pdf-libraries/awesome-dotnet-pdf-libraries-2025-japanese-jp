@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [syncfusion-pdf-framework/migrate-from-syncfusion-pdf-framework.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/syncfusion-pdf-framework/migrate-from-syncfusion-pdf-framework.md)
-🇯🇵 **日本語:** [syncfusion-pdf-framework/migrate-from-syncfusion-pdf-framework.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/syncfusion-pdf-framework/migrate-from-syncfusion-pdf-framework.md)
+ **English:** [syncfusion-pdf-framework/migrate-from-syncfusion-pdf-framework.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/syncfusion-pdf-framework/migrate-from-syncfusion-pdf-framework.md)
+ **:** [syncfusion-pdf-framework/migrate-from-syncfusion-pdf-framework.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/syncfusion-pdf-framework/migrate-from-syncfusion-pdf-framework.md)
 
 ---
-
 # Syncfusion PDF フレームワークから IronPDF への移行方法は？
 
 Syncfusion PDF フレームワークは、Essential Studio スイートの一部である包括的な PDF ライブラリです。強力ではありますが、バンドルされたライセンスモデルと座標ベースの API は制限的になることがあります。このガイドでは、Syncfusion PDF API の全表面領域をカバーする IronPDF への徹底的な移行パスを提供します。

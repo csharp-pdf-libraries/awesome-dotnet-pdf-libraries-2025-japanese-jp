@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/export-save-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/export-save-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/export-save-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/export-save-pdf-csharp.md)
+ **English:** [FAQ/export-save-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/export-save-pdf-csharp.md)
+ **:** [FAQ/export-save-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/export-save-pdf-csharp.md)
 
 ---
-
 # C#でPDFをエクスポートして保存する方法は？
 
 C#アプリケーションからPDFをエクスポートすることは、それらを生成することと同じくらい重要です。ファイルをディスクに保存するか、Web APIでストリームするか、データベースに保存するか、クラウドにアップロードするかにかかわらず、適切なエクスポート方法を使用することで、パフォーマンスと信頼性を確保できます。このFAQでは、[IronPDF](https://ironpdf.com)を使用してPDFをエクスポートして保存するための実用的な方法と、実際のC#の例を紹介します。

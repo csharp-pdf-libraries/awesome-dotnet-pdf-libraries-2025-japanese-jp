@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/put-signature-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/put-signature-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/put-signature-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/put-signature-pdf-csharp.md)
+ **English:** [FAQ/put-signature-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/put-signature-pdf-csharp.md)
+ **:** [FAQ/put-signature-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/put-signature-pdf-csharp.md)
 
 ---
-
 # C#でPDFにデジタル署名と手書き署名を追加する方法は？
 
 C#でPDFにデジタルまたはビジュアル署名を追加することは、思っているよりも簡単です。これにより、契約の承認、ドキュメントのワークフロー、コンプライアンスが劇的に合理化されます。このFAQでは、暗号署名の作成、手書き署名画像のオーバーレイ、記入可能な署名フィールドの設定、バッチ署名、証明書管理、規制コンプライアンスなどの高度な要件の処理方法について学びます。すべての例では、開発者向けに構築された人気のあるC# PDFライブラリである[IronPDF](https://ironpdf.com)を使用しています。

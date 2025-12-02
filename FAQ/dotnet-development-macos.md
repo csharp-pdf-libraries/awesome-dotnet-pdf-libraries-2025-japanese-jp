@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/dotnet-development-macos.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/dotnet-development-macos.md)
-🇯🇵 **日本語:** [FAQ/dotnet-development-macos.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/dotnet-development-macos.md)
+ **English:** [FAQ/dotnet-development-macos.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/dotnet-development-macos.md)
+ **:** [FAQ/dotnet-development-macos.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/dotnet-development-macos.md)
 
 ---
-
 # macOSでVisual Studio for Macがなくなった今、どうやって.NETアプリケーションを開発するのか？
 
 2025年にMacで最新の.NET開発環境を設定する方法を探していますか？あなたは一人ではありません—Visual Studio for Macが廃止されて以来、多くの開発者がツールやワークフローを変更しています。良いニュースは、.NETがmacOSで盛んになっており、適切なセットアップがあればAPIからクロスプラットフォームのGUIアプリまで何でも構築できることです。始め方、使用するツール、実用的なコードのヒントについてはこちらです。

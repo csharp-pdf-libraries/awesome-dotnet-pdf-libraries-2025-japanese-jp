@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfbolt/migrate-from-pdfbolt.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfbolt/migrate-from-pdfbolt.md)
-🇯🇵 **日本語:** [pdfbolt/migrate-from-pdfbolt.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfbolt/migrate-from-pdfbolt.md)
+ **English:** [pdfbolt/migrate-from-pdfbolt.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfbolt/migrate-from-pdfbolt.md)
+ **:** [pdfbolt/migrate-from-pdfbolt.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfbolt/migrate-from-pdfbolt.md)
 
 ---
-
 # PDFBoltからIronPDFへの移行方法は？
 
 ## なぜPDFBoltからIronPDFへ移行するのか？

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [jsreport/migrate-from-jsreport.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/jsreport/migrate-from-jsreport.md)
-🇯🇵 **日本語:** [jsreport/migrate-from-jsreport.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/jsreport/migrate-from-jsreport.md)
+ **English:** [jsreport/migrate-from-jsreport.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/jsreport/migrate-from-jsreport.md)
+ **:** [jsreport/migrate-from-jsreport.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/jsreport/migrate-from-jsreport.md)
 
 ---
-
 # jsreportからIronPDFへの移行方法は？
 
 ## 目次

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/upgrade-dinktopdf-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/upgrade-dinktopdf-to-ironpdf.md)
-🇯🇵 **日本語:** [FAQ/upgrade-dinktopdf-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/upgrade-dinktopdf-to-ironpdf.md)
+ **English:** [FAQ/upgrade-dinktopdf-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/upgrade-dinktopdf-to-ironpdf.md)
+ **:** [FAQ/upgrade-dinktopdf-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/upgrade-dinktopdf-to-ironpdf.md)
 
 ---
-
 # DinkToPDFをIronPDFに置き換えるべき理由は何ですか？安全でモダンな.NET PDF生成のために
 
 まだ.NETプロジェクトでDinkToPDFを使用している場合、セキュリティリスク、時代遅れの標準、デプロイメントの頭痛の種にさらされている可能性があります。私はIronPDFに切り替えました、そしてこれがHTMLから.NETでPDFを生成するすべての人にとってゲームチェンジャーである理由を示す実用的なFAQです。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/html-string-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/html-string-to-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/html-string-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/html-string-to-pdf-csharp.md)
+ **English:** [FAQ/html-string-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/html-string-to-pdf-csharp.md)
+ **:** [FAQ/html-string-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/html-string-to-pdf-csharp.md)
 
 ---
-
 # C# (.NET) で HTML 文字列をピクセルパーフェクトな PDF に変換する方法は？
 
 .NET アプリケーションで HTML 文字列を PDF に変換することは一般的な要件です。請求書、レポート、アーカイブされたメールなどを考えてみてください。しかし、多くの C# ライブラリを使用して、ブラウザに忠実でスタイリッシュで信頼性の高い出力を実現することは困難です。この FAQ では、C# と IronPDF を使用して HTML から高忠実度の PDF を生成する方法について、実際のシナリオ、エッジケース、トラブルシューティングに沿って説明します。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/draw-text-bitmap-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/draw-text-bitmap-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/draw-text-bitmap-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/draw-text-bitmap-pdf-csharp.md)
+ **English:** [FAQ/draw-text-bitmap-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/draw-text-bitmap-pdf-csharp.md)
+ **:** [FAQ/draw-text-bitmap-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/draw-text-bitmap-pdf-csharp.md)
 
 ---
-
 # C#でPDFにテキスト、画像、グラフィックスを描画する方法は？
 
 もちろんです！C#アプリケーションからPDFに動的にスタンプ、透かし、ロゴ、カスタムグラフィックスを追加する必要がある場合、ここが正しい場所です。このFAQでは、「PAID」のオーバーレイのスタンピングからバーコードの挿入、さらには.NETを使用した線や形の描画まで、プログラムでPDFを編集するための実用的なステップ、一般的な落とし穴、パフォーマンスのヒントをすべてカバーしています。

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/itextsharp-terrible-html-to-pdf-alternatives.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/itextsharp-terrible-html-to-pdf-alternatives.md)
-🇯🇵 **日本語:** [FAQ/itextsharp-terrible-html-to-pdf-alternatives.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/itextsharp-terrible-html-to-pdf-alternatives.md)
+ **English:** [FAQ/itextsharp-terrible-html-to-pdf-alternatives.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/itextsharp-terrible-html-to-pdf-alternatives.md)
+ **:** [FAQ/itextsharp-terrible-html-to-pdf-alternatives.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/itextsharp-terrible-html-to-pdf-alternatives.md)
 
 ---
-
 # なぜiTextSharpはC#でのHTMLからPDFへの変換に向いていないのか、そして2025年に代わりに何を使用すべきか？
 
 C#でHTMLをPDFに変換することは、iTextSharpのようなツールを使用すると特にフラストレーションが溜まりがちです。レイアウトの不一致、JavaScriptの欠落、または壊れたCSSに苦労したことがあるなら、あなただけではありません。.NETでのHTMLからPDFへのタスクにおいてiTextSharpが不十分である理由と、2025年に実際に信頼できる結果を提供する現代のソリューションを探りましょう。

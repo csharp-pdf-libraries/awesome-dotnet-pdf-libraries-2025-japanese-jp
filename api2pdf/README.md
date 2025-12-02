@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [api2pdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/api2pdf/README.md)
-🇯🇵 **日本語:** [api2pdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/api2pdf/README.md)
+ **English:** [api2pdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/api2pdf/README.md)
+ **:** [api2pdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/api2pdf/README.md)
 
 ---
-
 # Api2pdf + C# + PDF
 
 C#アプリケーションでHTMLからPDFを生成するオプションを検討する際、Api2pdfは注目に値する競合者として現れます。Api2pdfはクラウドベースのソリューションを提供し、開発者がPDF生成の複雑なタスクをサーバーにオフロードできるようにします。このAPIはPDF作成プロセスを単純化するだけでなく、HTMLからPDFへの変換に必要なインフラの維持努力を節約します。しかし、適切なツールを選択するには、その強みと潜在的な欠点の両方を考慮する必要があります。

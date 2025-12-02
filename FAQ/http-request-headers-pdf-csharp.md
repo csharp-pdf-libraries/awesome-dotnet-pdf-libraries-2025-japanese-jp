@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/http-request-headers-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/http-request-headers-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/http-request-headers-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/http-request-headers-pdf-csharp.md)
+ **English:** [FAQ/http-request-headers-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/http-request-headers-pdf-csharp.md)
+ **:** [FAQ/http-request-headers-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/http-request-headers-pdf-csharp.md)
 
 ---
-
 # C#でWebページからPDFを生成する際にカスタムHTTPリクエストヘッダーを設定する方法は？
 
 認証、トークン、またはその他の特別なヘッダーが必要なWebページからPDFを作成する必要がある場合、カスタムHTTPヘッダーがなければすぐに問題に直面します。IronPDFを使用すると、これらのヘッダーを簡単に設定し、認証されたユーザーがブラウザーで見るものと同じPDF出力を保証できます。

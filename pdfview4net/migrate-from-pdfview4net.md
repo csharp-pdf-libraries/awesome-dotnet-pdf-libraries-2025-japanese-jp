@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfview4net/migrate-from-pdfview4net.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfview4net/migrate-from-pdfview4net.md)
-🇯🇵 **日本語:** [pdfview4net/migrate-from-pdfview4net.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfview4net/migrate-from-pdfview4net.md)
+ **English:** [pdfview4net/migrate-from-pdfview4net.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfview4net/migrate-from-pdfview4net.md)
+ **:** [pdfview4net/migrate-from-pdfview4net.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfview4net/migrate-from-pdfview4net.md)
 
 ---
-
 # PDFView4NETからIronPDFへの移行方法は？
 
 ## なぜPDFView4NETから移行するのか？

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [foxit-sdk/migrate-from-foxit-sdk.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/foxit-sdk/migrate-from-foxit-sdk.md)
-🇯🇵 **日本語:** [foxit-sdk/migrate-from-foxit-sdk.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/foxit-sdk/migrate-from-foxit-sdk.md)
+ **English:** [foxit-sdk/migrate-from-foxit-sdk.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/foxit-sdk/migrate-from-foxit-sdk.md)
+ **:** [foxit-sdk/migrate-from-foxit-sdk.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/foxit-sdk/migrate-from-foxit-sdk.md)
 
 ---
-
 # Foxit PDF SDKからIronPDFへの移行方法は？
 
 ## 目次

@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [FAQ/convert-aspx-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/convert-aspx-to-pdf-csharp.md)
-🇯🇵 **日本語:** [FAQ/convert-aspx-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/convert-aspx-to-pdf-csharp.md)
+ **English:** [FAQ/convert-aspx-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/convert-aspx-to-pdf-csharp.md)
+ **:** [FAQ/convert-aspx-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/convert-aspx-to-pdf-csharp.md)
 
 ---
-
 # C#でASPXページをPDFに変換する方法は？実践的なシナリオ、ベストプラクティス、注意点
 
 ASPXページをPDFに変換することは、特にエンタープライズWebアプリケーションで、 tardeか早かれすべてのC#開発者が直面する課題です。実際に機能する「PDFとしてダウンロード」ボタンが欲しいですよね。エクスポートされたドキュメントがCSS、画像、動的データを含むウェブページとピクセル単位で一致するように。このFAQでは、C#でASPXをPDFに信頼性高くエクスポートするために必要なすべて、迅速な解決策から高度な機能、バッチ処理、トラブルシューティング、パフォーマンスのヒントまでを見つけることができます。

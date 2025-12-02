@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [pdfmyurl/migrate-from-pdfmyurl.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfmyurl/migrate-from-pdfmyurl.md)
-🇯🇵 **日本語:** [pdfmyurl/migrate-from-pdfmyurl.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfmyurl/migrate-from-pdfmyurl.md)
+ **English:** [pdfmyurl/migrate-from-pdfmyurl.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfmyurl/migrate-from-pdfmyurl.md)
+ **:** [pdfmyurl/migrate-from-pdfmyurl.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfmyurl/migrate-from-pdfmyurl.md)
 
 ---
-
 # PDFmyURLからIronPDFへの移行方法は？
 
 ## なぜPDFmyURLから移行するのか？

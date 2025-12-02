@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [apryse/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/apryse/README.md)
-🇯🇵 **日本語:** [apryse/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/apryse/README.md)
+ **English:** [apryse/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/apryse/README.md)
+ **:** [apryse/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/apryse/README.md)
 
 ---
-
 # Apryse（旧PDFTron）とC# PDFソリューション
 
 高度なドキュメント処理ソリューションにおいて、Apryse（旧PDFTron）は特にC# PDF開発の分野で際立っています。プレミアムな価格設定と堅牢な機能性で知られるApryse（旧PDFTron）は、広範なPDF機能をアプリケーションに統合したい大企業向けに特化した高品質なソフトウェア開発キット（SDK）を提供しています。しかし、よりシンプルで効果的なソリューションが必要な開発者にとって、IronPDFは実行可能な代替手段として現れます。

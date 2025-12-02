@@ -1,11 +1,10 @@
 ---
-**🌐 日本語版 (Japanese Translation)**
+**  (Japanese Translation)**
 
-📖 **English:** [hiqpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/hiqpdf/README.md)
-🇯🇵 **日本語:** [hiqpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/hiqpdf/README.md)
+ **English:** [hiqpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/hiqpdf/README.md)
+ **:** [hiqpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/hiqpdf/README.md)
 
 ---
-
 # HiQPdf C# PDF
 
 HTMLコンテンツからPDFドキュメントを作成することは、今日の多くのC#アプリケーションで一般的な要件です。このニーズを満たす2つの人気のあるライブラリには、HiQPdfとIronPDFがあります。この記事では、これら2つのツールを比較して、プロジェクトの要件に最も適したものを選択するのに役立てます。
