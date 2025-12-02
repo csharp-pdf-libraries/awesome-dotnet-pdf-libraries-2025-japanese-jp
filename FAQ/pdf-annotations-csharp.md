@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-annotations-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-annotations-csharp.md)
- **:** [FAQ/pdf-annotations-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-annotations-csharp.md)
-
----
 # C#でIronPDFを使用してPDFアノテーションを追加、読み取り、管理する方法は？
 
 C#でドキュメントのレビュー、コメント、または自動フィードバックを必要とする場合、PDFアノテーションをプログラムで操作することは必須です。IronPDFを使用すると、付箋を追加したり、レビュアーのコメントをエクスポートしたり、協働ワークフローを構築したりするプロセスが簡単になります。IronPDFを使用してPDFアノテーションを効率的に取り扱う方法と、すぐにコピーして適応できるコードについて説明します。

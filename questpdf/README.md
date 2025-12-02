@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [questpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/questpdf/README.md)
- **:** [questpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/questpdf/README.md)
-
----
 # QuestPDF + C# + PDF
 
 QuestPDFは、C#でプログラム的にPDFを生成するために特別に作られた現代的で流暢なAPIです。HTMLからPDFへの包括的な変換機能を提供する同業他社とは異なり、QuestPDFはプログラム的なレイアウトAPI機能に限定されています。この制限にもかかわらず、QuestPDFは、HTMLに頼ることなくC#コードを使用して最初からドキュメントを生成する必要がある開発者のシナリオで優れています。

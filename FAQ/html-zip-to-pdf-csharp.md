@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/html-zip-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/html-zip-to-pdf-csharp.md)
- **:** [FAQ/html-zip-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/html-zip-to-pdf-csharp.md)
-
----
 # C#でHTMLが含まれるZIPアーカイブをPDFに変換する方法は？
 
 C#を使用して、HTML、CSS、画像、スクリプトが詰まったZIPファイルを1つの洗練されたPDFに変換する必要がありますか？あなただけではありません。ウェブサイトのアーカイブ、クライアント準備レポートの生成、ドキュメントの作成など、ZIPからPDFへの変換を自動化することで、退屈な作業の時間を節約できます。このFAQでは、IronPDFを使用してHTML ZIPアーカイブを効率的にPDFに変換する方法について、セットアップ、ZIP構造のヒント、コードサンプル、トラブルシューティング、ワークフローの最適化に焦点を当てて案内します。

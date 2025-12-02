@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/compare-csharp-to-python.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/compare-csharp-to-python.md)
- **:** [FAQ/compare-csharp-to-python.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/compare-csharp-to-python.md)
-
----
 # C#は実際の開発でPythonとどう比較されるか？
 
 C#とPythonは最も人気のあるプログラミング言語の中にありますが、それぞれに独自の強みと理想的な使用例があります。次のプロジェクトやキャリア目標にどちらの言語が合っているかを決めようとしている場合、このFAQは具体的なコード例や長期的な経験からのアドバイスを交えて、実用的な違いを詳しく説明します。

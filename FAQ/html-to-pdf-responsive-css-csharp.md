@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/html-to-pdf-responsive-css-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/html-to-pdf-responsive-css-csharp.md)
- **:** [FAQ/html-to-pdf-responsive-css-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/html-to-pdf-responsive-css-csharp.md)
-
----
 # C#でHTMLをPDFにエクスポートする際にレスポンシブCSSの問題をどう修正するか？
 
 C#アプリからのPDFエクスポートでHTMLとCSSをプロフェッショナルに見せるのに苦労していますか？あなたは一人ではありません。多くの開発者がレスポンシブレイアウト、テーブルヘッダーの欠落、または「モバイルビュー」PDFで問題に直面しています。このFAQでは、CSSメディアタイプを制御し、ブレークポイントを設定し、IronPDFを使用してピクセルパーフェクトな結果を得るための実用的な戦略を示します。

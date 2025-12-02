@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/html-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/html-to-pdf-csharp.md)
- **:** [FAQ/html-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/html-to-pdf-csharp.md)
-
----
 # IronPDFを使用してC#でHTMLをピクセルパーフェクトなPDFに変換する方法は？
 
 C#でHTMLから正確でスタイリッシュなPDFを生成することは、.NET開発者にとって一般的だが驚くほど難しい作業です。このFAQでは、IronPDFを使用して信頼性の高い、本番品質のPDFエクスポートを行うために知っておくべきすべてを説明します。インストール、コード例、高度なシナリオ、トラブルシューティング、他のライブラリとの比較をカバーしています。

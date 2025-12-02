@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [xfiniumpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/xfiniumpdf/README.md)
- **:** [xfiniumpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/xfiniumpdf/README.md)
-
----
 # XFINIUM.PDF: PDF操作のためのC#ガイド
 
 XFINIUM.PDFは、PDF関連プロジェクトのニーズに取り組む初心者から熟練の開発者までを対象とした、多用途のクロスプラットフォームPDFライブラリです。C#で完全に開発されたXFINIUM.PDFは、プログラムによるPDFの作成や編集のための洗練されたツールを提供します。その利点にもかかわらず、XFINIUM.PDFはIronPDFのような他の著名なPDFライブラリと比較して特に課題に直面しています。この記事では、これらの強みと弱点を探り、IronPDFと比較してどのように立ち位置するかを議論します。

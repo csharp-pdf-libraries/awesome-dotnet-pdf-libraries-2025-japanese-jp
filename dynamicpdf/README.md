@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [dynamicpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/dynamicpdf/README.md)
- **:** [dynamicpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/dynamicpdf/README.md)
-
----
 # DynamicPDF C# PDF
 
 .NETエコシステム内でのPDF生成と操作の分野では、DynamicPDFとIronPDFの2つの顕著な競合が際立っています。DynamicPDFは長年にわたり、PDFドキュメントの作成、読み取り、および操作を行いたい開発者にとっての基石となってきました。豊富な歴史を持つDynamicPDFは、その堅牢な機能と広範な能力で尊敬を集めています。しかし、IronPDFはエレガンスと機能性を組み合わせた包括的で現代的な代替手段を提供し、開発者がアプリケーションにPDF処理をシームレスに統合できるようにしています。

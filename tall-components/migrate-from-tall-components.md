@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [tall-components/migrate-from-tall-components.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/tall-components/migrate-from-tall-components.md)
- **:** [tall-components/migrate-from-tall-components.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/tall-components/migrate-from-tall-components.md)
-
----
 # Tall Components（TallPDF、PDFKit）からC#でIronPDFへの移行方法は？
 
 ## ⚠️ 重要：Tall Componentsは廃止されました

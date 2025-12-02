@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [vectsharp/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/vectsharp/README.md)
- **:** [vectsharp/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/vectsharp/README.md)
-
----
 # VectSharp C# PDF
 
 ソフトウェア開発の世界では、C#を使用してPDFを生成することは、さまざまなライブラリを通じて達成されます。これらはそれぞれ異なる目的を持ち、様々なユースケースに対応しています。これらの中で、VectSharpはユニークな機能を持つベクターグラフィックスライブラリとして際立っていますが、一定の制限もあります。この記事では、VectSharpともう一つの著名なライブラリであるIronPDFとの詳細な比較を提供し、それぞれの強み、ユースケース、異なるプロジェクトにおける適合性を強調します。

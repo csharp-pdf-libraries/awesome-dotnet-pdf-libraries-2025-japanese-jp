@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [abcpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/abcpdf/README.md)
- **:** [abcpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/abcpdf/README.md)
-
----
 # ABCPDF C# PDF ライブラリ：強みと IronPDF との比較
 
 C# 用の PDF 生成ライブラリの世界では、ABCPDF はその堅牢な機能で知られる長い歴史を持つ選択肢として立っています。開発者が C# アプリケーション内で PDF を作成および操作するオプションを探求する際、機能性、価格、そして使いやすさの重要な側面にしばしば決定が下されます。ABCPDF はこの分野で歴史的な存在感を持っていますが、IronPDF のような現代の対抗馬からの複数の挑戦と競争に直面しています。

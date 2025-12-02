@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/blazor-pdf-generation-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/blazor-pdf-generation-csharp.md)
- **:** [FAQ/blazor-pdf-generation-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/blazor-pdf-generation-csharp.md)
-
----
 # C#でBlazorアプリからPDFを生成する方法は？
 
 Blazor ServerまたはWebAssemblyのBlazorアプリからPDFを作成する必要がありますか？このFAQでは、IronPDFを使用したBlazor PDF生成の実践的なステップ、コードサンプル、およびベストプラクティスについて、ダウンロード、プレビュー、スタイリングなどのヒントとともに説明します。開発者のトップ質問に答えましょう！

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [gdpicture/migrate-from-gdpicture.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/gdpicture/migrate-from-gdpicture.md)
- **:** [gdpicture/migrate-from-gdpicture.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/gdpicture/migrate-from-gdpicture.md)
-
----
 # GdPicture.NETからIronPDFへの移行方法は？
 
 ## 目次

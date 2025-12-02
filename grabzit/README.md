@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [grabzit/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/grabzit/README.md)
- **:** [grabzit/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/grabzit/README.md)
-
----
 # GrabzIt C# PDFとIronPDFの包括的な比較
 
 デジタル時代において、WebコンテンツをPDF形式に変換することは、さまざまなアプリケーションで頻繁に必要とされるニーズです。利用可能なツールの中で、GrabzItはC#を使用してHTMLコンテンツをPDFに変換したいと考える人々にとって人気の選択肢として際立っています。GrabzItはPDFキャプチャ機能を提供するWeb APIサービスで、開発者がURLやHTMLスニペットを労力をかけずにPDFに変換できるようにします。GrabzItは使いやすいSaaSツールとして重要な利点を提供しますが、IronPDFのような堅牢なソフトウェアライブラリと比較して、いくつかの欠点があります。

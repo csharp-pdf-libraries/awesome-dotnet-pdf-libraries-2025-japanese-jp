@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [adobe-pdf-library-sdk/migrate-from-adobe-pdf-library-sdk.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/adobe-pdf-library-sdk/migrate-from-adobe-pdf-library-sdk.md)
- **:** [adobe-pdf-library-sdk/migrate-from-adobe-pdf-library-sdk.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/adobe-pdf-library-sdk/migrate-from-adobe-pdf-library-sdk.md)
-
----
 # Adobe PDF Library SDK から C# の IronPDF への移行方法は？
 
 > **移行の複雑さ:** 高

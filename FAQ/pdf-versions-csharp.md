@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-versions-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-versions-csharp.md)
- **:** [FAQ/pdf-versions-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-versions-csharp.md)
-
----
 # C#アプリケーションでPDFバージョンを管理・トラブルシューティングする方法は？
 
 PDFバージョンの不一致は、.NETプロジェクトで意外と一般的なバグの原因です。自分のマシンでは完璧に動作するファイルが、古いPDFリーダーを使用しているクライアントで機能しなくなったり、機能が失われたりすることがあります。PDFバージョンが互換性と機能にどのように影響するかを理解することは、信頼性が高くプロフェッショナルなドキュメントを生成するために不可欠です。このFAQでは、IronPDFを使用してPDFバージョンを扱うための基本、実用的なC#コーディング例、およびベストプラクティスを紹介します。

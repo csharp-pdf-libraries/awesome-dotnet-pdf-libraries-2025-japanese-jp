@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-custom-paper-size-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-custom-paper-size-csharp.md)
- **:** [FAQ/pdf-custom-paper-size-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-custom-paper-size-csharp.md)
-
----
 # C#でIronPDFを使用してカスタムサイズのPDFを生成する方法は？
 
 C#でA4やレターサイズ以外のPDFを作成するのに苦労したことがある方は、あなただけではありません。配送ラベル、領収書、名刺、さらには巨大なポスターまで、正確なPDF用紙サイズを設定できることは必須です。IronPDFはこのプロセスを簡単にし、用紙の寸法、余白、向きなどを指定できるため、PDFが実際のニーズに常に一致します。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/why-pdf-libraries-exist-and-cost-money.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/why-pdf-libraries-exist-and-cost-money.md)
- **:** [FAQ/why-pdf-libraries-exist-and-cost-money.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/why-pdf-libraries-exist-and-cost-money.md)
-
----
 # なぜ開発者には堅牢なPDFライブラリが必要で、なぜ最高のものが無料でないのか？
 
 コードからPDFを生成したり処理したりしようとしたことがあるなら、なぜJSONやXMLのような形式を扱うよりもずっと難しいのか疑問に思ったことがあるでしょう。PDFの作成と操作は独特の挑戦であり、無料のオプションがあるにもかかわらず、ほとんどの信頼できるソリューションは商用です。このFAQでは、その理由、PDFが難しい理由、およびニーズに合ったアプローチを選択する方法について解説します。

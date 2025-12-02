@@ -1,7 +1,3 @@
----
-** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/rotativa/README.md)
-
----
 # Rotativa + C# + PDF
 
 Rotativaは長年にわたり、C#でPDFを生成するための開発者に人気の選択肢となっています。これは`wkhtmltopdf`ツールを利用してHTMLコンテンツをPDF形式に変換します。RotativaはASP.NET MVCアプリケーション専用に設計されたオープンソースライブラリです。しかし、古い技術スタックに依存しているため、すべての開発者がすぐには明らかでないかもしれない課題があります。

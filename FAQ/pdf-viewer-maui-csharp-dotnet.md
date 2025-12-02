@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-viewer-maui-csharp-dotnet.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-viewer-maui-csharp-dotnet.md)
- **:** [FAQ/pdf-viewer-maui-csharp-dotnet.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-viewer-maui-csharp-dotnet.md)
-
----
 # .NET MAUIを使用してC#でクロスプラットフォームPDFビューアを構築する方法は？
 
 .NET MAUIでビジネスアプリを開発していて、アプリ内PDFビューア（契約書、請求書、マニュアルなど）が必要な場合、プラットフォームの特性、限られた無料ソリューション、または不格好なJavaScriptの回避策によって壁にぶつかったことがあるでしょう。このFAQでは、IronPDFを使用して.NET MAUIで堅牢なネイティブPDFビューアを設定する方法を、最初のインストールから大きなファイルの読み込みやパスワード保護されたドキュメントの処理などの高度なシナリオまで、ステップバイステップで説明します。Windows、macOS、またはもうすぐモバイルを対象としている場合でも、ここで実用的なコードとトラブルシューティングのヒントを見つけることができます。

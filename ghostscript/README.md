@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [ghostscript/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/ghostscript/README.md)
- **:** [ghostscript/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/ghostscript/README.md)
-
----
 # Ghostscript + C# + PDF: IronPDFとの比較分析
 
 ドキュメント管理とPDF処理の世界では、Ghostscriptは長い間、賞賛と批判を同時に受けてきた堅牢なツールとして知られています。Ghostscriptは、ドキュメントを操作し、レンダリングするための広範な機能を提供する強力なPostScriptおよびPDFインタープリターとして広く知られています。しかし、現代のC#環境での使用は特定の課題を提示します。この記事では、開発者が情報に基づいた決定を下すのに役立つように、GhostscriptとIronPDFの詳細な比較を提供します。

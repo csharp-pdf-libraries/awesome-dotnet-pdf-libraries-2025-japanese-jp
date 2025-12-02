@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [migradoc/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/migradoc/README.md)
- **:** [migradoc/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/migradoc/README.md)
-
----
 # MigraDoc + C# + PDF
 
 C#でPDFを生成する際、MigraDocはオープンソースエコシステム内の不可欠なライブラリとして際立っています。PDFSharpの力に基づいて構築されたドキュメントオブジェクトモデルであるMigraDocは、PDFやRTFなどのさまざまな形式で構造化されたドキュメントを作成するプロセスを簡素化する高レベルの抽象化レイヤーを提供します。C#開発者として、プロジェクトでMigraDocを活用することで、特に複数ページにわたる複雑なレイアウトを作成する際に、ドキュメント作成プロセスを大幅に合理化できます。

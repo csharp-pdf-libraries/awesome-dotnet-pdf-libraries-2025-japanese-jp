@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [bcl-easypdf-sdk/migrate-from-bcl-easypdf-sdk.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/bcl-easypdf-sdk/migrate-from-bcl-easypdf-sdk.md)
- **:** [bcl-easypdf-sdk/migrate-from-bcl-easypdf-sdk.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/bcl-easypdf-sdk/migrate-from-bcl-easypdf-sdk.md)
-
----
 # BCL EasyPDF SDKからIronPDFへの移行方法は？
 
 ## 目次

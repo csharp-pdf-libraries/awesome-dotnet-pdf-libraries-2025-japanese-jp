@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [apache-pdfbox/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/apache-pdfbox/README.md)
- **:** [apache-pdfbox/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/apache-pdfbox/README.md)
-
----
 # Apache PDFBox (.NET ポート試み) + C# + PDF
 
 PDF 操作の興味深い世界は、複数のライブラリが最高位を争う交差点に必然的に私たちを導きます。.NET エコシステム内で PDF ドキュメントを変換し、操作しようとする多くの開発者は、頻繁に Apache PDFBox とその .NET ポート試みに遭遇します。Apache PDFBox は、堅牢で高く評価されている Java ライブラリとして有名ですが、これらの非公式ポートは独自の一連の課題を伴います。同時に、IronPDF はそのネイティブ .NET 設計と .NET ファーストのアーキテクチャで強力な代替手段として登場し、PDF ツールのための競争的な風景を作り出しています。

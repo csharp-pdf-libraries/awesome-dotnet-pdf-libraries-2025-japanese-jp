@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-images-azure-blob-storage-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-images-azure-blob-storage-csharp.md)
- **:** [FAQ/pdf-images-azure-blob-storage-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-images-azure-blob-storage-csharp.md)
-
----
 # Azure Blob Storageに保存された画像をC#でPDFに正しく埋め込む方法は？
 
 Azure Blob Storageに保存された画像をC#で生成したPDFに埋め込むことは、特にPDFをオフラインで使用したい場合、鮮明に表示させたい場合、または画像リンクが切れるのを避けたい場合には難しい場合があります。このFAQでは、Azure Blob Storageから画像を取得し、IronPDFを使用してPDFに埋め込むための最も信頼性の高い技術、大きな画像の処理方法、クラウドワークフローの最適化、一般的な落とし穴の回避方法について説明します。

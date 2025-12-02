@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/flatten-pdf-images-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/flatten-pdf-images-csharp.md)
- **:** [FAQ/flatten-pdf-images-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/flatten-pdf-images-csharp.md)
-
----
 # C#でPDFをフラット化およびラスタライズしてセキュリティを確保する方法は？
 
 PDFをフラット化およびラスタライズすることは、C#でドキュメントをセキュリティ保護、アーカイブ、配布するための重要な技術です。フォームフィールドをロックダウンする、注釈を保存する、またはPDFを画像ベースの形式に変換する場合でも、これらの方法はPDFが改ざんされることを防ぎます。IronPDFを使用してPDFをフラット化およびラスタライズする方法、重要な考慮事項、一般的な問題への解決策を探りましょう。

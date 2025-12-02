@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-to-image-bitmap-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-to-image-bitmap-csharp.md)
- **:** [FAQ/pdf-to-image-bitmap-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-to-image-bitmap-csharp.md)
-
----
 # C#を使用してPDFページを画像に変換する方法は？
 
 C#でPDFを画像に変換することは、アプリのプレビュー、サムネイル、ユニバーサルシェアリングにおいて一般的なニーズです。[IronPDF](https://ironpdf.com)を使用すると、C#プロジェクトで直接、PDFページをPNG、JPEG、TIFFなどに簡単に変換できます。このFAQでは、PDFから画像への変換を統合する際に開発者が直面する最も実用的な質問とコード例をカバーしています。

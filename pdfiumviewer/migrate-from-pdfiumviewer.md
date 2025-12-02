@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [pdfiumviewer/migrate-from-pdfiumviewer.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfiumviewer/migrate-from-pdfiumviewer.md)
- **:** [pdfiumviewer/migrate-from-pdfiumviewer.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfiumviewer/migrate-from-pdfiumviewer.md)
-
----
 # PDFiumViewerからIronPDFへの移行方法は？
 
 ## なぜPDFiumViewerからIronPDFに移行するのか？

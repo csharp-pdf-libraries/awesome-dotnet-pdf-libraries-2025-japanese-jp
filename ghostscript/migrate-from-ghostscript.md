@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [ghostscript/migrate-from-ghostscript.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/ghostscript/migrate-from-ghostscript.md)
- **:** [ghostscript/migrate-from-ghostscript.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/ghostscript/migrate-from-ghostscript.md)
-
----
 # GhostscriptからIronPDFへの移行方法は？
 
 ## 目次

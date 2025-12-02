@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [bitmiracle-docoticpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/bitmiracle-docoticpdf/README.md)
- **:** [bitmiracle-docoticpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/bitmiracle-docoticpdf/README.md)
-
----
 # BitMiracle Docotic.Pdf C# PDF
 
 C# PDFライブラリの領域において、BitMiracle Docotic.PdfとIronPDFの2つの顕著な競合が際立っています。BitMiracle Docotic.Pdfは、100%管理されたコードを使用してPDFドキュメントの作成と操作を設計された強力なツールセットとして現れます。この包括的で多様なライブラリは、開発者がプログラムによる洗練されたPDFドキュメントを作成する能力を提供します。しかし、別の業界で好まれるC#ライブラリであるIronPDFと並べてみると、それぞれに独自の強みと限界があることが明らかになります。

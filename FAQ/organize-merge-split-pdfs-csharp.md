@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/organize-merge-split-pdfs-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/organize-merge-split-pdfs-csharp.md)
- **:** [FAQ/organize-merge-split-pdfs-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/organize-merge-split-pdfs-csharp.md)
-
----
 # C#でPDFを整理、マージ、分割する方法は？
 
 C#でPDFを扱うのは面倒な作業になることがありますが、適切なツールといくつかの実践的なアプローチを用いれば、PDFドキュメントのマージ、分割、再配置のようなタスクは簡単になります。このFAQでは、バッチ操作から添付ファイルやブックマークの管理まで、IronPDFを使用してPDFを扱うための簡潔で実用的な回答を提供します。不透明なAPI、パフォーマンスの問題、または乱雑なPDFコードを引き継いだ経験がある場合は、解決策について読み進めてください。

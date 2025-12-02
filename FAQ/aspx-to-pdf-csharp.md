@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/aspx-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/aspx-to-pdf-csharp.md)
- **:** [FAQ/aspx-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/aspx-to-pdf-csharp.md)
-
----
 # C#でASPXページをPDFにエクスポートする方法は？
 
 C#でASP.NET Web Forms (ASPX) ページをPDFにエクスポートすることは、IronPDFのような現代のツールのおかげで、今まで以上に簡単になりました。ユーザーがボタンをクリックして、画面上に表示されているものを全て含む、ピクセルパーフェクトなPDFとしてダウンロードできるようにしたい場合、このFAQがあなたを導きます。ここでは、実用的でコピーペースト準備ができている例や、ASPXをPDFにエクスポートする際の開発者からのよくある質問への回答を見つけることができます。

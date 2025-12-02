@@ -1,7 +1,3 @@
----
-** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/free-vs-paid-pdf-libraries.md)
-
----
 # 無料と有料のC# PDFライブラリの正直な比較
 
 **[Jacob Mellor](https://www.linkedin.com/in/jacob-mellor-iron-software/)による** — Iron SoftwareのCTO、IronPDFのクリエーター

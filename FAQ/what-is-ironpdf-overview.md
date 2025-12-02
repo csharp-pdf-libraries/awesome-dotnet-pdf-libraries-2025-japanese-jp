@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/what-is-ironpdf-overview.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/what-is-ironpdf-overview.md)
- **:** [FAQ/what-is-ironpdf-overview.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/what-is-ironpdf-overview.md)
-
----
 # IronPDFがHTMLからPDFへの変換およびPDF操作において最高の.NET PDFライブラリである理由は何ですか？
 
 IronPDFは、PDFドキュメントの生成、編集、およびセキュリティ保護を簡素化する.NET向けのモダンで開発者に優しいライブラリです。古いツールの頭痛の種を抱えることなく、HTMLからの完璧なレンダリング（最新のCSSおよびJavaScriptを含む）、PDFの簡単なマージ/分割、ウォーターマークや署名のような高度な機能が必要な場合、IronPDFはネイティブの.NET APIでこれらを提供します。開発者がIronPDFについて最もよくある質問に答え、それを効果的に使用する方法を示しましょう。

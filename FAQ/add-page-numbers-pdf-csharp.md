@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/add-page-numbers-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/add-page-numbers-pdf-csharp.md)
- **:** [FAQ/add-page-numbers-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/add-page-numbers-pdf-csharp.md)
-
----
 # C#でIronPDFを使用してPDFにページ番号を追加する方法は？
 
 .NETでPDFにページ番号を追加するのは複雑である必要はありません。IronPDFを使用すると、新しいPDFドキュメントや既存のPDFドキュメントにスタイルを適用したページ番号をすぐに挿入できます。座標計算やイベントハンドラは不要です。このFAQでは、ページ番号の付け方、特定のページをスキップする方法、スタイリングなど、実際のシナリオとコード例を紹介します。

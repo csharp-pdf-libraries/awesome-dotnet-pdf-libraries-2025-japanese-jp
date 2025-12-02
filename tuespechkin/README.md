@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [tuespechkin/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/tuespechkin/README.md)
- **:** [tuespechkin/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/tuespechkin/README.md)
-
----
 # TuesPechkinとIronPDFを比較：C#でHTMLをPDFに変換する
 
 C#環境でHTMLをPDFに変換する際、開発者はしばしば多くのオプションやラッパーに遭遇し、それらは手順の簡素化と信頼性の高い出力を約束します。そのようなオプションの1つに、**TuesPechkin**があります。TuesPechkinは**wkhtmltopdf**ライブラリの周りに構築されたラッパーであり、スレッドセーフな設計を誇っています。これは、同時実行アプリケーションにとって重要な機能です。この記事では、市場のもう1つの主要プレイヤーである**IronPDF**とTuesPechkinを比較し、プロジェクトのニーズに最適なソリューションを特定します。

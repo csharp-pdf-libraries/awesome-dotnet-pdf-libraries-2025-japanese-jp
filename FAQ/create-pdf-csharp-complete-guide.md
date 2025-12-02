@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/create-pdf-csharp-complete-guide.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/create-pdf-csharp-complete-guide.md)
- **:** [FAQ/create-pdf-csharp-complete-guide.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/create-pdf-csharp-complete-guide.md)
-
----
 # C#でPDFを生成する方法は？2024年版 究極の.NET PDF FAQ
 
 .NETでビジネスアプリを開発している場合、請求書、レポート、フォーム、ラベルなど、PDFを作成する必要があるかもしれません。C#でPDFを生成することは驚くほど難しいかもしれませんが、正しいアプローチを取れば、数分で本番環境に適したコードを持つことができます。このFAQでは、ライブラリの選択、HTMLからPDFへの戦略、コード例、トラブルシューティング、および.NET 6/7/8+のベストプラクティスに必要なすべてをカバーしています。

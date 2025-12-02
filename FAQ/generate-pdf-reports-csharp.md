@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/generate-pdf-reports-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/generate-pdf-reports-csharp.md)
- **:** [FAQ/generate-pdf-reports-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/generate-pdf-reports-csharp.md)
-
----
 # C#でプロフェッショナルなPDFレポートを生成する方法は？
 
 C#で洗練されたPDFレポートを自動生成したいですか？あなただけではありません。C#開発者は定期的に、ブランド化された、ページ分割された、デジタル署名されたPDF出力の要求に直面しています。IronPDFのようなツールは、HTMLテンプレート、Razorビュー、CSSスタイリング、JavaScriptチャートをPDFに直接レンダリングすることで、これをはるかに簡単にします。このFAQは、基本的なセットアップから高度なレポーティング、トラブルシューティング、C#で魅力的なレポートを生成するためのベストプラクティスまで、すべてをカバーしています。

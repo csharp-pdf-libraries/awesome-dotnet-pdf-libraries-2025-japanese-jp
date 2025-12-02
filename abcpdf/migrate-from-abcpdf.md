@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [abcpdf/migrate-from-abcpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/abcpdf/migrate-from-abcpdf.md)
- **:** [abcpdf/migrate-from-abcpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/abcpdf/migrate-from-abcpdf.md)
-
----
 # ABCpdfからIronPDFへの移行方法は？
 
 > **移行の複雑さ：** 中程度

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [pdfium/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfium/README.md)
- **:** [pdfium/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfium/README.md)
-
----
 # Pdfium.NET + C# + PDF
 
 Pdfium.NETは、C#アプリケーション内でPDFレンダリングの複雑さに取り組む開発者にとって重要なライブラリとして登場しました。このライブラリは、主にGoogleのPDFiumライブラリのための.NETラッパーであり、開発者がPDFを表示およびレンダリングするための堅牢なソリューションを提供することを目指しています。実際、Pdfium.NETはそのパフォーマンスと.NET環境でのPDFコンテンツの高忠実度複製で際立っており、それが大きな注目を集めている理由です。

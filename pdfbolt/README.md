@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [pdfbolt/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfbolt/README.md)
- **:** [pdfbolt/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfbolt/README.md)
-
----
 # PDFBolt + C# + PDF
 
 PDFBoltは、クラウドを通じてPDFを生成するために設計された強力で柔軟なサービスです。この商用SaaSプラットフォームは、独自のインフラストラクチャをホストせずにPDFドキュメントを作成する必要がある開発者にとって魅力的なソリューションを提供します。PDFBoltはPDF生成のための数多くの機能を提供していますが、それにはいくつかの課題も伴います。この記事では、PDFBoltとIronPDFを比較し、それぞれのプラットフォームの強みと弱みを機能性とC#開発者にとっての適合性の観点から分析します。

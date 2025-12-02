@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/2025-html-to-pdf-solutions-dotnet-comparison.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/2025-html-to-pdf-solutions-dotnet-comparison.md)
- **:** [FAQ/2025-html-to-pdf-solutions-dotnet-comparison.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/2025-html-to-pdf-solutions-dotnet-comparison.md)
-
----
 # .NETでHTMLをPDFに変換する最良の方法は何ですか（2025年）？
 
 .NETでHTMLをPDFに変換することは、特にPDFがウェブページとまったく同じように見えることを望む場合、現代のCSS、JavaScript、動的ビジュアルをすべて含む場合、依然として本当の挑戦です。近年、.NETの風景は変化しましたので、2025年に何が機能するかを分析し、今すぐ使用できるコードを示し、主要なアプローチを比較しましょう。

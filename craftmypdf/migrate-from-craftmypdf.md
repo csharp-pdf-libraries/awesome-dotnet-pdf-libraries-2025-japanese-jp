@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [craftmypdf/migrate-from-craftmypdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/craftmypdf/migrate-from-craftmypdf.md)
- **:** [craftmypdf/migrate-from-craftmypdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/craftmypdf/migrate-from-craftmypdf.md)
-
----
 # CraftMyPDFからIronPDFへの移行方法は？
 
 ## 目次

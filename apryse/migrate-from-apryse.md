@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [apryse/migrate-from-apryse.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/apryse/migrate-from-apryse.md)
- **:** [apryse/migrate-from-apryse.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/apryse/migrate-from-apryse.md)
-
----
 # Apryse（旧PDFTron）からIronPDFへの移行方法は？
 
 ## 目次

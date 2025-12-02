@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [textcontrol/migrate-from-textcontrol.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/textcontrol/migrate-from-textcontrol.md)
- **:** [textcontrol/migrate-from-textcontrol.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/textcontrol/migrate-from-textcontrol.md)
-
----
 # TX Text ControlからIronPDFへの移行方法は？
 
 ## TX Text Controlから移行する理由は？

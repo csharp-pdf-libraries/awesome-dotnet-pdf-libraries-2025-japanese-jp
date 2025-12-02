@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/transform-pdf-pages-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/transform-pdf-pages-csharp.md)
- **:** [FAQ/transform-pdf-pages-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/transform-pdf-pages-csharp.md)
-
----
 # C#でPDFページをどう変換するか？（IronPDFを使用してスケール、移動、回転など）
 
 C#で乱雑なPDFの山を整理する必要がありますか？IronPDFを使用すると、コードでPDFページのサイズ変更、移動、回転、拡張ができます。もう手動でAcrobatを修正する必要はありません！このFAQでは、コンテンツのスケール変更、横向きスキャンの修正、余白の追加、ファイルのバッチ処理、実用的な実世界のシナリオに対する変換の組み合わせ方法について説明します。

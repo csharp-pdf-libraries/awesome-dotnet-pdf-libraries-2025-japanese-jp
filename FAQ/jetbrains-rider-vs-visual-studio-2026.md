@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/jetbrains-rider-vs-visual-studio-2026.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/jetbrains-rider-vs-visual-studio-2026.md)
- **:** [FAQ/jetbrains-rider-vs-visual-studio-2026.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/jetbrains-rider-vs-visual-studio-2026.md)
-
----
 # JetBrains RiderとVisual Studio 2026のどちらを.NET開発に使用すべきか？
 
 適切な.NET IDEを選ぶのは、現代のC#開発者にとって一般的なジレンマです。JetBrains RiderとVisual Studio 2026はどちらもトップクラスの機能、クロスプラットフォームサポート（ある種の）、そして賢いAIヘルパーを提供します。しかし、どちらが本当にあなたのワークフロー、プロジェクトのサイズ、チームのセットアップに合っているのでしょうか？このFAQでは、実際の違い、特徴、ワークフローを分析し、自信を持って選択できるようにします。

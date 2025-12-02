@@ -1,7 +1,3 @@
----
-** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/why-csharp-pdf-generation.md)
-
----
 # PDF生成にC#を選ぶ理由？言語の利点とエコシステム
 
 **[Jacob Mellor](https://www.linkedin.com/in/jacob-mellor-iron-software/)による** — Iron SoftwareのCTO、IronPDFのクリエーター | 41年のコーディング経験

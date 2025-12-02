@@ -1,7 +1,3 @@
----
-** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/blazor-pdf-generation.md)
-
----
 # Blazor PDF生成：サーバー、WebAssembly、およびMAUIハイブリッドガイド
 
 **[Jacob Mellor](https://www.linkedin.com/in/jacob-mellor-iron-software/)による** — Iron SoftwareのCTO、IronPDFのクリエーター

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [pdffileprint/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdffileprint/README.md)
- **:** [pdffileprint/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdffileprint/README.md)
-
----
 # PDFFilePrint + C# + PDF
 
 ドキュメント処理と管理の領域では、PDFは不可欠な媒体です。報告書の提示、必要な情報の共有、ドキュメントのセキュリティと完整性の確保など、PDFは至る所で使用されています。これらのドキュメントをプログラムで印刷する際に、すぐに利用できる特定のユーティリティがPDFFilePrintです。PDFFilePrintは、特にC#アプリケーションからPDFファイルを印刷するために特別に設計された実用的なツールです。この記事では、PDFFilePrintについて詳しく見ていき、その用途、長所、短所、および.NETエコシステムにおける包括的なPDFソリューションであるIronPDFとの比較を探ります。

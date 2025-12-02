@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [pdf-duo/migrate-from-pdf-duo.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdf-duo/migrate-from-pdf-duo.md)
- **:** [pdf-duo/migrate-from-pdf-duo.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdf-duo/migrate-from-pdf-duo.md)
-
----
 # PDF Duo .NETからIronPDFへの移行方法は？
 
 ## なぜ移行するのか？

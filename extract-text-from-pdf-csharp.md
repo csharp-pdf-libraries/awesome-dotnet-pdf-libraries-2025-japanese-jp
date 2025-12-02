@@ -1,7 +1,3 @@
----
-** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/extract-text-from-pdf-csharp.md)
-
----
 # PDFからテキストを抽出するC#：OCRサポート付き完全ガイド
 
 **[Jacob Mellor](https://www.linkedin.com/in/jacob-mellor-iron-software/)による** — Iron SoftwareのCTO、IronPDFの作成者

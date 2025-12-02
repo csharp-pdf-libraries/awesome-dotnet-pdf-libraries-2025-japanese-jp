@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/linearize-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/linearize-pdf-csharp.md)
- **:** [FAQ/linearize-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/linearize-pdf-csharp.md)
-
----
 # C#でPDFを線形化（高速Webビュー）して、ブラウザの読み込みを高速化する方法は？
 
 PDFを線形化する（別名「高速Webビュー」）ことは、大きなドキュメントがブラウザに表示される速度を劇的に速めることができます。ユーザーがファイル全体のダウンロードを待つ代わりに、線形化されたPDFは最初のページを即座に表示し、残りは必要に応じてストリームします。このFAQでは、PDFの線形化が何であるか、Web配信にとってなぜ価値があるのか、そしてC#でIronPDFを使用してそれをどのように実装するかを正確に学びます。

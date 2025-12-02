@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [dinktopdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/dinktopdf/README.md)
- **:** [dinktopdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/dinktopdf/README.md)
-
----
 # DinkToPdf + C# + PDF
 
 DinkToPdfは、.NET Coreの機能を使用してHTMLドキュメントをPDFファイルに変換することを可能にする、C#エコシステムで人気のあるオープンソースライブラリです。PDFを生成する信頼できる方法が必要な開発者を対象に、DinkToPdfは高く評価されているプロジェクトであるwkhtmltopdfをラップするライブラリです。さまざまなアプリケーション内で広範な関心と実装が見られる一方で、DinkToPdfは印象的な強みと注目すべき弱点の両方を持っています。

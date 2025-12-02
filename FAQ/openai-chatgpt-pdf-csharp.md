@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/openai-chatgpt-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/openai-chatgpt-pdf-csharp.md)
- **:** [FAQ/openai-chatgpt-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/openai-chatgpt-pdf-csharp.md)
-
----
 # ChatGPTを使用してC#のIronPDFでPDFを生成する方法は？
 
 OpenAIのChatGPTの力をC#アプリケーションでのプロフェッショナルなPDF生成と接続したいですか？あなただけではありません。多くの.NET開発者がAI生成コンテンツから洗練された共有可能なPDFドキュメントへの旅を自動化したいと考えています。このFAQでは、C#プロジェクトでIronPDFとOpenAIのAPIを統合するための実践的なステップ、一般的な落とし穴、およびベストプラクティスをカバーしています。

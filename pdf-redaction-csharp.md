@@ -1,7 +1,3 @@
----
-** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdf-redaction-csharp.md)
-
----
 # C#におけるPDFの塗りつぶし：機密情報を永久に削除する方法
 
 **[Jacob Mellor](https://www.linkedin.com/in/jacob-mellor-iron-software/)による** — Iron SoftwareのCTO、IronPDFのクリエーター | 41年のコーディング経験

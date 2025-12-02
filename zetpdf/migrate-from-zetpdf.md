@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [zetpdf/migrate-from-zetpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/zetpdf/migrate-from-zetpdf.md)
- **:** [zetpdf/migrate-from-zetpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/zetpdf/migrate-from-zetpdf.md)
-
----
 # ZetPDFからIronPDFへの移行方法は？
 
 ## ZetPDFから移行する理由は？

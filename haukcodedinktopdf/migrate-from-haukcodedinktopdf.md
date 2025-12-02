@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [haukcodedinktopdf/migrate-from-haukcodedinktopdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/haukcodedinktopdf/migrate-from-haukcodedinktopdf.md)
- **:** [haukcodedinktopdf/migrate-from-haukcodedinktopdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/haukcodedinktopdf/migrate-from-haukcodedinktopdf.md)
-
----
 # Haukcode.DinkToPdfからIronPDFへの移行方法は？
 
 ## 目次

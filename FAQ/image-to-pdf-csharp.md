@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/image-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/image-to-pdf-csharp.md)
- **:** [FAQ/image-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/image-to-pdf-csharp.md)
-
----
 # C#で画像をPDFに変換する方法は？（JPG、PNG、TIFF、SVGなど）
 
 C#開発者にとって、スキャンした領収書の管理、フォトアルバムの作成、技術図のアーカイブなど、画像をPDFファイルに変換する必要性は一般的です。これまで、古いライブラリでは手動でのサイズ調整、資源管理の難しさ、ボイラープレートのページが必要とされるなど、フラストレーションの原因となっていました。ここでIronPDFの登場です。これは現代的で開発者に優しいソリューションで、画像からPDFへの変換をシンプルで効率的かつ強力にします。

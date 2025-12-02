@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [playwright/migrate-from-playwright.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/playwright/migrate-from-playwright.md)
- **:** [playwright/migrate-from-playwright.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/playwright/migrate-from-playwright.md)
-
----
 # Playwright for .NETからIronPDFへの移行方法は？
 
 ## PlaywrightからIronPDFへ移行する理由

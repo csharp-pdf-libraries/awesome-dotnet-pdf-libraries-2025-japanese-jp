@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pixel-perfect-html-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pixel-perfect-html-to-pdf-csharp.md)
- **:** [FAQ/pixel-perfect-html-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pixel-perfect-html-to-pdf-csharp.md)
-
----
 # C#でピクセルパーフェクトなHTMLからPDFへの変換を実現する方法は？
 
 Chromeでの現代的なHTMLと*同じ*見た目のPDFをC#アプリで生成したいですか？このFAQでは、.NET用に構築されたChromiumベースのライブラリであるIronPDFを使用して、本当にピクセルパーフェクトな[HTMLからPDFへの変換](https://ironpdf.com/how-to/html-string-to-pdf/)を実現するための主要な戦略、設定、およびトリックを紹介します。最も一般的な開発者の質問に答え、一般的な落とし穴を強調し、実際の使用例を提供します。

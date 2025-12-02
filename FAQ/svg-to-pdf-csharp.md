@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/svg-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/svg-to-pdf-csharp.md)
- **:** [FAQ/svg-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/svg-to-pdf-csharp.md)
-
----
 # C#でIronPDFを使用してSVGをPDFに変換する方法は？
 
 .NETプロジェクトでSVGを鮮明でスケーラブルなPDFに変換する方法をお探しですか？正しいアプローチを知っていれば、IronPDFによるSVGからPDFへの変換は簡単です。このFAQでは、SVGの埋め込み、ローカルファイルの処理、動的チャート、外部アセットの取り扱い、およびC#アプリケーションでの一般的なSVGの問題のトラブルシューティングに関する実用的なテクニックをカバーしています。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/best-csharp-pdf-libraries-2025.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/best-csharp-pdf-libraries-2025.md)
- **:** [FAQ/best-csharp-pdf-libraries-2025.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/best-csharp-pdf-libraries-2025.md)
-
----
 # 2025年における最高のC# PDFライブラリとその比較
 
 2025年にあなたの.NETプロジェクトに適したPDFライブラリを探していますか？あなただけではありません—開発者はしばしば、PDFの生成、ライセンス、デプロイメントがいかに難しいかに驚かされます。ここでは、実際のアドバイス、コードサンプル、注意点を詰め込んだ、C# PDFライブラリのトップを比較する実用的なFAQを紹介します。これにより、あなたのニーズに最適なツールを選ぶのに役立ちます。

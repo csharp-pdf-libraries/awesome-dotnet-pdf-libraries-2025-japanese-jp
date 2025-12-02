@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [compdfkit/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/compdfkit/README.md)
- **:** [compdfkit/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/compdfkit/README.md)
-
----
 # ComPDFKit + C# + PDF
 
 C#でPDFを扱う際、ライブラリの選択はプロジェクト固有のニーズを成功裏に満たすために非常に重要です。多くの利用可能なツールの中で、ComPDFKitはPDF操作に新しいアプローチを提供し、開発者にとって注目すべきオプションとなっています。ComPDFKitは商用のクロスプラットフォームPDF SDKであり、さまざまなPDF操作をシームレスに管理するように設計されています。市場に新しく参入したばかりであるにもかかわらず、ComPDFKitはその効率的な機能性で認識を得ています。しかし、IronPDFのような確立された代替品との潜在的な比較を考慮することが不可欠です。

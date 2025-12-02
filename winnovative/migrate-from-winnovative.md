@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [winnovative/migrate-from-winnovative.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/winnovative/migrate-from-winnovative.md)
- **:** [winnovative/migrate-from-winnovative.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/winnovative/migrate-from-winnovative.md)
-
----
 # WinnovativeからIronPDFへの移行方法は？
 
 ## Winnovativeから移行する理由は？

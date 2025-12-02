@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-permissions-passwords-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-permissions-passwords-csharp.md)
- **:** [FAQ/pdf-permissions-passwords-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-permissions-passwords-csharp.md)
-
----
 # C#でIronPDFを使用してPDFにパスワードと権限を設定する方法は？
 
 C#で機密文書を扱う際、PDFのセキュリティは重要です。IronPDFを使用すると、HR記録、法的契約、財務諸表を保護するかどうかにかかわらず、パスワードを追加し、権限をカスタマイズすることが簡単です。このFAQでは、設定、実用的なコードサンプル、一般的な問題、PDFを不要なアクセスや編集から保護するための高度なシナリオまで、必要なすべてをカバーしています。

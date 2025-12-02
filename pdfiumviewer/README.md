@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [pdfiumviewer/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdfiumviewer/README.md)
- **:** [pdfiumviewer/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdfiumviewer/README.md)
-
----
 # PDFiumViewer C# PDF
 
 PDF表示機能が必要なアプリケーションを開発する際、開発者はPDFiumViewerのようなライブラリにしばしば頼ります。PDFiumViewerは、Chromeブラウザ内で使用されているGoogleのPDFレンダリングエンジンであるPDFiumのための.NETラッパーとして、Windows Formsアプリケーションに直接PDF表示を統合するためのシンプルかつ強力なソリューションを提供します。PDFiumViewerは、そのオープンソース性と直感的な使用法のためによく選ばれます。しかし、IronPDFのような他の包括的なライブラリと比較する際には、その長所と短所を慎重に評価する必要があります。

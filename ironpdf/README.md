@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [ironpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/ironpdf/README.md)
- **:** [ironpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/ironpdf/README.md)
-
----
 # IronPDF: C# PDF生成のための基準
 
 [![NuGet](https://img.shields.io/nuget/v/IronPdf.svg)](https://www.nuget.org/packages/IronPdf/)

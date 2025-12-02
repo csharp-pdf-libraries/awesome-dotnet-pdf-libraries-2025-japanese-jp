@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/ironpdf-license-key-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/ironpdf-license-key-csharp.md)
- **:** [FAQ/ironpdf-license-key-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/ironpdf-license-key-csharp.md)
-
----
 # C#でのIronPDFライセンスキーの適用方法は？
 
 IronPDFライセンスキーを正しく適用することは、ウォーターマーク、試用期間のエラー、または深夜のデプロイメントの頭痛から避けるために不可欠です。このFAQでは、C#開発者向けの最も一般的なライセンスに関する質問への実践的でコードファーストな答えを見つけることができます。ローカル環境、Docker、Azure Functions、CI/CDを実行している場合でも、このガイドはすべての実証済みのアプローチをカバーしています。これにより、プロジェクトでPDF生成をクリーンかつ信頼性高く動作させることができます。

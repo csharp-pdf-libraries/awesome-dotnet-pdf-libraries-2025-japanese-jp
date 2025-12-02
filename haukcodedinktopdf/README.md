@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [haukcodedinktopdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/haukcodedinktopdf/README.md)
- **:** [haukcodedinktopdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/haukcodedinktopdf/README.md)
-
----
 # Haukcode.DinkToPdf C# PDF変換
 
 C#プロジェクトでHTMLをPDFに変換する領域は、これまでに数多くのエントリーを見てきましたが、その中の1つがHaukcode.DinkToPdfです。以前人気のあったDinkToPdfのフォークであるHaukcode.DinkToPdfは、その前身と同様の機能を.NET開発者に提供することを目指しています。しかし、Haukcode.DinkToPdfは特定の機能を継承している一方で、その前身の制限の重荷も背負っています。一部の人々にとっては選択肢のツールであるにもかかわらず、IronPDFなどの他のPDFソリューションとの間で継続的に評価されていることで、重要な違いが明らかになっています。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [kaizenio-html-to-pdf/migrate-from-kaizenio-html-to-pdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/kaizenio-html-to-pdf/migrate-from-kaizenio-html-to-pdf.md)
- **:** [kaizenio-html-to-pdf/migrate-from-kaizenio-html-to-pdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/kaizenio-html-to-pdf/migrate-from-kaizenio-html-to-pdf.md)
-
----
 # Kaizen.io HTML-to-PDFからIronPDFへの移行方法は？
 
 ## 目次

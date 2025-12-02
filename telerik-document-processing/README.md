@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [telerik-document-processing/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/telerik-document-processing/README.md)
- **:** [telerik-document-processing/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/telerik-document-processing/README.md)
-
----
 # Telerik Document ProcessingとIronPDFの比較: 開発者ガイド
 
 文書処理の分野では、開発者はプロジェクトの要件に合った適切なライブラリを選択する際に、しばしば多くの選択肢に恵まれています。C# PDF生成スペースの注目すべき競合者には、Telerik Document ProcessingとIronPDFがあります。ここでは、それぞれのライブラリの強み、弱み、およびさまざまなシナリオでの適合性を強調して、包括的な比較を提供することを目指します。

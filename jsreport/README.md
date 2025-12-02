@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [jsreport/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/jsreport/README.md)
- **:** [jsreport/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/jsreport/README.md)
-
----
 # jsreport + C# + PDF
 
 C#とPDF生成の世界では、jsreportは開発者がWeb技術を使用して高品質のレポートを生成できる多機能ツールとして際立っています。jsreportはnode.jsベースのプラットフォームであり、開発者はHTML、CSS、JavaScriptを活用してレポートを設計できるため、これらの技術に精通しているWeb開発チームにとっては利点です。しかし、.NET環境でjsreportを完全に活用するには、その.NET SDKを使用して統合する必要があります。この統合により、従来のC#アプリケーション内でjsreportを2回使用する可能性が開かれ、開発者は容易に高度に視覚的なドキュメントを設計できるようになります。

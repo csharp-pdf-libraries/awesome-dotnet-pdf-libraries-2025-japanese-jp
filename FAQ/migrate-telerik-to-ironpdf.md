@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/migrate-telerik-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/migrate-telerik-to-ironpdf.md)
- **:** [FAQ/migrate-telerik-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/migrate-telerik-to-ironpdf.md)
-
----
 # Telerik ReportingからIronPDFへの移行方法は？
 
 .NETのレポーティングをTelerikからIronPDFに切り替えることを考えていますか？あなたは一人ではありません。多くの開発者が、HTML、CSS、JSなど、すでに知っているWebツールを使用してPDFを[生成する](https://ironpdf.com/blog/videos/how-to-generate-a-pdf-from-a-template-in-csharp-ironpdf/)ための、よりシンプルでコスト効果の高い方法を求めています。これは、従来のレポーティングスイートのライセンス取得やデプロイメントの頭痛の種なしにです。このFAQでは、なぜ、どのように移行するか、実際のコード、実用的なアドバイス、そして塹壕からの教訓を通して説明します。

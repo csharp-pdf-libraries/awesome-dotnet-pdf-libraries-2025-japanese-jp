@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/ironpdf-macos-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/ironpdf-macos-csharp.md)
- **:** [FAQ/ironpdf-macos-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/ironpdf-macos-csharp.md)
-
----
 # macOSでC#を使用してIronPDFで信頼性の高いクロスプラットフォームPDF生成を行う方法は？
 
 macOSでC#開発者として作業している場合、PDFを生成することは特に、多くの.NET PDFライブラリがWindows環境を前提としているため、難しい場合があります。IronPDFは、Mac、Windows、LinuxでPDF生成をシームレスかつ同一にすることでゲームのルールを変えます。このFAQは、macOSでスムーズで本番環境に対応したPDFワークフローを行うために知っておくべきすべてを説明します。

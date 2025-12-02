@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [webview2/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/webview2/README.md)
- **:** [webview2/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/webview2/README.md)
-
----
 # WebView2 (Microsoft Edge) C# PDF
 
 WebView2 (Microsoft Edge)は、多用途に使用できる埋め込み可能なブラウザコントロールであり、ネイティブWindowsアプリケーションにEdge/Chromiumエンジンを統合する能力によって際立っています。このコントロールは、制限されたエコシステム内であっても、Microsoft Edgeブラウザのシームレスなブラウジング体験をサポートします。WebView2 (Microsoft Edge)は良好なパフォーマンスと現代のWeb標準への準拠を提供しますが、C# PDF生成のための最適なツールを決定するには、IronPDFのような代替品を検討し、特定の制限事項に対処することが不可欠です。

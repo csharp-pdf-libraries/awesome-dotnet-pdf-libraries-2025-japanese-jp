@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-a-compliance-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-a-compliance-csharp.md)
- **:** [FAQ/pdf-a-compliance-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-a-compliance-csharp.md)
-
----
 # C#でPDFをPDF/Aに変換する方法は？信頼できる長期アーカイブのために
 
 法律、医療、ビジネス記録など、数十年後もPDFが読めるようにすることは重要です。PDF/Aはこの目的のために設計されたISOアーカイブ基準であり、C#ではIronPDFを使用してPDF/Aへの変換を簡単に行うことができます。このFAQでは、C#を使用してPDF/Aファイルを自信を持って変換、検証、トラブルシューティングするために知っておくべきすべてを、実用的なコード、ヒント、開発者の実際の質問への回答と共にカバーしています。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [compdfkit/migrate-from-compdfkit.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/compdfkit/migrate-from-compdfkit.md)
- **:** [compdfkit/migrate-from-compdfkit.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/compdfkit/migrate-from-compdfkit.md)
-
----
 # ComPDFKitからIronPDFへの移行方法は？
 
 ## 目次

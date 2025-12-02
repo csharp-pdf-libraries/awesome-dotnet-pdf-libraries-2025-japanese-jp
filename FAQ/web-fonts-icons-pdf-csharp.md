@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/web-fonts-icons-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/web-fonts-icons-pdf-csharp.md)
- **:** [FAQ/web-fonts-icons-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/web-fonts-icons-pdf-csharp.md)
-
----
 # C#のPDFでWebフォントとアイコンをどうやってレンダリングするのか？
 
 C#でPDFをウェブデザインと完全に一致させること—カスタムフォント、クリスプなアイコン、完璧なブランディングを含む—は難しい場合があります。エクスポートされたPDFでフォールバックフォントや欠けているアイコンにイライラしたことがある人は、あなただけではありません。このFAQでは、C#のPDFワークフローでWebフォント（Googleフォント、FontAwesome、カスタムフォントなど）を使用するための実用的なステップ、エッジケース、トラブルシューティングのヒントを詳しく説明します。コードスニペット、デプロイメントのアドバイス、詳細なフォント管理ガイドへのリンクが見つかります。

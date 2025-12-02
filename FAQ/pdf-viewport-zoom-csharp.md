@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-viewport-zoom-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-viewport-zoom-csharp.md)
- **:** [FAQ/pdf-viewport-zoom-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-viewport-zoom-csharp.md)
-
----
 # C#でHTMLをPDFに変換する際、PDFのビューポートとズームをどのように制御するか？
 
 もし、美しいレスポンシブウェブサイトをPDFに変換したものの、完全に間違ったドキュメントが出力された経験があるなら、あなただけではありません。C#でピクセルパーフェクトなHTMLからPDFへの出力の秘訣は、IronPDFでビューポートとズーム設定をマスターすることにあります。このFAQでは、まさに求めているレイアウトとスケーリングを得る方法、一般的な問題の解決、そして任意のHTMLコンテンツからプロレベルのPDFレンダリングを解除する方法を説明します。

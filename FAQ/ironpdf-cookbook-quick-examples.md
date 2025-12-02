@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/ironpdf-cookbook-quick-examples.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/ironpdf-cookbook-quick-examples.md)
- **:** [FAQ/ironpdf-cookbook-quick-examples.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/ironpdf-cookbook-quick-examples.md)
-
----
 # C#で一般的なPDFタスクをどのように処理できますか？（実践的なFAQクックブック）
 
 HTMLをPDFに変換したり、請求書をマージしたり、デジタル署名を追加したり、C#で他のPDFの課題を解決する必要がある場合、このFAQはあなたのためのものです。実際の経験から得られたこれらの実用的なIronPDFのレシピは、あらゆるPDFシナリオを効率的に処理するのに役立ちます。SaaSアプリを構築している場合でも、レポートを自動化している場合でも、厄介なPDFの特性に対処している場合でも、ここには明確な回答とコードがあります。

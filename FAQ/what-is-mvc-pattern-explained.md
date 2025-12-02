@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/what-is-mvc-pattern-explained.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/what-is-mvc-pattern-explained.md)
- **:** [FAQ/what-is-mvc-pattern-explained.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/what-is-mvc-pattern-explained.md)
-
----
 # .NETでのMVCパターンの動作方法（そしてなぜ開発者が気にするべきか？）
 
 Model-View-Controller（MVC）アーキテクチャパターンは、ASP.NET Coreおよびほとんどの現代の.NET Webアプリケーションの基礎です。アプリケーションロジックをモデル、ビュー、コントローラに分離することで、MVCはクリーンでテスト可能で、保守しやすいコードを構築するのに役立ちます。しかし、実際の.NETプロジェクトで実際にどのように機能するのでしょうか？また、.NET開発者として避けるべき落とし穴は何でしょうか？

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/digitally-sign-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/digitally-sign-pdf-csharp.md)
- **:** [FAQ/digitally-sign-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/digitally-sign-pdf-csharp.md)
-
----
 # C#でPDFにデジタル署名をする方法は？セキュアなドキュメントワークフローのために
 
 C#でPDFにデジタル署名をすることは、ドキュメントの真正性と完全性を確保するための鍵です。デジタル署名を使用することで、ドキュメントの起源を確認し、改ざんを防ぎ、コンプライアンス要件を満たすことができます。これはすべて、.NETアプリケーションから行うことができます。このFAQでは、IronPdfを使用してC#でデジタル署名を実装する際の基本事項、証明書管理、可視署名、複数署名者ワークフロー、トラブルシューティングなどをカバーしています。

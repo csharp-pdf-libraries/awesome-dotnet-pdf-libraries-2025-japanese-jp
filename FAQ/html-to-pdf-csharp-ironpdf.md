@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/html-to-pdf-csharp-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/html-to-pdf-csharp-ironpdf.md)
- **:** [FAQ/html-to-pdf-csharp-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/html-to-pdf-csharp-ironpdf.md)
-
----
 # C#で現代の.NETアプリケーションにおいてHTMLをPDFに変換する方法は？
 
 HTMLをPDFに変換することは、.NET開発者にとって一般的なニーズです。請求書、レポートの生成や、ユーザーがダッシュボードをダウンロードすることを可能にする場合などです。このFAQでは、最も実用的なアプローチ、実際に機能するツール（IronPDFなど）、およびC#アプリで実際のWebコンテンツを扱う際の重要なヒントをカバーしています。

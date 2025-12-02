@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/render-webgl-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/render-webgl-pdf-csharp.md)
- **:** [FAQ/render-webgl-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/render-webgl-pdf-csharp.md)
-
----
 # C#とIronPDFを使用してWebGLシーンをPDFにキャプチャしてレンダリングする方法は？
 
 3DコンフィギュレーターやアニメーションマップのようなインタラクティブなWebGLグラフィックスを高品質のPDFに変換することは、ほとんどの.NET開発者にとって挑戦です。標準のPDFツールは通常、GPU加速コンテンツを見逃したり無視したりするため、ビジュアルが表示されるべき場所に空白のスペースができてしまいます。このFAQでは、IronPDFを使用してWebGLを搭載したWebページをPDFに信頼性高く変換する方法、必要な設定、実際のコードサンプル、トラブルシューティングのヒント、および高度なシナリオについて学びます。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/cookies-html-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/cookies-html-to-pdf-csharp.md)
- **:** [FAQ/cookies-html-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/cookies-html-to-pdf-csharp.md)
-
----
 # C#でIronPDFを使用して認証済みHTMLからPDFへの変換でクッキーをどう扱うか？
 
 C#で認証が必要なWebページをPDFに変換することは、強力なワークフローです。しかし、期待しているプライベートダッシュボードやパーソナライズされたデータの代わりにPDFでログイン画面や一般的なコンテンツが表示される場合、クッキーが欠けている可能性があります。このFAQでは、IronPDFで安全かつ確実にクッキーを送信し、複雑な認証を処理し、一般的な問題をトラブルシューティングし、堅牢なHTMLからPDFへの自動化のためのエッジケースをマスターする方法について説明します。

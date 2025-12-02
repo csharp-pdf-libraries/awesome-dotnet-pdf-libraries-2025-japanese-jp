@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [selectpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/selectpdf/README.md)
- **:** [selectpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/selectpdf/README.md)
-
----
 # SelectPdf + C# + PDF
 
 HTMLからPDFへの変換ツールに関して言えば、SelectPdfはC#開発エコシステム内でよく検討されるオプションの一つです。SelectPdfは、HTMLドキュメントを効率的にPDFに変換する商業的な実用性で知られています。しかし、開発者の間でよく議論されるトピックは、SelectPdfがこの分野の他の競合他社、特にIronPDFと比較してどのように積み重なるかです。この記事では、SelectPdfの特徴、強み、弱点を解剖し、IronPDFとの深い比較を提供します。

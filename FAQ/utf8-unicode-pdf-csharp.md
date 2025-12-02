@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/utf8-unicode-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/utf8-unicode-pdf-csharp.md)
- **:** [FAQ/utf8-unicode-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/utf8-unicode-pdf-csharp.md)
-
----
 # C#で国際テキストと絵文字を含むUTF-8 PDFを生成する方法は？
 
 C#で複数の言語、スクリプト、絵文字を扱うPDFを作成することは、しばしば文字が欠けたり奇妙な記号が出たりするなど、挑戦的です。幸い、IronPDFと賢いHTMLを使った正しい設定を行うことで、堅牢な多言語ドキュメントを生成することが可能です。このFAQでは、一般的な落とし穴、フォントとエンコーディングのベストプラクティス、そして完璧なUnicode PDFを生成するための実践的なコードサンプルを通じて説明します。

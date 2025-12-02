@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [adobe-pdf-library-sdk/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/adobe-pdf-library-sdk/README.md)
- **:** [adobe-pdf-library-sdk/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/adobe-pdf-library-sdk/README.md)
-
----
 # Adobe PDF Library SDK & C#: PDF開発のためのオプションを探る
 
 PDFファイルの取り扱いに関して言えば、市場における強力な競合者はAdobe PDF Library SDKとIronPDFです。エンジニアや企業は、コスト、統合のしやすさ、プロジェクトの規模に適しているかどうかなどの要因に基づいて選択を検討しがちです。Adobe PDF Library SDKは強力なツールであり、その包括的な機能性でよく認識されています。しかし、プロジェクトの目標や技術的環境と合致しているかを深く理解することが重要です。この記事では、Adobe PDF Library SDKとIronPDFの詳細な比較を提供し、それぞれの強み、弱み、適切な使用例に焦点を当てます。

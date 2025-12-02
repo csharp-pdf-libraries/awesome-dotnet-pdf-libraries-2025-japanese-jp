@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [expertpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/expertpdf/README.md)
- **:** [expertpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/expertpdf/README.md)
-
----
 # ExpertPdf C# PDF
 
 C#でHTMLをPDFに変換する際、ExpertPdfは実行可能なオプションとしてよく言及されます。HTMLからPDFへの変換機能を主要機能とするこのライブラリは、そのような機能を必要とする多くの開発者に魅力的です。しかし、ExpertPdfはその強みを持ちながらも、今日の競争の激しいPDF変換の風景の中でいくつかの課題に直面しています。この記事では、ExpertPdfの強みと弱点を探り、その注目すべき競合であるIronPDFと比較します。

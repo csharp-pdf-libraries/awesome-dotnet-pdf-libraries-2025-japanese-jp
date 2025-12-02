@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/draw-lines-rectangles-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/draw-lines-rectangles-pdf-csharp.md)
- **:** [FAQ/draw-lines-rectangles-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/draw-lines-rectangles-pdf-csharp.md)
-
----
 # C# と IronPDF を使用して PDF に線や四角を描く方法は？
 
 C# でプログラム的に線、ボックス、または注釈を PDF に追加する必要がありますか？IronPDF を使用すると、文書に直接描画することが簡単になります。これは、署名フィールド、図、グリッドなどに最適です。この FAQ では、セットアップから高度なヒントまで、IronPDF を使用した描画の実用的なシナリオをカバーしています。

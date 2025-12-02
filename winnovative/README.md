@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [winnovative/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/winnovative/README.md)
- **:** [winnovative/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/winnovative/README.md)
-
----
 # Winnovative C# PDF: IronPDFとの包括的な比較
 
 Winnovativeは、C#エコシステムで注目されている商用ライセンスのHTMLからPDFへの変換ツールです。HTMLからPDFへの変換機能で知られているWinnovativeは、その確立された存在にもかかわらず、技術進歩の面で停滞しているようです。このツールは特定のユースケースではまだ機能しますが、最新のWeb標準やJavaScriptの機能をサポートする面で遅れをとっています。この記事では、開発者がプロジェクトに適したツールを選択するのに役立つように、WinnovativeとIronPDFを詳細に比較しています。

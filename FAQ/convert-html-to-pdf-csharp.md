@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/convert-html-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/convert-html-to-pdf-csharp.md)
- **:** [FAQ/convert-html-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/convert-html-to-pdf-csharp.md)
-
----
 # C# (.NET) で HTML を PDF に信頼性高く変換する方法は？
 
 .NET で HTML を PDF に変換することは、CSS が壊れたり、フォントが消えたり、慎重に作成したレイアウトが崩れたりすると、すぐにイライラする作業になりがちです。この FAQ は、C# と .NET での HTML から PDF への変換に関する開発者が直面する実際の問題を取り上げ、現代的で実用的な解決策を通じて歩みます。ページブレーク、ライブウェブページ、JavaScript などの高度なシナリオから、最適なライブラリやコードサンプルまで、すべてをカバーします。プロセスを解明し、Web アセットからピクセルパーフェクトな PDF を生成するお手伝いをしましょう。

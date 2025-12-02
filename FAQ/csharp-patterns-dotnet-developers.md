@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/csharp-patterns-dotnet-developers.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/csharp-patterns-dotnet-developers.md)
- **:** [FAQ/csharp-patterns-dotnet-developers.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/csharp-patterns-dotnet-developers.md)
-
----
 # すべての.NET開発者が実際に使用すべき現代のC#パターンとは？
 
 実際の.NETプロジェクトで実際に習得する価値のあるC#コーディングパターンについてお悩みですか？[IronPDF](https://ironpdf.com)のような大規模ライブラリを構築する年月を経て、コードをより明確で、安全で、メンテナンスしやすくする実用的で現代的なC#および.NETパターンのリストをまとめました。最も使用されるパターンと、それらを効果的に適用する方法を見ていきましょう。

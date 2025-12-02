@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/base-url-html-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/base-url-html-to-pdf-csharp.md)
- **:** [FAQ/base-url-html-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/base-url-html-to-pdf-csharp.md)
-
----
 # C# HTMLからPDFへの変換で基本URLはどのように機能し、なぜアセットが見つからないのか？
 
 C#でHTMLをPDFに変換する際、画像が見つからない、CSSが壊れているという問題は一般的で、通常は相対ファイルパスが期待通りに解決されないことが原因です。正しい**基本URL**を設定することは、Webページと同じくらい洗練されたPDFを作成する秘訣です。このFAQでは、C# PDF生成で基本URLを使用する際の実用的な技術、コードパターン、トラブルシューティングのヒントについて、特にIronPDFを使用して説明します。

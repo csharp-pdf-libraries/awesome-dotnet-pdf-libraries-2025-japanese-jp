@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-table-of-contents-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-table-of-contents-csharp.md)
- **:** [FAQ/pdf-table-of-contents-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-table-of-contents-csharp.md)
-
----
 # C# PDFでクリック可能な目次を作成する方法は？
 
 長いPDFを見失ったことがあれば、「セクション7.4.2」を無限にスクロールして探す苦痛を知っているでしょう。よく作られたクリック可能な目次（TOC）はPDFを変身させ、特に報告書、マニュアル、または電子書籍にとって、それらを簡単にナビゲートできるようにします。C#では、IronPDFを使ってカスタムスタイリングとブックマーク付きのインタラクティブなTOCを驚くほど簡単に生成できます。このFAQは、始め方から高度なテクニックまで全てをカバーしているので、読者にとって真に機能するPDFを構築できます。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/cshtml-to-pdf-aspnet-core-mvc.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/cshtml-to-pdf-aspnet-core-mvc.md)
- **:** [FAQ/cshtml-to-pdf-aspnet-core-mvc.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/cshtml-to-pdf-aspnet-core-mvc.md)
-
----
 # ASP.NET Core MVCでRazor（CSHTML）ビューをPDFにエクスポートする方法は？
 
 はい、ASP.NET Core MVCのRazor（CSHTML）ビューから直接PDFファイルを生成することができます。これにより、別のHTMLテンプレートを管理したり、信頼性の低いPDFライブラリと格闘する必要がなくなります。このFAQでは、IronPDFを使用してMVC Razorビューを整形式のPDFに変換するための実用的で現代的なワークフローを、ヒント、コードサンプル、一般的な問題への実践的な解決策と共にご紹介します。

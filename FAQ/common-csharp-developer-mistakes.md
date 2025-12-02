@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/common-csharp-developer-mistakes.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/common-csharp-developer-mistakes.md)
- **:** [FAQ/common-csharp-developer-mistakes.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/common-csharp-developer-mistakes.md)
-
----
 # C#で開発者がよく犯す間違いとその回避方法は？
 
 新しいC#開発者でも経験豊富な開発者でも、言語や.NETエコシステムに潜む典型的な落とし穴に躓くことがあります。リソースリークから非同期の悪夢まで、これらの間違いの多くは、何に注意すべきかを知っていれば簡単に修正できます。このFAQは、最も頻繁に発生するC#のエラー、その重要性、そして実用的なコードサンプルやベストプラクティスを用いてそれらを回避する方法を強調しています。

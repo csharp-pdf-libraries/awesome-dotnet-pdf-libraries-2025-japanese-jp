@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [kaizenio-html-to-pdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/kaizenio-html-to-pdf/README.md)
- **:** [kaizenio-html-to-pdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/kaizenio-html-to-pdf/README.md)
-
----
 # Kaizen.io HTML-to-PDF + C# + PDF
 
 強力なHTMLからPDFへの変換ツールの登場は、開発者がWebコンテンツからプログラム的にPDF文書を生成する方法を革命的に変えました。Kaizen.io HTML-to-PDFとIronPDFは、この分野でのリーダーとして位置付けられ、異なる開発者のニーズに対応するためのユニークな機能を提供しています。Kaizen.io HTML-to-PDFはクラウドベースのサービスを提供することで差別化を図り、IronPDFはローカル処理機能を強調しています。この記事では、これらのオファリングを深く掘り下げ、それぞれの強みと弱みを比較します。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/convert-pdf-grayscale-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/convert-pdf-grayscale-csharp.md)
- **:** [FAQ/convert-pdf-grayscale-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/convert-pdf-grayscale-csharp.md)
-
----
 # C#でPDFをグレースケールに変換する方法は？
 
 印刷コストを節約したい、PDFファイルのサイズを小さくしたい、または文書のアクセシビリティを向上させたい場合、C#でPDFをグレースケールに変換することは実用的な解決策です。このFAQでは、IronPDFを使用してグレースケールPDFを生成する方法、既存のカラーPDFを処理する方法、バッチ処理変換を行う方法、および一般的な問題のトラブルシューティング方法について説明します。また、自分のプロジェクトですぐに使用できるコードサンプルも見つかります。

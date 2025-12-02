@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-to-images-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-to-images-csharp.md)
- **:** [FAQ/pdf-to-images-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-to-images-csharp.md)
-
----
 # C#でIronPDFを使用してPDFを画像に変換する方法は？
 
 文書ギャラリー、OCR、サムネイル、またはWebプレビューなどのためにPDFページを画像に変えたい場合、IronPDFはその作業を簡単にする強力なツールです。このFAQでは、C#でPDFを画像に変換する最も実用的なアプローチを紹介し、品質、フォーマット、パフォーマンス、トラブルシューティングに関するヒントを提供します。

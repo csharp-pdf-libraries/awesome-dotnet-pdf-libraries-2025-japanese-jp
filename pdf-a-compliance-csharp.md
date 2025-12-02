@@ -1,7 +1,3 @@
----
-** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdf-a-compliance-csharp.md)
-
----
 # PDF/Aおよびアクセシビリティコンプライアンス in C#: セクション508、EU指令、およびPDF/UA
 
 **[Jacob Mellor](https://www.linkedin.com/in/jacob-mellor-iron-software/)による** — Iron SoftwareのCTO、IronPDFのクリエーター

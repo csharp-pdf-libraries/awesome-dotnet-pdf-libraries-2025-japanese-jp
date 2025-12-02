@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [dinktopdf/migrate-from-dinktopdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/dinktopdf/migrate-from-dinktopdf.md)
- **:** [dinktopdf/migrate-from-dinktopdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/dinktopdf/migrate-from-dinktopdf.md)
-
----
 # DinkToPdfからIronPDFへの移行方法は？
 
 ## 目次

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [mupdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/mupdf/README.md)
- **:** [mupdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/mupdf/README.md)
-
----
 # MuPDF (.NETバインディング) + C# + PDF
 
 C#でPDFファイルを扱う際、開発者は多くのライブラリを利用できます。これらの中で、MuPDF (.NETバインディング)はPDFレンダラーとして特別に設計された軽量な性質で際立っています。この記事では、MuPDF (.NETバインディング)がPDFライブラリエコシステムのもう一つの強力なツールであるIronPDFとどのように比較されるかを探り、最適なライブラリの選択に関するガイダンスを提供します。

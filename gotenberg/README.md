@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [gotenberg/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/gotenberg/README.md)
- **:** [gotenberg/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/gotenberg/README.md)
-
----
 # Gotenberg vs IronPDF: Docker PDF生成 vs プロセス内C#ライブラリ
 
 **C# PDF生成のためのGotenbergの代替をお探しですか？** Gotenbergは、REST API呼び出しを介してHTMLをPDFに変換するDockerベースのマイクロサービスです。このアーキテクチャは柔軟ではありますが、大幅なインフラストラクチャのオーバーヘッド、ネットワーク遅延、および運用の複雑さを導入します。C#開発者にとって、よりシンプルなアプローチがあります：**IronPDF**はプロセス内NuGetパッケージとして同じChromiumベースのレンダリングを提供します—Dockerコンテナ、ネットワーク呼び出し、管理するインフラストラクチャはありません。

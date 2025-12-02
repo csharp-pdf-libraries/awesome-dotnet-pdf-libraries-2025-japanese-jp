@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/html-to-pdf-enterprise-scale-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/html-to-pdf-enterprise-scale-csharp.md)
- **:** [FAQ/html-to-pdf-enterprise-scale-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/html-to-pdf-enterprise-scale-csharp.md)
-
----
 # C#でエンタープライズスケールで信頼性の高いHTMLからPDFへの変換をどのように行えますか？
 
 C#でHTMLからPDFを生成することは、少数のユーザーに対しては簡単です。しかし、アプリが毎日数千、あるいは数万のPDFを作成する必要がある場合、一度も失敗することなくどうしますか？エンタープライズスケールで堅牢な、高スループットの[HTMLからPDFへの変換](https://ironpdf.com/how-to/pixel-perfect-html-to-pdf/)を実現するには、堅固なアーキテクチャ、効率的なコード、そして適切なデプロイ戦略が必要です。このFAQでは、IronPDFを使用した大規模なPDF生成に関する実用的なレッスンと実証済みのパターンを、非同期ベストプラクティスからDockerデプロイメントのヒントまで共有します。

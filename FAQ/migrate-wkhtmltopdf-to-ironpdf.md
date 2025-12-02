@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/migrate-wkhtmltopdf-to-ironpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/migrate-wkhtmltopdf-to-ironpdf.md)
- **:** [FAQ/migrate-wkhtmltopdf-to-ironpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/migrate-wkhtmltopdf-to-ironpdf.md)
-
----
 # wkhtmltopdfからIronPDFへの移行方法は？
 
 .NETプロジェクトでまだwkhtmltopdfを使用している場合、セキュリティと信頼性のリスクを冒しています。wkhtmltopdfは2023年初頭にアーカイブされて以来、時代遅れでサポートされなくなりました。このFAQでは、なぜ、そしてどのようにHTMLからPDFへの変換のための現代的で積極的にメンテナンスされている.NETライブラリであるIronPDFへ移行するか、実践的なステップと例を通じて説明します。

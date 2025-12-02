@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/add-images-to-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/add-images-to-pdf-csharp.md)
- **:** [FAQ/add-images-to-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/add-images-to-pdf-csharp.md)
-
----
 # C#およびIronPDFを使用してPDFに画像を追加・管理する方法
 
 C#でPDFに画像を追加することは、ほとんどの実際のアプリケーションにとって必須です。ロゴ、透かし、スキャンされた文書、製品ギャラリーを考えてみてください。[IronPDF](https://ironpdf.com)を使用すると、HTML/CSSスキルをそのまま.NET PDF生成に活用でき、古いライブラリよりも画像の埋め込み、スタンピング、レイアウト制御がはるかに簡単になります。このFAQでは、IronPDFを使用してPDF内で画像を埋め込み、配置、操作する実用的な方法をカバーしています。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [gotenberg/migrate-from-gotenberg.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/gotenberg/migrate-from-gotenberg.md)
- **:** [gotenberg/migrate-from-gotenberg.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/gotenberg/migrate-from-gotenberg.md)
-
----
 # GotenbergからIronPDFへの移行方法は？
 
 ## 目次

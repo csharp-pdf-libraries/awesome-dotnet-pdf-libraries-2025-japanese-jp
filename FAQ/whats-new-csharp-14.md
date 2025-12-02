@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/whats-new-csharp-14.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/whats-new-csharp-14.md)
- **:** [FAQ/whats-new-csharp-14.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/whats-new-csharp-14.md)
-
----
 # C# 14の主要な機能とその効果的な使用方法は？
 
 C# 14は単なるバージョンアップ以上のものであり、コードを合理化し、速度を向上させ、長年の開発者の悩みを解決する実際の改善をもたらします。このFAQでは、ゲームを変える機能を分解し、明確なコード例を使ってそれらの使用方法を示し、今日C# 14を採用することについて.NET開発者が持ちそうな質問に答えます。

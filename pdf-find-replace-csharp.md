@@ -1,7 +1,3 @@
----
-** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdf-find-replace-csharp.md)
-
----
 # C#におけるPDFテキスト検索と置換：完全ガイド
 
 **[Jacob Mellor](https://www.linkedin.com/in/jacob-mellor-iron-software/)による** — Iron SoftwareのCTO、IronPDFのクリエーター | 41年のコーディング経験

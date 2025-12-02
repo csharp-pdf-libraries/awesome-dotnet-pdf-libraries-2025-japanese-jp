@@ -1,7 +1,3 @@
----
-** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/CLAUDE.md)
-
----
 # CLAUDE.md
 
 リポジトリのコンテンツを生成します。

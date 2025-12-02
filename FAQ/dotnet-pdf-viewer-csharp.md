@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/dotnet-pdf-viewer-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/dotnet-pdf-viewer-csharp.md)
- **:** [FAQ/dotnet-pdf-viewer-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/dotnet-pdf-viewer-csharp.md)
-
----
 # .NETアプリでPDFを表示する方法は？（WinForms、WPF、MAUIなど）
 
 .NETアプリにPDFビューアを埋め込みたいけれど、どこから始めればいいかわからないですか？あなたは一人ではありません—.NETエコシステムには「PDFViewer」コントロールが一般的に存在しないため、適切なアプローチはプラットフォームと要件によって異なることがあります。このFAQでは、WinForms、WPF、MAUI、Webベースの.NETアプリに対する実用的な解決策を、コピペ可能なコードサンプル、一般的な落とし穴、プロジェクトに最適なPDFビューアを選択するためのヒントと共に案内します。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [asposepdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/asposepdf/README.md)
- **:** [asposepdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/asposepdf/README.md)
-
----
 # Aspose.PDF for .NET + C# + PDF
 
 Aspose.PDF for .NETは、C#専用に設計された堅牢で包括的なPDF操作ライブラリです。エンタープライズグレードのソリューションとしての評判を築き、豊富なPDFドキュメント管理機能を提供します。Aspose.PDF for .NETは、高度なドキュメント操作と作成機能を要求するプロジェクトでよく検討されます。しかし、そのプロジェクトへの統合を決定する際には、魅力的な機能だけでなく、パフォーマンスやコストなどの重要な考慮事項も考慮する必要があります。

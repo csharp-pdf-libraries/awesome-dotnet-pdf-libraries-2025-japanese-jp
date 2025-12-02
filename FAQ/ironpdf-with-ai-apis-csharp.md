@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/ironpdf-with-ai-apis-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/ironpdf-with-ai-apis-csharp.md)
- **:** [FAQ/ironpdf-with-ai-apis-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/ironpdf-with-ai-apis-csharp.md)
-
----
 # AI APIとIronPDFを組み合わせてC#で次世代のPDF生成を行う方法は？
 
 .NETプロジェクトで洗練された、コンテンツ豊富なPDFを自動化したい場合、AI API（OpenAI、Claude、Geminiなど）と[IronPDF](https://ironpdf.com)を組み合わせることは強力なアプローチです。AIはスマートなコンテンツ生成を担当し、IronPDFはドキュメントがプロフェッショナルでブランドに合った見た目を保証します。このFAQでは、実際の使用例、セットアップのヒント、実用的なコード、そしてこの組み合わせを最大限に活用するためのプロのコツを紹介します。

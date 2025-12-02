@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-compression-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-compression-csharp.md)
- **:** [FAQ/pdf-compression-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-compression-csharp.md)
-
----
 # C#でPDFを圧縮して、より小さく、より高速なドキュメントを作成する方法は？
 
 C#でPDFファイルサイズを削減するのは、思っているよりも簡単です—特に適切なツールを使用すれば。メールの添付ファイル制限に収まるようにしたい場合でも、ダウンロードを速めたい場合でも、サーバーのストレージをより遠くまで伸ばしたい場合でも、PDFの圧縮はファイルサイズを30〜70％削減するのに役立ちます。最小限の品質損失で。このFAQでは、.NET開発者向けの実用的な、コードファーストの戦略を通じて、IronPDFを使用してPDFを圧縮する方法、ヒント、トラブルシューティングのアドバイス、および高度なシナリオを歩いていきます。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [selectpdf/migrate-from-selectpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/selectpdf/migrate-from-selectpdf.md)
- **:** [selectpdf/migrate-from-selectpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/selectpdf/migrate-from-selectpdf.md)
-
----
 # SelectPdfからIronPDFへの移行方法は？
 
 ## 目次

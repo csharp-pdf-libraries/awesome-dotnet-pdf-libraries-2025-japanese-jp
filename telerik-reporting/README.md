@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [telerik-reporting/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/telerik-reporting/README.md)
- **:** [telerik-reporting/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/telerik-reporting/README.md)
-
----
 # Telerik Reporting C# PDF
 
 Telerik Reportingは、C#でレポートを作成するための強力なツールです。豊富な機能を備えており、開発者は詳細でインタラクティブなレポートを簡単に作成できます。複雑なデータセットを視覚的に魅力的で理解しやすい形式に変換することに長けています。Telerik Reportingは特にASP.NET Core開発者に適しており、シームレスな統合とPDFなどの形式へのエクスポートを強力にサポートしています。

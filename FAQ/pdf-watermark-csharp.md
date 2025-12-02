@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-watermark-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-watermark-csharp.md)
- **:** [FAQ/pdf-watermark-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-watermark-csharp.md)
-
----
 # C#でIronPDFを使用してPDFファイルにウォーターマークを追加する方法は？
 
 「CONFIDENTIAL」や会社のロゴをPDFに大きく押印したいですか？C#用のIronPDFを使用すると、ウォーターマーキングは柔軟で強力で速く、魔法は必要ありません。このFAQでは、実用的なパターン、コード例、一般的な落とし穴をカバーしているので、プロジェクトで自信を持ってPDFにウォーターマークを付けることができます。

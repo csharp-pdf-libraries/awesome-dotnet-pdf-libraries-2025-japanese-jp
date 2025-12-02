@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/chrome-pdf-rendering-engine-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/chrome-pdf-rendering-engine-csharp.md)
- **:** [FAQ/chrome-pdf-rendering-engine-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/chrome-pdf-rendering-engine-csharp.md)
-
----
 # Chromeエンジンを使用してC#でピクセルパーフェクトなPDFをレンダリングする方法は？
 
 C#でHTMLからブラウザと全く同じように見えるPDFを生成したい場合—JavaScript、最新のCSS、ウェブフォントを完備—IronPDFのChromeレンダリングエンジンが最適です。このFAQでは、基本的な使用方法から高度なカスタマイズ、トラブルシューティングまで、信頼性の高い高品質なPDF出力に必要なすべてをカバーしています。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/how-to-properly-redact-pdfs-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/how-to-properly-redact-pdfs-csharp.md)
- **:** [FAQ/how-to-properly-redact-pdfs-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/how-to-properly-redact-pdfs-csharp.md)
-
----
 # C#で機密データを漏洩させずに安全なPDFの塗りつぶしを行う方法は？
 
 PDFの塗りつぶしは、単に単語を黒いボックスで覆うこと以上のものです。データのプライバシー、法的コンプライアンスを保証する必要がある場合や、恥ずかしいデータ漏洩を避けたい場合は、機密内容を完全に削除する必要があります。このFAQでは、多くのツールがなぜ失敗するのか、真のPDFの塗りつぶしとは何か、そして[IronPDF](https://ironpdf.com)を使用してC#で信頼できる塗りつぶしを実装する方法について説明します。

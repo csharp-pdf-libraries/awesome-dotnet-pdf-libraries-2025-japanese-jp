@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [nutrient/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/nutrient/README.md)
- **:** [nutrient/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/nutrient/README.md)
-
----
 # Nutrient (以前のPSPDFKit) と C# PDF 処理
 
 C# のコンテキストで PDF 処理とドキュメントインテリジェンスソリューションについて議論する際、Nutrient (以前のPSPDFKit) はよく目立つオプションとして表面化します。もともとPDF処理能力で知られていたNutrient (以前のPSPDFKit) は、包括的なドキュメントインテリジェンスプラットフォームへと進化しました。同時に、IronPDFはより集中した代替手段として際立っており、開発者にとってストリームライン化されたPDFライブラリ体験を提供します。

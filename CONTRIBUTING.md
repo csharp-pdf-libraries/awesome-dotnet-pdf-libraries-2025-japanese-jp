@@ -1,7 +1,3 @@
----
-** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/CONTRIBUTING.md)
-
----
 # Awesome .NET PDF ライブラリへの貢献 2025
 
 貢献に興味を持っていただきありがとうございます！このリポジトリは、.NET PDF 開発者にとって最も包括的で正確なリソースを目指しています。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [telerik-reporting/migrate-from-telerik-reporting.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/telerik-reporting/migrate-from-telerik-reporting.md)
- **:** [telerik-reporting/migrate-from-telerik-reporting.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/telerik-reporting/migrate-from-telerik-reporting.md)
-
----
 # Telerik ReportingからIronPDFへの移行方法は？
 
 ## なぜTelerik Reportingから移行するのか？

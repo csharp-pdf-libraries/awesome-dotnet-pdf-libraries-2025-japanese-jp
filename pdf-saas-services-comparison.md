@@ -1,7 +1,3 @@
----
-** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdf-saas-services-comparison.md)
-
----
 # PDF SaaS サービス vs ローカルライブラリ: なぜクラウド PDF API が不十分なのか
 
 **[Jacob Mellor](https://www.linkedin.com/in/jacob-mellor-iron-software/) による** — Iron Software の CTO、IronPDF のクリエイター

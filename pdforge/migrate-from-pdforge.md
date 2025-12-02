@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [pdforge/migrate-from-pdforge.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/pdforge/migrate-from-pdforge.md)
- **:** [pdforge/migrate-from-pdforge.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/pdforge/migrate-from-pdforge.md)
-
----
 # pdforgeからIronPDFへの移行方法は？
 
 ## なぜpdforgeから移行するのか？

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [scrybercore/migrate-from-scrybercore.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/scrybercore/migrate-from-scrybercore.md)
- **:** [scrybercore/migrate-from-scrybercore.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/scrybercore/migrate-from-scrybercore.md)
-
----
 # Scryber.CoreからIronPDFへの移行方法は？
 
 ## なぜScryber.Coreから移行するのか？

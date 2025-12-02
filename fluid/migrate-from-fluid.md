@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [fluid/migrate-from-fluid.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/fluid/migrate-from-fluid.md)
- **:** [fluid/migrate-from-fluid.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/fluid/migrate-from-fluid.md)
-
----
 # Fluid (テンプレート) から IronPDF への移行方法は？
 
 ## 目次

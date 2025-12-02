@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-login-authentication-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-login-authentication-csharp.md)
- **:** [FAQ/pdf-login-authentication-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-login-authentication-csharp.md)
-
----
 # C#で認証済みWebページからPDFを生成する方法は？
 
 C#で認証またはパスワード保護されたWebページからPDFを生成することは、一般的な課題です。これはしばしば、実際のコンテンツの代わりにログイン画面が満載のPDFにつながります。このFAQでは、IronPDFや類似のライブラリを使用する際のさまざまな認証シナリオを処理するための実用的でコードに焦点を当てた解決策をカバーしています。直接的な回答、コピー＆ペースト可能なC#コード、および最も一般的な障害を回避するためのヒントが見つかります。

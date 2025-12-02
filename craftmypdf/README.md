@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [craftmypdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/craftmypdf/README.md)
- **:** [craftmypdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/craftmypdf/README.md)
-
----
 # CraftMyPDF + C# + PDF
 
 デジタルドキュメント管理の進化し続ける風景の中で、ビジネスや開発者は信頼性が高く効率的なPDF生成ソリューションを常に探しています。利用可能な選択肢の中で、CraftMyPDFとIronPDFはPDF作成を扱う2つの異なるアプローチとして際立っています。前者はクラウドベースのテンプレート駆動APIであり、後者はより柔軟性と制御を提供する多用途のC#ライブラリです。

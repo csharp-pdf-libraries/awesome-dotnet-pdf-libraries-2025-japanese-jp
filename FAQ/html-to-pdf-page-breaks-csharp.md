@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/html-to-pdf-page-breaks-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/html-to-pdf-page-breaks-csharp.md)
- **:** [FAQ/html-to-pdf-page-breaks-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/html-to-pdf-page-breaks-csharp.md)
-
----
 # C#でIronPDFを使用してHTMLからPDFへのページ区切りをどのように制御するのか？
 
 C#でHTMLをPDFに変換する際に見苦しいページ区切りに悩んでいますか？あなただけではありません。クリーンでプロフェッショナルなPDFを求める場合、コンテンツがページをまたいで分割される場所を正確に制御する必要があります。そうでなければ、半分に切断された表や間違ったページに孤立した見出し、不格好にぶら下がる署名線などが発生します。このFAQでは、IronPDFを使用してページ区切りをマスターするための最も効果的な技術と、すぐに適用できる実用的なC#コードを紹介します。

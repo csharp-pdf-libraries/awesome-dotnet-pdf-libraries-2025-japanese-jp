@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/how-to-install-dotnet-10.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/how-to-install-dotnet-10.md)
- **:** [FAQ/how-to-install-dotnet-10.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/how-to-install-dotnet-10.md)
-
----
 # Windows、macOS、Linuxで.NET 10をインストールしてすぐにコーディングを始める方法は？
 
 .NET 10を始めるのはこれまで以上に簡単になりましたが、新機能、複数のプラットフォーム、いくつかの一般的な落とし穴があるため、質問があるかもしれません。このFAQでは、Windows、macOS、Linuxのインストール手順、セットアップの確認方法、複数バージョンの管理方法、そして最新のC#機能と[IronPDF](https://ironpdf.com)を使用して最初の.NET 10アプリを作成する方法まで、すべてをカバーしています。現代のクロスプラットフォーム.NET開発のために環境を整えましょう。

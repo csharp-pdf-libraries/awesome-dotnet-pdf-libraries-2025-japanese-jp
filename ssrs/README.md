@@ -1,7 +1,3 @@
----
-** ** | [English Version](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/ssrs/README.md)
-
----
 # SSRS (SQL Server Reporting Services) + C# + PDF
 
 ソフトウェア開発のダイナミックな世界でレポートを生成する際、ツールの選択は重要なポイントになります。多くのレポートツールが利用可能ですが、SSRS (SQL Server Reporting Services) はSQL Server データベースとの統合において、特に強力なオプションとして際立っています。一方、IronPDFはPDFの作成と操作において優れたライブラリを提供します。この記事では、SSRS (SQL Server Reporting Services) と IronPDF を比較し、機能性、統合能力、特にC#環境内での柔軟性に焦点を当てています。

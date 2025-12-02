@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/dotnet-core-pdf-generation-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/dotnet-core-pdf-generation-csharp.md)
- **:** [FAQ/dotnet-core-pdf-generation-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/dotnet-core-pdf-generation-csharp.md)
-
----
 # .NET Coreで信頼性の高いPDFを生成する方法は？実践的なパターン、ライブラリ、そして動作するコード
 
 .NET CoreでPDFを作成する必要がある場合—請求書、レポート、領収書、またはコンプライアンスドキュメントであっても—.NET Coreが組み込みのPDF生成を提供していないことにすぐに気付くでしょう。あなたは、それぞれが独自の特徴を持つ一連のサードパーティライブラリから選択することになります。それらすべてを試した開発者として、実際に何が機能するのか、なぜそれが機能するのか、そして一般的な落とし穴をどのように避けるかを説明します。このFAQは、実際に機能するPDF機能を出荷するために必要な実践的なパターン、コード、そして正直なアドバイスを提供します。

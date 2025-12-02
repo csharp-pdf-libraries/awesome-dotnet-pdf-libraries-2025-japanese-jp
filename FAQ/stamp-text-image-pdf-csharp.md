@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/stamp-text-image-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/stamp-text-image-pdf-csharp.md)
- **:** [FAQ/stamp-text-image-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/stamp-text-image-pdf-csharp.md)
-
----
 # C#でIronPDFを使用してPDFにテキスト、画像、QRコードをスタンプする方法は？
 
 契約書に「CONFIDENTIAL」とオーバーレイしたり、ロゴでPDFをブランド化したり、C#でファイルにデジタル署名をしたりする必要がありますか？IronPDFを使用すると、既存のPDFにテキスト、画像、バーコード、さらにはHTMLを簡単かつ強力にスタンプすることができます。このFAQでは、シンプルなウォーターマークから高度な動的スタンピングまで、必要な基本をカバーしているため、C#でドキュメントワークフローを自信を持って自動化できます。

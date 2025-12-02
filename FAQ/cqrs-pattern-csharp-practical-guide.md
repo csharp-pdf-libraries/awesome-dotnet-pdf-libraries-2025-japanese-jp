@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/cqrs-pattern-csharp-practical-guide.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/cqrs-pattern-csharp-practical-guide.md)
- **:** [FAQ/cqrs-pattern-csharp-practical-guide.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/cqrs-pattern-csharp-practical-guide.md)
-
----
 # 実際のドキュメントおよびPDFワークフローでCQRSとMediatRをC#でどのように実装するか？
 
 CQRS（Command Query Responsibility Segregation）は、特にアプリのレポーティング、ドキュメント管理、またはPDF生成の要件が増加し始めたときに、読み取り操作と書き込み操作を分離するための強力なアーキテクチャパターンです。このFAQでは、CQRSをC#でMediatRを使用して実際にどのように実装するか、それがどこで輝くのか（そしてどこでそうでないか）、PDF作成などの実用的なシナリオにどのように適用するかを学びます。実践的なコードを通して歩き、ベストプラクティスを共有し、重要な落とし穴に注意を促します。

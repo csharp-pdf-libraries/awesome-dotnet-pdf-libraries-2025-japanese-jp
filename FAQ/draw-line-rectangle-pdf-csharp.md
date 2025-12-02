@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/draw-line-rectangle-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/draw-line-rectangle-pdf-csharp.md)
- **:** [FAQ/draw-line-rectangle-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/draw-line-rectangle-pdf-csharp.md)
-
----
 # C#でPDFに線、長方形、形を描く方法は？
 
 もちろんです！C#で直接PDFに描画することで、HTMLからPDFへの変換では実現できないピクセルパーフェクトなレイアウトやカスタムグラフィックスを実現できます。PDFに鮮明な線、ボックス、署名、またはカスタム形状を追加したい場合、HTMLテーブルやCSSの技巧に頼ることなく、このFAQがシンプルな線から高度な形状、パフォーマンスのヒントまで、実用的なステップをガイドします。

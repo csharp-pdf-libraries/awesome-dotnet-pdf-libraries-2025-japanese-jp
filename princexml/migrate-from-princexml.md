@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [princexml/migrate-from-princexml.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/princexml/migrate-from-princexml.md)
- **:** [princexml/migrate-from-princexml.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/princexml/migrate-from-princexml.md)
-
----
 # PrinceXMLからIronPDFへの移行方法は？
 
 ## PrinceXMLから移行する理由は？

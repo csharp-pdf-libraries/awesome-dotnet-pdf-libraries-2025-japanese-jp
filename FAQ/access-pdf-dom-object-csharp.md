@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/access-pdf-dom-object-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/access-pdf-dom-object-csharp.md)
- **:** [FAQ/access-pdf-dom-object-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/access-pdf-dom-object-csharp.md)
-
----
 # C#でIronPDFを使用してPDF DOMにアクセスし分析する方法は？
 
 PDFの内部を見たい場合—テキストや画像を抽出するだけでなく—IronPDFはC#でPDFのドキュメントオブジェクトモデル（DOM）への直接アクセスを提供します。これにより、各ページの個々のコンポーネント（テキストブロック、画像、形状、注釈など）を検査、分析、時には編集することができます。以下では、IronPDFでPDF DOMを探索する際の一般的な質問に答え、実用的なコードサンプルとトラブルシューティングのヒントを提供します。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [gnostice/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/gnostice/README.md)
- **:** [gnostice/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/gnostice/README.md)
-
----
 # Gnostice (Document Studio .NET, PDFOne) C# PDF ライブラリ
 
 Gnostice (Document Studio .NET, PDFOne) は、マルチフォーマットのドキュメント処理用に設計された商用スイートです。この包括的なツールキットには、PDFを含むさまざまなフォーマットのドキュメントを作成、変更、および管理する機能が含まれています。Gnostice (Document Studio .NET, PDFOne) は、.NETで作業する開発者向けの多用途ソリューションとして市場に出されており、WinForms、WPF、ASP.NET、Xamarin などの異なる .NET アプリケーション向けの特定のコンポーネントライブラリを提供しています。しかし、実際の使用性は、いくつかの制限とプラットフォームの断片化による一般的なフラストレーションによって損なわれています。

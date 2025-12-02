@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/python-find-in-list.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/python-find-in-list.md)
- **:** [FAQ/python-find-in-list.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/python-find-in-list.md)
-
----
 # 実際のプロジェクトでPythonリストの検索とフィルタリングを効率的に行う方法は？
 
 Python開発者にとって、シンプルなスクリプトの構築から大規模なデータセットの処理まで、リストの検索とフィルタリングは日常的な作業です。このFAQでは、Pythonでのリスト検索に関する最も実用的な技術をカバーし、一般的な落とし穴を強調し、さらに結果からPDFレポートを生成する方法まで示します。

@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/install-nuget-powershell.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/install-nuget-powershell.md)
- **:** [FAQ/install-nuget-powershell.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/install-nuget-powershell.md)
-
----
 # .NETプロジェクトでNuGetパッケージをPowerShellを使用して管理する方法は？
 
 Visual Studio内のNuGetと格闘したり、GUI、CLI、謎のスクリプト間を行き来したりするのに疲れたら、あなただけではありません。PowerShellを介してNuGetを管理することで、スクリプト可能で、再現性があり、クロスプラットフォームのワークフローを解除します。これは、現代の.NET開発、CI/CDパイプライン、およびDocker環境にとって重要です。このFAQでは、.NETパッケージ管理を合理化するための基本、トラブルシューティングのヒント、および実用的なスクリプトを紹介します。IDEは必要ありません。

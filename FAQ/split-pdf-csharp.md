@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/split-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/split-pdf-csharp.md)
- **:** [FAQ/split-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/split-pdf-csharp.md)
-
----
 # IronPDFを使用してC#でPDFを分割する方法は？（包括的なFAQ）
 
 C#でPDFを分割することは、特にIronPDFを利用している場合、想像以上に簡単です。数ページを抽出する必要がある場合でも、ドキュメントをバッチに分割する場合でも、ファイルサイズによって分割する場合でも、IronPDFは柔軟で開発者に優しいツールを提供しています。このFAQでは、実用的なシナリオ、エッジケース、高度な技術、トラブルシューティングのヒントを、実行可能なコードとさらなるリソースへのリンクと共にカバーしています。

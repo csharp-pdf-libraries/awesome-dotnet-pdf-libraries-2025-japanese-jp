@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [fonet/migrate-from-fonet.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/fonet/migrate-from-fonet.md)
- **:** [fonet/migrate-from-fonet.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/fonet/migrate-from-fonet.md)
-
----
 # FoNet (FO.NET) から IronPDF への移行方法は？
 
 ## 目次

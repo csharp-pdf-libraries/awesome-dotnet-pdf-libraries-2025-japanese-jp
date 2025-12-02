@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-revision-history-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-revision-history-csharp.md)
- **:** [FAQ/pdf-revision-history-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-revision-history-csharp.md)
-
----
 # C#でPDFのリビジョン履歴とデジタル署名を管理する方法は？
 
 法律文書やコンプライアンス文書の変更と承認を追跡することは重要ですが、バージョンの混乱はすぐに圧倒されがちです。C#では、PDFのリビジョン履歴とデジタル署名を利用して監査証跡をPDF内に直接埋め込むことができ、誰がいつ何を変更したかを簡単に確認できます。.NETプロジェクトでPDFのリビジョンと署名を扱う実践的なワークフロー、現実の落とし穴、プロのヒントを見ていきましょう。

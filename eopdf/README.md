@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [eopdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/eopdf/README.md)
- **:** [eopdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/eopdf/README.md)
-
----
 # EO.Pdf + C# + PDF
 
 C#を使用した堅牢なPDF生成オプションを開発者が探しているとき、Chromeレンダリング機能の統合と高品質なPDFドキュメントの作成での評判により、EO.Pdfがしばしば話題に上がります。EO.Pdfは、多くのエンタープライズレベルのアプリケーションのニーズに合致する豊富な機能セットを提供すると主張し、ライセンスごとに$799の価格で提供される商用ライブラリです。その人気にもかかわらず、EO.Pdfは慎重な検討が必要な強みと課題の混在を提示しています。

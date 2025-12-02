@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/dotnet-10-linux-support.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/dotnet-10-linux-support.md)
- **:** [FAQ/dotnet-10-linux-support.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/dotnet-10-linux-support.md)
-
----
 # .NET 10をLinuxで実行する方法は？（実践的な開発者FAQ）
 
 Linuxでの.NET 10の実行はこれまでになくスムーズで生産的になりました。真のLTS、完全なC# 14サポート、主要なディストリビューション用の公式パッケージを備えて、Linuxは現在、一流の.NET開発およびデプロイメントプラットフォームです。このFAQは、インストール、クロスプラットフォームのヒント、一般的な落とし穴、実際のコードについてカバーしているので、すぐに実行を開始できます。

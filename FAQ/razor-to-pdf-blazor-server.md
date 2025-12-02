@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/razor-to-pdf-blazor-server.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/razor-to-pdf-blazor-server.md)
- **:** [FAQ/razor-to-pdf-blazor-server.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/razor-to-pdf-blazor-server.md)
-
----
 # Blazor ServerでRazorコンポーネントをPDFとしてレンダリングする方法は？
 
 Blazor ServerのRazorコンポーネントから直接PDFを生成することで、時間を節約し、一貫性を保ち、ワークフローを大幅に簡素化できます。IronPDFとIronPdf.Extensions.Blazorパッケージを使用すると、面倒なHTMLテンプレート、信頼性の低いブラウザ自動化、CSSの頭痛の種なしに、インタラクティブなBlazor UIをプロフェッショナルなPDFに変換できます。

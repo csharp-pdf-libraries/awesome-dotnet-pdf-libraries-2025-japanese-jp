@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/create-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/create-pdf-csharp.md)
- **:** [FAQ/create-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/create-pdf-csharp.md)
-
----
 # C#でPDFを作成する方法は？実践的なテクニック、トラブルシューティング、プロのヒント
 
 C#コードからPDFを生成することは一般的なニーズです—請求書、レポート、ダウンロード可能なエクスポートなどを考えてみてください。しかし、正しいアプローチがなければ、すぐに複雑になる可能性があります。このFAQでは、C#での実用的なPDF生成について、HTMLからPDFへの変換のコツ、低レベル制御、高度なレイアウト、一般的な落とし穴への解決策を取り上げています。PDFとしてWebページをレンダリングしたい場合でも、プログラムでドキュメントを操作したい場合でも、ここにコードファーストの回答があります。

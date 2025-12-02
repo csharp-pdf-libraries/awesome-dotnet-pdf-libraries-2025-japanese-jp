@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [peachpdf/README.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/peachpdf/README.md)
- **:** [peachpdf/README.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/peachpdf/README.md)
-
----
 # PeachPDF + C# + PDF
 
 PeachPDFは、HTMLをPDFに変換する必要がある開発者向けに設計された、.NETエコシステムの比較的新しい参入者です。ライブラリとして、PeachPDFは純粋な.NET実装を約束し、外部プロセスに依存しないことで、.NETがサポートされているプラットフォーム全体でシームレスに統合できるように自己を位置付けています。この特性は、軽量で管理されたライブラリソリューションを探しているプロジェクトにとって魅力的な選択肢としてPeachPDFを位置づけています。その可能性にもかかわらず、PeachPDFはまだ開発中であり、興味深い可能性と注目すべき制限の両方を強調しています。

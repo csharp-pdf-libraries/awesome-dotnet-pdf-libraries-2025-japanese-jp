@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/xaml-to-pdf-maui-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/xaml-to-pdf-maui-csharp.md)
- **:** [FAQ/xaml-to-pdf-maui-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/xaml-to-pdf-maui-csharp.md)
-
----
 # .NET MAUI XAMLページをIronPDFを使用してPDFに変換する方法は？
 
 .NET MAUIデスクトップアプリを開発しており、レイアウト、画像、カスタムスタイルを含むXAMLベースのページを洗練されたPDFファイルにエクスポートする必要がある場合、IronPDFは強力なソリューションです。このFAQでは、セットアップや基本的なレンダリングから高度なシナリオ、回避策、トラブルシューティングまで、始めるために必要なすべてをカバーしています。簡単なオフライン対応のPDFエクスポートから複雑な複数ページのレポートまで、実用的でコード中心の回答をここで見つけることができます。

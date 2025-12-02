@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [api2pdf/migrate-from-api2pdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/api2pdf/migrate-from-api2pdf.md)
- **:** [api2pdf/migrate-from-api2pdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/api2pdf/migrate-from-api2pdf.md)
-
----
 # Api2pdfからIronPDFへの移行方法は？
 
 ## 目次

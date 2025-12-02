@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/cshtml-razor-pdf-headless-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/cshtml-razor-pdf-headless-csharp.md)
- **:** [FAQ/cshtml-razor-pdf-headless-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/cshtml-razor-pdf-headless-csharp.md)
-
----
 # Headless C#アプリでRazorビューからPDFを生成する方法は？
 
 C#のRazorビューからPDFをレンダリングすることは、コンソールアプリ、バックグラウンドタスク、またはサーバーレス関数であっても、ASP.NET MVCやウェブホストを必要とせずに実現可能です。適切なライブラリとパターンを使用すれば、フルRazorサポート（レイアウト、パーシャル、強力なモデル）とプロフェッショナル品質のPDFを、.NETが動作するどこでも取得できます。このFAQでは、[IronPDF](https://ironpdf.com)と`Razor.Templating.Core`を使用したヘッドレスRazorからPDFへの変換に関するベストプラクティス、一般的な落とし穴、実用的なコードを説明します。

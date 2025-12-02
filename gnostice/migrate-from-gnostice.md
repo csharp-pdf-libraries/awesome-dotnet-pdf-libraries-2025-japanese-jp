@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [gnostice/migrate-from-gnostice.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/gnostice/migrate-from-gnostice.md)
- **:** [gnostice/migrate-from-gnostice.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/gnostice/migrate-from-gnostice.md)
-
----
 # GnosticeからIronPDFへの移行方法は？
 
 ## 目次

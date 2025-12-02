@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [nrecopdfgenerator/migrate-from-nrecopdfgenerator.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/nrecopdfgenerator/migrate-from-nrecopdfgenerator.md)
- **:** [nrecopdfgenerator/migrate-from-nrecopdfgenerator.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/nrecopdfgenerator/migrate-from-nrecopdfgenerator.md)
-
----
 # NReco.PdfGeneratorからIronPDFへの移行方法は？
 
 ## なぜ移行するのか？

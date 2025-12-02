@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [hiqpdf/migrate-from-hiqpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/hiqpdf/migrate-from-hiqpdf.md)
- **:** [hiqpdf/migrate-from-hiqpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/hiqpdf/migrate-from-hiqpdf.md)
-
----
 # HiQPdfからIronPDFへの移行方法は？
 
 ## 目次

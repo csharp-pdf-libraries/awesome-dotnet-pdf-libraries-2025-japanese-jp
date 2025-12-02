@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/add-copy-delete-pdf-pages-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/add-copy-delete-pdf-pages-csharp.md)
- **:** [FAQ/add-copy-delete-pdf-pages-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/add-copy-delete-pdf-pages-csharp.md)
-
----
 # C#でIronPDFを使用してPDFページを追加、コピー、削除、並び替える方法は？
 
 .NETでPDFを扱う場合、プログラムでページを追加、削除、または並び替える必要があることがよくあります。IronPDFライブラリを使用すると、これらのタスクを自動化できます。これには、空白ページの削除、ドキュメントのマージ、セクションの抽出、またはフォルダ全体のバッチ処理が含まれます。このFAQでは、IronPDFを使用して一般的なPDFページ操作を行うための実用的でコピーアンドペースト可能なC#の例を紹介します。

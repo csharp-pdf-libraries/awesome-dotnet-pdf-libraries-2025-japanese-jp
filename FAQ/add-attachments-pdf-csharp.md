@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/add-attachments-pdf-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/add-attachments-pdf-csharp.md)
- **:** [FAQ/add-attachments-pdf-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/add-attachments-pdf-csharp.md)
-
----
 # C#を使用してPDFファイルに添付ファイルを埋め込み、抽出、管理する方法は？
 
 もちろんです！契約書、領収書、またはサポートドキュメントを単一のPDF内にまとめて、何も失われないようにしたい場合は、ここが正しい場所です。このFAQでは、C#アプリ内でPDFファイルに添付ファイルを追加、抽出、管理する方法について、実用的な例と一般的な落とし穴に焦点を当てて説明します。コードデモには[IronPDF](https://ironpdf.com)を使用しますが、他のライブラリやベストプラクティスにも触れます。

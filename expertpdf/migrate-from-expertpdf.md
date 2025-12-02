@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [expertpdf/migrate-from-expertpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/expertpdf/migrate-from-expertpdf.md)
- **:** [expertpdf/migrate-from-expertpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/expertpdf/migrate-from-expertpdf.md)
-
----
 # ExpertPdfからIronPDFへの移行方法は？
 
 ## 目次

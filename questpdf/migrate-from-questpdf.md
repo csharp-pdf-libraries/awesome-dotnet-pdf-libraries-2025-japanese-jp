@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [questpdf/migrate-from-questpdf.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/questpdf/migrate-from-questpdf.md)
- **:** [questpdf/migrate-from-questpdf.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/questpdf/migrate-from-questpdf.md)
-
----
 # QuestPDFからIronPDFへの移行方法は？
 
 ## QuestPDFからIronPDFへ移行する理由

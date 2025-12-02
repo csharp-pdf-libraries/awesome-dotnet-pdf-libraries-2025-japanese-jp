@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/choose-csharp-pdf-library.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/choose-csharp-pdf-library.md)
- **:** [FAQ/choose-csharp-pdf-library.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/choose-csharp-pdf-library.md)
-
----
 # プロジェクトに最適なC# PDFライブラリを選ぶ方法は？
 
 C# PDFライブラリを選ぶことは、タイムライン、予算、さらにはアプリの将来の柔軟性を左右する重要な決断です。間違った選択は、数週間の遅れや「予期せぬ」ライセンス問題につながることがあります。このFAQは、.NETおよびC#用のPDFライブラリを選択するための実際の開発者プロセスを説明し、一般的な落とし穴をカバーし、コードに焦点を当てた推奨事項を共有します。

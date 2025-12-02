@@ -1,10 +1,3 @@
----
-**  (Japanese Translation)**
-
- **English:** [FAQ/pdf-rendering-options-csharp.md](https://github.com/iron-software/awesome-dotnet-pdf-libraries-2025/blob/main/FAQ/pdf-rendering-options-csharp.md)
- **:** [FAQ/pdf-rendering-options-csharp.md](https://github.com/csharp-pdf-libraries/awesome-dotnet-pdf-libraries-2025-jp/blob/main/FAQ/pdf-rendering-options-csharp.md)
-
----
 # C#で最も重要なPDFレンダリングオプションとは何か、そしてそれらを効果的に使用する方法
 
 C#でHTMLからPDFをレンダリングすることは、デフォルト設定を使用すること以上のことです。実際のプロジェクトでは、余白、用紙サイズ、背景画像、JavaScriptなどの正確な制御が求められます。もし、なぜあなたのPDFがウェブページほど良く見えないのか疑問に思ったことがあるなら、このFAQはIronPDFでの重要なレンダリングオプションを案内し、正確に使用方法を示し、一般的な落とし穴を避ける方法を教えます。
